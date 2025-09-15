@@ -1,0 +1,23 @@
+# Color palettes
+BLACKS = ["black", "charcoal", "jet black", "midnight black", "onyx"]
+WHITES = ["white", "cream", "ivory", "pearl", "off-white", "bone"]
+GRAYS = ["gray", "charcoal", "silver", "ash gray", "slate gray"]
+BLUES = ["navy", "midnight blue", "blue gray", "baby blue", "royal blue", "steel blue"]
+REDS = ["red", "burgundy", "crimson", "cherry red", "wine red", "blood red"]
+PINKS = ["pink", "blush pink", "rose pink", "dusty pink", "hot pink", "coral"]
+GREENS = ["olive", "sage green", "forest green", "army green", "emerald", "mint green"]
+BROWNS = ["brown", "tan", "camel", "chocolate", "coffee", "cognac", "khaki"]
+PURPLES = ["purple", "deep purple", "lavender", "plum", "violet", "amethyst"]
+YELLOWS = ["yellow", "butter yellow", "golden yellow", "mustard", "champagne"]
+ORANGES = ["orange", "coral", "peach", "burnt orange", "sunset orange"]
+NEONS = ["neon pink", "electric blue", "neon green", "hot yellow", "electric purple"]
+METALLICS = ["gold", "silver", "bronze", "copper", "metallic silver", "rose gold"]
+PASTELS = ["pastel pink", "baby blue", "mint green", "lavender", "peach", "butter yellow"]
+EARTH_TONES = ["terracotta", "rust", "ochre", "sienna", "umber", "clay"]
+JEWEL_TONES = ["emerald", "sapphire", "ruby", "amethyst", "topaz", "garnet"]
+
+# Pattern and texture colors
+PATTERNS = ["polka dots", "stripes", "plaid", "gingham", "paisley", "floral print"]
+PRINTS = ["animal print", "leopard print", "zebra print", "snake print", "cheetah print"]
+SPECIAL = ["tie-dye", "ombre", "gradient", "color-block", "holographic", "iridescent"]
+TEXTURES = ["lace", "satin", "silk", "velvet", "leather", "denim", "cotton", "wool"]
