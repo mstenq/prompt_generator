@@ -3,7 +3,7 @@ Clothing data definitions for the ComfyUI Outfit Generator.
 This file contains clothing items tagged with their compatible outfit types and color palettes.
 """
 
-from ..outfit_types import OutfitType
+from ..enums import OutfitType
 from ..colors import *
 
 # Accessories with their compatible outfit types and color palettes

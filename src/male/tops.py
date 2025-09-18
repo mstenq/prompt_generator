@@ -3,7 +3,7 @@ Clothing data definitions for the ComfyUI Outfit Generator.
 This file contains clothing items tagged with their compatible outfit types and color palettes.
 """
 
-from ..outfit_types import OutfitType
+from ..enums import OutfitType
 from ..colors import *
 
 
@@ -176,14 +176,7 @@ MALE_TOPS = {
         "types": [OutfitType.PUNK, OutfitType.GOTHIC, OutfitType.ROCKABILLY],
         "colors": BLACKS + ["metal studs", "leather", "denim"]
     },
-    "harness": {
-        "types": [OutfitType.PUNK, OutfitType.GOTHIC, OutfitType.CYBERPUNK],
-        "colors": BLACKS + ["leather", "straps", "buckles"]
-    },
-    "corset": {
-        "types": [OutfitType.GOTHIC, OutfitType.STEAMPUNK, OutfitType.AVANT_GARDE],
-        "colors": BLACKS + REDS + PURPLES + ["lace-up", "brocade", "leather"]
-    },
+
     
     # Specialty/Themed
     "western shirt": {

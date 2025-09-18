@@ -3,7 +3,7 @@ Clothing data definitions for the ComfyUI Outfit Generator.
 This file contains clothing items tagged with their compatible outfit types and color palettes.
 """
 
-from ..outfit_types import OutfitType
+from ..enums import OutfitType
 from ..colors import *
 
 # Accessories with their compatible outfit types and color palettes
@@ -483,10 +483,6 @@ FEMALE_ACCESSORIES = {
     "aviator goggles": {
         "types": [OutfitType.STEAMPUNK, OutfitType.MILITARY, OutfitType.FESTIVAL, OutfitType.RETRO],
         "colors": METALLICS + BROWNS + ["leather", "strap"]
-    },
-    "swim goggles": {
-        "types": [OutfitType.ATHLEISURE, OutfitType.BEACH_WEAR, OutfitType.FESTIVAL],
-        "colors": BLUES + BLACKS + ["rubber", "lens"]
     },
     "snow goggles": {
         "types": [OutfitType.ATHLEISURE, OutfitType.STREETWEAR, OutfitType.FESTIVAL],
@@ -1031,6 +1027,292 @@ FEMALE_ACCESSORIES = {
     "techwear straps and clips": {
         "types": [OutfitType.CYBERPUNK, OutfitType.STREETWEAR, OutfitType.ATHLEISURE, OutfitType.PUNK],
         "colors": BLACKS + METALLICS + ["techwear", "utility", "clips"]
+    },
+    
+    # Lingerie Accessories - Garter Belts & Hosiery Support
+    "garter belt": {
+        "types": [OutfitType.LINGERIE, OutfitType.VINTAGE, OutfitType.ROMANTIC],
+        "colors": WHITES + BLACKS + REDS + JEWEL_TONES + ["classic", "vintage style", "suspenders"]
+    },
+    "suspender belt": {
+        "types": [OutfitType.LINGERIE, OutfitType.VINTAGE, OutfitType.PIN_UP],
+        "colors": WHITES + BLACKS + REDS + BROWNS + ["classic style", "adjustable", "metal clips"]
+    },
+    "strappy harness garter belt": {
+        "types": [OutfitType.LINGERIE, OutfitType.GOTHIC, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + REDS + METALLICS + ["harness style", "strappy", "hardware"]
+    },
+    "corset-style garter belt": {
+        "types": [OutfitType.LINGERIE, OutfitType.GOTHIC, OutfitType.VINTAGE],
+        "colors": BLACKS + REDS + JEWEL_TONES + ["boned", "lace-up", "structured"]
+    },
+    
+    # Stockings & Hosiery
+    "classic sheer stockings": {
+        "types": [OutfitType.LINGERIE, OutfitType.BUSINESS_WEAR, OutfitType.EVENING_FORMAL],
+        "colors": WHITES + BLACKS + ["sheer", "nude", "classic"]
+    },
+    "fishnet stockings": {
+        "types": [OutfitType.LINGERIE, OutfitType.GOTHIC, OutfitType.PUNK, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + WHITES + REDS + ["fishnet", "patterned", "textured"]
+    },
+    "lace-top stockings": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.VINTAGE],
+        "colors": WHITES + BLACKS + PASTELS + ["lace trim", "delicate", "feminine"]
+    },
+    "back-seam stockings": {
+        "types": [OutfitType.LINGERIE, OutfitType.VINTAGE, OutfitType.PIN_UP],
+        "colors": WHITES + BLACKS + ["vintage style", "seamed", "retro"]
+    },
+    "thigh-high opaque stockings": {
+        "types": [OutfitType.LINGERIE, OutfitType.GOTHIC, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + WHITES + JEWEL_TONES + ["opaque", "thigh-high", "stay-up"]
+    },
+    "over-the-knee lingerie socks": {
+        "types": [OutfitType.LINGERIE, OutfitType.KAWAII, OutfitType.CLUB_PARTY],
+        "colors": WHITES + BLACKS + PASTELS + PINKS + ["over-knee", "soft", "cute"]
+    },
+    "stay-up silicone grip stockings": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.CLUB_PARTY],
+        "colors": WHITES + BLACKS + PASTELS + ["stay-up", "silicone band", "no garters"]
+    },
+    "lace anklets": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.ETHEREAL],
+        "colors": WHITES + BLACKS + PASTELS + ["delicate lace", "ankle socks", "feminine"]
+    },
+    "sheer footless stockings": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.ETHEREAL],
+        "colors": WHITES + BLACKS + PASTELS + ["footless", "sheer", "leg warmers"]
+    },
+    
+    # Gloves & Arm Accessories
+    "short lace gloves": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.VINTAGE],
+        "colors": WHITES + BLACKS + PASTELS + ["delicate lace", "wrist length", "feminine"]
+    },
+    "elbow-length lace gloves": {
+        "types": [OutfitType.LINGERIE, OutfitType.EVENING_FORMAL, OutfitType.VINTAGE],
+        "colors": WHITES + BLACKS + PASTELS + ["long gloves", "elegant", "formal"]
+    },
+    "sheer mesh gloves": {
+        "types": [OutfitType.LINGERIE, OutfitType.CLUB_PARTY, OutfitType.AVANT_GARDE],
+        "colors": WHITES + BLACKS + JEWEL_TONES + ["sheer", "mesh", "see-through"]
+    },
+    "opera length satin gloves": {
+        "types": [OutfitType.LINGERIE, OutfitType.EVENING_FORMAL, OutfitType.VINTAGE],
+        "colors": WHITES + BLACKS + JEWEL_TONES + ["satin", "opera length", "luxury"]
+    },
+    "fishnet gloves": {
+        "types": [OutfitType.LINGERIE, OutfitType.GOTHIC, OutfitType.PUNK],
+        "colors": BLACKS + WHITES + REDS + ["fishnet", "textured", "edgy"]
+    },
+    "fingerless lace gloves": {
+        "types": [OutfitType.LINGERIE, OutfitType.GOTHIC, OutfitType.ROMANTIC],
+        "colors": WHITES + BLACKS + PASTELS + ["fingerless", "lace", "vintage"]
+    },
+    "latex fetish gloves": {
+        "types": [OutfitType.LINGERIE, OutfitType.GOTHIC, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + REDS + METALLICS + ["latex", "vinyl", "fetish", "shiny"]
+    },
+    "feather-trim gloves": {
+        "types": [OutfitType.LINGERIE, OutfitType.VINTAGE, OutfitType.ROMANTIC],
+        "colors": WHITES + BLACKS + PASTELS + ["feather trim", "luxury", "glamorous"]
+    },
+    "sheer detachable sleeves": {
+        "types": [OutfitType.LINGERIE, OutfitType.ETHEREAL, OutfitType.ROMANTIC],
+        "colors": WHITES + BLACKS + PASTELS + ["detachable", "sheer", "flowing"]
+    },
+    
+    # Body Accessories & Harnesses
+    "waist cincher belt": {
+        "types": [OutfitType.LINGERIE, OutfitType.GOTHIC, OutfitType.VINTAGE],
+        "colors": BLACKS + REDS + BROWNS + ["cinching", "corset style", "structured"]
+    },
+    "corset belt": {
+        "types": [OutfitType.LINGERIE, OutfitType.GOTHIC, OutfitType.VINTAGE],
+        "colors": BLACKS + REDS + JEWEL_TONES + ["boned", "lace-up", "waist defining"]
+    },
+    "underbust harness": {
+        "types": [OutfitType.LINGERIE, OutfitType.GOTHIC, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + REDS + METALLICS + ["underbust", "strappy", "hardware"]
+    },
+    "leather chest harness": {
+        "types": [OutfitType.LINGERIE, OutfitType.GOTHIC, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + BROWNS + REDS + ["leather", "chest piece", "buckles"]
+    },
+    "body chains": {
+        "types": [OutfitType.LINGERIE, OutfitType.CLUB_PARTY, OutfitType.ETHEREAL],
+        "colors": METALLICS + JEWEL_TONES + ["gold", "silver", "draped chains"]
+    },
+    "belly chain": {
+        "types": [OutfitType.LINGERIE, OutfitType.BEACH_WEAR, OutfitType.ETHEREAL],
+        "colors": METALLICS + JEWEL_TONES + ["waist chain", "delicate", "body jewelry"]
+    },
+    "pearl body harness": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.VINTAGE],
+        "colors": WHITES + PASTELS + ["pearl strands", "luxury", "elegant"]
+    },
+    "rhinestone harness": {
+        "types": [OutfitType.LINGERIE, OutfitType.CLUB_PARTY, OutfitType.EVENING_FORMAL],
+        "colors": WHITES + METALLICS + JEWEL_TONES + ["rhinestones", "sparkling", "glamorous"]
+    },
+    "strappy elastic harness": {
+        "types": [OutfitType.LINGERIE, OutfitType.GOTHIC, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + REDS + JEWEL_TONES + ["elastic bands", "strappy", "adjustable"]
+    },
+    
+    # Neck & Head Accessories
+    "lace choker": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.GOTHIC],
+        "colors": WHITES + BLACKS + PASTELS + ["delicate lace", "feminine", "vintage"]
+    },
+    "satin ribbon choker": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.KAWAII],
+        "colors": WHITES + PASTELS + PINKS + JEWEL_TONES + ["satin ribbon", "bow", "soft"]
+    },
+    "pearl jewel choker": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.EVENING_FORMAL],
+        "colors": WHITES + PASTELS + JEWEL_TONES + ["pearls", "jeweled", "elegant"]
+    },
+    "leather fetish collar": {
+        "types": [OutfitType.LINGERIE, OutfitType.GOTHIC, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + BROWNS + REDS + ["leather", "fetish style", "buckles"]
+    },
+    "chain choker with pendant": {
+        "types": [OutfitType.LINGERIE, OutfitType.GOTHIC, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + METALLICS + JEWEL_TONES + ["chain", "pendant", "hardware"]
+    },
+    "harness choker with rings": {
+        "types": [OutfitType.LINGERIE, OutfitType.GOTHIC, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + METALLICS + REDS + ["harness style", "O-rings", "hardware"]
+    },
+    "lace masquerade eye mask": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.EVENING_FORMAL],
+        "colors": WHITES + BLACKS + JEWEL_TONES + ["lace", "masquerade", "mysterious"]
+    },
+    "satin blindfold": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC],
+        "colors": WHITES + BLACKS + REDS + JEWEL_TONES + ["satin", "soft", "sensual"]
+    },
+    "lingerie bunny ears headband": {
+        "types": [OutfitType.LINGERIE, OutfitType.KAWAII, OutfitType.CLUB_PARTY],
+        "colors": WHITES + BLACKS + PINKS + ["bunny ears", "cute", "costume"]
+    },
+    "cat ears headband": {
+        "types": [OutfitType.LINGERIE, OutfitType.KAWAII, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + WHITES + JEWEL_TONES + ["cat ears", "cute", "costume"]
+    },
+    "feathered headpiece": {
+        "types": [OutfitType.LINGERIE, OutfitType.VINTAGE, OutfitType.EVENING_FORMAL],
+        "colors": WHITES + BLACKS + JEWEL_TONES + ["feathers", "vintage", "glamorous"]
+    },
+    "lace tiara crown": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.ETHEREAL],
+        "colors": WHITES + PASTELS + METALLICS + ["lace", "tiara", "princess"]
+    },
+    
+    # Foot & Ankle Accessories
+    "lace anklets hosiery": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.ETHEREAL],
+        "colors": WHITES + BLACKS + PASTELS + ["delicate lace", "ankle socks", "feminine"]
+    },
+    "decorative shoe clips": {
+        "types": [OutfitType.LINGERIE, OutfitType.VINTAGE, OutfitType.EVENING_FORMAL],
+        "colors": WHITES + METALLICS + JEWEL_TONES + ["bows", "pearls", "feathers", "clips"]
+    },
+    "ankle strap heels": {
+        "types": [OutfitType.LINGERIE, OutfitType.CLUB_PARTY, OutfitType.EVENING_FORMAL],
+        "colors": WHITES + BLACKS + REDS + METALLICS + ["ankle straps", "heels", "sexy"]
+    },
+    
+    # Wraps & Cover-ups
+    "silk lingerie robe": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.ETHEREAL],
+        "colors": WHITES + PASTELS + JEWEL_TONES + ["silk", "short", "sheer", "trimmed"]
+    },
+    "feather boa": {
+        "types": [OutfitType.LINGERIE, OutfitType.VINTAGE, OutfitType.CLUB_PARTY],
+        "colors": WHITES + BLACKS + JEWEL_TONES + ["feathers", "glamorous", "vintage"]
+    },
+    "satin sash": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.VINTAGE],
+        "colors": WHITES + PASTELS + JEWEL_TONES + ["satin", "tied", "bow"]
+    },
+    "lace mesh lingerie capelet": {
+        "types": [OutfitType.LINGERIE, OutfitType.ETHEREAL, OutfitType.ROMANTIC],
+        "colors": WHITES + BLACKS + PASTELS + ["lace", "mesh", "cape", "delicate"]
+    },
+    
+    # Wrist & Arm Restraints
+    "decorative lace cuffs": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.VINTAGE],
+        "colors": WHITES + BLACKS + PASTELS + ["lace", "decorative", "feminine"]
+    },
+    "satin decorative cuffs": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.CLUB_PARTY],
+        "colors": WHITES + PASTELS + JEWEL_TONES + ["satin", "soft", "luxury"]
+    },
+    "leather decorative cuffs": {
+        "types": [OutfitType.LINGERIE, OutfitType.GOTHIC, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + BROWNS + REDS + ["leather", "buckles", "edgy"]
+    },
+    "silk ribbon wrist ties": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.ETHEREAL],
+        "colors": WHITES + PASTELS + JEWEL_TONES + ["silk ties", "ribbons", "soft"]
+    },
+    
+    # Leg Accessories
+    "lace leg garters": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.VINTAGE],
+        "colors": WHITES + BLACKS + PASTELS + ["lace", "thigh garter", "delicate"]
+    },
+    "satin leg garters": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.VINTAGE],
+        "colors": WHITES + PASTELS + JEWEL_TONES + ["satin", "smooth", "elegant"]
+    },
+    "jeweled leg garters": {
+        "types": [OutfitType.LINGERIE, OutfitType.EVENING_FORMAL, OutfitType.ROMANTIC],
+        "colors": WHITES + METALLICS + JEWEL_TONES + ["jeweled", "sparkling", "luxury"]
+    },
+    "bridal garter": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.VINTAGE],
+        "colors": WHITES + PASTELS + ["classic white", "bow", "bridal", "tradition"]
+    },
+    "sheer tutu mini skirt overlay": {
+        "types": [OutfitType.LINGERIE, OutfitType.ETHEREAL, OutfitType.KAWAII],
+        "colors": WHITES + PASTELS + PINKS + ["sheer", "tutu", "overlay", "playful"]
+    },
+    
+    # Intimate Accessories
+    "sequin pasties": {
+        "types": [OutfitType.LINGERIE, OutfitType.CLUB_PARTY, OutfitType.EVENING_FORMAL],
+        "colors": METALLICS + JEWEL_TONES + NEONS + ["sequins", "sparkling", "minimal"]
+    },
+    "lace pasties": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.ETHEREAL],
+        "colors": WHITES + BLACKS + PASTELS + ["delicate lace", "feminine", "soft"]
+    },
+    "pearl pasties": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.VINTAGE],
+        "colors": WHITES + PASTELS + ["pearls", "luxury", "elegant"]
+    },
+    "feather pasties": {
+        "types": [OutfitType.LINGERIE, OutfitType.VINTAGE, OutfitType.CLUB_PARTY],
+        "colors": WHITES + BLACKS + JEWEL_TONES + ["feathers", "glamorous", "burlesque"]
+    },
+    "chain nipple covers": {
+        "types": [OutfitType.LINGERIE, OutfitType.GOTHIC, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + METALLICS + JEWEL_TONES + ["chains", "hardware", "edgy"]
+    },
+    
+    # Costume Accessories
+    "decorative whip": {
+        "types": [OutfitType.LINGERIE, OutfitType.GOTHIC, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + BROWNS + REDS + ["decorative", "costume", "roleplay"]
+    },
+    "riding crop accessory": {
+        "types": [OutfitType.LINGERIE, OutfitType.GOTHIC, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + BROWNS + ["riding crop", "costume", "prop"]
     }
 }
 

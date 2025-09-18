@@ -1,5 +1,5 @@
 import random
-from .outfit_types import OutfitType, OUTFIT_TYPE_NAMES
+from .enums import OutfitType
 from .female.tops import FEMALE_TOPS
 from .female.bottoms import FEMALE_BOTTOMS
 from .female.accessories import FEMALE_ACCESSORIES
@@ -10,28 +10,7 @@ from .male.accessories import MALE_ACCESSORIES
 from .male.shoes import MALE_SHOES
 
 class OutfitGenerator:
-    def __init__(self):
-        pass
-
-    @classmethod
-    def INPUT_TYPES(s):
-        return {
-            "required": {
-                "outfit_type": (OUTFIT_TYPE_NAMES, {}),
-            },
-            "optional": {
-                "seed": ("INT", {"default": -1, "min": -1, "max": 2147483647}),
-            },
-        }
-
-    RETURN_TYPES = ("STRING", "STRING", "STRING", "STRING")
-    RETURN_NAMES = ("femaleOutfit1", "femaleOutfit2", "maleOutfit1", "maleOutfit2")
-
-    FUNCTION = "generate_scene"
-
-    CATEGORY = "examples"
-
-    def _generate_single_outfit(self, outfit_type_enum, sex="female"):
+    def generate_outfit(self, outfit_type_enum, sex="female", force_barefoot=False):
         """Generate a single outfit description for the given outfit type and sex"""
         # Use either male or female clothing items based on sex parameter
         if sex == "female":
@@ -64,8 +43,18 @@ class OutfitGenerator:
         # Select random items
         selected_top = random.choice(compatible_tops)
         selected_bottom = random.choice(compatible_bottoms)
-        selected_accessory = random.choice(compatible_accessories)
-        selected_shoes = random.choice(compatible_shoes)
+        # Only select accessory 30% of the time, otherwise use empty string
+        selected_accessory = random.choice(compatible_accessories) if random.random() < 0.3 else ""
+        
+        # Force barefoot if requested, otherwise use existing logic
+        if force_barefoot:
+            selected_shoes = "barefoot"
+        elif outfit_type_enum == OutfitType.BEACH_WEAR and random.random() < 0.3:
+            selected_shoes = "barefoot"
+        else:
+            selected_shoes = random.choice(compatible_shoes)
+        
+        shoe_color = random.choice(SHOES[selected_shoes]["colors"])
         
         # Check for full-body items and handle accordingly
         if TOPS[selected_top].get("fullBody", False):
@@ -90,44 +79,10 @@ class OutfitGenerator:
                 attempts += 1
 
         # Create outfit description
-        outfit_description = f"{top_color} {selected_top}, {bottom_color} {selected_bottom}, {selected_shoes}, {selected_accessory}"
-        return outfit_description
-
-    def generate_scene(self, outfit_type, seed=-1):
-        """Generate two random female and two random male outfit descriptions based on the selected type"""
-        
-        # Use seed for randomization - if -1, use random seed
-        if seed != -1:
-            random.seed(seed)
-        # If seed is -1, let Python use its default random behavior
-        
-        # If random is selected, pick a random style
-        if outfit_type == "random":
-            outfit_type_enum = random.choice(list(OutfitType))
+        if selected_shoes == "barefoot":
+            shoe_part = "barefoot"
         else:
-            # Find the matching enum value
-            outfit_type_enum = None
-            for ot in OutfitType:
-                if ot.value == outfit_type:
-                    outfit_type_enum = ot
-                    break
-            if outfit_type_enum is None:
-                outfit_type_enum = OutfitType.CASUAL_CHIC  # Default fallback
-
-        # Generate two different female outfits using the same outfit type
-        female_outfit1 = self._generate_single_outfit(outfit_type_enum, "female")
-        female_outfit2 = self._generate_single_outfit(outfit_type_enum, "female")
+            shoe_part = f"{shoe_color} {selected_shoes}"
         
-        # Generate two different male outfits using the same outfit type
-        male_outfit1 = self._generate_single_outfit(outfit_type_enum, "male")
-        male_outfit2 = self._generate_single_outfit(outfit_type_enum, "male")
-        
-        return (female_outfit1, female_outfit2, male_outfit1, male_outfit2)
-
-NODE_CLASS_MAPPINGS = {
-    "outfit-generator": OutfitGenerator
-}
-
-NODE_DISPLAY_NAME_MAPPINGS = {
-    "outfit-generator": "Outfit Generator"
-}
+        outfit_description = f"{top_color} {selected_top}, {bottom_color} {selected_bottom}, {shoe_part}, {selected_accessory}"
+        return outfit_description

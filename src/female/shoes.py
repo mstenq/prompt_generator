@@ -3,13 +3,13 @@ Clothing data definitions for the ComfyUI Outfit Generator.
 This file contains clothing items tagged with their compatible outfit types and color palettes.
 """
 
-from ..outfit_types import OutfitType
+from ..enums import OutfitType
 from ..colors import *
 
 # Shoes with their compatible outfit types and color palettes
 FEMALE_SHOES = {
     "heels": {
-        "types": [OutfitType.BUSINESS_WEAR, OutfitType.EVENING_FORMAL, OutfitType.CLUB_PARTY, OutfitType.PIN_UP],
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.EVENING_FORMAL, OutfitType.CLUB_PARTY, OutfitType.PIN_UP, OutfitType.LINGERIE],
         "colors": BLACKS + REDS + METALLICS + ["patent leather", "stiletto", "platform"]
     },
     "combat boots": {
@@ -71,7 +71,7 @@ FEMALE_SHOES = {
         "colors": BLACKS + BROWNS + METALLICS + ["chunky", "stable", "square heel"]
     },
     "kitten heels": {
-        "types": [OutfitType.BUSINESS_WEAR, OutfitType.PREPPY, OutfitType.CASUAL_CHIC, OutfitType.ROMANTIC],
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.PREPPY, OutfitType.CASUAL_CHIC, OutfitType.ROMANTIC, OutfitType.LINGERIE],
         "colors": BLACKS + PASTELS + METALLICS + ["low heel", "delicate", "pointed toe"]
     },
     "slingback heels": {
@@ -79,11 +79,11 @@ FEMALE_SHOES = {
         "colors": BLACKS + BROWNS + METALLICS + ["ankle strap", "open back"]
     },
     "peep-toe heels": {
-        "types": [OutfitType.EVENING_FORMAL, OutfitType.CLUB_PARTY, OutfitType.PIN_UP],
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.CLUB_PARTY, OutfitType.PIN_UP, OutfitType.LINGERIE],
         "colors": BLACKS + REDS + METALLICS + ["open toe", "revealing"]
     },
     "pointed-toe heels": {
-        "types": [OutfitType.BUSINESS_WEAR, OutfitType.EVENING_FORMAL, OutfitType.MINIMALIST],
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.EVENING_FORMAL, OutfitType.MINIMALIST, OutfitType.LINGERIE],
         "colors": BLACKS + GRAYS + METALLICS + ["sharp toe", "sleek"]
     },
     "round-toe heels": {
@@ -99,7 +99,7 @@ FEMALE_SHOES = {
         "colors": BLACKS + METALLICS + JEWEL_TONES + ["cut-out sides", "elegant"]
     },
     "platform heels": {
-        "types": [OutfitType.CLUB_PARTY, OutfitType.PUNK, OutfitType.GOTHIC, OutfitType.AVANT_GARDE],
+        "types": [OutfitType.CLUB_PARTY, OutfitType.PUNK, OutfitType.GOTHIC, OutfitType.AVANT_GARDE, OutfitType.LINGERIE],
         "colors": BLACKS + METALLICS + NEONS + ["extreme height", "chunky"]
     },
     "wedge heels": {
@@ -123,7 +123,7 @@ FEMALE_SHOES = {
         "colors": BLACKS + METALLICS + SPECIAL + ["artistic", "geometric", "unusual shapes"]
     },
     "clear lucite heels": {
-        "types": [OutfitType.CLUB_PARTY, OutfitType.AVANT_GARDE, OutfitType.EVENING_FORMAL],
+        "types": [OutfitType.CLUB_PARTY, OutfitType.AVANT_GARDE, OutfitType.EVENING_FORMAL, OutfitType.LINGERIE],
         "colors": ["clear", "transparent", "see-through", "acrylic"]
     },
     "mule heels": {
@@ -131,11 +131,11 @@ FEMALE_SHOES = {
         "colors": BLACKS + BROWNS + METALLICS + ["backless", "slip-on"]
     },
     "ankle-strap heels": {
-        "types": [OutfitType.EVENING_FORMAL, OutfitType.CLUB_PARTY, OutfitType.PIN_UP],
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.CLUB_PARTY, OutfitType.PIN_UP, OutfitType.LINGERIE],
         "colors": BLACKS + REDS + METALLICS + ["ankle wrap", "strappy"]
     },
     "strappy stilettos": {
-        "types": [OutfitType.EVENING_FORMAL, OutfitType.CLUB_PARTY, OutfitType.GOTHIC],
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.CLUB_PARTY, OutfitType.GOTHIC, OutfitType.LINGERIE],
         "colors": BLACKS + REDS + METALLICS + ["multiple straps", "bondage-inspired"]
     },
     "gladiator heels": {
@@ -147,7 +147,7 @@ FEMALE_SHOES = {
         "colors": BLACKS + METALLICS + ["geometric straps", "architectural"]
     },
     "lace-up heels": {
-        "types": [OutfitType.GOTHIC, OutfitType.PUNK, OutfitType.AVANT_GARDE],
+        "types": [OutfitType.GOTHIC, OutfitType.PUNK, OutfitType.AVANT_GARDE, OutfitType.LINGERIE],
         "colors": BLACKS + REDS + ["corset-inspired", "bondage"]
     },
     "satin evening heels": {
@@ -155,7 +155,7 @@ FEMALE_SHOES = {
         "colors": JEWEL_TONES + PASTELS + METALLICS + ["luxurious", "formal"]
     },
     "velvet pumps": {
-        "types": [OutfitType.EVENING_FORMAL, OutfitType.ROMANTIC, OutfitType.GOTHIC],
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.ROMANTIC, OutfitType.GOTHIC, OutfitType.LINGERIE],
         "colors": JEWEL_TONES + BLACKS + PURPLES + ["plush", "luxurious"]
     },
     "sequin heels": {
@@ -163,7 +163,7 @@ FEMALE_SHOES = {
         "colors": METALLICS + SPECIAL + ["sparkly", "glamorous"]
     },
     "metallic heels": {
-        "types": [OutfitType.CLUB_PARTY, OutfitType.EVENING_FORMAL, OutfitType.AVANT_GARDE],
+        "types": [OutfitType.CLUB_PARTY, OutfitType.EVENING_FORMAL, OutfitType.AVANT_GARDE, OutfitType.LINGERIE],
         "colors": METALLICS + SPECIAL + ["shimmery", "futuristic"]
     },
     "feather-trimmed heels": {
@@ -596,10 +596,6 @@ FEMALE_SHOES = {
         "types": [OutfitType.BOHEMIAN, OutfitType.ETHEREAL, OutfitType.FESTIVAL],
         "colors": JEWEL_TONES + METALLICS + ["embroidered", "indian"]
     },
-    "ballet pointe shoes": {
-        "types": [OutfitType.ROMANTIC, OutfitType.ETHEREAL, OutfitType.MINIMALIST],
-        "colors": PINKS + WHITES + ["satin", "ribbons", "dance"]
-    },
     "jazz shoes": {
         "types": [OutfitType.RETRO, OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST],
         "colors": BLACKS + BROWNS + ["leather", "dance", "flexible"]
@@ -636,12 +632,92 @@ FEMALE_SHOES = {
         "types": [OutfitType.AVANT_GARDE, OutfitType.CYBERPUNK, OutfitType.STEAMPUNK],
         "colors": METALLICS + BLACKS + ["metallic", "sculptural"]
     },
-    "inflatable concept shoes": {
-        "types": [OutfitType.AVANT_GARDE, OutfitType.CYBERPUNK],
-        "colors": SPECIAL + NEONS + ["inflatable", "conceptual"]
-    },
     "3d-printed sculptural shoes": {
         "types": [OutfitType.AVANT_GARDE, OutfitType.CYBERPUNK, OutfitType.MINIMALIST],
         "colors": WHITES + BLACKS + SPECIAL + ["3D-printed", "geometric"]
+    },
+    
+    # Barefoot with nail polish options
+    "barefoot": {
+        "types": [OutfitType.LINGERIE, OutfitType.BEACH_WEAR, OutfitType.ETHEREAL, OutfitType.ROMANTIC, OutfitType.BOHEMIAN, OutfitType.FESTIVAL, OutfitType.CASUAL_CHIC],
+        "colors": [
+            # Classic Colors
+            "red nail polish", "black nail polish", "white nail polish", "clear nail polish",
+            "pink nail polish", "nude nail polish", "beige nail polish", "coral nail polish",
+            
+            # Dark Colors
+            "burgundy nail polish", "maroon nail polish", "wine red nail polish", "deep red nail polish",
+            "dark purple nail polish", "plum nail polish", "eggplant nail polish", "midnight blue nail polish",
+            "navy nail polish", "forest green nail polish", "emerald nail polish", "dark teal nail polish",
+            "charcoal nail polish", "slate gray nail polish", "dark brown nail polish", "espresso nail polish",
+            
+            # Bright Colors
+            "hot pink nail polish", "magenta nail polish", "fuchsia nail polish", "electric blue nail polish",
+            "turquoise nail polish", "lime green nail polish", "yellow nail polish", "orange nail polish",
+            "tangerine nail polish", "bright red nail polish", "cherry red nail polish", "crimson nail polish",
+            
+            # Pastels
+            "baby pink nail polish", "blush pink nail polish", "rose pink nail polish", "powder pink nail polish",
+            "lavender nail polish", "lilac nail polish", "periwinkle nail polish", "sky blue nail polish",
+            "mint green nail polish", "sage green nail polish", "butter yellow nail polish", "peach nail polish",
+            "cream nail polish", "ivory nail polish", "vanilla nail polish", "champagne nail polish",
+            
+            # Metallics
+            "gold nail polish", "silver nail polish", "bronze nail polish", "copper nail polish",
+            "rose gold nail polish", "platinum nail polish", "chrome nail polish", "pewter nail polish",
+            "gunmetal nail polish", "antique gold nail polish", "metallic blue nail polish", "metallic green nail polish",
+            "metallic purple nail polish", "metallic pink nail polish", "holographic nail polish", "iridescent nail polish",
+            
+            # Jewel Tones
+            "ruby nail polish", "sapphire nail polish", "emerald nail polish", "amethyst nail polish",
+            "topaz nail polish", "garnet nail polish", "opal nail polish", "aquamarine nail polish",
+            "citrine nail polish", "peridot nail polish", "tanzanite nail polish", "onyx nail polish",
+            
+            # Neons
+            "neon pink nail polish", "neon green nail polish", "neon yellow nail polish", "neon orange nail polish",
+            "neon blue nail polish", "neon purple nail polish", "electric lime nail polish", "hot magenta nail polish",
+            "fluorescent coral nail polish", "glow-in-the-dark nail polish", "blacklight reactive nail polish",
+            
+            # Unique Shades
+            "dusty rose nail polish", "mauve nail polish", "taupe nail polish", "mushroom nail polish",
+            "steel blue nail polish", "slate blue nail polish", "teal nail polish", "seafoam nail polish",
+            "olive nail polish", "khaki nail polish", "rust nail polish", "burnt orange nail polish",
+            "terracotta nail polish", "clay nail polish", "cinnamon nail polish", "mocha nail polish",
+            
+            # Purples & Violets
+            "violet nail polish", "grape nail polish", "orchid nail polish", "iris nail polish",
+            "royal purple nail polish", "deep violet nail polish", "mulberry nail polish", "boysenberry nail polish",
+            "blackberry nail polish", "aubergine nail polish", "deep plum nail polish", "wine nail polish",
+            
+            # Blues & Teals
+            "cobalt nail polish", "royal blue nail polish", "cerulean nail polish", "powder blue nail polish",
+            "robin's egg blue nail polish", "carolina blue nail polish", "prussian blue nail polish", 
+            "tiffany blue nail polish", "turquoise nail polish", "caribbean blue nail polish", "ocean blue nail polish",
+            
+            # Greens
+            "kelly green nail polish", "hunter green nail polish", "jade nail polish", "malachite nail polish",
+            "moss green nail polish", "pine green nail polish", "seafoam green nail polish", "mint nail polish",
+            "sage nail polish", "eucalyptus nail polish", "chartreuse nail polish", "apple green nail polish",
+            
+            # Specialty Finishes
+            "matte black nail polish", "matte red nail polish", "matte pink nail polish", "matte nude nail polish",
+            "glossy black nail polish", "glossy red nail polish", "satin finish nail polish", "velvet finish nail polish",
+            "pearl finish nail polish", "shimmer nail polish", "glitter nail polish", "foil nail polish",
+            "magnetic nail polish", "color-changing nail polish", "thermal nail polish", "galaxy nail polish",
+            
+            # Seasonal Colors
+            "autumn orange nail polish", "pumpkin spice nail polish", "cranberry nail polish", "winter white nail polish",
+            "spring green nail polish", "summer coral nail polish", "harvest gold nail polish", "winter berry nail polish",
+            
+            # Fashion Colors
+            "millennial pink nail polish", "gen z yellow nail polish", "sage green nail polish", "terracotta nail polish",
+            "burnt sienna nail polish", "camel nail polish", "cognac nail polish", "mahogany nail polish",
+            "chestnut nail polish", "amber nail polish", "honey nail polish", "caramel nail polish",
+            
+            # Special Effects
+            "rainbow nail polish", "ombre nail polish", "gradient nail polish", "tie-dye nail polish",
+            "marble effect nail polish", "crackle nail polish", "glow nail polish", "mirror nail polish",
+            "cat eye nail polish", "stone texture nail polish", "sand texture nail polish", "velvet nail polish"
+        ]
     }
 }

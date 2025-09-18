@@ -3,7 +3,7 @@ Clothing data definitions for the ComfyUI Outfit Generator.
 This file contains clothing items tagged with their compatible outfit types and color palettes.
 """
 
-from ..outfit_types import OutfitType
+from ..enums import OutfitType
 from ..colors import *
 
 # Bottoms with their compatible outfit types and color palettes
@@ -861,6 +861,312 @@ FEMALE_BOTTOMS = {
     "sculptural skirt": {
         "types": [OutfitType.AVANT_GARDE, OutfitType.EVENING_FORMAL],
         "colors": BLACKS + WHITES + METALLICS + ["architectural", "artistic"]
+    },
+    
+    # Bikini Bottoms - Swimwear
+    "low-rise bikini bottom": {
+        "types": [OutfitType.BEACH_WEAR],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["low-rise", "minimal coverage", "trendy"]
+    },
+    "mid-rise bikini bottom": {
+        "types": [OutfitType.BEACH_WEAR],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + JEWEL_TONES + ["mid-rise", "moderate coverage", "classic"]
+    },
+    "high-rise bikini bottom": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.RETRO],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["high-waisted", "vintage", "flattering"]
+    },
+    "high-cut leg bottom (80s style)": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.RETRO],
+        "colors": NEONS + BLACKS + WHITES + PATTERNS + ["high-cut", "80s", "retro", "bold"]
+    },
+    "cheeky bikini bottom": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["cheeky", "playful", "moderate coverage"]
+    },
+    "Brazilian cut bottom": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["Brazilian", "sexy", "minimal coverage"]
+    },
+    "thong bikini bottom": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["thong", "minimal", "sexy"]
+    },
+    "G-string bikini bottom": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + WHITES + NEONS + PATTERNS + ["G-string", "barely there", "daring"]
+    },
+    "V-string bikini bottom": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["V-string", "minimal", "strappy"]
+    },
+    "tanga bikini bottom": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["tanga", "Brazilian style", "moderate coverage"]
+    },
+    "tie-side bikini bottom": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.FESTIVAL],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["tie-side", "adjustable", "classic"]
+    },
+    "adjustable string bottom": {
+        "types": [OutfitType.BEACH_WEAR],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["adjustable strings", "customizable fit", "versatile"]
+    },
+    "wrap-tie bikini bottom": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.CASUAL_CHIC],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + EARTH_TONES + ["wrap-tie", "bohemian", "adjustable"]
+    },
+    "strappy cage bikini bottom": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.FESTIVAL, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + WHITES + NEONS + PATTERNS + ["cage design", "strappy", "edgy"]
+    },
+    "cut-out bikini bottom": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["cut-out details", "revealing", "modern"]
+    },
+    "scrunch-back bikini bottom": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["scrunch detail", "textured", "flattering"]
+    },
+    "seamless bikini bottom": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.MINIMALIST],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + ["seamless", "smooth", "minimal lines"]
+    },
+    "ruffle bikini bottom": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.ROMANTIC],
+        "colors": WHITES + PASTELS + PATTERNS + PINKS + ["ruffle detail", "feminine", "playful"]
+    },
+    "skirted bikini bottom (mini skirt overlay)": {
+        "types": [OutfitType.BEACH_WEAR],
+        "colors": BLACKS + WHITES + PASTELS + PATTERNS + JEWEL_TONES + ["skirted", "modest coverage", "cute"]
+    },
+    "sarong bikini bottom (built-in tie drape)": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BOHEMIAN],
+        "colors": WHITES + PASTELS + PATTERNS + EARTH_TONES + ["sarong", "wrap style", "bohemian"]
+    },
+    "boyshort bikini bottom": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["boyshort", "full coverage", "sporty"]
+    },
+    "hipster bikini bottom": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.CASUAL_CHIC],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["hipster", "low-rise", "trendy"]
+    },
+    "micro bikini bottom": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + WHITES + NEONS + PATTERNS + ["micro", "barely there", "daring"]
+    },
+    "metallic bikini bottom": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY, OutfitType.FESTIVAL],
+        "colors": METALLICS + ["gold", "silver", "bronze", "copper", "shimmery", "metallic finish"]
+    },
+    "sequin bikini bottom": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY, OutfitType.FESTIVAL],
+        "colors": METALLICS + JEWEL_TONES + BLACKS + WHITES + ["sequins", "sparkly", "glamorous"]
+    },
+    "crochet bikini bottom": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BOHEMIAN, OutfitType.FESTIVAL],
+        "colors": WHITES + EARTH_TONES + PASTELS + NEONS + ["crochet", "handmade", "textured", "bohemian"]
+    },
+    "mesh bikini bottom": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + WHITES + NEONS + ["mesh", "sheer", "athletic", "modern"]
+    },
+    "sheer panel bikini bottom": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + ["sheer panels", "see-through", "revealing"]
+    },
+    "belted bikini bottom (retro style)": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.RETRO],
+        "colors": BLACKS + WHITES + PASTELS + PATTERNS + JEWEL_TONES + ["belted", "vintage", "retro", "high-waisted"]
+    },
+    "ring-detail bikini bottom (side rings or front)": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + WHITES + NEONS + METALLICS + ["metal rings", "hardware", "edgy", "statement"]
+    },
+    "pearl/beaded strap bikini bottom": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.ROMANTIC, OutfitType.FESTIVAL],
+        "colors": WHITES + PASTELS + BLACKS + JEWEL_TONES + ["pearl details", "beaded", "elegant", "luxurious"]
+    },
+    "ruched bikini bottom": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["ruched", "gathered", "textured", "flattering"]
+    },
+    
+    # Lingerie Bottoms - Panties & Underwear
+    "classic panties": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC],
+        "colors": WHITES + BLACKS + PASTELS + PINKS + ["cotton", "lace", "satin"]
+    },
+    "bikini panties": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.CASUAL_CHIC],
+        "colors": WHITES + BLACKS + PASTELS + PINKS + ["low-rise", "cotton", "lace"]
+    },
+    "hipster panties": {
+        "types": [OutfitType.LINGERIE, OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST],
+        "colors": WHITES + BLACKS + PASTELS + GRAYS + ["low-rise", "cotton", "seamless"]
+    },
+    "boyshorts": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.CASUAL_CHIC],
+        "colors": WHITES + BLACKS + PASTELS + PINKS + ["lace", "satin", "mesh", "full coverage"]
+    },
+    "cheeky panties": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.CLUB_PARTY],
+        "colors": WHITES + BLACKS + PINKS + JEWEL_TONES + ["playful", "moderate coverage", "lace"]
+    },
+    "thong": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.CLUB_PARTY],
+        "colors": WHITES + BLACKS + PINKS + REDS + JEWEL_TONES + ["basic cotton", "lace", "satin", "minimal"]
+    },
+    "g-string": {
+        "types": [OutfitType.LINGERIE, OutfitType.CLUB_PARTY, OutfitType.ROMANTIC],
+        "colors": WHITES + BLACKS + REDS + JEWEL_TONES + ["minimal coverage", "string sides"]
+    },
+    "c-string": {
+        "types": [OutfitType.LINGERIE, OutfitType.CLUB_PARTY],
+        "colors": WHITES + BLACKS + REDS + METALLICS + ["minimal coverage", "strapless", "adhesive"]
+    },
+    "v-string": {
+        "types": [OutfitType.LINGERIE, OutfitType.CLUB_PARTY, OutfitType.ROMANTIC],
+        "colors": WHITES + BLACKS + REDS + JEWEL_TONES + ["V-shaped", "minimal", "string"]
+    },
+    "t-back thong": {
+        "types": [OutfitType.LINGERIE, OutfitType.CLUB_PARTY, OutfitType.ROMANTIC],
+        "colors": WHITES + BLACKS + REDS + JEWEL_TONES + ["T-back design", "minimal", "lace"]
+    },
+    "micro thong": {
+        "types": [OutfitType.LINGERIE, OutfitType.CLUB_PARTY],
+        "colors": WHITES + BLACKS + REDS + METALLICS + ["ultra minimal", "tiny coverage"]
+    },
+    "open-crotch panties": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC],
+        "colors": WHITES + BLACKS + REDS + JEWEL_TONES + ["open design", "lace", "satin"]
+    },
+    "peekaboo cutout panties": {
+        "types": [OutfitType.LINGERIE, OutfitType.CLUB_PARTY, OutfitType.ROMANTIC],
+        "colors": WHITES + BLACKS + REDS + PINKS + ["cutout panels", "playful", "lace"]
+    },
+    "crotchless thong": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC],
+        "colors": WHITES + BLACKS + REDS + JEWEL_TONES + ["open design", "lace", "satin"]
+    },
+    "strappy cage panties": {
+        "types": [OutfitType.LINGERIE, OutfitType.GOTHIC, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + REDS + JEWEL_TONES + ["cage-style", "strappy", "elastic bands"]
+    },
+    "harness panties": {
+        "types": [OutfitType.LINGERIE, OutfitType.GOTHIC, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + REDS + METALLICS + ["harness style", "straps", "hardware"]
+    },
+    "high-waisted retro panties": {
+        "types": [OutfitType.LINGERIE, OutfitType.VINTAGE, OutfitType.PIN_UP],
+        "colors": WHITES + BLACKS + REDS + PASTELS + ["retro style", "full coverage", "lace trim"]
+    },
+    "high-cut leg panties": {
+        "types": [OutfitType.LINGERIE, OutfitType.RETRO, OutfitType.CLUB_PARTY],
+        "colors": WHITES + BLACKS + NEONS + METALLICS + ["80s inspired", "high leg", "athletic cut"]
+    },
+    "sheer mesh panties": {
+        "types": [OutfitType.LINGERIE, OutfitType.CLUB_PARTY, OutfitType.AVANT_GARDE],
+        "colors": WHITES + BLACKS + JEWEL_TONES + ["sheer", "mesh", "see-through"]
+    },
+    "lace overlay panties": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.VINTAGE],
+        "colors": WHITES + BLACKS + PASTELS + PINKS + ["delicate lace", "overlay", "feminine"]
+    },
+    "satin panties": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.MINIMALIST],
+        "colors": WHITES + BLACKS + PASTELS + JEWEL_TONES + ["satin", "smooth", "luxury"]
+    },
+    "silk panties": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.MINIMALIST],
+        "colors": WHITES + BLACKS + PASTELS + JEWEL_TONES + ["silk", "luxury", "smooth"]
+    },
+    "embroidered mesh panties": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.ETHEREAL],
+        "colors": WHITES + BLACKS + PASTELS + JEWEL_TONES + ["embroidered", "mesh", "delicate"]
+    },
+    "sequin lingerie panties": {
+        "types": [OutfitType.LINGERIE, OutfitType.CLUB_PARTY, OutfitType.EVENING_FORMAL],
+        "colors": BLACKS + JEWEL_TONES + METALLICS + ["sequined", "sparkling", "glamorous"]
+    },
+    "pearl-embellished panties": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.VINTAGE],
+        "colors": WHITES + PASTELS + JEWEL_TONES + ["pearl details", "luxury", "embellished"]
+    },
+    "panties with garter straps": {
+        "types": [OutfitType.LINGERIE, OutfitType.VINTAGE, OutfitType.GOTHIC],
+        "colors": WHITES + BLACKS + REDS + JEWEL_TONES + ["attached garters", "vintage style", "straps"]
+    },
+    "panties with harness straps": {
+        "types": [OutfitType.LINGERIE, OutfitType.GOTHIC, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + REDS + METALLICS + ["harness straps", "bondage style", "hardware"]
+    },
+    "bodysuit thong bottom": {
+        "types": [OutfitType.LINGERIE, OutfitType.CLUB_PARTY, OutfitType.ROMANTIC],
+        "colors": WHITES + BLACKS + JEWEL_TONES + ["bodysuit style", "thong cut", "form-fitting"]
+    },
+    "teddy bottom half": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC],
+        "colors": WHITES + BLACKS + PINKS + JEWEL_TONES + ["attached top", "one-piece", "lace"]
+    },
+    "ruffled trim panties": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.KAWAII],
+        "colors": WHITES + PASTELS + PINKS + ["ruffle details", "feminine", "playful"]
+    },
+    "bow detail panties": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.KAWAII],
+        "colors": WHITES + PASTELS + PINKS + ["bow accents", "cute", "feminine"]
+    },
+    "fringe detail panties": {
+        "types": [OutfitType.LINGERIE, OutfitType.CLUB_PARTY, OutfitType.FESTIVAL],
+        "colors": WHITES + BLACKS + JEWEL_TONES + ["fringe trim", "movement", "playful"]
+    },
+    "micro shorts lingerie": {
+        "types": [OutfitType.LINGERIE, OutfitType.CLUB_PARTY, OutfitType.ROMANTIC],
+        "colors": WHITES + BLACKS + JEWEL_TONES + ["ultra short", "lingerie style", "form-fitting"]
+    },
+    "sheer ruffled lingerie mini skirt": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.ETHEREAL],
+        "colors": WHITES + PASTELS + PINKS + ["sheer", "ruffled", "mini length"]
+    },
+    
+    # Garter Belts & Accessories
+    "garter belt": {
+        "types": [OutfitType.LINGERIE, OutfitType.VINTAGE, OutfitType.ROMANTIC],
+        "colors": WHITES + BLACKS + REDS + JEWEL_TONES + ["paired with panties", "vintage style", "suspenders"]
+    },
+    "suspender belt": {
+        "types": [OutfitType.LINGERIE, OutfitType.VINTAGE, OutfitType.PIN_UP],
+        "colors": WHITES + BLACKS + REDS + BROWNS + ["classic style", "adjustable", "metal clips"]
+    },
+    "strappy cage garter belt": {
+        "types": [OutfitType.LINGERIE, OutfitType.GOTHIC, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + REDS + METALLICS + ["cage design", "strappy", "hardware"]
+    },
+    "corset-style garter belt": {
+        "types": [OutfitType.LINGERIE, OutfitType.GOTHIC, OutfitType.VINTAGE],
+        "colors": BLACKS + REDS + JEWEL_TONES + ["boned", "lace-up", "structured"]
+    },
+    "lacy garter belt with stockings": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.VINTAGE],
+        "colors": WHITES + BLACKS + PASTELS + ["delicate lace", "matching stockings", "feminine"]
+    },
+    "harness garter belt": {
+        "types": [OutfitType.LINGERIE, OutfitType.GOTHIC, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + REDS + METALLICS + ["harness style", "leather", "hardware"]
+    },
+    "sheer lace lingerie chaps": {
+        "types": [OutfitType.LINGERIE, OutfitType.GOTHIC, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + WHITES + REDS + ["sheer", "lace cutouts", "chaps style"]
+    },
+    "lingerie cage skirt": {
+        "types": [OutfitType.LINGERIE, OutfitType.GOTHIC, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + REDS + METALLICS + ["cage design", "strappy", "geometric"]
+    },
+    "strappy thong skirt hybrid": {
+        "types": [OutfitType.LINGERIE, OutfitType.GOTHIC, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + REDS + JEWEL_TONES + ["thong base", "skirt overlay", "strappy"]
     }
 }
 

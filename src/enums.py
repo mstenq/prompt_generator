@@ -31,10 +31,21 @@ class OutfitType(Enum):
     GOTHIC = "gothic"
     STEAMPUNK = "steampunk"
     RETRO = "retro"
+    VINTAGE = "vintage"
+    FANTASY = "fantasy"
     MINIMALIST = "minimalist"
     KAWAII = "kawaii"
     ROCKABILLY = "rockabilly"
     ROMANTIC = "romantic"
 
+class LocationType(Enum):
+    INDOOR = "indoors"
+    OUTDOOR = "outdoors"
+    BEDROOM = "bedroom"
+    BEACH = "beach"
+
 # Generate outfit type names for dropdown from enum values
 OUTFIT_TYPE_NAMES = ["random"] + [outfit_type.value for outfit_type in OutfitType]
+
+# Generate location type names for dropdown from enum values
+LOCATION_TYPE_NAMES = ["anything"] + [location_type.value for location_type in LocationType]

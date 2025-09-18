@@ -3,7 +3,7 @@ Clothing data definitions for the ComfyUI Outfit Generator.
 This file contains clothing items tagged with their compatible outfit types and color palettes.
 """
 
-from ..outfit_types import OutfitType
+from ..enums import OutfitType
 from ..colors import *
 
 # Shoes with their compatible outfit types and color palettes
@@ -280,5 +280,11 @@ MALE_SHOES = {
     "slip-on shoes": {
         "types": [OutfitType.CASUAL_CHIC, OutfitType.NORMCORE, OutfitType.MINIMALIST],
         "colors": BLACKS + BROWNS + WHITES + ["easy wear", "comfortable", "laceless"]
+    },
+    
+    # Barefoot option for beach and casual settings
+    "barefoot": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN, OutfitType.ETHEREAL, OutfitType.FESTIVAL],
+        "colors": ["bare feet", "natural", "tanned", "sun-kissed"]
     }
 }

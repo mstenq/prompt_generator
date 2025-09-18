@@ -3,7 +3,7 @@ Clothing data definitions for the ComfyUI Outfit Generator.
 This file contains clothing items tagged with their compatible outfit types and color palettes.
 """
 
-from ..outfit_types import OutfitType
+from ..enums import OutfitType
 from ..colors import *
 
 
@@ -429,9 +429,380 @@ FEMALE_TOPS = {
         "types": [OutfitType.BEACH_WEAR],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["halter neck", "supportive"]
     },
+    "halter neck top": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.CASUAL_CHIC],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + JEWEL_TONES + ["halter neck", "tie neck", "elegant"]
+    },
+    "high-neck bikini top": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["high neckline", "modest coverage", "athletic"]
+    },
     "bandeau bikini top": {
         "types": [OutfitType.BEACH_WEAR],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["strapless", "bandeau"]
+    },
+    "bandeau top (strapless)": {
+        "types": [OutfitType.BEACH_WEAR],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + JEWEL_TONES + ["strapless", "bandeau", "minimal"]
+    },
+    "bandeau with tie front": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.FESTIVAL],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["tie detail", "bandeau", "adjustable"]
+    },
+    "bandeau with shoulder straps": {
+        "types": [OutfitType.BEACH_WEAR],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["detachable straps", "bandeau", "supportive"]
+    },
+    "bralette bikini top": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.LINGERIE],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["bralette", "comfortable", "wireless"]
+    },
+    "underwire bikini top": {
+        "types": [OutfitType.BEACH_WEAR],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + JEWEL_TONES + ["underwire", "supportive", "structured"]
+    },
+    "push-up bikini top": {
+        "types": [OutfitType.BEACH_WEAR],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["push-up", "enhancing", "padded"]
+    },
+    "balconette bikini top": {
+        "types": [OutfitType.BEACH_WEAR],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + JEWEL_TONES + ["balconette", "half-cup", "vintage-inspired"]
+    },
+    "plunge bikini top": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["deep V", "plunging neckline", "dramatic"]
+    },
+    "one-shoulder bikini top": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.CASUAL_CHIC],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + JEWEL_TONES + ["asymmetrical", "one-shoulder", "modern"]
+    },
+    "asymmetrical strap bikini top": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.AVANT_GARDE],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["asymmetrical straps", "unique design", "architectural"]
+    },
+    "off-the-shoulder bikini top": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.ROMANTIC],
+        "colors": WHITES + PASTELS + PATTERNS + NEONS + ["off-shoulder", "romantic", "feminine"]
+    },
+    "strappy cage bikini top": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.FESTIVAL, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + WHITES + NEONS + PATTERNS + ["cage design", "strappy", "edgy"]
+    },
+    "multi-strap crisscross bikini top": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.FESTIVAL],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["crisscross straps", "athletic", "trendy"]
+    },
+    "wrap-around bikini top": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.CASUAL_CHIC],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + EARTH_TONES + ["wrap style", "adjustable", "bohemian"]
+    },
+    "tie-front bikini top": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.FESTIVAL],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["tie front", "cute", "adjustable"]
+    },
+    "knot-front bikini top": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.CASUAL_CHIC],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["knot detail", "front tie", "feminine"]
+    },
+    "zip-front bikini top": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE],
+        "colors": BLACKS + WHITES + NEONS + METALLICS + ["zip closure", "sporty", "modern"]
+    },
+    "cut-out bikini top": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["cut-out details", "revealing", "sexy"]
+    },
+    "sporty racerback bikini top": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE],
+        "colors": BLACKS + WHITES + NEONS + BLUES + GRAYS + ["racerback", "athletic", "sporty"]
+    },
+    "athletic crop bikini top": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE],
+        "colors": BLACKS + WHITES + NEONS + GRAYS + ["crop top", "athletic", "performance"]
+    },
+    "tankini top (short tank style)": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["modest coverage", "tank style", "comfortable"]
+    },
+    "longline bikini top (extra torso coverage)": {
+        "types": [OutfitType.BEACH_WEAR],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["longline", "extra coverage", "modest"]
+    },
+    "crop top bikini": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.FESTIVAL],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["crop style", "trendy", "casual"]
+    },
+    "mesh panel bikini top": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + WHITES + NEONS + ["mesh inserts", "athletic", "modern"]
+    },
+    "sheer overlay bikini top": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.ROMANTIC],
+        "colors": WHITES + PASTELS + BLACKS + ["sheer fabric", "romantic", "layered"]
+    },
+    "ruffle bikini top (frilly trim)": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.ROMANTIC],
+        "colors": WHITES + PASTELS + PATTERNS + PINKS + ["ruffles", "feminine", "playful"]
+    },
+    "fringe bikini top": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.FESTIVAL],
+        "colors": BLACKS + WHITES + NEONS + EARTH_TONES + ["fringe detail", "bohemian", "movement"]
+    },
+    "peplum bikini top": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.RETRO],
+        "colors": BLACKS + WHITES + PASTELS + PATTERNS + JEWEL_TONES + ["peplum hem", "vintage", "flattering"]
+    },
+    "embellished/sequin bikini top": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY, OutfitType.FESTIVAL],
+        "colors": METALLICS + JEWEL_TONES + BLACKS + WHITES + ["sequins", "beading", "glamorous"]
+    },
+    "metallic bikini top": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY, OutfitType.FESTIVAL],
+        "colors": METALLICS + ["gold", "silver", "bronze", "copper", "shimmery", "metallic finish"]
+    },
+    "crochet bikini top": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BOHEMIAN, OutfitType.FESTIVAL],
+        "colors": WHITES + EARTH_TONES + PASTELS + NEONS + ["handmade", "crochet", "bohemian", "textured"]
+    },
+    "macramé bikini top": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BOHEMIAN, OutfitType.FESTIVAL],
+        "colors": WHITES + EARTH_TONES + BROWNS + ["macramé", "rope design", "bohemian", "artisanal"]
+    },
+    "classic one-piece swimsuit (scoop neck, full coverage)": {
+        "types": [OutfitType.BEACH_WEAR],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["classic", "scoop neck", "full coverage"],
+        "fullBody": True
+    },
+    "tank suit swimsuit (sporty, thicker straps)": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE],
+        "colors": BLACKS + WHITES + NEONS + BLUES + GRAYS + ["sporty", "thick straps", "athletic"],
+        "fullBody": True
+    },
+    "high-neck one-piece swimsuit": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["high neckline", "modest", "athletic"],
+        "fullBody": True
+    },
+    "square-neck swimsuit": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.RETRO],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["square neckline", "vintage", "structured"],
+        "fullBody": True
+    },
+    "halter one-piece swimsuit": {
+        "types": [OutfitType.BEACH_WEAR],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + JEWEL_TONES + ["halter neck", "supportive", "elegant"],
+        "fullBody": True
+    },
+    "strapless bandeau one-piece swimsuit": {
+        "types": [OutfitType.BEACH_WEAR],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["strapless", "bandeau", "minimal tan lines"],
+        "fullBody": True
+    },
+    "strapless bandeau with detachable straps swimsuit": {
+        "types": [OutfitType.BEACH_WEAR],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["convertible", "detachable straps", "versatile"],
+        "fullBody": True
+    },
+    "plunge neckline one-piece swimsuit": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["deep V", "plunging", "dramatic"],
+        "fullBody": True
+    },
+    "V-neck one-piece swimsuit": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.CASUAL_CHIC],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + JEWEL_TONES + ["V-neckline", "flattering", "classic"],
+        "fullBody": True
+    },
+    "U-back one-piece swimsuit": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["U-back", "sporty", "back detail"],
+        "fullBody": True
+    },
+    "high-cut leg one-piece swimsuit (80s inspired)": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.RETRO],
+        "colors": NEONS + BLACKS + WHITES + PATTERNS + ["high-cut", "80s", "retro", "bold"],
+        "fullBody": True
+    },
+    "high-waist vintage-style one-piece swimsuit": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.RETRO],
+        "colors": BLACKS + WHITES + PASTELS + PATTERNS + JEWEL_TONES + ["high-waisted", "vintage", "pin-up", "retro"],
+        "fullBody": True
+    },
+    "one-shoulder one-piece swimsuit": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.CASUAL_CHIC],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + JEWEL_TONES + ["asymmetrical", "one-shoulder", "modern"],
+        "fullBody": True
+    },
+    "asymmetrical cut one-piece swimsuit": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.AVANT_GARDE],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["asymmetrical", "unique cut", "architectural"],
+        "fullBody": True
+    },
+    "cut-out one-piece swimsuit (side cutouts)": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["side cutouts", "revealing", "sexy"],
+        "fullBody": True
+    },
+    "monokini (deep side cutouts)": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + WHITES + NEONS + PATTERNS + ["deep cutouts", "monokini", "dramatic", "bold"],
+        "fullBody": True
+    },
+    "wrap-front swimsuit": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.CASUAL_CHIC],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + EARTH_TONES + ["wrap front", "adjustable", "flattering"],
+        "fullBody": True
+    },
+    "knot-front one-piece swimsuit": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.CASUAL_CHIC],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["knot detail", "front tie", "cute"],
+        "fullBody": True
+    },
+    "tie-front one-piece swimsuit": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.FESTIVAL],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["tie front", "adjustable", "bohemian"],
+        "fullBody": True
+    },
+    "belted swimsuit": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.RETRO],
+        "colors": BLACKS + WHITES + PASTELS + PATTERNS + JEWEL_TONES + ["belted", "defined waist", "vintage"],
+        "fullBody": True
+    },
+    "ring-detail one-piece swimsuit (metal hoops on sides/center)": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + WHITES + NEONS + METALLICS + ["metal rings", "hardware", "edgy"],
+        "fullBody": True
+    },
+    "lace-up front one-piece swimsuit": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["lace-up", "adjustable", "sexy"],
+        "fullBody": True
+    },
+    "lace-up sides one-piece swimsuit": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.FESTIVAL],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["side lacing", "adjustable", "strappy"],
+        "fullBody": True
+    },
+    "zip-front one-piece swimsuit": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE],
+        "colors": BLACKS + WHITES + NEONS + METALLICS + ["zip closure", "sporty", "modern"],
+        "fullBody": True
+    },
+    "longline torso swimsuit (extra coverage)": {
+        "types": [OutfitType.BEACH_WEAR],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["longline", "extra coverage", "modest"],
+        "fullBody": True
+    },
+    "backless one-piece swimsuit": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["open back", "backless", "dramatic"],
+        "fullBody": True
+    },
+    "open-back with cross straps swimsuit": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.FESTIVAL],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["cross straps", "open back", "athletic"],
+        "fullBody": True
+    },
+    "sheer panel swimsuit (mesh details)": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + WHITES + NEONS + ["mesh panels", "sheer inserts", "modern"],
+        "fullBody": True
+    },
+    "embellished swimsuit (sequins, beads)": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY, OutfitType.FESTIVAL],
+        "colors": METALLICS + JEWEL_TONES + BLACKS + WHITES + ["sequins", "beading", "glamorous"],
+        "fullBody": True
+    },
+    "metallic swimsuit": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY, OutfitType.FESTIVAL],
+        "colors": METALLICS + ["gold", "silver", "bronze", "copper", "shimmery", "metallic finish"],
+        "fullBody": True
+    },
+    "holographic swimsuit": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY, OutfitType.FESTIVAL],
+        "colors": ["holographic", "iridescent", "rainbow", "prismatic", "futuristic"],
+        "fullBody": True
+    },
+    "patterned/crochet overlay one-piece swimsuit": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BOHEMIAN, OutfitType.FESTIVAL],
+        "colors": WHITES + EARTH_TONES + PASTELS + PATTERNS + ["crochet overlay", "textured", "bohemian"],
+        "fullBody": True
+    },
+    "racerback one-piece swimsuit": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE],
+        "colors": BLACKS + WHITES + NEONS + BLUES + GRAYS + ["racerback", "athletic", "sporty"],
+        "fullBody": True
+    },
+    "high-neck racerback swimsuit": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE],
+        "colors": BLACKS + WHITES + NEONS + GRAYS + ["high neck", "racerback", "performance", "modest"],
+        "fullBody": True
+    },
+    "competition swimsuit (streamlined, full coverage)": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE],
+        "colors": BLACKS + WHITES + NEONS + BLUES + GRAYS + ["competition", "streamlined", "performance"],
+        "fullBody": True
+    },
+    "surfsuit (long-sleeve, zip-up)": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE],
+        "colors": BLACKS + WHITES + NEONS + BLUES + ["long sleeve", "zip-up", "UV protection", "surfing"],
+        "fullBody": True
+    },
+    "short-sleeve surf swimsuit": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE],
+        "colors": BLACKS + WHITES + NEONS + BLUES + ["short sleeve", "surf style", "UV protection"],
+        "fullBody": True
+    },
+    "swim bodysuit (athletic stretch, high coverage)": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE],
+        "colors": BLACKS + WHITES + NEONS + GRAYS + ["athletic", "stretch", "high coverage", "performance"],
+        "fullBody": True
+    },
+    "ruffle trim one-piece swimsuit": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.ROMANTIC],
+        "colors": WHITES + PASTELS + PATTERNS + PINKS + ["ruffle trim", "feminine", "playful"],
+        "fullBody": True
+    },
+    "fringe one-piece swimsuit": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.FESTIVAL],
+        "colors": BLACKS + WHITES + NEONS + EARTH_TONES + ["fringe detail", "bohemian", "movement"],
+        "fullBody": True
+    },
+    "peplum swimsuit": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.RETRO],
+        "colors": BLACKS + WHITES + PASTELS + PATTERNS + JEWEL_TONES + ["peplum hem", "vintage", "flattering"],
+        "fullBody": True
+    },
+    "skirted one-piece swimsuit (swimdress)": {
+        "types": [OutfitType.BEACH_WEAR],
+        "colors": BLACKS + WHITES + PASTELS + PATTERNS + JEWEL_TONES + ["skirted", "modest", "swimdress"],
+        "fullBody": True
+    },
+    "swim romper swimsuit (shorts + top one-piece)": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.CASUAL_CHIC],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["romper style", "shorts", "playful"],
+        "fullBody": True
+    },
+    "swim unitard swimsuit (shorts style)": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE],
+        "colors": BLACKS + WHITES + NEONS + GRAYS + ["unitard", "shorts style", "athletic", "coverage"],
+        "fullBody": True
+    },
+    "swim leggings bodysuit swimsuit(full coverage)": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE],
+        "colors": BLACKS + WHITES + NEONS + GRAYS + ["leggings", "full coverage", "modest", "athletic"],
+        "fullBody": True
+    },
+    "convertible swimsuit (removable straps or wrap ties)": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.CASUAL_CHIC],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["convertible", "removable straps", "versatile"],
+        "fullBody": True
+    },
+    "sheer maxi overlay one-piece swimsuit (lingerie-inspired)": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.ROMANTIC, OutfitType.LINGERIE],
+        "colors": WHITES + PASTELS + BLACKS + ["sheer overlay", "maxi length", "lingerie-inspired", "romantic"],
+        "fullBody": True
     },
     "surf rash guard": {
         "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE],
@@ -1390,6 +1761,375 @@ FEMALE_TOPS = {
     "wrapped fabric body look": {
         "types": [OutfitType.AVANT_GARDE, OutfitType.ETHEREAL, OutfitType.MINIMALIST],
         "colors": WHITES + GRAYS + EARTH_TONES + ["draped", "experimental", "couture"],
+        "fullBody": True
+    },
+    
+    # Lingerie and Intimate Wear
+    "classic underwire bra": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC],
+        "colors": WHITES + BLACKS + PASTELS + PINKS + ["lace", "satin", "cotton"]
+    },
+    "push-up bra": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.CLUB_PARTY],
+        "colors": WHITES + BLACKS + PINKS + REDS + ["lace", "satin", "padded"]
+    },
+    "balconette bra": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.PIN_UP],
+        "colors": WHITES + BLACKS + PINKS + REDS + ["lace", "satin", "half-cup"]
+    },
+    "plunge bra": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.CLUB_PARTY],
+        "colors": WHITES + BLACKS + PINKS + JEWEL_TONES + ["deep V", "lace", "satin"]
+    },
+    "T-shirt seamless bra": {
+        "types": [OutfitType.LINGERIE, OutfitType.CASUAL_CHIC],
+        "colors": WHITES + BLACKS + PASTELS + ["seamless", "smooth", "cotton blend"]
+    },
+    "half-cup bra": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.PIN_UP],
+        "colors": WHITES + BLACKS + PINKS + REDS + ["demi-cup", "lace", "satin"]
+    },
+    "full-cup bra": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC],
+        "colors": WHITES + BLACKS + PASTELS + BROWNS + ["full coverage", "cotton", "lace"]
+    },
+    "longline bra": {
+        "types": [OutfitType.LINGERIE, OutfitType.VINTAGE, OutfitType.PIN_UP],
+        "colors": WHITES + BLACKS + REDS + JEWEL_TONES + ["vintage style", "boned", "satin"]
+    },
+    "strapless bra": {
+        "types": [OutfitType.LINGERIE, OutfitType.EVENING_FORMAL, OutfitType.CLUB_PARTY],
+        "colors": WHITES + BLACKS + PASTELS + ["strapless", "adhesive", "silicone"]
+    },
+    "convertible multi-way bra": {
+        "types": [OutfitType.LINGERIE, OutfitType.EVENING_FORMAL, OutfitType.CLUB_PARTY],
+        "colors": WHITES + BLACKS + PASTELS + ["convertible straps", "versatile", "seamless"]
+    },
+    "adhesive sticky cup bra": {
+        "types": [OutfitType.LINGERIE, OutfitType.EVENING_FORMAL, OutfitType.CLUB_PARTY],
+        "colors": WHITES + BLACKS + PASTELS + ["adhesive", "backless", "silicone"]
+    },
+    "lace bralette": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.BOHEMIAN],
+        "colors": WHITES + BLACKS + PASTELS + PINKS + ["delicate lace", "wireless", "soft"]
+    },
+    "satin bralette": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.MINIMALIST],
+        "colors": WHITES + BLACKS + PASTELS + JEWEL_TONES + ["silk", "satin", "smooth"]
+    },
+    "sheer mesh bralette": {
+        "types": [OutfitType.LINGERIE, OutfitType.CLUB_PARTY, OutfitType.AVANT_GARDE],
+        "colors": BLACKS + WHITES + JEWEL_TONES + ["sheer", "mesh", "see-through"]
+    },
+    "racerback bralette": {
+        "types": [OutfitType.LINGERIE, OutfitType.ATHLEISURE, OutfitType.CASUAL_CHIC],
+        "colors": WHITES + BLACKS + PASTELS + GRAYS + ["sporty", "racerback", "cotton"]
+    },
+    "triangle bralette": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.MINIMALIST],
+        "colors": WHITES + BLACKS + PASTELS + PINKS + ["minimal", "wireless", "soft"]
+    },
+    "cage strappy bra": {
+        "types": [OutfitType.LINGERIE, OutfitType.GOTHIC, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + REDS + JEWEL_TONES + ["strappy", "harness", "elastic bands"]
+    },
+    "harness bondage-inspired bra": {
+        "types": [OutfitType.LINGERIE, OutfitType.GOTHIC, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + REDS + METALLICS + ["leather", "straps", "hardware"]
+    },
+    "open-cup bra": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC],
+        "colors": BLACKS + REDS + JEWEL_TONES + ["open design", "lace", "satin"]
+    },
+    "peekaboo cutout bra": {
+        "types": [OutfitType.LINGERIE, OutfitType.CLUB_PARTY, OutfitType.ROMANTIC],
+        "colors": BLACKS + REDS + PINKS + ["cutout details", "playful", "lace"]
+    },
+    "quarter-cup bra": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.PIN_UP],
+        "colors": BLACKS + REDS + PINKS + JEWEL_TONES + ["minimal coverage", "lace", "satin"]
+    },
+    "shelf bra": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.PIN_UP],
+        "colors": BLACKS + REDS + WHITES + ["supportive", "underwire", "lace"]
+    },
+    "lace-up boned corset top": {
+        "types": [OutfitType.LINGERIE, OutfitType.GOTHIC, OutfitType.VINTAGE, OutfitType.STEAMPUNK],
+        "colors": BLACKS + REDS + JEWEL_TONES + BROWNS + ["boned", "lace-up", "structured"]
+    },
+    "bustier top": {
+        "types": [OutfitType.LINGERIE, OutfitType.EVENING_FORMAL, OutfitType.VINTAGE],
+        "colors": BLACKS + REDS + JEWEL_TONES + METALLICS + ["strapless", "boned", "satin"]
+    },
+    "underbust corset": {
+        "types": [OutfitType.LINGERIE, OutfitType.GOTHIC, OutfitType.STEAMPUNK],
+        "colors": BLACKS + BROWNS + REDS + JEWEL_TONES + ["underbust", "boned", "lace-up"]
+    },
+    "overbust corset": {
+        "types": [OutfitType.LINGERIE, OutfitType.GOTHIC, OutfitType.VINTAGE, OutfitType.STEAMPUNK],
+        "colors": BLACKS + REDS + JEWEL_TONES + BROWNS + ["full bust", "boned", "structured"]
+    },
+    "bandeau lingerie top": {
+        "types": [OutfitType.LINGERIE, OutfitType.BEACH_WEAR, OutfitType.ROMANTIC],
+        "colors": WHITES + PASTELS + PINKS + JEWEL_TONES + ["strapless", "bandeau", "lace"]
+    },
+    "sheer flowy baby doll top": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.ETHEREAL],
+        "colors": WHITES + PASTELS + PINKS + ["sheer", "flowing", "delicate"]
+    },
+    "silk satin camisole": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.MINIMALIST],
+        "colors": WHITES + BLACKS + PASTELS + JEWEL_TONES + ["silk", "satin", "luxury"]
+    },
+    "lace trim camisole": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.VINTAGE],
+        "colors": WHITES + PASTELS + PINKS + ["lace details", "delicate", "feminine"]
+    },
+    "chemise slip top": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.VINTAGE],
+        "colors": WHITES + PASTELS + JEWEL_TONES + ["slip style", "satin", "flowing"]
+    },
+    "halter lingerie top": {
+        "types": [OutfitType.LINGERIE, OutfitType.CLUB_PARTY, OutfitType.ROMANTIC],
+        "colors": BLACKS + REDS + JEWEL_TONES + ["halter neck", "tied", "revealing"]
+    },
+    "halter teddy top": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + REDS + PINKS + JEWEL_TONES + ["one-piece style", "halter", "lace"]
+    },
+    "mesh crop lingerie top": {
+        "types": [OutfitType.LINGERIE, OutfitType.CLUB_PARTY, OutfitType.AVANT_GARDE],
+        "colors": BLACKS + WHITES + NEONS + ["mesh", "cropped", "sheer"]
+    },
+    "see-through lace blouse": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.ETHEREAL],
+        "colors": WHITES + BLACKS + PASTELS + ["transparent", "delicate lace", "feminine"]
+    },
+    "bra with choker strap": {
+        "types": [OutfitType.LINGERIE, OutfitType.GOTHIC, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + REDS + METALLICS + ["choker detail", "strappy", "hardware"]
+    },
+    "bra with garter harness straps": {
+        "types": [OutfitType.LINGERIE, OutfitType.GOTHIC, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + REDS + JEWEL_TONES + ["garter straps", "harness", "elastic"]
+    },
+    "pasties with chain harness": {
+        "types": [OutfitType.LINGERIE, OutfitType.CLUB_PARTY, OutfitType.AVANT_GARDE],
+        "colors": BLACKS + METALLICS + JEWEL_TONES + ["chain details", "minimal", "hardware"]
+    },
+    "open-front lingerie robe top": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.ETHEREAL],
+        "colors": WHITES + PASTELS + JEWEL_TONES + ["open front", "flowing", "sheer"]
+    },
+    "sheer mesh lace bolero shrug": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.ETHEREAL],
+        "colors": WHITES + BLACKS + PASTELS + ["sheer", "delicate", "cropped jacket"]
+    },
+    
+    # Full Body Lingerie
+    "bodysuit": {
+        "types": [OutfitType.LINGERIE, OutfitType.CLUB_PARTY, OutfitType.ROMANTIC],
+        "colors": WHITES + BLACKS + PASTELS + JEWEL_TONES + ["lace", "mesh", "satin", "silk", "cutout details"],
+        "fullBody": True
+    },
+    "teddy": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.CLUB_PARTY],
+        "colors": WHITES + BLACKS + PINKS + REDS + JEWEL_TONES + ["classic lace", "satin", "silk", "mesh sheer", "halter style", "plunge neckline", "strappy", "cage", "open-crotch", "backless"],
+        "fullBody": True
+    },
+    "corset bodysuit": {
+        "types": [OutfitType.LINGERIE, OutfitType.GOTHIC, OutfitType.VINTAGE],
+        "colors": BLACKS + REDS + JEWEL_TONES + BROWNS + ["boned", "lace-up", "structured"],
+        "fullBody": True
+    },
+    "bustier bodysuit": {
+        "types": [OutfitType.LINGERIE, OutfitType.EVENING_FORMAL, OutfitType.VINTAGE],
+        "colors": BLACKS + REDS + JEWEL_TONES + METALLICS + ["strapless", "boned", "structured"],
+        "fullBody": True
+    },
+    "longline corset dress": {
+        "types": [OutfitType.LINGERIE, OutfitType.GOTHIC, OutfitType.VINTAGE, OutfitType.EVENING_FORMAL],
+        "colors": BLACKS + REDS + JEWEL_TONES + BROWNS + ["floor-length", "boned", "lace-up"],
+        "fullBody": True
+    },
+    "chemise slip dress": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.VINTAGE],
+        "colors": WHITES + PASTELS + PINKS + JEWEL_TONES + ["short slip", "lace trim", "delicate"],
+        "fullBody": True
+    },
+    "baby doll dress": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.ETHEREAL],
+        "colors": WHITES + PASTELS + PINKS + ["sheer", "flowy skirt", "empire waist"],
+        "fullBody": True
+    },
+    "negligee dress": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.ETHEREAL],
+        "colors": WHITES + PASTELS + JEWEL_TONES + ["luxury slip", "sheer", "satin", "flowing"],
+        "fullBody": True
+    },
+    "nightgown": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.ETHEREAL],
+        "colors": WHITES + PASTELS + JEWEL_TONES + ["floor-length", "flowing", "satin", "silk"],
+        "fullBody": True
+    },
+    "lingerie robe dress": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.ETHEREAL],
+        "colors": WHITES + PASTELS + JEWEL_TONES + ["sheer", "lace", "satin wrap", "belted"],
+        "fullBody": True
+    },
+    "kimono lingerie robe": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.ETHEREAL],
+        "colors": WHITES + PASTELS + JEWEL_TONES + REDS + ["silk", "satin", "embroidered", "wide sleeves"],
+        "fullBody": True
+    },
+    "sheer caftan lingerie wrap": {
+        "types": [OutfitType.LINGERIE, OutfitType.ETHEREAL, OutfitType.BEACH_WEAR],
+        "colors": WHITES + PASTELS + JEWEL_TONES + ["flowing", "sheer", "oversized"],
+        "fullBody": True
+    },
+    "see-through maxi slip dress": {
+        "types": [OutfitType.LINGERIE, OutfitType.ETHEREAL, OutfitType.CLUB_PARTY],
+        "colors": WHITES + BLACKS + JEWEL_TONES + ["transparent", "floor-length", "bias cut"],
+        "fullBody": True
+    },
+    "lace peignoir set": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.VINTAGE],
+        "colors": WHITES + PASTELS + PINKS + ["robe and gown", "matching set", "delicate lace"],
+        "fullBody": True
+    },
+    "harness bodysuit": {
+        "types": [OutfitType.LINGERIE, OutfitType.GOTHIC, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + REDS + METALLICS + ["leather", "straps", "hardware", "buckles"],
+        "fullBody": True
+    },
+    "cage teddy": {
+        "types": [OutfitType.LINGERIE, OutfitType.GOTHIC, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + REDS + JEWEL_TONES + ["strappy", "geometric", "elastic bands"],
+        "fullBody": True
+    },
+    "strappy lingerie catsuit": {
+        "types": [OutfitType.LINGERIE, OutfitType.GOTHIC, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + REDS + METALLICS + ["full coverage", "strappy details", "form-fitting"],
+        "fullBody": True
+    },
+    "sheer bodysuit with garter harness": {
+        "types": [OutfitType.LINGERIE, OutfitType.GOTHIC, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + WHITES + JEWEL_TONES + ["sheer", "garter straps", "harness"],
+        "fullBody": True
+    },
+    "lingerie unitard": {
+        "types": [OutfitType.LINGERIE, OutfitType.CLUB_PARTY, OutfitType.AVANT_GARDE],
+        "colors": BLACKS + WHITES + JEWEL_TONES + ["lace", "mesh", "long sleeves"],
+        "fullBody": True
+    },
+    "cutout bodysuit with garters": {
+        "types": [OutfitType.LINGERIE, OutfitType.GOTHIC, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + REDS + JEWEL_TONES + ["strategic cutouts", "attached garters", "strappy"],
+        "fullBody": True
+    },
+    "strappy open bodysuit": {
+        "types": [OutfitType.LINGERIE, OutfitType.GOTHIC, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + REDS + METALLICS + ["open design", "strappy", "minimal coverage"],
+        "fullBody": True
+    },
+    "bodystocking": {
+        "types": [OutfitType.LINGERIE, OutfitType.CLUB_PARTY, OutfitType.GOTHIC],
+        "colors": BLACKS + WHITES + JEWEL_TONES + ["full fishnet", "lace pattern", "opaque mesh combo", "crotchless", "halter style", "garter cutouts", "attached gloves"],
+        "fullBody": True
+    },
+    "sheer catsuit bodystocking": {
+        "types": [OutfitType.LINGERIE, OutfitType.CLUB_PARTY, OutfitType.AVANT_GARDE],
+        "colors": BLACKS + WHITES + NEONS + ["full body", "sheer", "form-fitting"],
+        "fullBody": True
+    },
+    "strappy bondage bodystocking": {
+        "types": [OutfitType.LINGERIE, OutfitType.GOTHIC, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + REDS + METALLICS + ["bondage style", "strappy", "hardware"],
+        "fullBody": True
+    },
+    "satin slip dress": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.MINIMALIST],
+        "colors": WHITES + PASTELS + JEWEL_TONES + ["bias cut", "satin", "lingerie version"],
+        "fullBody": True
+    },
+    "silk gown with thigh slit": {
+        "types": [OutfitType.LINGERIE, OutfitType.EVENING_FORMAL, OutfitType.ROMANTIC],
+        "colors": WHITES + JEWEL_TONES + METALLICS + ["silk", "high slit", "floor-length"],
+        "fullBody": True
+    },
+    "embroidered mesh dress": {
+        "types": [OutfitType.LINGERIE, OutfitType.ETHEREAL, OutfitType.ROMANTIC],
+        "colors": WHITES + PASTELS + JEWEL_TONES + ["embroidered", "mesh", "delicate"],
+        "fullBody": True
+    },
+    "sequin lingerie gown": {
+        "types": [OutfitType.LINGERIE, OutfitType.CLUB_PARTY, OutfitType.EVENING_FORMAL],
+        "colors": BLACKS + JEWEL_TONES + METALLICS + ["sequined", "glamorous", "sparkling"],
+        "fullBody": True
+    },
+    "sheer rhinestone mesh dress": {
+        "types": [OutfitType.LINGERIE, OutfitType.CLUB_PARTY, OutfitType.EVENING_FORMAL],
+        "colors": BLACKS + WHITES + METALLICS + ["rhinestones", "sheer mesh", "sparkling"],
+        "fullBody": True
+    },
+    "pearl-embellished teddy": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.VINTAGE],
+        "colors": WHITES + PASTELS + JEWEL_TONES + ["pearl details", "luxury", "embellished"],
+        "fullBody": True
+    },
+    "feather-trimmed robe dress": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.VINTAGE],
+        "colors": WHITES + PASTELS + JEWEL_TONES + ["feather trim", "flowing", "luxury"],
+        "fullBody": True
+    },
+    "velvet lingerie slip": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.VINTAGE],
+        "colors": JEWEL_TONES + REDS + BLACKS + ["velvet", "luxury", "rich texture"],
+        "fullBody": True
+    },
+    "lingerie playsuit romper": {
+        "types": [OutfitType.LINGERIE, OutfitType.CLUB_PARTY, OutfitType.ROMANTIC],
+        "colors": WHITES + BLACKS + PINKS + JEWEL_TONES + ["short", "strappy", "playful"],
+        "fullBody": True
+    },
+    "mini dress teddy hybrid": {
+        "types": [OutfitType.LINGERIE, OutfitType.CLUB_PARTY, OutfitType.ROMANTIC],
+        "colors": BLACKS + REDS + JEWEL_TONES + ["mini length", "dress style", "form-fitting"],
+        "fullBody": True
+    },
+    "schoolgirl lingerie dress": {
+        "types": [OutfitType.LINGERIE, OutfitType.CLUB_PARTY, OutfitType.KAWAII],
+        "colors": WHITES + BLACKS + BLUES + ["plaid skirt", "attached top", "costume style"],
+        "fullBody": True
+    },
+    "maid lingerie outfit": {
+        "types": [OutfitType.LINGERIE, OutfitType.CLUB_PARTY, OutfitType.KAWAII],
+        "colors": WHITES + BLACKS + ["apron-style", "teddy", "costume", "frilly"],
+        "fullBody": True
+    },
+    "nurse lingerie costume": {
+        "types": [OutfitType.LINGERIE, OutfitType.CLUB_PARTY, OutfitType.KAWAII],
+        "colors": WHITES + REDS + ["nurse costume", "bodysuit", "medical theme"],
+        "fullBody": True
+    },
+    "bunny teddy costume": {
+        "types": [OutfitType.LINGERIE, OutfitType.CLUB_PARTY, OutfitType.KAWAII],
+        "colors": WHITES + BLACKS + PINKS + ["corset", "tail accessory", "ears", "bunny theme"],
+        "fullBody": True
+    },
+    "cat lingerie set": {
+        "types": [OutfitType.LINGERIE, OutfitType.CLUB_PARTY, OutfitType.KAWAII],
+        "colors": BLACKS + WHITES + JEWEL_TONES + ["bodysuit", "tail accessory", "ears", "cat theme"],
+        "fullBody": True
+    },
+    "sheer superhero teddy": {
+        "types": [OutfitType.LINGERIE, OutfitType.CLUB_PARTY, OutfitType.FANTASY],
+        "colors": REDS + BLUES + METALLICS + ["superhero inspired", "sheer", "cape details"],
+        "fullBody": True
+    },
+    "latex catsuit": {
+        "types": [OutfitType.LINGERIE, OutfitType.GOTHIC, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + REDS + METALLICS + ["latex", "full coverage", "shiny", "form-fitting"],
         "fullBody": True
     }
 }
