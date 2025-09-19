@@ -43,6 +43,10 @@ class LocationType(Enum):
     OUTDOOR = "outdoors"
     BEDROOM = "bedroom"
     BEACH = "beach"
+    CITY = "city"
+    BATHROOM = "bathroom"
+    LIVING_ROOM = "living room"
+    KITCHEN = "kitchen"
 
 # Generate outfit type names for dropdown from enum values
 OUTFIT_TYPE_NAMES = ["random"] + [outfit_type.value for outfit_type in OutfitType]

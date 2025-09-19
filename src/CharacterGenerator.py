@@ -37,7 +37,8 @@ from .male.character import (
 
 class CharacterGenerator:
     
-    def generate_character(self, sex="female"):
+    @staticmethod
+    def generate_character(sex="female"):
         """Generate a single character description string for the given sex"""
         # Use either male or female character attributes based on sex parameter
         if sex == "female":
@@ -78,7 +79,7 @@ class CharacterGenerator:
         # Generate character attributes (same logic for both sexes)
         nationality = random.choice(NATIONALITY)
         body_type = random.choice(BODY_TYPE)
-        breast_size = random.choice(BREAST_SIZES)
+        breast_size = "with " + random.choice(BREAST_SIZES) if sex == "female" else ""
         hair_style = random.choice(HAIR_STYLES)
         hair_color = random.choice(HAIR_COLORS)
         eye_color = random.choice(EYE_COLORS)

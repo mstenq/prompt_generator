@@ -3,9 +3,11 @@ from .enums import LocationType
 from .scenes import SCENES
 
 class SceneGenerator:    
-    def generate_scene(self, outfit_type_enum, location_filter=None):
-        """Generate a scene description compatible with the given outfit type and location"""
-        # Filter scenes that match the selected outfit type and location
+    
+    @staticmethod
+    def generate_scene(outfit_type_enum, location_filter=None):
+        """Generate a scene description based on location filter (outfit type filtering removed)"""
+        # Filter scenes that match the location filter only
         compatible_scenes = []
         
         # Convert location string to LocationType enum if specified
@@ -16,26 +18,18 @@ class SceneGenerator:
                     location_enum = loc_type
                     break
         
-        # First pass: try to find scenes that match both outfit type and location
+        # Filter scenes based on location only (no outfit type filtering)
         for scene_name, data in SCENES.items():
-            # Check if scene matches outfit type
-            if outfit_type_enum in data["types"]:
-                # If location filter is specified, also check location compatibility
-                if location_enum is None:
-                    compatible_scenes.append(scene_name)
-                else:
-                    # Check if scene's location matches the filter
-                    if location_enum in data["location"]:
-                        compatible_scenes.append(scene_name)
-        
-        # If no matches found and location is specified (indoor/outdoor), prioritize location over outfit type
-        if not compatible_scenes and location_enum is not None:
-            # Second pass: find all scenes that match the location, ignoring outfit type
-            for scene_name, data in SCENES.items():
+            # If location filter is specified, check location compatibility
+            if location_enum is None:
+                # No location filter, all scenes are compatible
+                compatible_scenes.append(scene_name)
+            else:
+                # Check if scene's location matches the filter
                 if location_enum in data["location"]:
                     compatible_scenes.append(scene_name)
         
-        # Final fallback to all scenes if still no matches found (shouldn't happen with proper data)
+        # Final fallback to all scenes if no matches found (shouldn't happen with proper data)
         if not compatible_scenes:
             compatible_scenes = list(SCENES.keys())
         

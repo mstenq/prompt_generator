@@ -40,19 +40,19 @@ class PromptGenerator:
         # CHARACTER
         ##############################################################################
         while "<<femaleChar>>" in result:
-            character = CharacterGenerator.generate_character(outfit_type_enum, "female")
+            character = CharacterGenerator.generate_character("female")
             result = result.replace("<<femaleChar>>", character, 1)
             
         while "<<woman>>" in result:
-            character = CharacterGenerator.generate_character(outfit_type_enum, "female")
+            character = CharacterGenerator.generate_character("female")
             result = result.replace("<<woman>>", character, 1)
             
         while "<<maleChar>>" in result:
-            character = CharacterGenerator.generate_character(outfit_type_enum, "female")
+            character = CharacterGenerator.generate_character("male")
             result = result.replace("<<maleChar>>", character, 1)
             
         while "<<man>>" in result:
-            character = CharacterGenerator.generate_character(outfit_type_enum, "female")
+            character = CharacterGenerator.generate_character("male")
             result = result.replace("<<man>>", character, 1)
             
         ##############################################################################
@@ -89,6 +89,10 @@ class PromptGenerator:
         while "<<lying>>" in result:
             pose = PoseGenerator.generate_lying_pose()
             result = result.replace("<<lying>>", pose, 1)
+            
+        while "<<laying>>" in result:
+            pose = PoseGenerator.generate_lying_pose()
+            result = result.replace("<<laying>>", pose, 1)
             
         while "<<standing>>" in result:
             pose = PoseGenerator.generate_standing_pose()

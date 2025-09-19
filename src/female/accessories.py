@@ -484,10 +484,6 @@ FEMALE_ACCESSORIES = {
         "types": [OutfitType.STEAMPUNK, OutfitType.MILITARY, OutfitType.FESTIVAL, OutfitType.RETRO],
         "colors": METALLICS + BROWNS + ["leather", "strap"]
     },
-    "snow goggles": {
-        "types": [OutfitType.ATHLEISURE, OutfitType.STREETWEAR, OutfitType.FESTIVAL],
-        "colors": NEONS + BLACKS + WHITES + ["protective", "wraparound"]
-    },
     "reading glasses": {
         "types": [OutfitType.BUSINESS_WEAR, OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC, OutfitType.RETRO],
         "colors": BLACKS + BROWNS + METALLICS + ["thin", "classic"]
@@ -1197,10 +1193,6 @@ FEMALE_ACCESSORIES = {
     "lingerie bunny ears headband": {
         "types": [OutfitType.LINGERIE, OutfitType.KAWAII, OutfitType.CLUB_PARTY],
         "colors": WHITES + BLACKS + PINKS + ["bunny ears", "cute", "costume"]
-    },
-    "cat ears headband": {
-        "types": [OutfitType.LINGERIE, OutfitType.KAWAII, OutfitType.CLUB_PARTY],
-        "colors": BLACKS + WHITES + JEWEL_TONES + ["cat ears", "cute", "costume"]
     },
     "feathered headpiece": {
         "types": [OutfitType.LINGERIE, OutfitType.VINTAGE, OutfitType.EVENING_FORMAL],

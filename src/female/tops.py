@@ -2131,5 +2131,255 @@ FEMALE_TOPS = {
         "types": [OutfitType.LINGERIE, OutfitType.GOTHIC, OutfitType.CLUB_PARTY],
         "colors": BLACKS + REDS + METALLICS + ["latex", "full coverage", "shiny", "form-fitting"],
         "fullBody": True
+    },
+    "triangle top with string tie sides bottom": {
+        "types": [OutfitType.BEACH_WEAR],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["triangle bikini", "string ties", "minimal coverage"],
+        "fullBody": True
+    },
+    "bandeau top with high-cut cheeky bottom": {
+        "types": [OutfitType.BEACH_WEAR],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["bandeau", "high-cut", "cheeky", "strapless"],
+        "fullBody": True
+    },
+    "halter top with classic bikini brief bottom": {
+        "types": [OutfitType.BEACH_WEAR],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["halter", "classic", "bikini brief"],
+        "fullBody": True
+    },
+    "underwire balconette top with low-rise hipster bottom": {
+        "types": [OutfitType.BEACH_WEAR],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["underwire", "balconette", "low-rise", "hipster"],
+        "fullBody": True
+    },
+    "one-shoulder top with minimal Brazilian bottom": {
+        "types": [OutfitType.BEACH_WEAR],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["one-shoulder", "asymmetrical", "Brazilian", "minimal"],
+        "fullBody": True
+    },
+    "sporty crop top with boyshort bottom": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["sporty", "crop top", "boyshort", "athletic"],
+        "fullBody": True
+    },
+    "tie-front knot top with ruched side-tie bottom": {
+        "types": [OutfitType.BEACH_WEAR],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["tie-front", "knot detail", "ruched", "side-tie"],
+        "fullBody": True
+    },
+    "push-up padded top with skimpy thong bottom": {
+        "types": [OutfitType.BEACH_WEAR],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["push-up", "padded", "skimpy", "thong"],
+        "fullBody": True
+    },
+    "mesh overlay bralette top with strappy cut-out bottom": {
+        "types": [OutfitType.BEACH_WEAR],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["mesh overlay", "bralette", "strappy", "cut-out"],
+        "fullBody": True
+    },
+    "ruffled bandeau top with high-waist retro bottom": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.RETRO],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["ruffled", "bandeau", "high-waist", "retro"],
+        "fullBody": True
+    },
+    "triangle crochet top with tie-side crochet bottom": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BOHEMIAN],
+        "colors": WHITES + PASTELS + EARTH_TONES + ["crochet", "triangle", "tie-side", "handmade"],
+        "fullBody": True
+    },
+    "chain strap triangle top with chain-link thong bottom": {
+        "types": [OutfitType.BEACH_WEAR],
+        "colors": BLACKS + WHITES + METALLICS + NEONS + ["chain strap", "triangle", "chain-link", "metallic"],
+        "fullBody": True
+    },
+    "cut-out halter top with cut-out Brazilian bottom": {
+        "types": [OutfitType.BEACH_WEAR],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["cut-out", "halter", "Brazilian", "revealing"],
+        "fullBody": True
+    },
+    "asymmetrical strap top with ruched micro bottom": {
+        "types": [OutfitType.BEACH_WEAR],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["asymmetrical", "strap detail", "ruched", "micro"],
+        "fullBody": True
+    },
+    "front zipper sporty top with cheeky surf short bottom": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["front zipper", "sporty", "cheeky", "surf shorts"],
+        "fullBody": True
+    },
+    "lace bralette bikini top with lace-trimmed hipster bottom": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.ROMANTIC],
+        "colors": WHITES + PASTELS + PINKS + TEXTURES + ["lace", "bralette", "lace-trimmed", "hipster"],
+        "fullBody": True
+    },
+    "triangle microkini top with ultra-minimal string bottom": {
+        "types": [OutfitType.BEACH_WEAR],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["triangle", "microkini", "ultra-minimal", "string"],
+        "fullBody": True
+    },
+    "strapless bandeau with O-ring detail bottom": {
+        "types": [OutfitType.BEACH_WEAR],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + METALLICS + ["strapless", "bandeau", "O-ring", "hardware detail"],
+        "fullBody": True
+    },
+    "crisscross wrap top with wrap-around strap thong bottom": {
+        "types": [OutfitType.BEACH_WEAR],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["crisscross", "wrap", "wrap-around strap", "thong"],
+        "fullBody": True
+    },
+    "padded balconette bikini top with adjustable scrunch bottom": {
+        "types": [OutfitType.BEACH_WEAR],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["padded", "balconette", "adjustable", "scrunch"],
+        "fullBody": True
+    },
+    "macramé bikini top with fringe-trimmed bottom": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BOHEMIAN],
+        "colors": WHITES + PASTELS + EARTH_TONES + ["macramé", "fringe-trimmed", "handcrafted", "boho"],
+        "fullBody": True
+    },
+    "metallic chainmail-style triangle top with chain-link G-string bottom": {
+        "types": [OutfitType.BEACH_WEAR],
+        "colors": METALLICS + BLACKS + WHITES + ["metallic", "chainmail", "triangle", "chain-link", "G-string"],
+        "fullBody": True
+    },
+    "sport racerback bikini top with seamless V-cut bottom": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["sport", "racerback", "seamless", "V-cut"],
+        "fullBody": True
+    },
+    "off-the-shoulder ruffle sleeve top with high-leg cheeky bottom": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.ROMANTIC],
+        "colors": WHITES + PASTELS + PINKS + PATTERNS + ["off-the-shoulder", "ruffle sleeve", "high-leg", "cheeky"],
+        "fullBody": True
+    },
+    "triangle leather-look top with strappy bondage-style bottom": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.GOTHIC],
+        "colors": BLACKS + REDS + METALLICS + TEXTURES + ["leather-look", "triangle", "strappy", "bondage-style"],
+        "fullBody": True
+    },
+    "sheer mesh triangle top with layered string bottom": {
+        "types": [OutfitType.BEACH_WEAR],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + ["sheer mesh", "triangle", "layered", "string"],
+        "fullBody": True
+    },
+    "zip-front bustier bikini top with high-waist shaping bottom": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.RETRO],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["zip-front", "bustier", "high-waist", "shaping"],
+        "fullBody": True
+    },
+    "deep plunge halter top with adjustable slider thong bottom": {
+        "types": [OutfitType.BEACH_WEAR],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["deep plunge", "halter", "adjustable slider", "thong"],
+        "fullBody": True
+    },
+    "knitted crochet halter top with tassel-trimmed bikini bottom": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BOHEMIAN],
+        "colors": WHITES + PASTELS + EARTH_TONES + ["knitted crochet", "halter", "tassel-trimmed", "handmade"],
+        "fullBody": True
+    },
+    "scallop-edge bralette top with scallop-edge hipster bottom": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.ROMANTIC],
+        "colors": WHITES + PASTELS + PINKS + PATTERNS + ["scallop-edge", "bralette", "hipster", "detailed trim"],
+        "fullBody": True
+    },
+    "triangle top with dangling chain charms and tie-side bottom": {
+        "types": [OutfitType.BEACH_WEAR],
+        "colors": BLACKS + WHITES + METALLICS + NEONS + ["triangle", "dangling chain", "charms", "tie-side"],
+        "fullBody": True
+    },
+    "strapless twist bandeau with Brazilian cut ruched bottom": {
+        "types": [OutfitType.BEACH_WEAR],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["strapless", "twist bandeau", "Brazilian cut", "ruched"],
+        "fullBody": True
+    },
+    "high-neck halter top with mesh-insert bottom": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["high-neck", "halter", "mesh-insert", "sporty"],
+        "fullBody": True
+    },
+    "minimal coverage microkini triangle top with micro thong bottom": {
+        "types": [OutfitType.BEACH_WEAR],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["minimal coverage", "microkini", "triangle", "micro thong"],
+        "fullBody": True
+    },
+    "ring-detail triangle top with triple-strap ring bottom": {
+        "types": [OutfitType.BEACH_WEAR],
+        "colors": BLACKS + WHITES + METALLICS + NEONS + ["ring-detail", "triangle", "triple-strap", "hardware"],
+        "fullBody": True
+    },
+    "peekaboo cutout bandeau top with cutout strappy bottom": {
+        "types": [OutfitType.BEACH_WEAR],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["peekaboo", "cutout", "bandeau", "strappy"],
+        "fullBody": True
+    },
+    "adjustable drawstring bralette top with scrunch butt bottom": {
+        "types": [OutfitType.BEACH_WEAR],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["adjustable", "drawstring", "bralette", "scrunch butt"],
+        "fullBody": True
+    },
+    "bustier corset-style bikini top with lace-up thong bottom": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.GOTHIC],
+        "colors": BLACKS + REDS + METALLICS + TEXTURES + ["bustier", "corset-style", "lace-up", "thong"],
+        "fullBody": True
+    },
+    "triangle velvet-look top with seamless thong bottom": {
+        "types": [OutfitType.BEACH_WEAR],
+        "colors": JEWEL_TONES + BLACKS + TEXTURES + ["triangle", "velvet-look", "seamless", "thong"],
+        "fullBody": True
+    },
+    "keyhole halter bikini top with keyhole V-front bottom": {
+        "types": [OutfitType.BEACH_WEAR],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["keyhole", "halter", "V-front", "cutout details"],
+        "fullBody": True
+    },
+    "bralette bikini top with double-string tie-side bottom": {
+        "types": [OutfitType.BEACH_WEAR],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["bralette", "double-string", "tie-side", "minimal"],
+        "fullBody": True
+    },
+    "high-neck sports mesh bikini top with V-cut thong bottom": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["high-neck", "sports mesh", "V-cut", "thong"],
+        "fullBody": True
+    },
+    "caged strap bralette top with caged strappy thong bottom": {
+        "types": [OutfitType.BEACH_WEAR],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["caged strap", "bralette", "strappy", "thong"],
+        "fullBody": True
+    },
+    "plunge balconette bikini top with high-rise cheeky thong bottom": {
+        "types": [OutfitType.BEACH_WEAR],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["plunge", "balconette", "high-rise", "cheeky thong"],
+        "fullBody": True
+    },
+    "adjustable slider micro triangle top with tie-front thong bottom": {
+        "types": [OutfitType.BEACH_WEAR],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["adjustable slider", "micro triangle", "tie-front", "thong"],
+        "fullBody": True
+    },
+    "cropped tankini-style bikini top with low-rise hipster bottom": {
+        "types": [OutfitType.BEACH_WEAR],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["cropped tankini", "bikini top", "low-rise", "hipster"],
+        "fullBody": True
+    },
+    "wrap-around halter bikini top with wrap strap thong bottom": {
+        "types": [OutfitType.BEACH_WEAR],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["wrap-around", "halter", "wrap strap", "thong"],
+        "fullBody": True
+    },
+    "padded push-up bandeau with seamless cheeky bottom": {
+        "types": [OutfitType.BEACH_WEAR],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["padded", "push-up", "bandeau", "seamless cheeky"],
+        "fullBody": True
+    },
+    "triangle bikini top with gold hardware accents and hipster bottom": {
+        "types": [OutfitType.BEACH_WEAR],
+        "colors": BLACKS + WHITES + METALLICS + PASTELS + ["triangle", "gold hardware", "accents", "hipster"],
+        "fullBody": True
+    },
+    "halter bikini top with detachable chains and cheeky cut bottom": {
+        "types": [OutfitType.BEACH_WEAR],
+        "colors": BLACKS + WHITES + METALLICS + NEONS + ["halter", "detachable chains", "cheeky cut", "hardware"],
+        "fullBody": True
     }
 }

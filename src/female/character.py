@@ -34,7 +34,8 @@ BODY_TYPE = [
 
 BREAST_SIZES = [
     "small breasts", "medium breasts", "large breasts", "very large breasts",
-    "perky breasts", "round breasts"
+    "perky breasts", "round breasts", "teardrop-shaped breasts", "wide-set breasts",
+    "close-set breasts", "natural breasts", "augmented breasts"
 ]
 
 HAIR_STYLES = [
@@ -85,8 +86,8 @@ HAIR_COLORS = [
 ]
 
 EYE_COLORS = [
-    "blue eyes", "ice blue eyes", "green eyes", "emerald eyes", "brown eyes",
-    "dark brown eyes", "hazel eyes", "amber eyes", "gray eyes", "violet eyes"
+    "blue", "ice blue", "green", "emerald", "brown",
+    "dark brown", "hazel", "amber", "gray"
 ]
 
 SKIN_TONES = [
@@ -129,14 +130,46 @@ NOSE_SHAPES = [
 ]
 
 MAKEUP_STYLES = [
-    "natural makeup", "soft glam", "smokey eye makeup",
-    "bold red lipstick", "cat-eye eyeliner", "glitter makeup",
-    "dewy makeup", "matte makeup", "no makeup look"
+    "natural makeup",
+    "no makeup look",
+    "soft glam",
+    "dewy makeup",
+    "matte makeup",
+
+    # Eyes
+    "smokey eye makeup",
+    "soft brown smokey eye",
+    "neutral eyeshadow tones",
+    "cat-eye eyeliner",
+    "winged eyeliner",
+    "subtle eyeliner",
+    "rosy eyeshadow",
+    "gold shimmer eyeshadow",
+    "soft pastel eyeshadow",
+
+    # Lips
+    "bold red lipstick",
+    "soft pink lipstick",
+    "nude lipstick",
+    "glossy lips",
+    "matte lipstick finish",
+    "peachy lip tint",
+    "berry-toned lipstick",
+
+    # Overall look
+    "romantic soft makeup",
+    "fresh everyday look",
+    "bronzed summer look",
+    "classic Hollywood glam",
+    "evening makeup",
+    "subtle contour and highlight",
+    "rosy blush focus",
+    "glowy highlight look"
 ]
 
 AGE_GROUPS = [
     "early 20s", "mid 20s", "late 20s",
-    "early 30s", "mid 30s", "early 40s", "mid 40s", "late 40s", "early 50s"
+    "early 30s", "mid 30s", "early 40s", "mid 40s"
 ]
 
 PERSONALITY_VIBES = [

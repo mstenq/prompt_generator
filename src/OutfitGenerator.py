@@ -10,7 +10,9 @@ from .male.accessories import MALE_ACCESSORIES
 from .male.shoes import MALE_SHOES
 
 class OutfitGenerator:
-    def generate_outfit(self, outfit_type_enum, sex="female", force_barefoot=False):
+    
+    @staticmethod
+    def generate_outfit(outfit_type_enum, sex="female", force_barefoot=False):
         """Generate a single outfit description for the given outfit type and sex"""
         # Use either male or female clothing items based on sex parameter
         if sex == "female":
@@ -49,7 +51,9 @@ class OutfitGenerator:
         # Force barefoot if requested, otherwise use existing logic
         if force_barefoot:
             selected_shoes = "barefoot"
-        elif outfit_type_enum == OutfitType.BEACH_WEAR and random.random() < 0.3:
+        elif outfit_type_enum == OutfitType.BEACH_WEAR and random.random() < 0.4:
+            selected_shoes = "barefoot"
+        elif outfit_type_enum == OutfitType.LINGERIE and random.random() < 0.4:
             selected_shoes = "barefoot"
         else:
             selected_shoes = random.choice(compatible_shoes)
@@ -80,7 +84,7 @@ class OutfitGenerator:
 
         # Create outfit description
         if selected_shoes == "barefoot":
-            shoe_part = "barefoot"
+            shoe_part = f"{selected_shoes} with toenails painted with {shoe_color}"
         else:
             shoe_part = f"{shoe_color} {selected_shoes}"
         

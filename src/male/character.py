@@ -48,8 +48,8 @@ HAIR_COLORS = [
 ]
 
 EYE_COLORS = [
-    "blue eyes", "green eyes", "brown eyes", "dark brown eyes",
-    "hazel eyes", "gray eyes", "amber eyes"
+    "blue", "green", "brown", "dark brown",
+    "hazel", "gray", "amber"
 ]
 
 SKIN_TONES = [

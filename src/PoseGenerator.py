@@ -5,44 +5,58 @@ from .poses import SITTING_ON_GROUND, SITTING_ON_A, CROUCHING, KNEELING, ON_ALL_
 
 class PoseGenerator:
 
-    def generate_pose(self):
+    @staticmethod
+    def generate_pose():
         return random.choice(SITTING_ON_GROUND + SITTING_ON_A + CROUCHING + KNEELING + ON_ALL_FOURS + LYING + STANDING + WALKING + RUNNING + JUMPING + DANCING + POSING + LEANING)
         
-    def generate_sitting_on_ground_pose(self):
+    @staticmethod
+    def generate_sitting_on_ground_pose():
         return random.choice(SITTING_ON_GROUND)
     
-    def generate_sitting_on_a_pose(self):
+    @staticmethod
+    def generate_sitting_on_a_pose():
         return random.choice(SITTING_ON_A)
     
-    def generate_crouching_pose(self):
+    @staticmethod
+    def generate_crouching_pose():
         return random.choice(CROUCHING)
     
-    def generate_kneeling_pose(self):
+    @staticmethod
+    def generate_kneeling_pose():
         return random.choice(KNEELING)
     
-    def generate_on_all_fours_pose(self):
+    @staticmethod
+    def generate_on_all_fours_pose():
         return random.choice(ON_ALL_FOURS)
     
-    def generate_lying_pose(self):
+    @staticmethod
+    def generate_lying_pose():
         return random.choice(LYING)
     
-    def generate_standing_pose(self):
+    @staticmethod
+    def generate_standing_pose():
         return random.choice(STANDING)
     
-    def generate_walking_pose(self):
+    @staticmethod
+    def generate_walking_pose():
         return random.choice(WALKING)
     
-    def generate_running_pose(self):
+    @staticmethod
+    def generate_running_pose():
         return random.choice(RUNNING)
     
-    def generate_jumping_pose(self):
+    @staticmethod
+    def generate_jumping_pose():
         return random.choice(JUMPING)
     
-    def generate_dancing_pose(self):
+    @staticmethod
+    def generate_dancing_pose():
         return random.choice(DANCING)
     
-    def generate_posing_pose(self):
+    @staticmethod
+    def generate_posing_pose():
         return random.choice(POSING)
     
-    def generate_leaning_pose(self):
+    @staticmethod
+    def generate_leaning_pose():
         return random.choice(LEANING)

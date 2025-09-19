@@ -57,14 +57,15 @@ ON_ALL_FOURS = [
     "on all fours with one leg slightly lifted", 
     "on all fours looking over shoulder", 
     "crouched low on all fours", 
-    "on all fours with hair falling forward"
+    "on all fours with hair falling forward", 
 ]
 
 LYING = [
     "lying down", "lying on back", "lying on stomach", "lying on side",
     "reclining with one arm propped up", "lying with legs slightly raised", 
     "lying with arms stretched overhead", "resting head on hand while lying sideways", 
-    "sprawled comfortably", "lying curled up"
+    "sprawled comfortably", "lying curled up", "lying in fetal position",
+    "lying with one leg bent", "lying with arms crossed over chest", "lying with legs crossed at ankles"
 ]
 
 STANDING = [
