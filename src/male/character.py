@@ -36,20 +36,47 @@ BREAST_SIZES = [
     ""
 ]
 
+# Hair styles with weights (style, weight) - higher weight = more common
+# Short/common styles have higher weights, long/unusual styles have lower weights
 HAIR_STYLES = [
-    "short cropped hair", "buzz cut", "crew cut", "fade cut", "undercut",
-    "slicked-back hair", "side part", "messy tousled hair", "long straight hair",
-    "long wavy hair", "man bun", "curly top", "afro", "dreadlocks"
+    ("short cropped hair", 10),
+    ("buzz cut", 10),
+    ("crew cut", 10),
+    ("fade cut", 10),
+    ("undercut", 8),
+    ("slicked-back hair", 7),
+    ("side part", 7),
+    ("messy tousled hair", 6),
+    ("long straight hair", 2),
+    ("long wavy hair", 2),
+    ("man bun", 1),
+    ("curly top", 3),
+    ("afro", 1),
+    ("dreadlocks", 1)
 ]
 
+# Hair colors with weights (color, weight) - common colors have higher weights
 HAIR_COLORS = [
-    "blonde", "dirty blonde", "light brown", "dark brown",
-    "black", "auburn", "red", "salt-and-pepper", "gray"
+    ("blonde", 6),
+    ("dirty blonde", 6),
+    ("light brown", 8),
+    ("dark brown", 10),
+    ("black", 10),
+    ("auburn", 3),
+    ("red", 2),
+    ("salt-and-pepper", 4),
+    ("gray", 3)
 ]
 
+# Eye colors with weights (color, weight) - common colors have higher weights
 EYE_COLORS = [
-    "blue", "green", "brown", "dark brown",
-    "hazel", "gray", "amber"
+    ("blue", 10),
+    ("green", 8),
+    ("brown", 10),
+    ("dark brown", 10),
+    ("hazel", 7),
+    ("gray", 5),
+    ("amber", 1)
 ]
 
 SKIN_TONES = [

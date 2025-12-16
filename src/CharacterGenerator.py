@@ -80,9 +80,20 @@ class CharacterGenerator:
         nationality = random.choice(NATIONALITY)
         body_type = random.choice(BODY_TYPE)
         breast_size = "with " + random.choice(BREAST_SIZES) if sex == "female" else ""
-        hair_style = random.choice(HAIR_STYLES)
-        hair_color = random.choice(HAIR_COLORS)
-        eye_color = random.choice(EYE_COLORS)
+        
+        # Handle weighted selection for hair styles and colors (works for both male and female)
+        hair_style = random.choices([item[0] for item in HAIR_STYLES], 
+                                    weights=[item[1] for item in HAIR_STYLES], 
+                                    k=1)[0]
+        hair_color = random.choices([item[0] for item in HAIR_COLORS], 
+                                    weights=[item[1] for item in HAIR_COLORS], 
+                                    k=1)[0]
+
+        # Handle weighted selection for eye colors
+        eye_color = random.choices([item[0] for item in EYE_COLORS], 
+                                   weights=[item[1] for item in EYE_COLORS], 
+                                   k=1)[0]
+        
         eye_shape = random.choice(EYE_SHAPES)
         skin_tone = random.choice(SKIN_TONES)
         facial_features = random.choice(FACIAL_FEATURES)
@@ -95,4 +106,45 @@ class CharacterGenerator:
         
         # Create descriptive string
         character_description = f"{nationality} in {gender_pronoun} {age_group}, {hair_color} {hair_style}, {eye_color} {eye_shape}, {skin_tone}, {body_type} {breast_size}, {lip_shape}, {nose_shape}, {facial_features}, {makeup_style}, {personality_vibe} personality, {facial_expression}"
+        return character_description
+    
+    @staticmethod
+    def generate_simple_character(sex="female"):
+        """Generate a simplified character description string with only basic attributes"""
+        # Use either male or female character attributes based on sex parameter
+        if sex == "female":
+            BODY_TYPE = FEMALE_BODY_TYPE
+            BREAST_SIZES = FEMALE_BREAST_SIZES
+            HAIR_STYLES = FEMALE_HAIR_STYLES
+            HAIR_COLORS = FEMALE_HAIR_COLORS
+            SKIN_TONES = FEMALE_SKIN_TONES
+            MAKEUP_STYLES = FEMALE_MAKEUP_STYLES
+            AGE_GROUPS = FEMALE_AGE_GROUPS
+        else:  # male
+            BODY_TYPE = MALE_BODY_STYLE  # Note: male uses BODY_STYLE instead of BODY_TYPE
+            BREAST_SIZES = MALE_BREAST_SIZES  # Will be empty for males
+            HAIR_STYLES = MALE_HAIR_STYLES
+            HAIR_COLORS = MALE_HAIR_COLORS
+            SKIN_TONES = MALE_SKIN_TONES
+            MAKEUP_STYLES = MALE_MAKEUP_STYLES  # Will be empty for males
+            AGE_GROUPS = MALE_AGE_GROUPS
+        
+        # Generate only the simplified character attributes
+        body_type = random.choice(BODY_TYPE)
+        breast_size = "with " + random.choice(BREAST_SIZES) if sex == "female" else ""
+        
+        # Handle weighted selection for hair styles and colors (works for both male and female)
+        hair_style = random.choices([item[0] for item in HAIR_STYLES], 
+                                    weights=[item[1] for item in HAIR_STYLES], 
+                                    k=1)[0]
+        hair_color = random.choices([item[0] for item in HAIR_COLORS], 
+                                    weights=[item[1] for item in HAIR_COLORS], 
+                                    k=1)[0]
+
+        skin_tone = random.choice(SKIN_TONES)
+        makeup_style = random.choice(MAKEUP_STYLES)
+        age_group = random.choice(AGE_GROUPS)
+        
+        # Create simplified descriptive string
+        character_description = f"{age_group}, {hair_color} {hair_style}, {skin_tone}, {body_type} {breast_size}, {makeup_style}"
         return character_description

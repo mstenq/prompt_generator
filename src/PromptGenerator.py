@@ -1,9 +1,12 @@
 import random
+import math
+import re
 from .enums import OutfitType, OUTFIT_TYPE_NAMES, LOCATION_TYPE_NAMES
 from .OutfitGenerator import OutfitGenerator
 from .SceneGenerator import SceneGenerator
 from .CharacterGenerator import CharacterGenerator
 from .PoseGenerator import PoseGenerator
+from .ColorGenerator import ColorGenerator
 
 class PromptGenerator:
     def __init__(self):
@@ -16,6 +19,8 @@ class PromptGenerator:
                 "prompt": ("STRING", {"multiline": True, "default": "A photo of <<woman>> wearing <<femaleOutfit>> in <<scene>>"}),
                 "outfit_type": (OUTFIT_TYPE_NAMES, {}),
                 "location": (LOCATION_TYPE_NAMES, {}),
+                "ratio": (["1:1 square", "2:3 portrait", "3:4 portrait", "4:7 portrait", "3:2 landscape", "4:3 landscape", "7:4 landscape"], {"default": "1:1 square"}),
+                "megapixels": ("FLOAT", {"default": 1.00, "min": 0.1, "max": 10.0, "step": 0.1}),
             },
             "optional": {
                 "seed": ("INT", {"default": -1, "min": -1, "max": 2147483647}),
@@ -23,14 +28,48 @@ class PromptGenerator:
             },
         }
 
-    RETURN_TYPES = ("STRING",)
-    RETURN_NAMES = ("prompt",)
+    RETURN_TYPES = ("STRING", "INT", "INT")
+    RETURN_NAMES = ("prompt", "width", "height")
 
     FUNCTION = "generate_prompt"
 
     CATEGORY = "examples"
 
-
+    def _calculate_dimensions(self, ratio, megapixels):
+        """Calculate width and height based on ratio and megapixels"""
+        # Parse ratio string to get width:height ratio
+        ratio_map = {
+            "1:1 square": (1, 1),
+            "2:3 portrait": (2, 3),
+            "3:4 portrait": (3, 4),
+            "4:7 portrait": (4, 7),
+            "3:2 landscape": (3, 2),
+            "4:3 landscape": (4, 3),
+            "7:4 landscape": (7, 4)
+        }
+        
+        width_ratio, height_ratio = ratio_map.get(ratio, (1, 1))
+        
+        # Calculate total pixels from megapixels (using 1024² as base megapixel)
+        # 1.0 megapixel = 1024 x 1024 = 1,048,576 pixels
+        total_pixels = megapixels * 1024 * 1024
+        
+        # Calculate dimensions based on ratio
+        # width * height = total_pixels
+        # width / height = width_ratio / height_ratio
+        # So: width = height * (width_ratio / height_ratio)
+        # Therefore: height * (width_ratio / height_ratio) * height = total_pixels
+        # height^2 * (width_ratio / height_ratio) = total_pixels
+        # height = sqrt(total_pixels / (width_ratio / height_ratio))
+        
+        height = math.sqrt(total_pixels / (width_ratio / height_ratio))
+        width = height * (width_ratio / height_ratio)
+        
+        # Round to nearest multiple of 8 (common requirement for AI image generation)
+        width = int(round(width / 8) * 8)
+        height = int(round(height / 8) * 8)
+        
+        return width, height
 
     def _substitute_template(self, template, outfit_type_enum, location, force_barefoot=False):
         """Replace template placeholders with generated outfit and scene data"""
@@ -42,18 +81,34 @@ class PromptGenerator:
         while "<<femaleChar>>" in result:
             character = CharacterGenerator.generate_character("female")
             result = result.replace("<<femaleChar>>", character, 1)
+        
+        while "<<simpleFemaleChar>>" in result:
+            character = CharacterGenerator.generate_simple_character("female")
+            result = result.replace("<<simpleFemaleChar>>", character, 1)
             
         while "<<woman>>" in result:
             character = CharacterGenerator.generate_character("female")
             result = result.replace("<<woman>>", character, 1)
             
+        while "<<simpleWoman>>" in result:
+            character = CharacterGenerator.generate_simple_character("female")
+            result = result.replace("<<simpleWoman>>", character, 1)
+            
         while "<<maleChar>>" in result:
             character = CharacterGenerator.generate_character("male")
             result = result.replace("<<maleChar>>", character, 1)
             
+        while "<<simpleMaleChar>>" in result:
+            character = CharacterGenerator.generate_simple_character("male")
+            result = result.replace("<<simpleMaleChar>>", character, 1)
+            
         while "<<man>>" in result:
             character = CharacterGenerator.generate_character("male")
             result = result.replace("<<man>>", character, 1)
+            
+        while "<<simpleMan>>" in result:
+            character = CharacterGenerator.generate_simple_character("male")
+            result = result.replace("<<simpleMan>>", character, 1)
             
         ##############################################################################
         # POSES
@@ -134,6 +189,25 @@ class PromptGenerator:
             result = result.replace("<<maleOutfit>>", male_outfit, 1)
         
         ##############################################################################
+        # COLOR
+        ##############################################################################
+        # Handle color substitutions with regex to support both <<color>> and <<color:categories>>
+        def replace_color(match):
+            full_match = match.group(0)
+            if ':' in full_match:
+                # Extract categories from <<color:category1,category2>>
+                categories_str = full_match[8:-2]  # Remove "<<color:" and ">>"
+                categories = [cat.strip() for cat in categories_str.split(',')]
+                return ColorGenerator.generate_color(categories)
+            else:
+                # Simple <<color>> case
+                return ColorGenerator.generate_color()
+        
+        # Use regex to find and replace all color patterns
+        color_pattern = r'<<color(?::[^>]+)?>>'
+        result = re.sub(color_pattern, replace_color, result)
+        
+        ##############################################################################
         # SCENE
         ##############################################################################
         while "<<scene>>" in result:
@@ -146,7 +220,7 @@ class PromptGenerator:
         
         return result
 
-    def generate_prompt(self, prompt, outfit_type, location, seed=-1, force_barefoot=False):
+    def generate_prompt(self, prompt, outfit_type, location, ratio, megapixels, seed=-1, force_barefoot=False):
         """Generate a merged prompt with outfit and scene data substituted for placeholders"""
         
         # Use seed for randomization - if -1, use random seed
@@ -167,14 +241,19 @@ class PromptGenerator:
             if outfit_type_enum is None:
                 outfit_type_enum = OutfitType.CASUAL_CHIC  # Default fallback
 
+        # Calculate dimensions based on ratio and megapixels
+        width, height = self._calculate_dimensions(ratio, megapixels)
+
         # Substitute template placeholders with generated data
         final_prompt = self._substitute_template(prompt, outfit_type_enum, location, force_barefoot)
         
         # Debug logging
         print(f"DEBUG - original prompt: {prompt}")
         print(f"DEBUG - final_prompt: {final_prompt}")
+        print(f"DEBUG - ratio: {ratio}, megapixels: {megapixels}")
+        print(f"DEBUG - calculated dimensions: {width}x{height}")
         
-        return (final_prompt,)
+        return (final_prompt, width, height)
 
 NODE_CLASS_MAPPINGS = {
     "prompt-generator": PromptGenerator

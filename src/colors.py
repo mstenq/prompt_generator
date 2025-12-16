@@ -1,6 +1,6 @@
 # Color palettes
 BLACKS = ["black", "charcoal", "jet black", "midnight black", "onyx"]
-WHITES = ["white", "cream", "ivory", "pearl", "off-white", "bone"]
+WHITES = ["white", "cream", "ivory", "pearl", "off-white"]
 GRAYS = ["gray", "charcoal", "silver", "ash gray", "slate gray"]
 BLUES = ["navy", "midnight blue", "blue gray", "baby blue", "royal blue", "steel blue"]
 REDS = ["red", "burgundy", "crimson", "cherry red", "wine red", "blood red"]

@@ -25,7 +25,7 @@ SCENES = {
     },
     "cozy coffee shop corner": {
         "types": [OutfitType.CASUAL_CHIC, OutfitType.COTTAGECORE, OutfitType.BOHEMIAN],
-        "location": [LocationType.INDOOR],
+        "location": [LocationType.INDOOR, LocationType.STORE],
     },
     "neon-lit city alleyway": {
         "types": [OutfitType.CYBERPUNK, OutfitType.STREETWEAR, OutfitType.PUNK],
@@ -45,7 +45,7 @@ SCENES = {
     },
     "vintage record store": {
         "types": [OutfitType.RETRO, OutfitType.GRUNGE, OutfitType.BOHEMIAN],
-        "location": [LocationType.INDOOR],
+        "location": [LocationType.INDOOR, LocationType.STORE],
     },
     "crowded street market": {
         "types": [OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN, OutfitType.STREETWEAR],
@@ -245,7 +245,7 @@ SCENES = {
     },
     "antique bookshop": {
         "types": [OutfitType.COTTAGECORE, OutfitType.PREPPY, OutfitType.ROMANTIC],
-        "location": [LocationType.INDOOR],
+        "location": [LocationType.INDOOR, LocationType.STORE],
     },
     "tranquil japanese garden": {
         "types": [OutfitType.MINIMALIST, OutfitType.ETHEREAL, OutfitType.KAWAII],
@@ -547,11 +547,11 @@ SCENES = {
     },
     "grocery store aisle": {
         "types": [OutfitType.CASUAL_CHIC, OutfitType.NORMCORE, OutfitType.ATHLEISURE],
-        "location": [LocationType.INDOOR],
+        "location": [LocationType.INDOOR, LocationType.STORE],
     },
     "shopping mall food court": {
         "types": [OutfitType.CASUAL_CHIC, OutfitType.STREETWEAR, OutfitType.KAWAII],
-        "location": [LocationType.INDOOR],
+        "location": [LocationType.INDOOR, LocationType.STORE],
     },
     "gas station pump": {
         "types": [OutfitType.CASUAL_CHIC, OutfitType.GRUNGE, OutfitType.NORMCORE],
@@ -628,7 +628,7 @@ SCENES = {
     },
     "café counter with pastries": {
         "types": [OutfitType.CASUAL_CHIC, OutfitType.COTTAGECORE, OutfitType.MINIMALIST],
-        "location": [LocationType.INDOOR],
+        "location": [LocationType.INDOOR, LocationType.STORE],
     },
     "hotel room bedspread": {
         "types": [OutfitType.LINGERIE, OutfitType.CASUAL_CHIC, OutfitType.BUSINESS_WEAR],
@@ -968,15 +968,15 @@ SCENES = {
     },
     "toy store aisle": {
         "types": [OutfitType.KAWAII, OutfitType.CASUAL_CHIC, OutfitType.PREPPY],
-        "location": [LocationType.INDOOR],
+        "location": [LocationType.INDOOR, LocationType.STORE],
     },
     "ice cream parlor": {
         "types": [OutfitType.KAWAII, OutfitType.RETRO, OutfitType.CASUAL_CHIC],
-        "location": [LocationType.INDOOR],
+        "location": [LocationType.INDOOR, LocationType.STORE],
     },
     "candy shop interior": {
         "types": [OutfitType.KAWAII, OutfitType.LOLITA, OutfitType.RETRO],
-        "location": [LocationType.INDOOR],
+        "location": [LocationType.INDOOR, LocationType.STORE],
     },
     # Historic / Cultural Settings
     "medieval castle dining hall": {
@@ -1029,7 +1029,7 @@ SCENES = {
     },
     "1990s internet café": {
         "types": [OutfitType.RETRO, OutfitType.GRUNGE, OutfitType.CYBERPUNK],
-        "location": [LocationType.INDOOR],
+        "location": [LocationType.INDOOR, LocationType.STORE],
     },
     "old west main street": {
         "types": [OutfitType.COWBOY, OutfitType.RETRO, OutfitType.GRUNGE],
@@ -1086,7 +1086,7 @@ SCENES = {
     },
     "android repair shop": {
         "types": [OutfitType.CYBERPUNK, OutfitType.STEAMPUNK, OutfitType.GRUNGE],
-        "location": [LocationType.INDOOR],
+        "location": [LocationType.INDOOR, LocationType.STORE],
     },
     "robot factory": {
         "types": [OutfitType.CYBERPUNK, OutfitType.MILITARY, OutfitType.MINIMALIST],
@@ -1147,7 +1147,7 @@ SCENES = {
     },
     "coffee shop study nook": {
         "types": [OutfitType.CASUAL_CHIC, OutfitType.COTTAGECORE, OutfitType.PREPPY],
-        "location": [LocationType.INDOOR],
+        "location": [LocationType.INDOOR, LocationType.STORE],
     },
     "book club circle": {
         "types": [OutfitType.CASUAL_CHIC, OutfitType.PREPPY, OutfitType.COTTAGECORE],
@@ -1199,11 +1199,11 @@ SCENES = {
     },
     "thrift shop racks": {
         "types": [OutfitType.GRUNGE, OutfitType.RETRO, OutfitType.BOHEMIAN],
-        "location": [LocationType.INDOOR],
+        "location": [LocationType.INDOOR, LocationType.STORE],
     },
     "record shop browsing": {
         "types": [OutfitType.GRUNGE, OutfitType.RETRO, OutfitType.STREETWEAR],
-        "location": [LocationType.INDOOR],
+        "location": [LocationType.INDOOR, LocationType.STORE],
     },
     "tattoo parlor": {
         "types": [OutfitType.GRUNGE, OutfitType.PUNK, OutfitType.STREETWEAR],
@@ -1215,7 +1215,7 @@ SCENES = {
     },
     "antique store": {
         "types": [OutfitType.COTTAGECORE, OutfitType.RETRO, OutfitType.ROMANTIC],
-        "location": [LocationType.INDOOR],
+        "location": [LocationType.INDOOR, LocationType.STORE],
     },
     "photography studio": {
         "types": [OutfitType.AVANT_GARDE, OutfitType.MINIMALIST, OutfitType.BUSINESS_WEAR],
@@ -1240,7 +1240,7 @@ SCENES = {
     },
     "rainy day café window": {
         "types": [OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC, OutfitType.ROMANTIC],
-        "location": [LocationType.INDOOR],
+        "location": [LocationType.INDOOR, LocationType.STORE],
     },
     "breezy rooftop": {
         "types": [OutfitType.CASUAL_CHIC, OutfitType.ETHEREAL, OutfitType.ROMANTIC],
@@ -3049,7 +3049,7 @@ SCENES = {
         "types": [OutfitType.MINIMALIST, OutfitType.AVANT_GARDE, OutfitType.LINGERIE],
         "location": [LocationType.INDOOR, LocationType.BATHROOM],
     },
-    "beach house bathroom with light blue walls and seashell decor": {
+    "beach house bathroom with light <<color:blues,whites,pastels,earth_tones,jewel_tones>> walls and seashell decor": {
         "types": [OutfitType.BEACH_WEAR, OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN],
         "location": [LocationType.INDOOR, LocationType.BATHROOM],
     },
@@ -3443,7 +3443,7 @@ SCENES = {
         "types": [OutfitType.CASUAL_CHIC, OutfitType.BEACH_WEAR, OutfitType.MINIMALIST],
         "location": [LocationType.INDOOR, LocationType.LIVING_ROOM],
     },
-    "coastal living room with wicker furniture and light blue accents": {
+    "coastal living room with wicker furniture and light <<color:blues,whites,pastels,earth_tones,jewel_tones>> accents": {
         "types": [OutfitType.BEACH_WEAR, OutfitType.CASUAL_CHIC, OutfitType.PREPPY],
         "location": [LocationType.INDOOR, LocationType.LIVING_ROOM],
     },
@@ -3885,7 +3885,7 @@ SCENES = {
         "types": [OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC, OutfitType.NORMCORE],
         "location": [LocationType.INDOOR, LocationType.KITCHEN],
     },
-    "kitchen with light blue cabinets and gold accents": {
+    "kitchen with light <<color:blues,whites,pastels,jewel_tones>> cabinets and gold accents": {
         "types": [OutfitType.ROMANTIC, OutfitType.VINTAGE, OutfitType.CASUAL_CHIC],
         "location": [LocationType.INDOOR, LocationType.KITCHEN],
     },
@@ -4144,5 +4144,1205 @@ SCENES = {
     "kitchen with glass-front island and illuminated shelving": {
         "types": [OutfitType.MINIMALIST, OutfitType.AVANT_GARDE, OutfitType.BUSINESS_WEAR],
         "location": [LocationType.INDOOR, LocationType.KITCHEN],
+    },
+    "sunlit atrium with towering palm trees and glass ceilings spilling golden light across marble floors": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST, OutfitType.BUSINESS_WEAR],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "neon-soaked arcade corridor filled with retro games, glowing buttons, and colorful reflections on polished tile": {
+        "types": [OutfitType.STREETWEAR, OutfitType.RETRO, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "high-end fashion wing with glossy black floors and mannequins posed beneath spotlit designer displays": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.MINIMALIST, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "1980s-style food court with pastel seating, stainless steel counters, and big glowing menu boards": {
+        "types": [OutfitType.RETRO, OutfitType.CASUAL_CHIC, OutfitType.NORMCORE],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "rooftop garden above a mall, featuring wooden walkways, string lights, and a panoramic sunset skyline": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN, OutfitType.COTTAGECORE],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "empty mall at night, lit only by emergency lights and glowing storefronts behind metal gates": {
+        "types": [OutfitType.GRUNGE, OutfitType.GOTHIC, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "bustling holiday mall with oversized ornaments hanging from the ceiling and shimmering tinsel draped everywhere": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.PREPPY, OutfitType.FESTIVAL],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "serene Japanese mall courtyard with koi ponds, paper lanterns, and wooden bridges connecting shops": {
+        "types": [OutfitType.MINIMALIST, OutfitType.ETHEREAL, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "glass-enclosed elevator shaft rising through multiple mall levels, reflecting shoppers as it ascends": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.MINIMALIST, OutfitType.AVANT_GARDE],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "luxury jewelry store with mirrored walls, velvet counters, and sparkling gemstone spotlights": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.BUSINESS_WEAR, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.MALL, LocationType.STORE],
+    },
+    "futuristic mall hallway with holographic signs and transparent digital kiosks floating midair": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.AVANT_GARDE, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "Parisian-inspired shopping avenue inside a mall, complete with cobblestone floors and faux balconies": {
+        "types": [OutfitType.ROMANTIC, OutfitType.VINTAGE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "vintage carousel in the center atrium surrounded by warm lights and painted wooden horses": {
+        "types": [OutfitType.VINTAGE, OutfitType.RETRO, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "rainforest-themed mall zone with artificial waterfalls, mist, and vines wrapping around pillars": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.CASUAL_CHIC, OutfitType.COTTAGECORE],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "tech mall section filled with glowing <<color:blues,reds,greens,jewel_tones>> LED strips and sleek glass demo tables": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.MINIMALIST, OutfitType.BUSINESS_WEAR],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "bustling toy store bursting with plush animals, colorful boxes, and life-sized character statues": {
+        "types": [OutfitType.KAWAII, OutfitType.CASUAL_CHIC, OutfitType.FESTIVAL],
+        "location": [LocationType.INDOOR, LocationType.MALL, LocationType.STORE],
+    },
+    "children's play area shaped like a miniature city with soft foam buildings and rainbow slides": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.ATHLEISURE, OutfitType.NORMCORE],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "mall ice-skating rink with skaters blurring under cool white overhead lights": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.CASUAL_CHIC, OutfitType.NORMCORE],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "bookshop café with warm amber lighting, wooden shelves, and cozy windowside seating": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.INDOOR, LocationType.MALL, LocationType.STORE],
+    },
+    "candy store overflowing with rainbow bins of sweets, oversized lollipops, and glossy jars": {
+        "types": [OutfitType.KAWAII, OutfitType.FESTIVAL, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.MALL, LocationType.STORE],
+    },
+    "mall courtyard featuring an oversized kinetic sculpture with spinning metal rings": {
+        "types": [OutfitType.AVANT_GARDE, OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "quiet morning mall scene before opening, with janitors polishing spotless floors": {
+        "types": [OutfitType.NORMCORE, OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "mall wing under renovation, filled with scaffolding, tarps, and construction lighting": {
+        "types": [OutfitType.STREETWEAR, OutfitType.GRUNGE, OutfitType.NORMCORE],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "designer shoe boutique with illuminated glass shelves stacked with elegant displays": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.EVENING_FORMAL, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.MALL, LocationType.STORE],
+    },
+    "mall with an indoor canal where small gondolas glide beneath arched bridges": {
+        "types": [OutfitType.ROMANTIC, OutfitType.CASUAL_CHIC, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "discount outlet wing decorated with bold sale banners and chaotic color palettes": {
+        "types": [OutfitType.NORMCORE, OutfitType.STREETWEAR, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "completely mirrored hallway creating infinite reflections in every direction": {
+        "types": [OutfitType.AVANT_GARDE, OutfitType.CYBERPUNK, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "mall entrance at dusk with glowing signage and crowds streaming through rotating doors": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.BUSINESS_WEAR, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "rustic-themed market area with wooden stalls, hanging copper lights, and artisan goods": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.BOHEMIAN, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "comic-book store with wall-to-wall posters, action figures, and brightly colored decor": {
+        "types": [OutfitType.STREETWEAR, OutfitType.CASUAL_CHIC, OutfitType.KAWAII],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "minimalist boutique with stark white walls, geometric shelving, and soft ambient lighting": {
+        "types": [OutfitType.MINIMALIST, OutfitType.AVANT_GARDE, OutfitType.BUSINESS_WEAR],
+        "location": [LocationType.INDOOR, LocationType.MALL, LocationType.STORE],
+    },
+    "bustling escalator bank moving multiple streams of people across three levels": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.CASUAL_CHIC, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "perfume shop with shimmering glass bottles arranged in gradient hues": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.ROMANTIC, OutfitType.BUSINESS_WEAR],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "grand mall staircase made of marble, flanked by sculpted railings and floral arrangements": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.BUSINESS_WEAR, OutfitType.ROMANTIC],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "pop-up art gallery inside the mall displaying bold abstract canvases and modern sculptures": {
+        "types": [OutfitType.AVANT_GARDE, OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "mall aquarium tunnel with fish swimming overhead in <<color:blues>> ambient light": {
+        "types": [OutfitType.ETHEREAL, OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "LEGO store filled with towering brick sculptures and display walls of colorful pieces": {
+        "types": [OutfitType.KAWAII, OutfitType.CASUAL_CHIC, OutfitType.FESTIVAL],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "nail salon with neon signage, pastel furniture, and rows of shimmering nail polish": {
+        "types": [OutfitType.KAWAII, OutfitType.CASUAL_CHIC, OutfitType.FESTIVAL],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "indoor mini-theme park with bright rides and flashing lights": {
+        "types": [OutfitType.FESTIVAL, OutfitType.CASUAL_CHIC, OutfitType.KAWAII],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "mall Starbucks with cozy seating, wood textures, and bustling lines of customers": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.PREPPY, OutfitType.COTTAGECORE],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "central fountain with synchronized jets and colorful programmable lights": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.ROMANTIC, OutfitType.FESTIVAL],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "jewelry kiosk under a shining chandelier in the middle of a busy walkway": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.BUSINESS_WEAR, OutfitType.ROMANTIC],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "dimly lit massage chair lounge filled with soft blue lighting and relaxed customers": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "fancy chocolate boutique displaying artisanal truffles in glass cases": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.CASUAL_CHIC, OutfitType.ROMANTIC],
+        "location": [LocationType.INDOOR, LocationType.MALL, LocationType.STORE],
+    },
+    "plant-filled eco-mall area with living walls and large skylights that brighten the greenery": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.BOHEMIAN, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "bustling supermarket entrance with overflowing produce displays and warm lighting": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.NORMCORE, OutfitType.ATHLEISURE],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "indoor skate shop with graffiti mural walls and racks of boards": {
+        "types": [OutfitType.STREETWEAR, OutfitType.GRUNGE, OutfitType.PUNK],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "sunglasses boutique with mirrored surfaces and dramatic reflections": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.CASUAL_CHIC, OutfitType.CLUB_PARTY],
+        "location": [LocationType.INDOOR, LocationType.MALL, LocationType.STORE],
+    },
+    "phone and gadget kiosk surrounded by glowing LED cases": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.STREETWEAR, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.MALL, LocationType.STORE],
+    },
+    "mall with a massive LED waterfall display cascading digital water animations": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.AVANT_GARDE, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "modern mall exterior at night with glowing architectural lines and glass facades": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.BUSINESS_WEAR, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "abandoned mall wing with dusty floors, dim natural light, and shuttered stores": {
+        "types": [OutfitType.GRUNGE, OutfitType.GOTHIC, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "donut shop with pastel interiors and trays of brightly colored pastries": {
+        "types": [OutfitType.KAWAII, OutfitType.CASUAL_CHIC, OutfitType.PREPPY],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "mall food court filled with globe-shaped hanging lamps and diverse cuisine counters": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.STREETWEAR, OutfitType.NORMCORE],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "high-fashion cosmetic store drenched in glossy lighting and sleek black fixtures": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.EVENING_FORMAL, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "mall pet store with playful puppies, colorful tanks, and bright signage": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.KAWAII, OutfitType.COTTAGECORE],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "mall corridor decorated with Chinese New Year lanterns and red banners": {
+        "types": [OutfitType.FESTIVAL, OutfitType.CASUAL_CHIC, OutfitType.ROMANTIC],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "toy-themed Christmas pop-up with oversized presents and a giant Santa chair": {
+        "types": [OutfitType.FESTIVAL, OutfitType.KAWAII, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "fountain courtyard surrounded by balcony walkways and overhead string lights": {
+        "types": [OutfitType.ROMANTIC, OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "sports shop with bold graphics, neon edge lights, and towering wall displays of shoes": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.STREETWEAR, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "organic food pop-up market with wicker baskets and earthy tones": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.BOHEMIAN, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "minimalist tech zone with a floor made of white glass and floating product displays": {
+        "types": [OutfitType.MINIMALIST, OutfitType.CYBERPUNK, OutfitType.AVANT_GARDE],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "vintage camera shop filled with wooden shelves and retro signage": {
+        "types": [OutfitType.VINTAGE, OutfitType.RETRO, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "tea shop with soft lighting, bamboo decor, and glowing jars of loose leaves": {
+        "types": [OutfitType.MINIMALIST, OutfitType.COTTAGECORE, OutfitType.ETHEREAL],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "bustling perfume sampling booth with clouds of mist and glittering bottles": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.ROMANTIC, OutfitType.BUSINESS_WEAR],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "colorful balloon vendor kiosk set up in the middle of a busy walkway": {
+        "types": [OutfitType.FESTIVAL, OutfitType.KAWAII, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "high-end watch boutique with spotlit rotating displays and dark velvet walls": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.BUSINESS_WEAR, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.MALL, LocationType.STORE],
+    },
+    "shoe store with a dramatic tunnel entrance lined with LED strips": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.STREETWEAR, OutfitType.AVANT_GARDE],
+        "location": [LocationType.INDOOR, LocationType.MALL, LocationType.STORE],
+    },
+    "mall corridor decorated for autumn with hanging leaves and warm harvest colors": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "mall rooftop lounge with modern furniture and illuminated planters": {
+        "types": [OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC, OutfitType.BUSINESS_WEAR],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "candy-themed photo booth surrounded by pastel backdrops and fun props": {
+        "types": [OutfitType.KAWAII, OutfitType.FESTIVAL, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "bustling weekend craft fair setup with handmade goods and string-light booths": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.BOHEMIAN, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "VR gaming zone glowing with cyberpunk purples and blues": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.STREETWEAR, OutfitType.AVANT_GARDE],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "gourmet popcorn stand with shiny metal warmers and colorful flavor signage": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.FESTIVAL, OutfitType.KAWAII],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "mall aquarium exhibit featuring jellyfish tanks glowing in ultraviolet light": {
+        "types": [OutfitType.ETHEREAL, OutfitType.CYBERPUNK, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "luxury handbag store with soft leather textures and marble countertops": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.EVENING_FORMAL, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "European café hallway lined with outdoor-style seating and wrought-iron rails": {
+        "types": [OutfitType.ROMANTIC, OutfitType.CASUAL_CHIC, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "kid-friendly robot show stage with animatronic characters performing": {
+        "types": [OutfitType.KAWAII, OutfitType.CASUAL_CHIC, OutfitType.FESTIVAL],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "mall monorail track suspended above the shoppers below": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "crystal chandelier corridor with dozens of hanging lights and reflective flooring": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.ROMANTIC, OutfitType.BUSINESS_WEAR],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "holiday pop-up ice village with fake snow and cozy wooden huts": {
+        "types": [OutfitType.FESTIVAL, OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "tropical smoothie bar with bamboo counters and colorful fruit displays": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "kinetic LED art tunnel where lights ripple as people walk through": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.AVANT_GARDE, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "denim store filled with stacks of jeans and industrial metal fixtures": {
+        "types": [OutfitType.STREETWEAR, OutfitType.GRUNGE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "busy checkout line scene with beeping scanners and conveyor belts of items": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.NORMCORE, OutfitType.ATHLEISURE],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "luxury watch repair booth with tiny tools and magnifying lamps": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.MINIMALIST, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "towering multi-story bookstore with spiral staircases and warm amber lighting": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "spa supply shop with stone textures, diffusers emitting mist, and soft mood lighting": {
+        "types": [OutfitType.ETHEREAL, OutfitType.MINIMALIST, OutfitType.COTTAGECORE],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "comic con event setup in the mall with costumes, banners, and photo ops": {
+        "types": [OutfitType.KAWAII, OutfitType.STREETWEAR, OutfitType.FESTIVAL],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "bubble-tea shop decorated with glowing pink lights and whimsical art": {
+        "types": [OutfitType.KAWAII, OutfitType.CASUAL_CHIC, OutfitType.FESTIVAL],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "sneaker customization booth with bright paints and drying shelves": {
+        "types": [OutfitType.STREETWEAR, OutfitType.CASUAL_CHIC, OutfitType.ATHLEISURE],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "mall garden atrium filled with tall bamboo and stepping-stone paths": {
+        "types": [OutfitType.MINIMALIST, OutfitType.ETHEREAL, OutfitType.COTTAGECORE],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "street-food themed mall food hall with colorful stalls and overhead signage": {
+        "types": [OutfitType.STREETWEAR, OutfitType.CASUAL_CHIC, OutfitType.FESTIVAL],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "sunglass kiosk surrounded by mirrored pyramids reflecting passerby": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.CASUAL_CHIC, OutfitType.CLUB_PARTY],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "luxury home décor store lit with golden pendants and glass sculptures": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.EVENING_FORMAL, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "mall security office windowed above the main walkway with monitors glowing inside": {
+        "types": [OutfitType.NORMCORE, OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "children's science exhibit with glowing plasma globes and interactive displays": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.KAWAII, OutfitType.ATHLEISURE],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "massive indoor Christmas tree reaching multiple stories high with sparkling lights": {
+        "types": [OutfitType.FESTIVAL, OutfitType.CASUAL_CHIC, OutfitType.ROMANTIC],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "art supply store bursting with colorful brushes, paints, and canvas stacks": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.CASUAL_CHIC, OutfitType.AVANT_GARDE],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "sleek modern mall restroom with futuristic mirrors and soft, indirect lighting": {
+        "types": [OutfitType.MINIMALIST, OutfitType.CYBERPUNK, OutfitType.BUSINESS_WEAR],
+        "location": [LocationType.INDOOR, LocationType.MALL],
+    },
+    "cluttered startup loft office with exposed brick walls, mismatched desks, and cables snaking across the floor": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.STREETWEAR, OutfitType.NORMCORE],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "minimalist Scandinavian-style workspace with pale wood desks and soft natural light pouring through tall windows": {
+        "types": [OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC, OutfitType.BUSINESS_WEAR],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "dimly lit corporate cubicle farm with gray partitions stretching into the distance like a maze": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.NORMCORE, OutfitType.MINIMALIST],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "retro 1980s office with beige computers, boxy monitors, and fluorescent lights humming overhead": {
+        "types": [OutfitType.RETRO, OutfitType.VINTAGE, OutfitType.BUSINESS_WEAR],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "modern tech office with glass-walled meeting rooms and neon accent lighting glowing behind monitors": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "cramped accountant's office filled with filing cabinets, paper stacks, and a single desk lamp": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.NORMCORE, OutfitType.PREPPY],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "sleek corner executive office overlooking a skyline at sunset, decorated with polished stone surfaces": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.EVENING_FORMAL, OutfitType.MINIMALIST],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "creative agency studio with mood boards pinned everywhere and colorful sticky notes covering the walls": {
+        "types": [OutfitType.AVANT_GARDE, OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "abandoned office floor with overturned chairs and dust floating through broken window light": {
+        "types": [OutfitType.GRUNGE, OutfitType.STREETWEAR, OutfitType.PUNK],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "tiny home-office nook with plants crowding the desk and a laptop glowing warmly": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "high-energy sales bullpen with whiteboards covered in numbers and headsets scattered across desks": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.PREPPY, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "medical administrative office with neatly labeled folders and sterile white countertops": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.MINIMALIST, OutfitType.NORMCORE],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "vintage newspaper office with typewriters, stacks of copy paper, and overhead fans spinning slowly": {
+        "types": [OutfitType.VINTAGE, OutfitType.RETRO, OutfitType.BUSINESS_WEAR],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "nighttime open-plan office illuminated only by computer screens and a few desk lamps": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.MINIMALIST, OutfitType.BUSINESS_WEAR],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "law firm library office with dark wood shelves stacked floor to ceiling with leather-bound books": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.EVENING_FORMAL, OutfitType.PREPPY],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "mid-century office featuring teak furniture, rotary phones, and amber desk lamps": {
+        "types": [OutfitType.RETRO, OutfitType.VINTAGE, OutfitType.MINIMALIST],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "research lab office lined with microscopes, charts, and whiteboards filled with equations": {
+        "types": [OutfitType.NORMCORE, OutfitType.MINIMALIST, OutfitType.BUSINESS_WEAR],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "design studio with oversized monitors, color swatches, and artistic clutter everywhere": {
+        "types": [OutfitType.AVANT_GARDE, OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "government office with metal desks, drop ceilings, and green-shaded banker lamps": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.NORMCORE, OutfitType.VINTAGE],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "small insurance office with pastel walls, framed motivational posters, and a crowded reception desk": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.PREPPY, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "shared coworking space filled with mismatched chairs, succulents, and buzzing conversation areas": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST, OutfitType.BOHEMIAN],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "basement IT office with server racks humming and cables hanging overhead like vines": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.NORMCORE, OutfitType.STREETWEAR],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "construction-site trailer office with blueprint rolls spread across a worn folding table": {
+        "types": [OutfitType.MILITARY, OutfitType.NORMCORE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "polished finance office with chrome furniture, monochrome décor, and floor-to-ceiling windows": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.MINIMALIST, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "cramped translator's office with multiple keyboards, language dictionaries, and sticky notes everywhere": {
+        "types": [OutfitType.NORMCORE, OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "security office with multiple CCTV monitors casting blue light across the room": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.NORMCORE, OutfitType.MILITARY],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "travel agency office with maps pinned to the walls and brochures covering every surface": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN, OutfitType.BUSINESS_WEAR],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "dusty archivist's office with old boxes, brittle documents, and a single flickering light": {
+        "types": [OutfitType.VINTAGE, OutfitType.GOTHIC, OutfitType.NORMCORE],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "trendy startup office with bean bags, LED strips, and whiteboards filled with sketches": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.STREETWEAR, OutfitType.CYBERPUNK],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "quiet HR office with neutral colors, organized binders, and a small meeting table": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.MINIMALIST, OutfitType.PREPPY],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "gaming company office with character figurines lining shelves and RGB-lit workstations": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.CASUAL_CHIC, OutfitType.STREETWEAR],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "nonprofit organization office with handmade posters and a clutter of donated supplies": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN, OutfitType.COTTAGECORE],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "luxury real estate office with marble floors and glossy architectural models on display": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.EVENING_FORMAL, OutfitType.MINIMALIST],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "cramped newsroom office with monitors showing live feeds and frantic scribbled notes everywhere": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.NORMCORE, OutfitType.STREETWEAR],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "dusty old professor's office stuffed with books, journals, and framed diplomas": {
+        "types": [OutfitType.VINTAGE, OutfitType.PREPPY, OutfitType.BOHEMIAN],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "robotics workshop office with half-built prototypes and shelves full of mechanical parts": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.STEAMPUNK, OutfitType.NORMCORE],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "warm, earth-toned psychologist's office with soft lighting, plush chairs, and a calming atmosphere": {
+        "types": [OutfitType.ROMANTIC, OutfitType.COTTAGECORE, OutfitType.MINIMALIST],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "tax-preparation office filled with calculators, towering paper files, and fluorescent lights": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.NORMCORE, OutfitType.PREPPY],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "industrial warehouse office with metal desks and a large window overlooking the factory floor": {
+        "types": [OutfitType.MILITARY, OutfitType.NORMCORE, OutfitType.STREETWEAR],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "realtor's office with bright lighting, home-listing boards, and neatly staged décor": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.CASUAL_CHIC, OutfitType.PREPPY],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "logistics operations office with large digital maps and whiteboards full of route lines": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.NORMCORE, OutfitType.MILITARY],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "animation studio office with hand-drawn sketches taped everywhere and a colorful creative vibe": {
+        "types": [OutfitType.AVANT_GARDE, OutfitType.CASUAL_CHIC, OutfitType.KAWAII],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "political campaign office with yard signs, stacks of flyers, and ringing phones": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.CASUAL_CHIC, OutfitType.PREPPY],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "biotech office with sterile surfaces, sample fridges, and glowing lab instruments": {
+        "types": [OutfitType.MINIMALIST, OutfitType.CYBERPUNK, OutfitType.BUSINESS_WEAR],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "call center with rows of identical workstations and soft partitions dividing each space": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.NORMCORE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "tiny private detective's office with Venetian blinds, an old desk fan, and dim tungsten lighting": {
+        "types": [OutfitType.VINTAGE, OutfitType.RETRO, OutfitType.GOTHIC],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "space agency mission-control office with massive screens and rows of consoles": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.MINIMALIST, OutfitType.BUSINESS_WEAR],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "print shop office with ink samples, paper reams, and a faint smell of toner": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.NORMCORE, OutfitType.VINTAGE],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "public school administrative office with children's artwork pinned behind worn desks": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.COTTAGECORE, OutfitType.PREPPY],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "travel writer's home office filled with postcards, maps, and warm ambient lighting": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.CASUAL_CHIC, OutfitType.COTTAGECORE],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "software engineer's cluttered workspace with mechanical keyboards and hardware parts": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.CASUAL_CHIC, OutfitType.NORMCORE],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "minimalist CEO office with a single desk, few objects, and a panoramic city view": {
+        "types": [OutfitType.MINIMALIST, OutfitType.BUSINESS_WEAR, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "customs checkpoint office with surveillance screens and shelves holding seized items": {
+        "types": [OutfitType.MILITARY, OutfitType.BUSINESS_WEAR, OutfitType.NORMCORE],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "rural small-town office with wood-paneled walls and a hand-painted sign out front": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC, OutfitType.VINTAGE],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "café-style coworking corner with exposed beams, plants, and bar-height work tables": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.CASUAL_CHIC, OutfitType.COTTAGECORE],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "marketing office with color palettes, product samples, and photography lights": {
+        "types": [OutfitType.AVANT_GARDE, OutfitType.CASUAL_CHIC, OutfitType.BUSINESS_WEAR],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "legal aid office stacked with case files and poster reminders of rights and services": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.CASUAL_CHIC, OutfitType.NORMCORE],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "therapist's office with cozy rugs, framed nature art, and soft diffused lighting": {
+        "types": [OutfitType.ROMANTIC, OutfitType.COTTAGECORE, OutfitType.BOHEMIAN],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "sports team front-office with memorabilia, jerseys, and large whiteboards with game plans": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.CASUAL_CHIC, OutfitType.BUSINESS_WEAR],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "data center control office with temperature monitors and blinking server indicators": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.MINIMALIST, OutfitType.NORMCORE],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "construction company's office with hard hats hanging on hooks and concrete samples on display": {
+        "types": [OutfitType.MILITARY, OutfitType.NORMCORE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "antique shop's tiny office in the back, filled with old ledgers and dusty trinkets": {
+        "types": [OutfitType.VINTAGE, OutfitType.GOTHIC, OutfitType.ROMANTIC],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "mining company field office with rugged furniture, maps of excavation sites, and dirty boots by the door": {
+        "types": [OutfitType.MILITARY, OutfitType.NORMCORE, OutfitType.GRUNGE],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "small-town newspaper editor's office with yellowed articles pinned on a corkboard": {
+        "types": [OutfitType.VINTAGE, OutfitType.CASUAL_CHIC, OutfitType.NORMCORE],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "real-estate development office with 3D-printed building models and elegant architectural drawings": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.MINIMALIST, OutfitType.AVANT_GARDE],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "marine research office with nautical charts, seashell samples, and blue-toned lighting": {
+        "types": [OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC, OutfitType.COTTAGECORE],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "bustling startup accelerator shared office filled with pitch decks and laptops": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.BUSINESS_WEAR, OutfitType.STREETWEAR],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "bank manager's office with polished wood furniture and stacks of signed forms": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.EVENING_FORMAL, OutfitType.PREPPY],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "fashion design office with mannequins, fabric samples, and sewing tools scattered around": {
+        "types": [OutfitType.AVANT_GARDE, OutfitType.ROMANTIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "emergency-response coordination office with wall-sized maps and red marker tracking lines": {
+        "types": [OutfitType.MILITARY, OutfitType.BUSINESS_WEAR, OutfitType.NORMCORE],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "university admissions office with promotional posters and stacks of brochures": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.PREPPY, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "small digital-nomad desk at a beachside coworking hut with ocean light pouring in": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BOHEMIAN, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "fire-station administrative office with gear lockers and radios crackling in the background": {
+        "types": [OutfitType.MILITARY, OutfitType.NORMCORE, OutfitType.BUSINESS_WEAR],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "minimalist architect's office with scale rulers, drafting tables, and monochrome sketches": {
+        "types": [OutfitType.MINIMALIST, OutfitType.BUSINESS_WEAR, OutfitType.AVANT_GARDE],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "artist's office corner with messy paint tubes, canvases, and scribbled ideas": {
+        "types": [OutfitType.AVANT_GARDE, OutfitType.BOHEMIAN, OutfitType.GRUNGE],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "veterinarian's office desk filled with pet photos, medical charts, and small animal models": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.COTTAGECORE, OutfitType.NORMCORE],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "retro 1970s office with avocado-green chairs, shag carpet, and wood-grain paneling": {
+        "types": [OutfitType.RETRO, OutfitType.VINTAGE, OutfitType.BOHEMIAN],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "cramped dorm-room study desk with textbooks piled high and fairy lights overhead": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.KAWAII, OutfitType.COTTAGECORE],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "biomedical research office with glowing sample refrigerators and transparent glass partitions": {
+        "types": [OutfitType.MINIMALIST, OutfitType.CYBERPUNK, OutfitType.BUSINESS_WEAR],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "rural clinic office with simple furnishings, paper charts, and sunlight streaming through blinds": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC, OutfitType.NORMCORE],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "minimalist coding den with dual monitors, a clean desk, and a single potted plant": {
+        "types": [OutfitType.MINIMALIST, OutfitType.CYBERPUNK, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "video-production office with camera gear, softboxes, and editing rigs glowing at night": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.CASUAL_CHIC, OutfitType.AVANT_GARDE],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "construction permit office with blueprints pinned everywhere and dated metal desks": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.NORMCORE, OutfitType.VINTAGE],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "toy company office with bright colors, prototype models, and playful displays": {
+        "types": [OutfitType.KAWAII, OutfitType.CASUAL_CHIC, OutfitType.AVANT_GARDE],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "logistics dispatch office with ringing phones, route trackers, and messy clipboards": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.NORMCORE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "medical billing office with color-coded folders and cramped cubicles": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.NORMCORE, OutfitType.MINIMALIST],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "forest ranger's office with maps, binoculars, and wildlife posters": {
+        "types": [OutfitType.MILITARY, OutfitType.COTTAGECORE, OutfitType.NORMCORE],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "commuter train station manager's office overlooking the tracks through a dusty window": {
+        "types": [OutfitType.VINTAGE, OutfitType.BUSINESS_WEAR, OutfitType.NORMCORE],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "corporate boardroom with a massive glossy table and soft recessed lighting": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.EVENING_FORMAL, OutfitType.MINIMALIST],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "influencer's home office with LED accents, ring lights, and decorative shelves": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.KAWAII, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "mechanic shop office with greasy paperwork, worn furniture, and tools hanging behind the desk": {
+        "types": [OutfitType.GRUNGE, OutfitType.NORMCORE, OutfitType.MILITARY],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "minimal concrete-walled design office with industrial lamps and sleek metal furniture": {
+        "types": [OutfitType.MINIMALIST, OutfitType.CYBERPUNK, OutfitType.AVANT_GARDE],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "marine shipping office with radio equipment and a window facing docked cargo ships": {
+        "types": [OutfitType.MILITARY, OutfitType.NORMCORE, OutfitType.BUSINESS_WEAR],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "film studio production office with scheduling charts, scripts, and scattered coffee cups": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.AVANT_GARDE, OutfitType.BOHEMIAN],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "government records office with dusty shelves, old binders, and a vintage stamp machine": {
+        "types": [OutfitType.VINTAGE, OutfitType.BUSINESS_WEAR, OutfitType.NORMCORE],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "plush investment firm office with deep carpets, modern art, and quiet ambient lighting": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.EVENING_FORMAL, OutfitType.MINIMALIST],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "snowed-in mountain lodge office with wood beams, heavy blankets, and a small glowing computer screen": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC, OutfitType.NORMCORE],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "airport operations office with runway diagrams, radio chatter, and bright safety vests hung on hooks": {
+        "types": [OutfitType.MILITARY, OutfitType.BUSINESS_WEAR, OutfitType.NORMCORE],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "tech repair office filled with half-assembled devices, screwdrivers, and magnifying lamps": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.NORMCORE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "quiet, sunlit suburban office with patterned carpet, leafy plants, and softly humming AC": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.COTTAGECORE, OutfitType.PREPPY],
+        "location": [LocationType.OFFICE, LocationType.INDOOR],
+    },
+    "Target superstore with a wide, brightly lit interior, glossy white floors, red aisle markers hanging from the ceiling, and long symmetrical rows of shelves stretching into the distance": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.ATHLEISURE, OutfitType.NORMCORE, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "Target store in an older urban building with beige tile floors, lower ceilings, slightly dim lighting, and red signage that looks faded and worn": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.ATHLEISURE, OutfitType.NORMCORE, OutfitType.GRUNGE],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "Walmart Supercenter featuring vast open space, polished concrete floors, exposed ceiling beams, fluorescent lighting, and massive blue signs floating above endless aisles": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.ATHLEISURE, OutfitType.NORMCORE, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "Walmart Neighborhood Market with a smaller footprint, narrow aisles, soft white lighting, green accent walls, and compact refrigerated sections lining the perimeter": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.NORMCORE, OutfitType.ATHLEISURE],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "Kmart store interior with dusty tiled floors, flickering fluorescent lights, empty metal racks, and sun-faded red signage peeling from the walls": {
+        "types": [OutfitType.GRUNGE, OutfitType.NORMCORE, OutfitType.VINTAGE, OutfitType.RETRO],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "Blockbuster Video store with deep blue carpet, yellow-and-blue signage, waist-high shelves filled with VHS cases, and glowing movie poster lightboxes": {
+        "types": [OutfitType.RETRO, OutfitType.VINTAGE, OutfitType.CASUAL_CHIC, OutfitType.NORMCORE],
+        "location": [LocationType.INDOOR, LocationType.STORE, LocationType.MALL],
+    },
+    "Blockbuster Video store packed with DVD cases on tall shelves, flat-screen TVs looping movie trailers, and bright retail lighting reflecting off plastic covers": {
+        "types": [OutfitType.RETRO, OutfitType.CASUAL_CHIC, OutfitType.NORMCORE, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.STORE, LocationType.MALL],
+    },
+    "GameStop store inside a mall with dark gray carpet, black shelving units crammed with game cases, neon-lit screens, and walls covered in character posters": {
+        "types": [OutfitType.STREETWEAR, OutfitType.CASUAL_CHIC, OutfitType.NORMCORE, OutfitType.KAWAII],
+        "location": [LocationType.INDOOR, LocationType.STORE, LocationType.MALL],
+    },
+    "GameStop storefront in a strip mall with bright white lighting, narrow aisles, slat walls holding controllers and headsets, and a crowded checkout counter": {
+        "types": [OutfitType.STREETWEAR, OutfitType.CASUAL_CHIC, OutfitType.NORMCORE, OutfitType.ATHLEISURE],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "Best Buy electronics store with wide aisles, blue-and-yellow signage, polished floors, and glowing demo screens covering entire walls": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.NORMCORE, OutfitType.ATHLEISURE, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "Circuit City store with a red-and-white color scheme, boxy shelving, rows of CRT televisions, and thick carpet worn down in high-traffic areas": {
+        "types": [OutfitType.RETRO, OutfitType.VINTAGE, OutfitType.CASUAL_CHIC, OutfitType.NORMCORE],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "RadioShack shop with a tight interior, pegboard walls covered in wires and adapters, glass display cases, and handwritten sale signs": {
+        "types": [OutfitType.RETRO, OutfitType.VINTAGE, OutfitType.NORMCORE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.STORE, LocationType.MALL],
+    },
+    "Toys R Us store filled with bright primary colors, oversized mascot signage, towering toy aisles, and shiny floors reflecting neon shelf labels": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.KAWAII, OutfitType.NORMCORE, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "KB Toys mall storefront packed floor-to-ceiling with toys, cluttered shelves, narrow walkways, and bright chaotic lighting": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.KAWAII, OutfitType.NORMCORE, OutfitType.RETRO],
+        "location": [LocationType.INDOOR, LocationType.STORE, LocationType.MALL],
+    },
+    "Hollister clothing store with a dark, cave-like interior, wooden floors, faux beach shack walls, dim lighting, and a soft blue glow": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.BEACH_WEAR, OutfitType.PREPPY, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.STORE, LocationType.MALL],
+    },
+    "Abercrombie & Fitch store with extremely dark lighting, heavy wood fixtures, large black-and-white photos, and a moody, shadow-filled atmosphere": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.PREPPY, OutfitType.MINIMALIST, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.STORE, LocationType.MALL],
+    },
+    "American Eagle Outfitters store with warm lighting, light wood floors, denim tables neatly folded, and soft neutral wall colors": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.PREPPY, OutfitType.NORMCORE, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.STORE, LocationType.MALL],
+    },
+    "Foot Locker store featuring glossy tile floors, a black-and-white color scheme, sneaker walls lit by spotlights, and a striped checkout counter": {
+        "types": [OutfitType.STREETWEAR, OutfitType.ATHLEISURE, OutfitType.CASUAL_CHIC, OutfitType.NORMCORE],
+        "location": [LocationType.INDOOR, LocationType.STORE, LocationType.MALL],
+    },
+    "Champs Sports store with bright overhead lights, metallic racks, bold brand logos, and shoe displays arranged like a showroom": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.STREETWEAR, OutfitType.CASUAL_CHIC, OutfitType.NORMCORE],
+        "location": [LocationType.INDOOR, LocationType.STORE, LocationType.MALL],
+    },
+    "Finish Line sneaker store with clean white walls, minimalist shelving, bright lighting, and shoes displayed on illuminated wall pegs": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.STREETWEAR, OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.STORE, LocationType.MALL],
+    },
+    "Hot Topic store with black walls, low lighting, band posters covering every surface, metal racks packed with graphic tees, and glowing neon accents": {
+        "types": [OutfitType.PUNK, OutfitType.GOTHIC, OutfitType.GRUNGE, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.STORE, LocationType.MALL],
+    },
+    "Spencer Gifts store with narrow aisles, novelty items covering every wall, harsh fluorescent lighting, and chaotic visual clutter": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.NORMCORE, OutfitType.STREETWEAR, OutfitType.PUNK],
+        "location": [LocationType.INDOOR, LocationType.STORE, LocationType.MALL],
+    },
+    "Barnes & Noble bookstore with warm wood shelves, carpeted floors, reading tables, soft yellow lighting, and tall bookcases forming quiet corridors": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.PREPPY, OutfitType.MINIMALIST, OutfitType.COTTAGECORE],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "Borders bookstore with dated carpet, large windows, wooden shelving, and a café area filled with round tables and muted colors": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.PREPPY, OutfitType.VINTAGE, OutfitType.RETRO],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "Books-A-Million store with bright lighting, wide aisles, bargain book tables near the entrance, and beige-and-brown interior tones": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.PREPPY, OutfitType.NORMCORE, OutfitType.COTTAGECORE],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "Apple Store inside a mall with an all-white interior, glass walls, pale wood tables, bright even lighting, and a minimalist open layout": {
+        "types": [OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC, OutfitType.BUSINESS_WEAR, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.STORE, LocationType.MALL],
+    },
+    "Apple Store flagship location with a massive glass façade, stone floors, towering ceilings, indoor trees, and wide open floor space": {
+        "types": [OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC, OutfitType.BUSINESS_WEAR, OutfitType.AVANT_GARDE],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "Microsoft Store with blue accent lighting, glossy floors, large interactive screens, and sleek metallic display tables": {
+        "types": [OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC, OutfitType.BUSINESS_WEAR, OutfitType.CYBERPUNK],
+        "location": [LocationType.INDOOR, LocationType.STORE, LocationType.MALL],
+    },
+    "Staples office supply store with red signage, tall shelving units, beige tile floors, and long aisles of neatly organized products": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.CASUAL_CHIC, OutfitType.NORMCORE, OutfitType.PREPPY],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "Office Depot store featuring bright fluorescent lighting, wide open aisles, and shelves filled with paper, binders, and electronics": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.CASUAL_CHIC, OutfitType.NORMCORE, OutfitType.PREPPY],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "OfficeMax store with slightly dimmer lighting, gray carpet tiles, and large red-and-black hanging signs marking departments": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.CASUAL_CHIC, OutfitType.NORMCORE, OutfitType.PREPPY],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "Costco warehouse store with enormous open space, concrete floors, towering pallet shelves, bright industrial lighting, and bulk items stacked high": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.NORMCORE, OutfitType.ATHLEISURE, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "Sam's Club warehouse with wide aisles, blue signage, exposed ceilings, and massive stacks of bulk merchandise": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.NORMCORE, OutfitType.ATHLEISURE, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "IKEA showroom with staged furniture rooms, warm lighting, maze-like pathways, and colorful directional arrows on the floor": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST, OutfitType.NORMCORE, OutfitType.SCANDINAVIAN],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "TJ Maxx store with bright lights, tightly packed racks, mismatched fixtures, and a cluttered treasure-hunt atmosphere": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.NORMCORE, OutfitType.BOHEMIAN, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "Marshalls store with long clothing racks, neutral walls, bright overhead lighting, and uneven spacing that creates visual busyness": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.NORMCORE, OutfitType.BOHEMIAN, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "Ross Dress for Less store with harsh fluorescent lighting, chaotic clothing racks, discount signage, and beige tile floors": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.NORMCORE, OutfitType.GRUNGE, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "Forever 21 store with bright white lighting, fast-fashion racks tightly arranged, glossy floors, and bold promotional signs": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.STREETWEAR, OutfitType.KAWAII, OutfitType.CLUB_PARTY],
+        "location": [LocationType.INDOOR, LocationType.STORE, LocationType.MALL],
+    },
+    "Urban Outfitters store with an industrial aesthetic, concrete floors, exposed brick, creative displays, and warm accent lighting": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.VINTAGE, OutfitType.STREETWEAR, OutfitType.GRUNGE],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "Zumiez store with a skate shop vibe, wood floors, sticker-covered counters, dark walls, and racks of streetwear": {
+        "types": [OutfitType.STREETWEAR, OutfitType.PUNK, OutfitType.GRUNGE, OutfitType.ATHLEISURE],
+        "location": [LocationType.INDOOR, LocationType.STORE, LocationType.MALL],
+    },
+    "PacSun store with light wood accents, beach-inspired visuals, neutral lighting, and neatly arranged clothing tables": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.BEACH_WEAR, OutfitType.STREETWEAR, OutfitType.PREPPY],
+        "location": [LocationType.INDOOR, LocationType.STORE, LocationType.MALL],
+    },
+    "Old Navy store with bright lighting, colorful folded clothing tables, blue signage, and wide open aisles": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.PREPPY, OutfitType.NORMCORE, OutfitType.ATHLEISURE],
+        "location": [LocationType.INDOOR, LocationType.STORE, LocationType.MALL],
+    },
+    "Gap store with clean white walls, soft lighting, minimalist tables, and neatly folded stacks of neutral-colored clothing": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST, OutfitType.PREPPY, OutfitType.NORMCORE],
+        "location": [LocationType.INDOOR, LocationType.STORE, LocationType.MALL],
+    },
+    "Banana Republic store with warm lighting, dark wood fixtures, upscale displays, and muted earth-tone colors": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST, OutfitType.PREPPY],
+        "location": [LocationType.INDOOR, LocationType.STORE, LocationType.MALL],
+    },
+    "JCPenney department store with large open floors, carpeted sections, dated signage, and wide clothing departments": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.BUSINESS_WEAR, OutfitType.PREPPY, OutfitType.NORMCORE],
+        "location": [LocationType.INDOOR, LocationType.STORE, LocationType.MALL],
+    },
+    "Sears store in decline with dim lighting, empty racks, yellow clearance signs, and worn, stained carpet": {
+        "types": [OutfitType.GRUNGE, OutfitType.NORMCORE, OutfitType.VINTAGE, OutfitType.RETRO],
+        "location": [LocationType.INDOOR, LocationType.STORE, LocationType.MALL],
+    },
+    "Kohl's store with beige tile floors, bright overhead lights, orderly racks, and bold red sale signage": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.NORMCORE, OutfitType.PREPPY, OutfitType.ATHLEISURE],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "Macy's department store with high ceilings, carpeted floors, ornate lighting fixtures, and large brand-specific sections": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC, OutfitType.PREPPY],
+        "location": [LocationType.INDOOR, LocationType.STORE, LocationType.MALL],
+    },
+    "Nordstrom store with soft lighting, plush carpet, minimalist displays, and wide calm shopping areas": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.EVENING_FORMAL, OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.STORE, LocationType.MALL],
+    },
+    "Nordstrom Rack store with brighter lighting, tightly packed racks, and a fast-paced discount-store feel": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.BUSINESS_WEAR, OutfitType.NORMCORE, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "CVS Pharmacy with narrow aisles, white tile floors, bright fluorescent lights, and red signage throughout": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.NORMCORE, OutfitType.ATHLEISURE, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "Walgreens store with a clean layout, wide aisles, bright lighting, and neatly organized shelves": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.NORMCORE, OutfitType.ATHLEISURE, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "Rite Aid store with slightly dim lighting, beige tile floors, and dated shelving units": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.NORMCORE, OutfitType.GRUNGE, OutfitType.RETRO],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "7-Eleven convenience store with bright fluorescent lights, glossy tile floors, colorful packaging, and drink coolers lining the walls": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.NORMCORE, OutfitType.STREETWEAR, OutfitType.ATHLEISURE],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "Circle K convenience store with bold red signage, tightly packed shelves, and harsh overhead lighting": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.NORMCORE, OutfitType.STREETWEAR, OutfitType.GRUNGE],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "Game Crazy video game store with a small cramped interior, glass cases, neon signage, and stacked game boxes": {
+        "types": [OutfitType.STREETWEAR, OutfitType.RETRO, OutfitType.CASUAL_CHIC, OutfitType.NORMCORE],
+        "location": [LocationType.INDOOR, LocationType.STORE, LocationType.MALL],
+    },
+    "EB Games store with purple accents, carpeted floors, and tightly packed shelves filled with games": {
+        "types": [OutfitType.STREETWEAR, OutfitType.CASUAL_CHIC, OutfitType.NORMCORE, OutfitType.KAWAII],
+        "location": [LocationType.INDOOR, LocationType.STORE, LocationType.MALL],
+    },
+    "FYE music store with bright lighting, CD racks, band posters, and listening stations with headphones": {
+        "types": [OutfitType.STREETWEAR, OutfitType.GRUNGE, OutfitType.PUNK, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.STORE, LocationType.MALL],
+    },
+    "Suncoast Motion Picture Company store with glossy movie posters, DVD racks, merchandise displays, and bright mall lighting": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.NORMCORE, OutfitType.STREETWEAR, OutfitType.RETRO],
+        "location": [LocationType.INDOOR, LocationType.STORE, LocationType.MALL],
+    },
+    "Tower Records store with tall shelves of vinyl and CDs, handwritten signs, bright lighting, and dense visual texture": {
+        "types": [OutfitType.RETRO, OutfitType.VINTAGE, OutfitType.GRUNGE, OutfitType.BOHEMIAN],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "Virgin Megastore with a modern retail layout, red accents, open floor plan, and glowing media displays": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.STREETWEAR, OutfitType.MINIMALIST, OutfitType.PUNK],
+        "location": [LocationType.INDOOR, LocationType.STORE, LocationType.MALL],
+    },
+    "Claire's store with a pink-and-purple color scheme, mirrored displays, bright lighting, and accessory racks everywhere": {
+        "types": [OutfitType.KAWAII, OutfitType.CASUAL_CHIC, OutfitType.PREPPY, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.STORE, LocationType.MALL],
+    },
+    "Justice kids clothing store with extremely colorful interiors, glittery signage, bright lights, and playful decor": {
+        "types": [OutfitType.KAWAII, OutfitType.CASUAL_CHIC, OutfitType.PREPPY, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.STORE, LocationType.MALL],
+    },
+    "Build-A-Bear Workshop with bright cheerful lighting, pastel colors, bins of stuffed animals, and interactive stations": {
+        "types": [OutfitType.KAWAII, OutfitType.CASUAL_CHIC, OutfitType.COTTAGECORE, OutfitType.NORMCORE],
+        "location": [LocationType.INDOOR, LocationType.STORE, LocationType.MALL],
+    },
+    "Petco store with bright lights, polished floors, fish tanks lining the walls, and wide aisles of pet supplies": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.NORMCORE, OutfitType.ATHLEISURE, OutfitType.PREPPY],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "PetSmart store with neutral colors, high ceilings, animal enclosures, and clear department signage": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.NORMCORE, OutfitType.ATHLEISURE, OutfitType.PREPPY],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "Bed Bath & Beyond store with tightly packed shelves reaching high, blue-and-white signage, and a cluttered retail density": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.NORMCORE, OutfitType.PREPPY, OutfitType.COTTAGECORE],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "World Market store with warm lighting, eclectic decor, wooden shelves, and a global bazaar atmosphere": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.CASUAL_CHIC, OutfitType.COTTAGECORE, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "Pier 1 Imports store with dim cozy lighting, densely packed decor items, and narrow winding aisles": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.CASUAL_CHIC, OutfitType.COTTAGECORE, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "Home Depot store with tall warehouse shelving, orange signage, concrete floors, and industrial lighting": {
+        "types": [OutfitType.NORMCORE, OutfitType.CASUAL_CHIC, OutfitType.ATHLEISURE, OutfitType.GRUNGE],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "Lowe's store with blue signage, high ceilings, wide concrete aisles, and neatly organized hardware sections": {
+        "types": [OutfitType.NORMCORE, OutfitType.CASUAL_CHIC, OutfitType.ATHLEISURE, OutfitType.PREPPY],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "Menards store with bright warehouse lighting, green signage, and expansive concrete floors": {
+        "types": [OutfitType.NORMCORE, OutfitType.CASUAL_CHIC, OutfitType.ATHLEISURE, OutfitType.GRUNGE],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "Ace Hardware store with a smaller cozy interior, narrow aisles, and shelves packed tightly with tools": {
+        "types": [OutfitType.NORMCORE, OutfitType.CASUAL_CHIC, OutfitType.VINTAGE, OutfitType.COTTAGECORE],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "Bass Pro Shops store with a lodge-style interior, wood beams, taxidermy animals, and dim atmospheric lighting": {
+        "types": [OutfitType.COWBOY, OutfitType.MILITARY, OutfitType.ATHLEISURE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "Cabela's store with outdoor-themed decor, rock displays, water features, and dramatic lighting": {
+        "types": [OutfitType.COWBOY, OutfitType.MILITARY, OutfitType.ATHLEISURE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "REI store with clean modern design, wood accents, climbing walls, and soft natural lighting": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC, OutfitType.NORMCORE],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "Dick's Sporting Goods store with bright lights, tall racks of equipment, and turf flooring in select areas": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.STREETWEAR, OutfitType.CASUAL_CHIC, OutfitType.NORMCORE],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "Sports Authority store with a large open layout, red signage, and wide aisles that feel empty": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.STREETWEAR, OutfitType.CASUAL_CHIC, OutfitType.RETRO],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "Party City store with fluorescent lighting, aisles bursting with colorful decorations, balloons, and costumes": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.NORMCORE, OutfitType.KAWAII, OutfitType.FESTIVAL],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "Dollar Tree store with bright lights, tightly packed shelves, green signage, and uniform price labels": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.NORMCORE, OutfitType.GRUNGE, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "Dollar General store with narrow aisles, yellow-and-black signage, and cluttered shelves": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.NORMCORE, OutfitType.GRUNGE, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "Five Below store with bright playful lighting, colorful signage, and low shelves filled with novelty items": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.STREETWEAR, OutfitType.KAWAII, OutfitType.NORMCORE],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "Big Lots store with warehouse-style lighting, mixed product categories, and wide aisles": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.NORMCORE, OutfitType.GRUNGE, OutfitType.ATHLEISURE],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "Michaels craft store with bright lighting, tall shelving of supplies, and colorful product packaging": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.COTTAGECORE, OutfitType.NORMCORE, OutfitType.PREPPY],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "Joann Fabrics store with long aisles of fabric bolts, soft lighting, and patterned textiles everywhere": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.VINTAGE, OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "Hobby Lobby store with warm lighting, faux-wood floors, and carefully staged decor displays": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC, OutfitType.PREPPY, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "Lids store with walls covered in hats, bright spotlights, and mirrored displays": {
+        "types": [OutfitType.STREETWEAR, OutfitType.ATHLEISURE, OutfitType.CASUAL_CHIC, OutfitType.NORMCORE],
+        "location": [LocationType.INDOOR, LocationType.STORE, LocationType.MALL],
+    },
+    "Footaction store with a dark interior, bold lighting accents, and sneaker displays lining the walls": {
+        "types": [OutfitType.STREETWEAR, OutfitType.ATHLEISURE, OutfitType.CASUAL_CHIC, OutfitType.NORMCORE],
+        "location": [LocationType.INDOOR, LocationType.STORE, LocationType.MALL],
+    },
+    "Journeys shoe store with black walls, wood floors, bright spotlights, and tightly packed shoe displays": {
+        "types": [OutfitType.STREETWEAR, OutfitType.GRUNGE, OutfitType.PUNK, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.STORE, LocationType.MALL],
+    },
+    "Sunglass Hut store with a small glossy interior, mirrored walls, bright lighting, and floating display shelves": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST, OutfitType.PREPPY, OutfitType.BEACH_WEAR],
+        "location": [LocationType.INDOOR, LocationType.STORE, LocationType.MALL],
+    },
+    "Victoria's Secret store with soft pink lighting, glossy floors, dramatic signage, and fabric displays": {
+        "types": [OutfitType.LINGERIE, OutfitType.CASUAL_CHIC, OutfitType.ROMANTIC, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.INDOOR, LocationType.STORE, LocationType.MALL],
+    },
+    "Bath & Body Works store with bright white lighting, glowing shelves, and colorful bottles arranged symmetrically": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.PREPPY, OutfitType.NORMCORE, OutfitType.KAWAII],
+        "location": [LocationType.INDOOR, LocationType.STORE, LocationType.MALL],
+    },
+    "Lush cosmetics store with dark walls, warm lighting, black tile floors, and vibrant handmade products stacked high": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.STORE, LocationType.MALL],
+    },
+    "Sephora store with a black-and-white color scheme, bright makeup lighting, mirrored displays, and clean modern lines": {
+        "types": [OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC, OutfitType.CLUB_PARTY, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.INDOOR, LocationType.STORE, LocationType.MALL],
+    },
+    "Ulta Beauty store with wide aisles, bright overhead lights, colorful brand displays, and organized shelving": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.PREPPY, OutfitType.NORMCORE, OutfitType.CLUB_PARTY],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "Local retro video game store with cluttered shelves, neon signs, mismatched fixtures, and stacked cartridges": {
+        "types": [OutfitType.RETRO, OutfitType.STREETWEAR, OutfitType.GRUNGE, OutfitType.NORMCORE],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "Independent video rental store with faded carpet, handwritten labels, plastic DVD cases, and buzzing fluorescent lights": {
+        "types": [OutfitType.RETRO, OutfitType.VINTAGE, OutfitType.GRUNGE, OutfitType.NORMCORE],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "Mall phone accessory kiosk with bright LED lights, glass cases packed with colorful phone cases, and reflective surfaces": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.STREETWEAR, OutfitType.NORMCORE, OutfitType.KAWAII],
+        "location": [LocationType.INDOOR, LocationType.STORE, LocationType.MALL],
+    },
+    "Vintage thrift store with uneven lighting, mismatched racks, handwritten price tags, and worn wooden floors": {
+        "types": [OutfitType.VINTAGE, OutfitType.GRUNGE, OutfitType.BOHEMIAN, OutfitType.RETRO],
+        "location": [LocationType.INDOOR, LocationType.STORE],
+    },
+    "Dead mall anchor store with a huge empty retail space, dim lighting, dusty floors, abandoned fixtures, and an echoing atmosphere": {
+        "types": [OutfitType.GRUNGE, OutfitType.GOTHIC, OutfitType.STREETWEAR, OutfitType.PUNK],
+        "location": [LocationType.INDOOR, LocationType.STORE, LocationType.MALL],
     },
 }

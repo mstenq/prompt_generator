@@ -44,7 +44,7 @@ KNEELING = [
     "kneeling with arms crossed", 
     "kneeling while looking upward", 
     "kneeling with legs apart confidently", 
-    "kneeling while brushing hair back"
+    "kneeling while brushing hair back with hand"
 ]
 
 ON_ALL_FOURS = [

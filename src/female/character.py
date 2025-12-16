@@ -38,56 +38,128 @@ BREAST_SIZES = [
     "close-set breasts", "natural breasts", "augmented breasts"
 ]
 
+# Hair styles with weights (style, weight) - higher weight = more common
+# Long/medium common styles have higher weights, very styled/unique styles have lower weights
 HAIR_STYLES = [
-    # Long hair
-    "long straight hair", "long wavy hair", "long curly hair", "long coily hair",
-    "extra-long silky hair", "long layered hair", "long hair with bangs",
-    "long beach waves", "long tousled hair", "long sleek ponytail",
+    # Long hair (most common for women)
+    ("long straight hair", 10),
+    ("long wavy hair", 10),
+    ("long curly hair", 8),
+    ("long coily hair", 5),
+    ("extra-long silky hair", 4),
+    ("long layered hair", 9),
+    ("long hair with bangs", 8),
+    ("long beach waves", 9),
+    ("long tousled hair", 7),
+    ("long sleek ponytail", 7),
 
-    # Medium hair
-    "shoulder-length straight hair", "shoulder-length wavy hair",
-    "medium curly hair", "medium layered cut", "medium bob with bangs",
-    "messy medium waves", "shoulder-length blowout", "textured lob",
+    # Medium hair (very common)
+    ("shoulder-length straight hair", 10),
+    ("shoulder-length wavy hair", 10),
+    ("medium curly hair", 7),
+    ("medium layered cut", 8),
+    ("medium bob with bangs", 7),
+    ("messy medium waves", 8),
+    ("shoulder-length blowout", 6),
+    ("textured lob", 7),
 
-    # Short hair
-    "short bob cut", "angled bob", "pixie cut", "shaggy bob",
-    "boyish short cut", "short curls", "short spiky hair", "sleek short cut",
+    # Short hair (less common)
+    ("short bob cut", 5),
+    ("angled bob", 5),
+    ("pixie cut", 3),
+    ("shaggy bob", 4),
+    ("boyish short cut", 2),
+    ("short curls", 4),
+    ("short spiky hair", 2),
+    ("sleek short cut", 3),
 
-    # Updos
-    "high ponytail", "low ponytail", "side ponytail",
-    "messy bun", "tight ballerina bun", "elegant chignon", "half-up bun",
-    "space buns", "French twist", "sleek updo",
+    # Updos (moderately common)
+    ("high ponytail", 8),
+    ("low ponytail", 8),
+    ("side ponytail", 5),
+    ("messy bun", 9),
+    ("tight ballerina bun", 5),
+    ("elegant chignon", 4),
+    ("half-up bun", 7),
+    ("space buns", 3),
+    ("French twist", 3),
+    ("sleek updo", 4),
 
-    # Braids & twists
-    "classic braid", "fishtail braid", "Dutch braid", "French braid",
-    "side braid", "crown braid", "double braids", "box braids",
-    "micro braids", "twist braids", "braided ponytail",
+    # Braids & twists (moderately common to rare)
+    ("classic braid", 6),
+    ("fishtail braid", 5),
+    ("Dutch braid", 4),
+    ("French braid", 5),
+    ("side braid", 6),
+    ("crown braid", 3),
+    ("double braids", 4),
+    ("box braids", 3),
+    ("micro braids", 2),
+    ("twist braids", 3),
+    ("braided ponytail", 5),
 
-    # Styled looks
-    "retro 60s beehive", "70s feathered hair", "80s crimped hair",
-    "Hollywood glam waves", "red carpet updo", "rocker shag cut",
-    "layered wolf cut", "mullet-inspired cut",
+    # Styled looks (rare/special occasion)
+    ("retro 60s beehive", 1),
+    ("70s feathered hair", 2),
+    ("80s crimped hair", 1),
+    ("Hollywood glam waves", 3),
+    ("red carpet updo", 2),
+    ("rocker shag cut", 2),
+    ("layered wolf cut", 3),
+    ("mullet-inspired cut", 1),
 
-    # Playful/casual
-    "messy bedhead hair", "windswept hair", "wet-look hair",
-    "half-up half-down style", "pigtails", "low pigtails",
-    "side-swept waves", "hair with curtain bangs",
+    # Playful/casual (common)
+    ("messy bedhead hair", 6),
+    ("windswept hair", 5),
+    ("wet-look hair", 3),
+    ("half-up half-down style", 8),
+    ("pigtails", 3),
+    ("low pigtails", 3),
+    ("side-swept waves", 7),
+    ("hair with curtain bangs", 6),
 
-    # Unique
-    "undercut with long top", "asymmetrical bob",
-    "curly afro", "tight coils", "dreadlocks", "loose dreadlocks",
-    "cornrows", "halo braid", "voluminous curls"
+    # Unique (rare)
+    ("undercut with long top", 2),
+    ("asymmetrical bob", 3),
+    ("curly afro", 2),
+    ("tight coils", 2),
+    ("dreadlocks", 1),
+    ("loose dreadlocks", 2),
+    ("cornrows", 2),
+    ("halo braid", 3),
+    ("voluminous curls", 5)
 ]
 
+# Hair colors with weights (color, weight) - common colors have higher weights
 HAIR_COLORS = [
-    "blonde", "platinum blonde", "dirty blonde", "light brown", "chestnut brown",
-    "dark brown", "jet black", "auburn", "fiery red", "strawberry blonde",
-    "silver", "blue highlights", "pink highlights", "ombre", "balayage"
+    ("blonde", 8),
+    ("platinum blonde", 4),
+    ("dirty blonde", 7),
+    ("light brown", 9),
+    ("chestnut brown", 8),
+    ("dark brown", 10),
+    ("jet black", 9),
+    ("auburn", 5),
+    ("fiery red", 3),
+    ("strawberry blonde", 4),
+    ("silver", 2),
+    ("blue highlights", 1),
+    ("pink highlights", 1),
+    ("ombre", 3),
+    ("balayage", 4)
 ]
 
+# Eye colors with weights (color, weight) - common colors have higher weights
 EYE_COLORS = [
-    "blue", "ice blue", "green", "emerald", "brown",
-    "dark brown", "hazel", "amber", "gray"
+    ("blue", 10),
+    ("ice blue", 4),
+    ("green", 8),
+    ("emerald", 5),
+    ("brown", 10),
+    ("dark brown", 10),
+    ("hazel", 7),
+    ("amber", 1),
+    ("gray", 5)
 ]
 
 SKIN_TONES = [
