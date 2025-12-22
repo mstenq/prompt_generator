@@ -6,23 +6,23 @@ A ComfyUI custom node that generates randomized, detailed prompt descriptions fo
 
 ComfyUI Outfit Generator provides a powerful template-based prompt generation system that can create comprehensive character descriptions including:
 
-- **Character Attributes**: Nationality, body type, hair style/color, eye color/shape, skin tone, facial features, age, personality vibes, expressions
-- **Outfits**: 30+ outfit style types (casual, formal, gothic, cyberpunk, beach wear, lingerie, etc.) with gender-specific clothing options
-- **Poses**: Sitting, standing, walking, running, jumping, dancing, leaning, crouching, kneeling, lying, and more
-- **Scenes/Locations**: Context-aware scene generation (bedroom, beach, city, office, mall, etc.)
-- **Colors**: Randomized color selection with category filters
-- **Image Dimensions**: Automatic width/height calculation based on aspect ratio and megapixels
+-   **Character Attributes**: Nationality, body type, hair style/color, eye color/shape, skin tone, facial features, age, personality vibes, expressions
+-   **Outfits**: 30+ outfit style types (casual, formal, gothic, cyberpunk, beach wear, lingerie, etc.) with gender-specific clothing options
+-   **Poses**: Sitting, standing, walking, running, jumping, dancing, leaning, crouching, kneeling, lying, and more
+-   **Scenes/Locations**: Context-aware scene generation (bedroom, beach, city, office, mall, etc.)
+-   **Colors**: Randomized color selection with category filters
+-   **Image Dimensions**: Automatic width/height calculation based on aspect ratio and megapixels
 
 ## Features
 
-- Template-based prompt system with placeholder tags
-- Gender-specific character and outfit generation (male/female)
-- 30+ outfit style types with location-aware scene matching
-- Weighted randomization for realistic attribute distributions
-- Scene-first or outfit-first generation logic
-- Automatic image dimension calculation
-- Optional seed control for reproducible results
-- Force barefoot option for specific styles
+-   Template-based prompt system with placeholder tags
+-   Gender-specific character and outfit generation (male/female)
+-   30+ outfit style types with location-aware scene matching
+-   Weighted randomization for realistic attribute distributions
+-   Scene-first or outfit-first generation logic
+-   Automatic image dimension calculation
+-   Optional seed control for reproducible results
+-   Force barefoot option for specific styles
 
 ## Installation
 
@@ -31,14 +31,16 @@ This node is **not available via ComfyUI Manager** and must be installed manuall
 ### Manual Installation
 
 1. Navigate to your ComfyUI custom nodes directory:
-   ```bash
-   cd ComfyUI/custom_nodes/
-   ```
+
+    ```bash
+    cd ComfyUI/custom_nodes/
+    ```
 
 2. Clone this repository:
-   ```bash
-   git clone https://github.com/mstenq/outfit_generator.git
-   ```
+
+    ```bash
+    git clone https://github.com/mstenq/outfit_generator.git
+    ```
 
 3. Restart ComfyUI
 
@@ -50,67 +52,74 @@ No additional dependencies are required - the module uses only Python standard l
 
 1. In ComfyUI, add the **Prompt Generator** node (found under the `examples` category)
 2. The node has the following inputs:
-   - **prompt**: Template string with placeholder tags (default: `"A photo of <<woman>> wearing <<femaleOutfit>> in <<scene>>"`)
-   - **outfit_type**: Select from 30+ styles or "random"
-   - **location**: Filter scenes by location type or "anything"
-   - **ratio**: Image aspect ratio (1:1, 2:3, 3:4, 4:7, 3:2, 4:3, 7:4)
-   - **megapixels**: Image resolution (0.1 to 10.0 MP)
-   - **seed** (optional): Random seed (-1 for random)
-   - **force_barefoot** (optional): Override footwear generation
+
+    - **prompt**: Template string with placeholder tags (default: `"A photo of <<woman>> wearing <<femaleOutfit>> in <<scene>>"`)
+    - **outfit_type**: Select from 30+ styles or "random"
+    - **location**: Filter scenes by location type or "anything"
+    - **ratio**: Image aspect ratio (1:1, 2:3, 3:4, 4:7, 3:2, 4:3, 7:4)
+    - **megapixels**: Image resolution (0.1 to 10.0 MP)
+    - **seed** (optional): Random seed (-1 for random)
+    - **force_barefoot** (optional): Override footwear generation
 
 3. The node outputs:
-   - **prompt**: Generated text prompt string
-   - **width**: Calculated image width
-   - **height**: Calculated image height
+    - **prompt**: Generated text prompt string
+    - **width**: Calculated image width
+    - **height**: Calculated image height
 
 ### Template Tags
 
 Use these placeholder tags in your prompt template. Each tag is replaced with randomly generated content:
 
 #### Character Tags
-- `<<woman>>` or `<<femaleChar>>` - Full female character description
-- `<<man>>` or `<<maleChar>>` - Full male character description
-- `<<simpleWoman>>` or `<<simpleFemaleChar>>` - Simplified female description
-- `<<simpleMan>>` or `<<simpleMaleChar>>` - Simplified male description
+
+-   `<<woman>>` or `<<femaleChar>>` - Full female character description
+-   `<<man>>` or `<<maleChar>>` - Full male character description
+-   `<<simpleWoman>>` or `<<simpleFemaleChar>>` - Simplified female description
+-   `<<simpleMan>>` or `<<simpleMaleChar>>` - Simplified male description
 
 #### Outfit Tags
-- `<<femaleOutfit>>` - Female outfit matching selected style
-- `<<maleOutfit>>` - Male outfit matching selected style
+
+-   `<<femaleOutfit>>` - Female outfit matching selected style
+-   `<<maleOutfit>>` - Male outfit matching selected style
 
 #### Pose Tags
-- `<<anyPose>>` - Random pose from all categories
-- `<<sitting>>` or `<<sittingOnGround>>` - Sitting on ground poses
-- `<<sittingOnA>>` - Sitting on furniture poses
-- `<<standing>>` - Standing poses
-- `<<walking>>` - Walking poses
-- `<<running>>` - Running poses
-- `<<jumping>>` - Jumping poses
-- `<<dancing>>` - Dancing poses
-- `<<posing>>` - Model/photo poses
-- `<<leaning>>` - Leaning poses
-- `<<crouching>>` - Crouching poses
-- `<<kneeling>>` - Kneeling poses
-- `<<onAllFours>>` - On all fours poses
-- `<<lying>>` or `<<laying>>` - Lying down poses
+
+-   `<<anyPose>>` - Random pose from all categories
+-   `<<sitting>>` or `<<sittingOnGround>>` - Sitting on ground poses
+-   `<<sittingOnA>>` - Sitting on furniture poses
+-   `<<standing>>` - Standing poses
+-   `<<walking>>` - Walking poses
+-   `<<running>>` - Running poses
+-   `<<jumping>>` - Jumping poses
+-   `<<dancing>>` - Dancing poses
+-   `<<posing>>` - Model/photo poses
+-   `<<leaning>>` - Leaning poses
+-   `<<crouching>>` - Crouching poses
+-   `<<kneeling>>` - Kneeling poses
+-   `<<onAllFours>>` - On all fours poses
+-   `<<lying>>` or `<<laying>>` - Lying down poses
 
 #### Scene/Location Tags
-- `<<scene>>` or `<<location>>` - Scene description matching outfit and location filter
+
+-   `<<scene>>` or `<<location>>` - Scene description matching outfit and location filter
 
 #### Color Tags
-- `<<color>>` - Random color from all categories
-- `<<color:warm>>` - Random warm color
-- `<<color:cool>>` - Random cool color
-- `<<color:neutral>>` - Random neutral color
-- `<<color:earth>>` - Random earth tone
-- `<<color:jewel>>` - Random jewel tone
-- `<<color:pastel>>` - Random pastel color
-- `<<color:neon>>` - Random neon color
-- `<<color:metallic>>` - Random metallic color
-- Mix categories: `<<color:warm,pastel>>` - Random color from both categories
+
+-   `<<color>>` - Random color from all categories
+-   `<<color:warm>>` - Random warm color
+-   `<<color:cool>>` - Random cool color
+-   `<<color:neutral>>` - Random neutral color
+-   `<<color:earth>>` - Random earth tone
+-   `<<color:jewel>>` - Random jewel tone
+-   `<<color:pastel>>` - Random pastel color
+-   `<<color:neon>>` - Random neon color
+-   `<<color:metallic>>` - Random metallic color
+-   Mix categories: `<<color:warm,pastel>>` - Random color from both categories
 
 ### Examples
 
 #### Example 1: Basic Portrait
+
 ```
 Template: "A photo of <<woman>> wearing <<femaleOutfit>>"
 Outfit Type: "casual chic"
@@ -120,6 +129,7 @@ Output: "A photo of Brazilian woman, athletic, with long wavy black hair, amber 
 ```
 
 #### Example 2: Scene-Specific
+
 ```
 Template: "<<man>> <<standing>> in <<scene>>, professional photography"
 Outfit Type: "business wear"
@@ -129,6 +139,7 @@ Output: "Japanese man, slim build, short straight brown hair, brown eyes, monoli
 ```
 
 #### Example 3: Complex Multi-Character
+
 ```
 Template: "<<woman>> wearing <<femaleOutfit>> and <<man>> wearing <<maleOutfit>> <<dancing>> together in <<scene>>"
 Outfit Type: "evening/formal wear"
@@ -138,6 +149,7 @@ Output: "French woman, hourglass figure, shoulder-length curly blonde hair, blue
 ```
 
 #### Example 4: Creative Fashion
+
 ```
 Template: "Fashion photograph of <<woman>> in <<femaleOutfit>>, <<posing>>, <<scene>>, dramatic lighting, high fashion"
 Outfit Type: "avant-garde"
@@ -147,6 +159,7 @@ Output: "Fashion photograph of Korean woman, petite, long straight platinum blon
 ```
 
 #### Example 5: Beach Scene
+
 ```
 Template: "<<simpleWoman>> wearing <<femaleOutfit>> <<lying>> on <<scene>>, sunset lighting"
 Outfit Type: "beach wear"
@@ -159,12 +172,14 @@ Output: "Athletic blonde woman with blue eyes lying on her back on sandy beach w
 ### Outfit Style Types
 
 Available outfit types (select from dropdown):
-- random, athleisure, avant-garde, beach wear, bohemian, business wear, casual chic, club/party wear, cottagecore, cowboy, cyberpunk, ethereal, evening/formal wear, fantasy, festival wear, gothic, grunge, kawaii, lingerie, lolita, military, minimalist, normcore, pin-up, preppy, punk, retro, rockabilly, romantic, steampunk, streetwear, vintage
+
+-   random, athleisure, avant-garde, beach wear, bohemian, business wear, casual chic, club/party wear, cottagecore, cowboy, cyberpunk, ethereal, evening/formal wear, fantasy, festival wear, gothic, grunge, kawaii, lingerie, lolita, military, minimalist, normcore, pin-up, preppy, punk, retro, rockabilly, romantic, steampunk, streetwear, vintage
 
 ### Location Types
 
 Available location filters (select from dropdown):
-- anything, bathroom, beach, bedroom, city, indoors, kitchen, living room, mall, office, outdoors, store
+
+-   anything, bathroom, beach, bedroom, city, indoors, kitchen, living room, mall, office, outdoors, store
 
 ### Tips
 
@@ -177,33 +192,35 @@ Available location filters (select from dropdown):
 
 ## Technical Details
 
-- **Language**: Python (no external dependencies)
-- **Node Type**: Custom ComfyUI node with string and integer outputs
-- **Category**: examples
-- **Randomization**: Uses Python's `random` module with optional seed control
-- **Dimensions**: Calculated to nearest multiple of 8 (standard for AI image generation)
+-   **Language**: Python (no external dependencies)
+-   **Node Type**: Custom ComfyUI node with string and integer outputs
+-   **Category**: examples
+-   **Randomization**: Uses Python's `random` module with optional seed control
+-   **Dimensions**: Calculated to nearest multiple of 8 (standard for AI image generation)
 
 ## Development
 
 The project structure:
-- `src/PromptGenerator.py` - Main node class and template substitution logic
-- `src/CharacterGenerator.py` - Character attribute generation
-- `src/OutfitGenerator.py` - Outfit generation with gender/style matching
-- `src/SceneGenerator.py` - Scene/location generation
-- `src/PoseGenerator.py` - Pose description generation
-- `src/ColorGenerator.py` - Color generation with category filters
-- `src/enums.py` - Outfit and location type definitions
-- `src/male/` - Male-specific attributes and clothing
-- `src/female/` - Female-specific attributes and clothing
+
+-   `src/PromptGenerator.py` - Main node class and template substitution logic
+-   `src/CharacterGenerator.py` - Character attribute generation
+-   `src/OutfitGenerator.py` - Outfit generation with gender/style matching
+-   `src/SceneGenerator.py` - Scene/location generation
+-   `src/PoseGenerator.py` - Pose description generation
+-   `src/ColorGenerator.py` - Color generation with category filters
+-   `src/enums.py` - Outfit and location type definitions
+-   `src/male/` - Male-specific attributes and clothing
+-   `src/female/` - Female-specific attributes and clothing
 
 ## Contributing
 
 Contributions welcome! Feel free to:
-- Add new outfit styles or clothing items
-- Expand character attributes
-- Add more pose variations
-- Improve scene descriptions
-- Report bugs or suggest features
+
+-   Add new outfit styles or clothing items
+-   Expand character attributes
+-   Add more pose variations
+-   Improve scene descriptions
+-   Report bugs or suggest features
 
 ## License
 
