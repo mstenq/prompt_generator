@@ -5078,7 +5078,7 @@ SCENES = {
         "location": [LocationType.INDOOR, LocationType.STORE],
     },
     "IKEA showroom with staged furniture rooms, warm lighting, maze-like pathways, and colorful directional arrows on the floor": {
-        "types": [OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST, OutfitType.NORMCORE, OutfitType.SCANDINAVIAN],
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST, OutfitType.NORMCORE],
         "location": [LocationType.INDOOR, LocationType.STORE],
     },
     "TJ Maxx store with bright lights, tightly packed racks, mismatched fixtures, and a cluttered treasure-hunt atmosphere": {

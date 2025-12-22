@@ -71,9 +71,38 @@ class PromptGenerator:
         
         return width, height
 
-    def _substitute_template(self, template, outfit_type_enum, location, force_barefoot=False):
+    def _substitute_template(self, template, outfit_type, location, force_barefoot=False):
         """Replace template placeholders with generated outfit and scene data"""
         result = template
+        
+        # Resolve outfit_type to enum
+        # If outfit type is "random" AND location is specified,
+        # generate scene first and derive outfit type from it
+        outfit_type_enum = None
+        generated_scene = None
+        
+        if outfit_type == "random" and location and location != "anything":
+            # Scene-first logic: Generate scene based on location, then pick outfit type
+            generated_scene = SceneGenerator.generate_scene(None, location)
+            
+            # Get compatible outfit types for this scene and pick one randomly
+            compatible_outfit_types = SceneGenerator.get_outfit_types_for_scene(generated_scene)
+            if compatible_outfit_types:
+                outfit_type_enum = random.choice(compatible_outfit_types)
+            else:
+                # Fallback if scene has no types
+                outfit_type_enum = random.choice(list(OutfitType))
+        elif outfit_type == "random":
+            # Random outfit type without location constraint
+            outfit_type_enum = random.choice(list(OutfitType))
+        else:
+            # Specific outfit type requested - find the matching enum
+            for ot in OutfitType:
+                if ot.value == outfit_type:
+                    outfit_type_enum = ot
+                    break
+            if outfit_type_enum is None:
+                outfit_type_enum = OutfitType.CASUAL_CHIC  # Default fallback
         
         ##############################################################################
         # CHARACTER
@@ -211,11 +240,21 @@ class PromptGenerator:
         # SCENE
         ##############################################################################
         while "<<scene>>" in result:
-            scene = SceneGenerator.generate_scene(outfit_type_enum, location)
+            # Use pre-generated scene if available, otherwise generate new one
+            if generated_scene:
+                scene = generated_scene
+                generated_scene = None  # Use it only once
+            else:
+                scene = SceneGenerator.generate_scene(outfit_type_enum, location)
             result = result.replace("<<scene>>", scene, 1)
         
         while "<<location>>" in result:
-            scene = SceneGenerator.generate_scene(outfit_type_enum, location)
+            # Use pre-generated scene if available, otherwise generate new one
+            if generated_scene:
+                scene = generated_scene
+                generated_scene = None  # Use it only once
+            else:
+                scene = SceneGenerator.generate_scene(outfit_type_enum, location)
             result = result.replace("<<location>>", scene, 1)
         
         return result
@@ -227,25 +266,13 @@ class PromptGenerator:
         if seed != -1:
             random.seed(seed)
         # If seed is -1, let Python use its default random behavior
-        
-        # If random is selected, pick a random style
-        if outfit_type == "random":
-            outfit_type_enum = random.choice(list(OutfitType))
-        else:
-            # Find the matching enum value
-            outfit_type_enum = None
-            for ot in OutfitType:
-                if ot.value == outfit_type:
-                    outfit_type_enum = ot
-                    break
-            if outfit_type_enum is None:
-                outfit_type_enum = OutfitType.CASUAL_CHIC  # Default fallback
 
         # Calculate dimensions based on ratio and megapixels
         width, height = self._calculate_dimensions(ratio, megapixels)
 
         # Substitute template placeholders with generated data
-        final_prompt = self._substitute_template(prompt, outfit_type_enum, location, force_barefoot)
+        # Note: outfit_type resolution happens inside _substitute_template
+        final_prompt = self._substitute_template(prompt, outfit_type, location, force_barefoot)
         
         # Debug logging
         print(f"DEBUG - original prompt: {prompt}")

@@ -36,3 +36,10 @@ class SceneGenerator:
         # Select a random compatible scene
         selected_scene = random.choice(compatible_scenes)
         return selected_scene
+    
+    @staticmethod
+    def get_outfit_types_for_scene(scene_name):
+        """Get the list of compatible outfit types for a given scene"""
+        if scene_name in SCENES:
+            return SCENES[scene_name].get("types", [])
+        return []
