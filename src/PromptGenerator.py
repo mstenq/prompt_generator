@@ -25,6 +25,12 @@ class PromptGenerator:
             "optional": {
                 "seed": ("INT", {"default": -1, "min": -1, "max": 2147483647}),
                 "force_barefoot": ("BOOLEAN", {"default": False}),
+                "var_1": ("PROMPT_VAR", {}),
+                "var_2": ("PROMPT_VAR", {}),
+                "var_3": ("PROMPT_VAR", {}),
+                "var_4": ("PROMPT_VAR", {}),
+                "var_5": ("PROMPT_VAR", {}),
+                "var_6": ("PROMPT_VAR", {}),
             },
         }
 
@@ -33,7 +39,8 @@ class PromptGenerator:
 
     FUNCTION = "generate_prompt"
 
-    CATEGORY = "examples"
+    CATEGORY = "prompt_generator"
+    OUTPUT_NODE = True
 
     def _calculate_dimensions(self, ratio, megapixels):
         """Calculate width and height based on ratio and megapixels"""
@@ -71,7 +78,7 @@ class PromptGenerator:
         
         return width, height
 
-    def _substitute_template(self, template, outfit_type, location, force_barefoot=False):
+    def _substitute_template(self, template, outfit_type, location, force_barefoot=False, vars = []):
         """Replace template placeholders with generated outfit and scene data"""
         result = template
         
@@ -83,7 +90,7 @@ class PromptGenerator:
         
         if outfit_type == "random" and location and location != "anything":
             # Scene-first logic: Generate scene based on location, then pick outfit type
-            generated_scene = SceneGenerator.generate_scene(None, location)
+            generated_scene = SceneGenerator.generate_scene(location)
             
             # Get compatible outfit types for this scene and pick one randomly
             compatible_outfit_types = SceneGenerator.get_outfit_types_for_scene(generated_scene)
@@ -103,6 +110,34 @@ class PromptGenerator:
                     break
             if outfit_type_enum is None:
                 outfit_type_enum = OutfitType.CASUAL_CHIC  # Default fallback
+        
+        ##############################################################################
+        # VARS
+        ##############################################################################
+        while "<<var1>>" in result and len(vars) >= 1 and vars[0] is not None:
+            result = result.replace("<<var1>>", vars[0], 1)
+        while "<<var_1>>" in result and len(vars) >= 1 and vars[0] is not None:
+            result = result.replace("<<var_1>>", vars[0], 1)
+        while "<<var2>>" in result and len(vars) >= 2 and vars[1] is not None:
+            result = result.replace("<<var2>>", vars[1], 1)
+        while "<<var_2>>" in result and len(vars) >= 2 and vars[1] is not None:
+            result = result.replace("<<var_2>>", vars[1], 1)
+        while "<<var3>>" in result and len(vars) >= 3 and vars[2] is not None:
+            result = result.replace("<<var3>>", vars[2], 1)
+        while "<<var_3>>" in result and len(vars) >= 3 and vars[2] is not None:
+            result = result.replace("<<var_3>>", vars[2], 1)
+        while "<<var4>>" in result and len(vars) >= 4 and vars[3] is not None:
+            result = result.replace("<<var4>>", vars[3], 1)
+        while "<<var_4>>" in result and len(vars) >= 4 and vars[3] is not None:
+            result = result.replace("<<var_4>>", vars[3], 1)
+        while "<<var5>>" in result and len(vars) >= 5 and vars[4] is not None:
+            result = result.replace("<<var5>>", vars[4], 1)
+        while "<<var_5>>" in result and len(vars) >= 5 and vars[4] is not None:
+            result = result.replace("<<var_5>>", vars[4], 1)
+        while "<<var6>>" in result and len(vars) >= 6 and vars[5] is not None:
+            result = result.replace("<<var6>>", vars[5], 1)
+        while "<<var_6>>" in result and len(vars) >= 6 and vars[5] is not None:
+            result = result.replace("<<var_6>>", vars[5], 1)
         
         ##############################################################################
         # CHARACTER
@@ -245,7 +280,7 @@ class PromptGenerator:
                 scene = generated_scene
                 generated_scene = None  # Use it only once
             else:
-                scene = SceneGenerator.generate_scene(outfit_type_enum, location)
+                scene = SceneGenerator.generate_scene(location)
             result = result.replace("<<scene>>", scene, 1)
         
         while "<<location>>" in result:
@@ -254,12 +289,12 @@ class PromptGenerator:
                 scene = generated_scene
                 generated_scene = None  # Use it only once
             else:
-                scene = SceneGenerator.generate_scene(outfit_type_enum, location)
+                scene = SceneGenerator.generate_scene(location)
             result = result.replace("<<location>>", scene, 1)
         
         return result
 
-    def generate_prompt(self, prompt, outfit_type, location, ratio, megapixels, seed=-1, force_barefoot=False):
+    def generate_prompt(self, prompt, outfit_type, location, ratio, megapixels, seed=-1, force_barefoot=False, var_1=None, var_2=None, var_3=None, var_4=None, var_5=None, var_6=None):
         """Generate a merged prompt with outfit and scene data substituted for placeholders"""
         
         # Use seed for randomization - if -1, use random seed
@@ -269,10 +304,12 @@ class PromptGenerator:
 
         # Calculate dimensions based on ratio and megapixels
         width, height = self._calculate_dimensions(ratio, megapixels)
+        
+        vars = [var_1, var_2, var_3, var_4, var_5, var_6]
 
         # Substitute template placeholders with generated data
         # Note: outfit_type resolution happens inside _substitute_template
-        final_prompt = self._substitute_template(prompt, outfit_type, location, force_barefoot)
+        final_prompt = self._substitute_template(prompt, outfit_type, location, force_barefoot, vars)
         
         # Debug logging
         print(f"DEBUG - original prompt: {prompt}")
@@ -280,12 +317,7 @@ class PromptGenerator:
         print(f"DEBUG - ratio: {ratio}, megapixels: {megapixels}")
         print(f"DEBUG - calculated dimensions: {width}x{height}")
         
-        return (final_prompt, width, height)
-
-NODE_CLASS_MAPPINGS = {
-    "prompt-generator": PromptGenerator
-}
-
-NODE_DISPLAY_NAME_MAPPINGS = {
-    "prompt-generator": "Prompt Generator"
-}
+        return {
+            "ui": {"text": (final_prompt,)},
+            "result": (final_prompt, width, height)
+        }

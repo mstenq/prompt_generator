@@ -1,5 +1,5 @@
 import random
-from .enums import OutfitType
+from .enums import OutfitType, OUTFIT_TYPE_NAMES
 from .female.tops import FEMALE_TOPS
 from .female.bottoms import FEMALE_BOTTOMS
 from .female.accessories import FEMALE_ACCESSORIES
@@ -8,8 +8,58 @@ from .male.tops import MALE_TOPS
 from .male.bottoms import MALE_BOTTOMS
 from .male.accessories import MALE_ACCESSORIES
 from .male.shoes import MALE_SHOES
+from .utils import clean_generated_text
+
 
 class OutfitGenerator:
+    def __init__(self):
+     pass
+
+    @classmethod
+    def INPUT_TYPES(s):
+        return {
+            "required": {
+                "outfit_type": (OUTFIT_TYPE_NAMES, {}),
+                "sex": (["female", "male"], {"default": "female"}),
+            },
+            "optional": {
+                "force_barefoot": ("BOOLEAN", {"default": False}),
+                "seed": ("INT", {"default": -1, "min": -1, "max": 2147483647}),
+            },
+        }
+
+    RETURN_TYPES = ("PROMPT_VAR",)
+    RETURN_NAMES = ("outfit",)
+
+    FUNCTION = "generate_outfit_node"
+
+    CATEGORY = "prompt_generator"
+    OUTPUT_NODE = True
+       
+    def generate_outfit_node(self, outfit_type, sex, seed=-1, force_barefoot=False):
+        """Node function to generate outfit with optional seed for randomness"""
+        if seed != -1:
+            random.seed(seed)
+            
+        outfit_type_enum = None        
+
+        if outfit_type == "random":
+            # Random outfit type
+            outfit_type_enum = random.choice(list(OutfitType))
+        else:
+            # Specific outfit type requested - find the matching enum
+            for ot in OutfitType:
+                if ot.value == outfit_type:
+                    outfit_type_enum = ot
+                    break
+            if outfit_type_enum is None:
+                outfit_type_enum = OutfitType.CASUAL_CHIC  # Default fallback
+                
+        outfit_description = self.generate_outfit(outfit_type_enum, sex, force_barefoot)
+        return {
+            "ui": {"text": (outfit_description,)},
+            "result": (outfit_description,)
+        }
     
     @staticmethod
     def generate_outfit(outfit_type_enum, sex="female", force_barefoot=False):
@@ -84,9 +134,17 @@ class OutfitGenerator:
 
         # Create outfit description
         if selected_shoes == "barefoot":
-            shoe_part = f"{selected_shoes} with toenails painted with {shoe_color}"
+            # Only add toenail polish for female characters
+            if sex == "female":
+                shoe_part = f"{selected_shoes} with toenails painted with {shoe_color}"
+            else:
+                shoe_part = f"{selected_shoes}"
         else:
             shoe_part = f"{shoe_color} {selected_shoes}"
         
         outfit_description = f"{top_color} {selected_top}, {bottom_color} {selected_bottom}, {shoe_part}, {selected_accessory}"
+        
+        # Clean up the generated text
+        outfit_description = clean_generated_text(outfit_description)
+        
         return outfit_description

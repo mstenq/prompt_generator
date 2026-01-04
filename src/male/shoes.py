@@ -285,6 +285,6 @@ MALE_SHOES = {
     # Barefoot option for beach and casual settings
     "barefoot": {
         "types": [OutfitType.BEACH_WEAR, OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN, OutfitType.ETHEREAL, OutfitType.FESTIVAL],
-        "colors": ["bare feet", "natural", "tanned", "sun-kissed"]
+        "colors": ["natural", "tanned", "sun-kissed", "relaxed"]
     }
 }
