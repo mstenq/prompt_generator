@@ -39,7 +39,7 @@ This node is **not available via ComfyUI Manager** and must be installed manuall
 2. Clone this repository:
 
     ```bash
-    git clone https://github.com/mstenq/outfit_generator.git
+    git clone https://github.com/mstenq/prompt_generator.git
     ```
 
 3. Restart ComfyUI

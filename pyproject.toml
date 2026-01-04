@@ -3,11 +3,11 @@ requires = ["setuptools>=70.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "outfit_generator"
+name = "prompt_generator"
 version = "0.0.1"
-description = "generate outfits with random styles/colors for pompts"
+description = "generate characters/outfits/scenes with random styles/colors for pompts"
 authors = [
-  {name = "comfyui_outfit_generator", email = "mason.sten@gmail.com"}
+  {name = "comfyui_prompt_generator", email = "mason.sten@gmail.com"}
 ]
 readme = "README.md"
 license = {text = "GNU General Public License v3"}
@@ -30,17 +30,17 @@ dev = [
 ]
 
 [project.urls]
-Repository = "https://github.com/mstenq/outfit_generator"
-BugTracker = "https://github.com/mstenq/outfit_generator/issues"
-Documentation = "https://github.com/mstenq/outfit_generator/wiki"
+Repository = "https://github.com/mstenq/prompt_generator"
+BugTracker = "https://github.com/mstenq/prompt_generator/issues"
+Documentation = "https://github.com/mstenq/prompt_generator/wiki"
 
 
 [tool.comfy]
 PublisherId = "mstenq"
-DisplayName = "ComfyUI Outfit Generator"
+DisplayName = "ComfyUI Prompt Generator"
 Icon = ""
 Tags = []
-Repository = "https://github.com/mstenq/outfit_generator"
+Repository = "https://github.com/mstenq/prompt_generator"
 includes = ["js"]
 
 [tool.setuptools.package-data]
