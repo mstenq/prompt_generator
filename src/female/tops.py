@@ -422,11 +422,11 @@ FEMALE_TOPS = {
         "colors": WHITES + BLUES + REDS + PINKS + ["sporty", "cropped"]
     },
     "triangle bikini top": {
-        "types": [OutfitType.BEACH_WEAR],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["triangle cups", "tie strings"]
     },
     "halter bikini top": {
-        "types": [OutfitType.BEACH_WEAR],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["halter neck", "supportive"]
     },
     "halter neck top": {
@@ -434,11 +434,11 @@ FEMALE_TOPS = {
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + JEWEL_TONES + ["halter neck", "tie neck", "elegant"]
     },
     "high-neck bikini top": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.ATHLEISURE],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["high neckline", "modest coverage", "athletic"]
     },
     "bandeau bikini top": {
-        "types": [OutfitType.BEACH_WEAR],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["strapless", "bandeau"]
     },
     "bandeau top (strapless)": {
@@ -454,358 +454,358 @@ FEMALE_TOPS = {
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["detachable straps", "bandeau", "supportive"]
     },
     "bralette bikini top": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.LINGERIE],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.LINGERIE],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["bralette", "comfortable", "wireless"]
     },
     "underwire bikini top": {
-        "types": [OutfitType.BEACH_WEAR],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + JEWEL_TONES + ["underwire", "supportive", "structured"]
     },
     "push-up bikini top": {
-        "types": [OutfitType.BEACH_WEAR],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["push-up", "enhancing", "padded"]
     },
     "balconette bikini top": {
-        "types": [OutfitType.BEACH_WEAR],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + JEWEL_TONES + ["balconette", "half-cup", "vintage-inspired"]
     },
     "plunge bikini top": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.CLUB_PARTY],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["deep V", "plunging neckline", "dramatic"]
     },
     "one-shoulder bikini top": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.CASUAL_CHIC],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.CASUAL_CHIC],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + JEWEL_TONES + ["asymmetrical", "one-shoulder", "modern"]
     },
     "asymmetrical strap bikini top": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.AVANT_GARDE],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.AVANT_GARDE],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["asymmetrical straps", "unique design", "architectural"]
     },
     "off-the-shoulder bikini top": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.ROMANTIC],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.ROMANTIC],
         "colors": WHITES + PASTELS + PATTERNS + NEONS + ["off-shoulder", "romantic", "feminine"]
     },
     "strappy cage bikini top": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.FESTIVAL, OutfitType.CLUB_PARTY],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.FESTIVAL, OutfitType.CLUB_PARTY],
         "colors": BLACKS + WHITES + NEONS + PATTERNS + ["cage design", "strappy", "edgy"]
     },
     "multi-strap crisscross bikini top": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.FESTIVAL],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.FESTIVAL],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["crisscross straps", "athletic", "trendy"]
     },
     "wrap-around bikini top": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.CASUAL_CHIC],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.CASUAL_CHIC],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + EARTH_TONES + ["wrap style", "adjustable", "bohemian"]
     },
     "tie-front bikini top": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.FESTIVAL],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.FESTIVAL],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["tie front", "cute", "adjustable"]
     },
     "knot-front bikini top": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.CASUAL_CHIC],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.CASUAL_CHIC],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["knot detail", "front tie", "feminine"]
     },
     "zip-front bikini top": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.ATHLEISURE],
         "colors": BLACKS + WHITES + NEONS + METALLICS + ["zip closure", "sporty", "modern"]
     },
     "cut-out bikini top": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.CLUB_PARTY],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["cut-out details", "revealing", "sexy"]
     },
     "sporty racerback bikini top": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.ATHLEISURE],
         "colors": BLACKS + WHITES + NEONS + BLUES + GRAYS + ["racerback", "athletic", "sporty"]
     },
     "athletic crop bikini top": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.ATHLEISURE],
         "colors": BLACKS + WHITES + NEONS + GRAYS + ["crop top", "athletic", "performance"]
     },
     "tankini top (short tank style)": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT, OutfitType.ATHLEISURE],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["modest coverage", "tank style", "comfortable"]
     },
     "longline bikini top (extra torso coverage)": {
-        "types": [OutfitType.BEACH_WEAR],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["longline", "extra coverage", "modest"]
     },
     "crop top bikini": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.FESTIVAL],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.FESTIVAL],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["crop style", "trendy", "casual"]
     },
     "mesh panel bikini top": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.CLUB_PARTY],
         "colors": BLACKS + WHITES + NEONS + ["mesh inserts", "athletic", "modern"]
     },
     "sheer overlay bikini top": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.ROMANTIC],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.ROMANTIC],
         "colors": WHITES + PASTELS + BLACKS + ["sheer fabric", "romantic", "layered"]
     },
     "ruffle bikini top (frilly trim)": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.ROMANTIC],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.ROMANTIC],
         "colors": WHITES + PASTELS + PATTERNS + PINKS + ["ruffles", "feminine", "playful"]
     },
     "fringe bikini top": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.FESTIVAL],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.FESTIVAL],
         "colors": BLACKS + WHITES + NEONS + EARTH_TONES + ["fringe detail", "bohemian", "movement"]
     },
     "peplum bikini top": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.RETRO],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.RETRO],
         "colors": BLACKS + WHITES + PASTELS + PATTERNS + JEWEL_TONES + ["peplum hem", "vintage", "flattering"]
     },
     "embellished/sequin bikini top": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY, OutfitType.FESTIVAL],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.CLUB_PARTY, OutfitType.FESTIVAL],
         "colors": METALLICS + JEWEL_TONES + BLACKS + WHITES + ["sequins", "beading", "glamorous"]
     },
     "metallic bikini top": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY, OutfitType.FESTIVAL],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.CLUB_PARTY, OutfitType.FESTIVAL],
         "colors": METALLICS + ["gold", "silver", "bronze", "copper", "shimmery", "metallic finish"]
     },
     "crochet bikini top": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.BOHEMIAN, OutfitType.FESTIVAL],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.BOHEMIAN, OutfitType.FESTIVAL],
         "colors": WHITES + EARTH_TONES + PASTELS + NEONS + ["handmade", "crochet", "bohemian", "textured"]
     },
     "macramé bikini top": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.BOHEMIAN, OutfitType.FESTIVAL],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.BOHEMIAN, OutfitType.FESTIVAL],
         "colors": WHITES + EARTH_TONES + BROWNS + ["macramé", "rope design", "bohemian", "artisanal"]
     },
     "classic one-piece swimsuit (scoop neck, full coverage)": {
-        "types": [OutfitType.BEACH_WEAR],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["classic", "scoop neck", "full coverage"],
         "fullBody": True
     },
     "tank suit swimsuit (sporty, thicker straps)": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT, OutfitType.ATHLEISURE],
         "colors": BLACKS + WHITES + NEONS + BLUES + GRAYS + ["sporty", "thick straps", "athletic"],
         "fullBody": True
     },
     "high-neck one-piece swimsuit": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT, OutfitType.ATHLEISURE],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["high neckline", "modest", "athletic"],
         "fullBody": True
     },
     "square-neck swimsuit": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.RETRO],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT, OutfitType.RETRO],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["square neckline", "vintage", "structured"],
         "fullBody": True
     },
     "halter one-piece swimsuit": {
-        "types": [OutfitType.BEACH_WEAR],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + JEWEL_TONES + ["halter neck", "supportive", "elegant"],
         "fullBody": True
     },
     "strapless bandeau one-piece swimsuit": {
-        "types": [OutfitType.BEACH_WEAR],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["strapless", "bandeau", "minimal tan lines"],
         "fullBody": True
     },
     "strapless bandeau with detachable straps swimsuit": {
-        "types": [OutfitType.BEACH_WEAR],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["convertible", "detachable straps", "versatile"],
         "fullBody": True
     },
     "plunge neckline one-piece swimsuit": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT, OutfitType.CLUB_PARTY],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["deep V", "plunging", "dramatic"],
         "fullBody": True
     },
     "V-neck one-piece swimsuit": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.CASUAL_CHIC],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT, OutfitType.CASUAL_CHIC],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + JEWEL_TONES + ["V-neckline", "flattering", "classic"],
         "fullBody": True
     },
     "U-back one-piece swimsuit": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT, OutfitType.ATHLEISURE],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["U-back", "sporty", "back detail"],
         "fullBody": True
     },
     "high-cut leg one-piece swimsuit (80s inspired)": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.RETRO],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT, OutfitType.RETRO],
         "colors": NEONS + BLACKS + WHITES + PATTERNS + ["high-cut", "80s", "retro", "bold"],
         "fullBody": True
     },
     "high-waist vintage-style one-piece swimsuit": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.RETRO],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT, OutfitType.RETRO],
         "colors": BLACKS + WHITES + PASTELS + PATTERNS + JEWEL_TONES + ["high-waisted", "vintage", "pin-up", "retro"],
         "fullBody": True
     },
     "one-shoulder one-piece swimsuit": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.CASUAL_CHIC],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT, OutfitType.CASUAL_CHIC],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + JEWEL_TONES + ["asymmetrical", "one-shoulder", "modern"],
         "fullBody": True
     },
     "asymmetrical cut one-piece swimsuit": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.AVANT_GARDE],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT, OutfitType.AVANT_GARDE],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["asymmetrical", "unique cut", "architectural"],
         "fullBody": True
     },
     "cut-out one-piece swimsuit (side cutouts)": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT, OutfitType.CLUB_PARTY],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["side cutouts", "revealing", "sexy"],
         "fullBody": True
     },
     "monokini (deep side cutouts)": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT, OutfitType.CLUB_PARTY],
         "colors": BLACKS + WHITES + NEONS + PATTERNS + ["deep cutouts", "monokini", "dramatic", "bold"],
         "fullBody": True
     },
     "wrap-front swimsuit": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.CASUAL_CHIC],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT, OutfitType.CASUAL_CHIC],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + EARTH_TONES + ["wrap front", "adjustable", "flattering"],
         "fullBody": True
     },
     "knot-front one-piece swimsuit": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.CASUAL_CHIC],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT, OutfitType.CASUAL_CHIC],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["knot detail", "front tie", "cute"],
         "fullBody": True
     },
     "tie-front one-piece swimsuit": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.FESTIVAL],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT, OutfitType.FESTIVAL],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["tie front", "adjustable", "bohemian"],
         "fullBody": True
     },
     "belted swimsuit": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.RETRO],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT, OutfitType.RETRO],
         "colors": BLACKS + WHITES + PASTELS + PATTERNS + JEWEL_TONES + ["belted", "defined waist", "vintage"],
         "fullBody": True
     },
     "ring-detail one-piece swimsuit (metal hoops on sides/center)": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT, OutfitType.CLUB_PARTY],
         "colors": BLACKS + WHITES + NEONS + METALLICS + ["metal rings", "hardware", "edgy"],
         "fullBody": True
     },
     "lace-up front one-piece swimsuit": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT, OutfitType.CLUB_PARTY],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["lace-up", "adjustable", "sexy"],
         "fullBody": True
     },
     "lace-up sides one-piece swimsuit": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.FESTIVAL],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT, OutfitType.FESTIVAL],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["side lacing", "adjustable", "strappy"],
         "fullBody": True
     },
     "zip-front one-piece swimsuit": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT, OutfitType.ATHLEISURE],
         "colors": BLACKS + WHITES + NEONS + METALLICS + ["zip closure", "sporty", "modern"],
         "fullBody": True
     },
     "longline torso swimsuit (extra coverage)": {
-        "types": [OutfitType.BEACH_WEAR],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["longline", "extra coverage", "modest"],
         "fullBody": True
     },
     "backless one-piece swimsuit": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT, OutfitType.CLUB_PARTY],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["open back", "backless", "dramatic"],
         "fullBody": True
     },
     "open-back with cross straps swimsuit": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.FESTIVAL],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT, OutfitType.FESTIVAL],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["cross straps", "open back", "athletic"],
         "fullBody": True
     },
     "sheer panel swimsuit (mesh details)": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT, OutfitType.CLUB_PARTY],
         "colors": BLACKS + WHITES + NEONS + ["mesh panels", "sheer inserts", "modern"],
         "fullBody": True
     },
     "embellished swimsuit (sequins, beads)": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY, OutfitType.FESTIVAL],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT, OutfitType.CLUB_PARTY, OutfitType.FESTIVAL],
         "colors": METALLICS + JEWEL_TONES + BLACKS + WHITES + ["sequins", "beading", "glamorous"],
         "fullBody": True
     },
     "metallic swimsuit": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY, OutfitType.FESTIVAL],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT, OutfitType.CLUB_PARTY, OutfitType.FESTIVAL],
         "colors": METALLICS + ["gold", "silver", "bronze", "copper", "shimmery", "metallic finish"],
         "fullBody": True
     },
     "holographic swimsuit": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY, OutfitType.FESTIVAL],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT, OutfitType.CLUB_PARTY, OutfitType.FESTIVAL],
         "colors": ["holographic", "iridescent", "rainbow", "prismatic", "futuristic"],
         "fullBody": True
     },
     "patterned/crochet overlay one-piece swimsuit": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.BOHEMIAN, OutfitType.FESTIVAL],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT, OutfitType.BOHEMIAN, OutfitType.FESTIVAL],
         "colors": WHITES + EARTH_TONES + PASTELS + PATTERNS + ["crochet overlay", "textured", "bohemian"],
         "fullBody": True
     },
     "racerback one-piece swimsuit": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT, OutfitType.ATHLEISURE],
         "colors": BLACKS + WHITES + NEONS + BLUES + GRAYS + ["racerback", "athletic", "sporty"],
         "fullBody": True
     },
     "high-neck racerback swimsuit": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT, OutfitType.ATHLEISURE],
         "colors": BLACKS + WHITES + NEONS + GRAYS + ["high neck", "racerback", "performance", "modest"],
         "fullBody": True
     },
     "competition swimsuit (streamlined, full coverage)": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT, OutfitType.ATHLEISURE],
         "colors": BLACKS + WHITES + NEONS + BLUES + GRAYS + ["competition", "streamlined", "performance"],
         "fullBody": True
     },
     "surfsuit (long-sleeve, zip-up)": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT, OutfitType.ATHLEISURE],
         "colors": BLACKS + WHITES + NEONS + BLUES + ["long sleeve", "zip-up", "UV protection", "surfing"],
         "fullBody": True
     },
     "short-sleeve surf swimsuit": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT, OutfitType.ATHLEISURE],
         "colors": BLACKS + WHITES + NEONS + BLUES + ["short sleeve", "surf style", "UV protection"],
         "fullBody": True
     },
     "swim bodysuit (athletic stretch, high coverage)": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT, OutfitType.ATHLEISURE],
         "colors": BLACKS + WHITES + NEONS + GRAYS + ["athletic", "stretch", "high coverage", "performance"],
         "fullBody": True
     },
     "ruffle trim one-piece swimsuit": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.ROMANTIC],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT, OutfitType.ROMANTIC],
         "colors": WHITES + PASTELS + PATTERNS + PINKS + ["ruffle trim", "feminine", "playful"],
         "fullBody": True
     },
     "fringe one-piece swimsuit": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.FESTIVAL],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT, OutfitType.FESTIVAL],
         "colors": BLACKS + WHITES + NEONS + EARTH_TONES + ["fringe detail", "bohemian", "movement"],
         "fullBody": True
     },
     "peplum swimsuit": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.RETRO],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT, OutfitType.RETRO],
         "colors": BLACKS + WHITES + PASTELS + PATTERNS + JEWEL_TONES + ["peplum hem", "vintage", "flattering"],
         "fullBody": True
     },
     "skirted one-piece swimsuit (swimdress)": {
-        "types": [OutfitType.BEACH_WEAR],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT],
         "colors": BLACKS + WHITES + PASTELS + PATTERNS + JEWEL_TONES + ["skirted", "modest", "swimdress"],
         "fullBody": True
     },
     "swim romper swimsuit (shorts + top one-piece)": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.CASUAL_CHIC],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT, OutfitType.CASUAL_CHIC],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["romper style", "shorts", "playful"],
         "fullBody": True
     },
     "swim unitard swimsuit (shorts style)": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT, OutfitType.ATHLEISURE],
         "colors": BLACKS + WHITES + NEONS + GRAYS + ["unitard", "shorts style", "athletic", "coverage"],
         "fullBody": True
     },
     "swim leggings bodysuit swimsuit(full coverage)": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT, OutfitType.ATHLEISURE],
         "colors": BLACKS + WHITES + NEONS + GRAYS + ["leggings", "full coverage", "modest", "athletic"],
         "fullBody": True
     },
     "convertible swimsuit (removable straps or wrap ties)": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.CASUAL_CHIC],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT, OutfitType.CASUAL_CHIC],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["convertible", "removable straps", "versatile"],
         "fullBody": True
     },
     "sheer maxi overlay one-piece swimsuit (lingerie-inspired)": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.ROMANTIC, OutfitType.LINGERIE],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT, OutfitType.ROMANTIC, OutfitType.LINGERIE],
         "colors": WHITES + PASTELS + BLACKS + ["sheer overlay", "maxi length", "lingerie-inspired", "romantic"],
         "fullBody": True
     },
     "surf rash guard": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT, OutfitType.ATHLEISURE],
         "colors": BLACKS + WHITES + NEONS + BLUES + ["UV protection", "long sleeve"]
     },
     "crochet halter top": {
@@ -2133,252 +2133,252 @@ FEMALE_TOPS = {
         "fullBody": True
     },
     "triangle top with string tie sides bottom": {
-        "types": [OutfitType.BEACH_WEAR],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["triangle bikini", "string ties", "minimal coverage"],
         "fullBody": True
     },
     "bandeau top with high-cut cheeky bottom": {
-        "types": [OutfitType.BEACH_WEAR],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["bandeau", "high-cut", "cheeky", "strapless"],
         "fullBody": True
     },
     "halter top with classic bikini brief bottom": {
-        "types": [OutfitType.BEACH_WEAR],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["halter", "classic", "bikini brief"],
         "fullBody": True
     },
     "underwire balconette top with low-rise hipster bottom": {
-        "types": [OutfitType.BEACH_WEAR],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["underwire", "balconette", "low-rise", "hipster"],
         "fullBody": True
     },
     "one-shoulder top with minimal Brazilian bottom": {
-        "types": [OutfitType.BEACH_WEAR],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["one-shoulder", "asymmetrical", "Brazilian", "minimal"],
         "fullBody": True
     },
     "sporty crop top with boyshort bottom": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.ATHLEISURE],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["sporty", "crop top", "boyshort", "athletic"],
         "fullBody": True
     },
     "tie-front knot top with ruched side-tie bottom": {
-        "types": [OutfitType.BEACH_WEAR],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["tie-front", "knot detail", "ruched", "side-tie"],
         "fullBody": True
     },
     "push-up padded top with skimpy thong bottom": {
-        "types": [OutfitType.BEACH_WEAR],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["push-up", "padded", "skimpy", "thong"],
         "fullBody": True
     },
     "mesh overlay bralette top with strappy cut-out bottom": {
-        "types": [OutfitType.BEACH_WEAR],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["mesh overlay", "bralette", "strappy", "cut-out"],
         "fullBody": True
     },
     "ruffled bandeau top with high-waist retro bottom": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.RETRO],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.RETRO],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["ruffled", "bandeau", "high-waist", "retro"],
         "fullBody": True
     },
     "triangle crochet top with tie-side crochet bottom": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.BOHEMIAN],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.BOHEMIAN],
         "colors": WHITES + PASTELS + EARTH_TONES + ["crochet", "triangle", "tie-side", "handmade"],
         "fullBody": True
     },
     "chain strap triangle top with chain-link thong bottom": {
-        "types": [OutfitType.BEACH_WEAR],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT],
         "colors": BLACKS + WHITES + METALLICS + NEONS + ["chain strap", "triangle", "chain-link", "metallic"],
         "fullBody": True
     },
     "cut-out halter top with cut-out Brazilian bottom": {
-        "types": [OutfitType.BEACH_WEAR],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["cut-out", "halter", "Brazilian", "revealing"],
         "fullBody": True
     },
     "asymmetrical strap top with ruched micro bottom": {
-        "types": [OutfitType.BEACH_WEAR],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["asymmetrical", "strap detail", "ruched", "micro"],
         "fullBody": True
     },
     "front zipper sporty top with cheeky surf short bottom": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.ATHLEISURE],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["front zipper", "sporty", "cheeky", "surf shorts"],
         "fullBody": True
     },
     "lace bralette bikini top with lace-trimmed hipster bottom": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.ROMANTIC],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.ROMANTIC],
         "colors": WHITES + PASTELS + PINKS + TEXTURES + ["lace", "bralette", "lace-trimmed", "hipster"],
         "fullBody": True
     },
     "triangle microkini top with ultra-minimal string bottom": {
-        "types": [OutfitType.BEACH_WEAR],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["triangle", "microkini", "ultra-minimal", "string"],
         "fullBody": True
     },
     "strapless bandeau with O-ring detail bottom": {
-        "types": [OutfitType.BEACH_WEAR],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT],
         "colors": BLACKS + WHITES + NEONS + PASTELS + METALLICS + ["strapless", "bandeau", "O-ring", "hardware detail"],
         "fullBody": True
     },
     "crisscross wrap top with wrap-around strap thong bottom": {
-        "types": [OutfitType.BEACH_WEAR],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["crisscross", "wrap", "wrap-around strap", "thong"],
         "fullBody": True
     },
     "padded balconette bikini top with adjustable scrunch bottom": {
-        "types": [OutfitType.BEACH_WEAR],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["padded", "balconette", "adjustable", "scrunch"],
         "fullBody": True
     },
     "macramé bikini top with fringe-trimmed bottom": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.BOHEMIAN],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.BOHEMIAN],
         "colors": WHITES + PASTELS + EARTH_TONES + ["macramé", "fringe-trimmed", "handcrafted", "boho"],
         "fullBody": True
     },
     "metallic chainmail-style triangle top with chain-link G-string bottom": {
-        "types": [OutfitType.BEACH_WEAR],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT],
         "colors": METALLICS + BLACKS + WHITES + ["metallic", "chainmail", "triangle", "chain-link", "G-string"],
         "fullBody": True
     },
     "sport racerback bikini top with seamless V-cut bottom": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.ATHLEISURE],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["sport", "racerback", "seamless", "V-cut"],
         "fullBody": True
     },
     "off-the-shoulder ruffle sleeve top with high-leg cheeky bottom": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.ROMANTIC],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.ROMANTIC],
         "colors": WHITES + PASTELS + PINKS + PATTERNS + ["off-the-shoulder", "ruffle sleeve", "high-leg", "cheeky"],
         "fullBody": True
     },
     "triangle leather-look top with strappy bondage-style bottom": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.GOTHIC],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.GOTHIC],
         "colors": BLACKS + REDS + METALLICS + TEXTURES + ["leather-look", "triangle", "strappy", "bondage-style"],
         "fullBody": True
     },
     "sheer mesh triangle top with layered string bottom": {
-        "types": [OutfitType.BEACH_WEAR],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT],
         "colors": BLACKS + WHITES + NEONS + PASTELS + ["sheer mesh", "triangle", "layered", "string"],
         "fullBody": True
     },
     "zip-front bustier bikini top with high-waist shaping bottom": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.RETRO],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.RETRO],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["zip-front", "bustier", "high-waist", "shaping"],
         "fullBody": True
     },
     "deep plunge halter top with adjustable slider thong bottom": {
-        "types": [OutfitType.BEACH_WEAR],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["deep plunge", "halter", "adjustable slider", "thong"],
         "fullBody": True
     },
     "knitted crochet halter top with tassel-trimmed bikini bottom": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.BOHEMIAN],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.BOHEMIAN],
         "colors": WHITES + PASTELS + EARTH_TONES + ["knitted crochet", "halter", "tassel-trimmed", "handmade"],
         "fullBody": True
     },
     "scallop-edge bralette top with scallop-edge hipster bottom": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.ROMANTIC],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.ROMANTIC],
         "colors": WHITES + PASTELS + PINKS + PATTERNS + ["scallop-edge", "bralette", "hipster", "detailed trim"],
         "fullBody": True
     },
     "triangle top with dangling chain charms and tie-side bottom": {
-        "types": [OutfitType.BEACH_WEAR],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT],
         "colors": BLACKS + WHITES + METALLICS + NEONS + ["triangle", "dangling chain", "charms", "tie-side"],
         "fullBody": True
     },
     "strapless twist bandeau with Brazilian cut ruched bottom": {
-        "types": [OutfitType.BEACH_WEAR],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["strapless", "twist bandeau", "Brazilian cut", "ruched"],
         "fullBody": True
     },
     "high-neck halter top with mesh-insert bottom": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.ATHLEISURE],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["high-neck", "halter", "mesh-insert", "sporty"],
         "fullBody": True
     },
     "minimal coverage microkini triangle top with micro thong bottom": {
-        "types": [OutfitType.BEACH_WEAR],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["minimal coverage", "microkini", "triangle", "micro thong"],
         "fullBody": True
     },
     "ring-detail triangle top with triple-strap ring bottom": {
-        "types": [OutfitType.BEACH_WEAR],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT],
         "colors": BLACKS + WHITES + METALLICS + NEONS + ["ring-detail", "triangle", "triple-strap", "hardware"],
         "fullBody": True
     },
     "peekaboo cutout bandeau top with cutout strappy bottom": {
-        "types": [OutfitType.BEACH_WEAR],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["peekaboo", "cutout", "bandeau", "strappy"],
         "fullBody": True
     },
     "adjustable drawstring bralette top with scrunch butt bottom": {
-        "types": [OutfitType.BEACH_WEAR],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["adjustable", "drawstring", "bralette", "scrunch butt"],
         "fullBody": True
     },
     "bustier corset-style bikini top with lace-up thong bottom": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.GOTHIC],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.GOTHIC],
         "colors": BLACKS + REDS + METALLICS + TEXTURES + ["bustier", "corset-style", "lace-up", "thong"],
         "fullBody": True
     },
     "triangle velvet-look top with seamless thong bottom": {
-        "types": [OutfitType.BEACH_WEAR],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT],
         "colors": JEWEL_TONES + BLACKS + TEXTURES + ["triangle", "velvet-look", "seamless", "thong"],
         "fullBody": True
     },
     "keyhole halter bikini top with keyhole V-front bottom": {
-        "types": [OutfitType.BEACH_WEAR],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["keyhole", "halter", "V-front", "cutout details"],
         "fullBody": True
     },
     "bralette bikini top with double-string tie-side bottom": {
-        "types": [OutfitType.BEACH_WEAR],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["bralette", "double-string", "tie-side", "minimal"],
         "fullBody": True
     },
     "high-neck sports mesh bikini top with V-cut thong bottom": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.ATHLEISURE],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["high-neck", "sports mesh", "V-cut", "thong"],
         "fullBody": True
     },
     "caged strap bralette top with caged strappy thong bottom": {
-        "types": [OutfitType.BEACH_WEAR],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["caged strap", "bralette", "strappy", "thong"],
         "fullBody": True
     },
     "plunge balconette bikini top with high-rise cheeky thong bottom": {
-        "types": [OutfitType.BEACH_WEAR],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["plunge", "balconette", "high-rise", "cheeky thong"],
         "fullBody": True
     },
     "adjustable slider micro triangle top with tie-front thong bottom": {
-        "types": [OutfitType.BEACH_WEAR],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["adjustable slider", "micro triangle", "tie-front", "thong"],
         "fullBody": True
     },
     "cropped tankini-style bikini top with low-rise hipster bottom": {
-        "types": [OutfitType.BEACH_WEAR],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["cropped tankini", "bikini top", "low-rise", "hipster"],
         "fullBody": True
     },
     "wrap-around halter bikini top with wrap strap thong bottom": {
-        "types": [OutfitType.BEACH_WEAR],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["wrap-around", "halter", "wrap strap", "thong"],
         "fullBody": True
     },
     "padded push-up bandeau with seamless cheeky bottom": {
-        "types": [OutfitType.BEACH_WEAR],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["padded", "push-up", "bandeau", "seamless cheeky"],
         "fullBody": True
     },
     "triangle bikini top with gold hardware accents and hipster bottom": {
-        "types": [OutfitType.BEACH_WEAR],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT],
         "colors": BLACKS + WHITES + METALLICS + PASTELS + ["triangle", "gold hardware", "accents", "hipster"],
         "fullBody": True
     },
     "halter bikini top with detachable chains and cheeky cut bottom": {
-        "types": [OutfitType.BEACH_WEAR],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT],
         "colors": BLACKS + WHITES + METALLICS + NEONS + ["halter", "detachable chains", "cheeky cut", "hardware"],
         "fullBody": True
     }

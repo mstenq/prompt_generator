@@ -110,11 +110,11 @@ MALE_BOTTOMS = {
         "colors": BLACKS + BLUES + REDS + NEONS + ["moisture-wicking", "lightweight"]
     },
     "board shorts": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT, OutfitType.ATHLEISURE],
         "colors": BLUES + GREENS + ["tropical prints", "quick-dry", "surf style"]
     },
     "swim trunks": {
-        "types": [OutfitType.BEACH_WEAR],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT],
         "colors": BLUES + GREENS + REDS + ["solid colors", "tropical prints", "mesh lining"]
     },
     "running shorts": {

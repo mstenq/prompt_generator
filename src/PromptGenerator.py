@@ -7,6 +7,8 @@ from .SceneGenerator import SceneGenerator
 from .CharacterGenerator import CharacterGenerator
 from .PoseGenerator import PoseGenerator
 from .ColorGenerator import ColorGenerator
+from .TopGenerator import TopGenerator
+from .BottomsGenerator import BottomsGenerator
 
 class PromptGenerator:
     def __init__(self):
@@ -246,12 +248,28 @@ class PromptGenerator:
         ##############################################################################
         while "<<femaleOutfit>>" in result:
             female_outfit = OutfitGenerator.generate_outfit(outfit_type_enum, "female", force_barefoot)
-            result = result.replace("<<femaleOutfit>>", female_outfit, 1)
-        
+            result = result.replace("<<femaleOutfit>>", female_outfit, 1)            
+            
         while "<<maleOutfit>>" in result:
             male_outfit = OutfitGenerator.generate_outfit(outfit_type_enum, "male", force_barefoot)
             result = result.replace("<<maleOutfit>>", male_outfit, 1)
-        
+            
+        while "<<femaleTop>>" in result:
+            female_top = TopGenerator.generate_top(outfit_type_enum, "female")
+            result = result.replace("<<femaleTop>>", female_top, 1)
+            
+        while "<<maleTop>>" in result:
+            male_top = TopGenerator.generate_top(outfit_type_enum, "male")
+            result = result.replace("<<maleTop>>", male_top, 1)
+            
+        while "<<femaleBottom>>" in result:
+            female_bottom = BottomsGenerator.generate_bottom(outfit_type_enum, "female")
+            result = result.replace("<<femaleBottom>>", female_bottom, 1)
+            
+        while "<<maleBottom>>" in result:
+            male_bottom = TopGenerator.generate_bottom(outfit_type_enum, "male")
+            result = result.replace("<<maleBottom>>", male_bottom, 1)
+            
         ##############################################################################
         # COLOR
         ##############################################################################

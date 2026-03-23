@@ -53,7 +53,7 @@ FEMALE_BOTTOMS = {
         "colors": BLACKS + GRAYS + NEONS + ["tapered", "drawstring"]
     },
     "board shorts": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT, OutfitType.ATHLEISURE],
         "colors": BLUES + NEONS + ["tropical print", "quick-dry"]
     },
     "bell-bottoms": {
@@ -865,15 +865,15 @@ FEMALE_BOTTOMS = {
     
     # Bikini Bottoms - Swimwear
     "low-rise bikini bottom": {
-        "types": [OutfitType.BEACH_WEAR],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["low-rise", "minimal coverage", "trendy"]
     },
     "mid-rise bikini bottom": {
-        "types": [OutfitType.BEACH_WEAR],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + JEWEL_TONES + ["mid-rise", "moderate coverage", "classic"]
     },
     "high-rise bikini bottom": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.RETRO],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.RETRO],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["high-waisted", "vintage", "flattering"]
     },
     "high-cut leg bottom (80s style)": {
@@ -881,7 +881,7 @@ FEMALE_BOTTOMS = {
         "colors": NEONS + BLACKS + WHITES + PATTERNS + ["high-cut", "80s", "retro", "bold"]
     },
     "cheeky bikini bottom": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.CLUB_PARTY],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["cheeky", "playful", "moderate coverage"]
     },
     "Brazilian cut bottom": {
@@ -889,23 +889,23 @@ FEMALE_BOTTOMS = {
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["Brazilian", "sexy", "minimal coverage"]
     },
     "thong bikini bottom": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.CLUB_PARTY],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["thong", "minimal", "sexy"]
     },
     "G-string bikini bottom": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.CLUB_PARTY],
         "colors": BLACKS + WHITES + NEONS + PATTERNS + ["G-string", "barely there", "daring"]
     },
     "V-string bikini bottom": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.CLUB_PARTY],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["V-string", "minimal", "strappy"]
     },
     "tanga bikini bottom": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.CLUB_PARTY],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["tanga", "Brazilian style", "moderate coverage"]
     },
     "tie-side bikini bottom": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.FESTIVAL],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.FESTIVAL],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["tie-side", "adjustable", "classic"]
     },
     "adjustable string bottom": {
@@ -913,83 +913,83 @@ FEMALE_BOTTOMS = {
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["adjustable strings", "customizable fit", "versatile"]
     },
     "wrap-tie bikini bottom": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.CASUAL_CHIC],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.CASUAL_CHIC],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + EARTH_TONES + ["wrap-tie", "bohemian", "adjustable"]
     },
     "strappy cage bikini bottom": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.FESTIVAL, OutfitType.CLUB_PARTY],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.FESTIVAL, OutfitType.CLUB_PARTY],
         "colors": BLACKS + WHITES + NEONS + PATTERNS + ["cage design", "strappy", "edgy"]
     },
     "cut-out bikini bottom": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.CLUB_PARTY],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["cut-out details", "revealing", "modern"]
     },
     "scrunch-back bikini bottom": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.CLUB_PARTY],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["scrunch detail", "textured", "flattering"]
     },
     "seamless bikini bottom": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.MINIMALIST],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.MINIMALIST],
         "colors": BLACKS + WHITES + NEONS + PASTELS + ["seamless", "smooth", "minimal lines"]
     },
     "ruffle bikini bottom": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.ROMANTIC],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.ROMANTIC],
         "colors": WHITES + PASTELS + PATTERNS + PINKS + ["ruffle detail", "feminine", "playful"]
     },
     "skirted bikini bottom (mini skirt overlay)": {
-        "types": [OutfitType.BEACH_WEAR],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT],
         "colors": BLACKS + WHITES + PASTELS + PATTERNS + JEWEL_TONES + ["skirted", "modest coverage", "cute"]
     },
     "sarong bikini bottom (built-in tie drape)": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.BOHEMIAN],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.BOHEMIAN],
         "colors": WHITES + PASTELS + PATTERNS + EARTH_TONES + ["sarong", "wrap style", "bohemian"]
     },
     "boyshort bikini bottom": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.ATHLEISURE],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["boyshort", "full coverage", "sporty"]
     },
     "hipster bikini bottom": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.CASUAL_CHIC],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.CASUAL_CHIC],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["hipster", "low-rise", "trendy"]
     },
     "micro bikini bottom": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.CLUB_PARTY],
         "colors": BLACKS + WHITES + NEONS + PATTERNS + ["micro", "barely there", "daring"]
     },
     "metallic bikini bottom": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY, OutfitType.FESTIVAL],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.CLUB_PARTY, OutfitType.FESTIVAL],
         "colors": METALLICS + ["gold", "silver", "bronze", "copper", "shimmery", "metallic finish"]
     },
     "sequin bikini bottom": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY, OutfitType.FESTIVAL],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.CLUB_PARTY, OutfitType.FESTIVAL],
         "colors": METALLICS + JEWEL_TONES + BLACKS + WHITES + ["sequins", "sparkly", "glamorous"]
     },
     "crochet bikini bottom": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.BOHEMIAN, OutfitType.FESTIVAL],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.BOHEMIAN, OutfitType.FESTIVAL],
         "colors": WHITES + EARTH_TONES + PASTELS + NEONS + ["crochet", "handmade", "textured", "bohemian"]
     },
     "mesh bikini bottom": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.CLUB_PARTY],
         "colors": BLACKS + WHITES + NEONS + ["mesh", "sheer", "athletic", "modern"]
     },
     "sheer panel bikini bottom": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.CLUB_PARTY],
         "colors": BLACKS + WHITES + NEONS + PASTELS + ["sheer panels", "see-through", "revealing"]
     },
     "belted bikini bottom (retro style)": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.RETRO],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.RETRO],
         "colors": BLACKS + WHITES + PASTELS + PATTERNS + JEWEL_TONES + ["belted", "vintage", "retro", "high-waisted"]
     },
     "ring-detail bikini bottom (side rings or front)": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.CLUB_PARTY],
         "colors": BLACKS + WHITES + NEONS + METALLICS + ["metal rings", "hardware", "edgy", "statement"]
     },
     "pearl/beaded strap bikini bottom": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.ROMANTIC, OutfitType.FESTIVAL],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.ROMANTIC, OutfitType.FESTIVAL],
         "colors": WHITES + PASTELS + BLACKS + JEWEL_TONES + ["pearl details", "beaded", "elegant", "luxurious"]
     },
     "ruched bikini bottom": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.CLUB_PARTY],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["ruched", "gathered", "textured", "flattering"]
     },
     

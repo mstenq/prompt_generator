@@ -8,7 +8,8 @@ from enum import Enum
 class OutfitType(Enum):
     ATHLEISURE = "athleisure"
     AVANT_GARDE = "avant-garde"
-    BEACH_WEAR = "beach wear" 
+    BEACH_WEAR = "beach wear"
+    BIKINI = "bikini" 
     BOHEMIAN = "bohemian"
     BUSINESS_WEAR = "business wear"
     CASUAL_CHIC = "casual chic"
@@ -31,6 +32,7 @@ class OutfitType(Enum):
     PIN_UP = "pin-up"
     PREPPY = "preppy"
     PUNK = "punk"
+    SWIMSUIT = "swimsuit"
     RETRO = "retro"
     ROCKABILLY = "rockabilly"
     ROMANTIC = "romantic"

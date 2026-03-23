@@ -1,5 +1,6 @@
 
 import random
+from .utils import clean_generated_text
 from .female.character import (
     NATIONALITY as FEMALE_NATIONALITY,
     BODY_TYPE as FEMALE_BODY_TYPE,
@@ -109,6 +110,76 @@ class FemaleCharacterGenerator:
             "result": (character_description,)
         }
 
+class MaleCharacterGenerator:
+    def __init__(self):
+     pass
+
+    @classmethod
+    def INPUT_TYPES(s):
+        # Extract options from weighted lists (hair styles, hair colors, eye colors)
+        hair_style_options = ["Random"] + [item[0] for item in MALE_HAIR_STYLES]
+        hair_color_options = ["Random"] + [item[0] for item in MALE_HAIR_COLORS]
+        eye_color_options = ["Random"] + [item[0] for item in MALE_EYE_COLORS]
+        
+        return {            
+            "optional": {
+                "nationality": (["Random"] + MALE_NATIONALITY, {"default": "Random"}),
+                "body_style": (["Random"] + MALE_BODY_STYLE, {"default": "Random"}),
+                "hair_style": (hair_style_options, {"default": "Random"}),
+                "hair_color": (hair_color_options, {"default": "Random"}),
+                "eye_color": (eye_color_options, {"default": "Random"}),
+                "eye_shape": (["Random"] + MALE_EYE_SHAPES, {"default": "Random"}),
+                "skin_tone": (["Random"] + MALE_SKIN_TONES, {"default": "Random"}),
+                "facial_feature": (["Random"] + MALE_FACIAL_FEATURES, {"default": "Random"}),
+                "lip_shape": (["Random"] + MALE_LIP_SHAPES, {"default": "Random"}),
+                "nose_shape": (["Random"] + MALE_NOSE_SHAPES, {"default": "Random"}),
+                "age_group": (["Random"] + MALE_AGE_GROUPS, {"default": "Random"}),
+                "personality_vibe": (["Random"] + MALE_PERSONALITY_VIBES, {"default": "Random"}),
+                "facial_expression": (["Random"] + MALE_FACIAL_EXPRESSIONS, {"default": "Random"}),
+                "seed": ("INT", {"default": -1, "min": -1, "max": 2147483647}),
+            },
+        }
+
+    RETURN_TYPES = ("PROMPT_VAR",)
+    RETURN_NAMES = ("man",)
+
+    FUNCTION = "generate_male_character_node"
+
+    CATEGORY = "prompt_generator"
+    OUTPUT_NODE = True  
+    
+    def generate_male_character_node(self, nationality="Random", body_style="Random", 
+                                      hair_style="Random", hair_color="Random", eye_color="Random", 
+                                      eye_shape="Random", skin_tone="Random", facial_feature="Random",
+                                      lip_shape="Random", nose_shape="Random",
+                                      age_group="Random", personality_vibe="Random", facial_expression="Random",
+                                      seed=-1):
+        """Node function to generate male character with optional preset selections"""
+        if seed != -1:
+            random.seed(seed)
+        
+        # Build presets dict with only non-Random values
+        presets = {}
+        if nationality != "Random": presets["nationality"] = nationality
+        if body_style != "Random": presets["body_type"] = body_style  # Map to body_type for internal use
+        if hair_style != "Random": presets["hair_style"] = hair_style
+        if hair_color != "Random": presets["hair_color"] = hair_color
+        if eye_color != "Random": presets["eye_color"] = eye_color
+        if eye_shape != "Random": presets["eye_shape"] = eye_shape
+        if skin_tone != "Random": presets["skin_tone"] = skin_tone
+        if facial_feature != "Random": presets["facial_feature"] = facial_feature
+        if lip_shape != "Random": presets["lip_shape"] = lip_shape
+        if nose_shape != "Random": presets["nose_shape"] = nose_shape
+        if age_group != "Random": presets["age_group"] = age_group
+        if personality_vibe != "Random": presets["personality_vibe"] = personality_vibe
+        if facial_expression != "Random": presets["facial_expression"] = facial_expression
+
+        character_description = CharacterGenerator.generate_character("male", presets)
+        return {
+            "ui": {"text": (character_description,)},
+            "result": (character_description,)
+        }
+
 class SimpleFemaleCharacterGenerator:
     def __init__(self):
      pass
@@ -164,6 +235,60 @@ class SimpleFemaleCharacterGenerator:
         if age_group != "Random": presets["age_group"] = age_group
 
         character_description = CharacterGenerator.generate_simple_character("female", presets)
+        return {
+            "ui": {"text": (character_description,)},
+            "result": (character_description,)
+        }
+
+class SimpleMaleCharacterGenerator:
+    def __init__(self):
+     pass
+
+    @classmethod
+    def INPUT_TYPES(s):
+        # Extract options from weighted lists (hair styles, hair colors, eye colors)
+        hair_style_options = ["Random"] + [item[0] for item in MALE_HAIR_STYLES]
+        hair_color_options = ["Random"] + [item[0] for item in MALE_HAIR_COLORS]
+        
+        return {            
+            "optional": {
+                "body_style": (["Random"] + MALE_BODY_STYLE, {"default": "Random"}),
+                "hair_style": (hair_style_options, {"default": "Random"}),
+                "hair_color": (hair_color_options, {"default": "Random"}),
+                "skin_tone": (["Random"] + MALE_SKIN_TONES, {"default": "Random"}),
+                "age_group": (["Random"] + MALE_AGE_GROUPS, {"default": "Random"}),
+                "seed": ("INT", {"default": -1, "min": -1, "max": 2147483647}),
+            },
+        }
+
+    RETURN_TYPES = ("PROMPT_VAR",)
+    RETURN_NAMES = ("man",)
+
+    FUNCTION = "generate_simple_male_character_node"
+
+    CATEGORY = "prompt_generator"
+    OUTPUT_NODE = True  
+    
+    def generate_simple_male_character_node(self, 
+                                      body_style="Random", 
+                                      hair_style="Random", 
+                                      hair_color="Random",  
+                                      skin_tone="Random",
+                                      age_group="Random",
+                                      seed=-1):
+        """Node function to generate simple male character with optional preset selections"""
+        if seed != -1:
+            random.seed(seed)
+        
+        # Build presets dict with only non-Random values
+        presets = {}
+        if body_style != "Random": presets["body_type"] = body_style  # Map to body_type for internal use
+        if hair_style != "Random": presets["hair_style"] = hair_style
+        if hair_color != "Random": presets["hair_color"] = hair_color
+        if skin_tone != "Random": presets["skin_tone"] = skin_tone
+        if age_group != "Random": presets["age_group"] = age_group
+
+        character_description = CharacterGenerator.generate_simple_character("male", presets)
         return {
             "ui": {"text": (character_description,)},
             "result": (character_description,)
@@ -263,7 +388,7 @@ class CharacterGenerator:
         facial_expression = presets.get("facial_expression", random.choice(FACIAL_EXPRESSIONS))
         
         # Create descriptive string
-        character_description = f"{nationality} in {gender_pronoun} {age_group}, {hair_color} {hair_style}, {eye_color} {eye_shape}, {skin_tone}, {body_type} {breast_size}, {lip_shape}, {nose_shape}, {facial_features}, {makeup_style}, {personality_vibe} personality, {facial_expression}"
+        character_description = clean_generated_text(f"{nationality} in {gender_pronoun} {age_group}, {hair_color} {hair_style}, {eye_color} {eye_shape}, {skin_tone}, {body_type} {breast_size}, {lip_shape}, {nose_shape}, {facial_features}, {makeup_style}, {personality_vibe} personality, {facial_expression}")
         return character_description
     
     @staticmethod
@@ -325,5 +450,5 @@ class CharacterGenerator:
         age_group = presets.get("age_group", random.choice(AGE_GROUPS))
         
         # Create simplified descriptive string
-        character_description = f"{age_group}, {hair_color} {hair_style}, {skin_tone}, {body_type} {breast_size}, {makeup_style}"
+        character_description = clean_generated_text(f"{age_group}, {hair_color} {hair_style}, {skin_tone}, {body_type} {breast_size}, {makeup_style}")
         return character_description
