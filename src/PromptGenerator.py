@@ -9,6 +9,7 @@ from .PoseGenerator import PoseGenerator
 from .ColorGenerator import ColorGenerator
 from .TopGenerator import TopGenerator
 from .BottomsGenerator import BottomsGenerator
+from .ShoeGenerator import ShoeGenerator
 
 class PromptGenerator:
     def __init__(self):
@@ -144,13 +145,13 @@ class PromptGenerator:
         ##############################################################################
         # CHARACTER
         ##############################################################################
-        while "<<femaleChar>>" in result:
+        while "<<female>>" in result:
             character = CharacterGenerator.generate_character("female")
-            result = result.replace("<<femaleChar>>", character, 1)
+            result = result.replace("<<female>>", character, 1)
         
-        while "<<simpleFemaleChar>>" in result:
+        while "<<simpleFemale>>" in result:
             character = CharacterGenerator.generate_simple_character("female")
-            result = result.replace("<<simpleFemaleChar>>", character, 1)
+            result = result.replace("<<simpleFemale>>", character, 1)
             
         while "<<woman>>" in result:
             character = CharacterGenerator.generate_character("female")
@@ -160,13 +161,13 @@ class PromptGenerator:
             character = CharacterGenerator.generate_simple_character("female")
             result = result.replace("<<simpleWoman>>", character, 1)
             
-        while "<<maleChar>>" in result:
+        while "<<male>>" in result:
             character = CharacterGenerator.generate_character("male")
-            result = result.replace("<<maleChar>>", character, 1)
+            result = result.replace("<<male>>", character, 1)
             
-        while "<<simpleMaleChar>>" in result:
+        while "<<simpleMale>>" in result:
             character = CharacterGenerator.generate_simple_character("male")
-            result = result.replace("<<simpleMaleChar>>", character, 1)
+            result = result.replace("<<simpleMale>>", character, 1)
             
         while "<<man>>" in result:
             character = CharacterGenerator.generate_character("male")
@@ -263,12 +264,20 @@ class PromptGenerator:
             result = result.replace("<<maleTop>>", male_top, 1)
             
         while "<<femaleBottom>>" in result:
-            female_bottom = BottomsGenerator.generate_bottom(outfit_type_enum, "female")
-            result = result.replace("<<femaleBottom>>", female_bottom, 1)
+            female_shoe = BottomsGenerator.generate_bottom(outfit_type_enum, "female")
+            result = result.replace("<<femaleBottom>>", female_shoe, 1)
             
         while "<<maleBottom>>" in result:
-            male_bottom = TopGenerator.generate_bottom(outfit_type_enum, "male")
-            result = result.replace("<<maleBottom>>", male_bottom, 1)
+            male_shoe = TopGenerator.generate_bottom(outfit_type_enum, "male")
+            result = result.replace("<<maleBottom>>", male_shoe, 1)
+            
+        while "<<femaleShoe>>" in result:
+            female_shoe = ShoeGenerator.generate_shoe(outfit_type_enum, "female", force_barefoot)
+            result = result.replace("<<femaleShoe>>", female_shoe, 1)
+            
+        while "<<maleShoe>>" in result:
+            male_shoe = ShoeGenerator.generate_shoe(outfit_type_enum, "male", force_barefoot)
+            result = result.replace("<<maleShoe>>", male_shoe, 1)
             
         ##############################################################################
         # COLOR

@@ -55,7 +55,7 @@ MALE_TOPS = {
         "colors": WHITES + BLACKS + GRAYS + BLUES + REDS + ["cotton", "basic"]
     },
     "graphic t-shirt": {
-        "types": [OutfitType.STREETWEAR, OutfitType.NORMCORE, OutfitType.GRUNGE],
+        "types": [OutfitType.STREETWEAR, OutfitType.NORMCORE, OutfitType.GRUNGE, OutfitType.ANIME],
         "colors": BLACKS + WHITES + GRAYS + ["vintage print", "band tee", "logo"]
     },
     "henley shirt": {
@@ -127,7 +127,7 @@ MALE_TOPS = {
         "colors": GRAYS + BLACKS + BLUES + ["crew neck", "vintage", "oversized"]
     },
     "bomber jacket": {
-        "types": [OutfitType.STREETWEAR, OutfitType.CASUAL_CHIC, OutfitType.MILITARY],
+        "types": [OutfitType.STREETWEAR, OutfitType.CASUAL_CHIC, OutfitType.MILITARY, OutfitType.ANIME],
         "colors": BLACKS + GREENS + BLUES + ["satin", "MA-1 style", "leather"]
     },
     "leather jacket": {
@@ -155,7 +155,7 @@ MALE_TOPS = {
         "colors": BLACKS + BLUES + NEONS + ["lightweight", "packable", "colorblock"]
     },
     "track jacket": {
-        "types": [OutfitType.ATHLEISURE, OutfitType.STREETWEAR, OutfitType.RETRO],
+        "types": [OutfitType.ATHLEISURE, OutfitType.STREETWEAR, OutfitType.RETRO, OutfitType.ANIME],
         "colors": BLACKS + BLUES + REDS + ["striped", "vintage", "zip-up"]
     },
     
@@ -211,6 +211,24 @@ MALE_TOPS = {
         "types": [OutfitType.PREPPY, OutfitType.RETRO, OutfitType.STREETWEAR],
         "colors": BLUES + REDS + GREENS + ["team colors", "patches", "satin"]
     },
+
+    # Anime/Character-Inspired
+    "gakuran jacket": {
+        "types": [OutfitType.ANIME, OutfitType.PREPPY, OutfitType.RETRO],
+        "colors": BLACKS + BLUES + GRAYS + ["stand collar", "school uniform", "structured"]
+    },
+    "hero academy blazer": {
+        "types": [OutfitType.ANIME, OutfitType.PREPPY, OutfitType.FANTASY],
+        "colors": BLUES + GRAYS + WHITES + ["academy crest", "contrast piping", "uniform"]
+    },
+    "shonen training jacket": {
+        "types": [OutfitType.ANIME, OutfitType.ATHLEISURE, OutfitType.STREETWEAR],
+        "colors": REDS + BLUES + BLACKS + WHITES + ["bold stripes", "team emblem", "zip-up"]
+    },
+    "manga print hoodie": {
+        "types": [OutfitType.ANIME, OutfitType.STREETWEAR, OutfitType.NORMCORE],
+        "colors": BLACKS + WHITES + GRAYS + NEONS + ["panel print", "graphic", "oversized"]
+    },
     
     # Tech/Modern
     "smart casual shirt": {
@@ -218,7 +236,7 @@ MALE_TOPS = {
         "colors": WHITES + GRAYS + BLUES + ["wrinkle-free", "stretch fabric"]
     },
     "tech hoodie": {
-        "types": [OutfitType.STREETWEAR, OutfitType.CYBERPUNK, OutfitType.MINIMALIST],
+        "types": [OutfitType.STREETWEAR, OutfitType.CYBERPUNK, OutfitType.MINIMALIST, OutfitType.ANIME],
         "colors": BLACKS + GRAYS + ["technical fabric", "minimal design"]
     },
     "moisture-wicking polo": {
@@ -324,8 +342,13 @@ MALE_TOPS = {
         "fullBody": True
     },
     "flight suit": {
-        "types": [OutfitType.MILITARY, OutfitType.CYBERPUNK, OutfitType.STREETWEAR],
+        "types": [OutfitType.MILITARY, OutfitType.CYBERPUNK, OutfitType.STREETWEAR, OutfitType.ANIME],
         "colors": GREENS + BLACKS + ["tactical", "pilot style"],
+        "fullBody": True
+    },
+    "mecha pilot suit": {
+        "types": [OutfitType.ANIME, OutfitType.CYBERPUNK, OutfitType.MILITARY],
+        "colors": WHITES + BLACKS + BLUES + REDS + METALLICS + ["panel armor", "techwear", "fitted"],
         "fullBody": True
     }
 }

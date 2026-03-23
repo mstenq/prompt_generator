@@ -22,7 +22,7 @@ MALE_BOTTOMS = {
         "colors": BLACKS + ["midnight blue", "satin stripe", "formal"]
     },
     "pleated pants": {
-        "types": [OutfitType.BUSINESS_WEAR, OutfitType.PREPPY, OutfitType.RETRO],
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.PREPPY, OutfitType.RETRO, OutfitType.ANIME],
         "colors": GRAYS + BROWNS + BLUES + ["high-waisted", "classic fit", "wool"]
     },
     "flat-front pants": {
@@ -72,7 +72,7 @@ MALE_BOTTOMS = {
         "colors": BROWNS + GREENS + BLUES + ["ribbed texture", "vintage style"]
     },
     "cargo pants": {
-        "types": [OutfitType.MILITARY, OutfitType.STREETWEAR, OutfitType.NORMCORE],
+        "types": [OutfitType.MILITARY, OutfitType.STREETWEAR, OutfitType.NORMCORE, OutfitType.ANIME],
         "colors": GREENS + BROWNS + BLACKS + ["utility pockets", "tactical", "baggy"]
     },
     "joggers": {
@@ -84,8 +84,16 @@ MALE_BOTTOMS = {
         "colors": GRAYS + BLACKS + BLUES + ["fleece", "loose fit", "comfort"]
     },
     "track pants": {
-        "types": [OutfitType.ATHLEISURE, OutfitType.STREETWEAR, OutfitType.RETRO],
+        "types": [OutfitType.ATHLEISURE, OutfitType.STREETWEAR, OutfitType.RETRO, OutfitType.ANIME],
         "colors": BLACKS + BLUES + REDS + ["side stripe", "athletic", "vintage"]
+    },
+    "academy uniform trousers": {
+        "types": [OutfitType.ANIME, OutfitType.PREPPY, OutfitType.BUSINESS_WEAR],
+        "colors": BLACKS + GRAYS + BLUES + ["pressed", "school uniform", "tailored"]
+    },
+    "shonen training pants": {
+        "types": [OutfitType.ANIME, OutfitType.ATHLEISURE, OutfitType.STREETWEAR],
+        "colors": BLUES + REDS + BLACKS + WHITES + ["side stripe", "team emblem", "tapered"]
     },
     
     # Shorts
@@ -158,7 +166,7 @@ MALE_BOTTOMS = {
         "colors": ["authentic denim", "working cowboy", "classic fit"]
     },
     "military fatigues": {
-        "types": [OutfitType.MILITARY, OutfitType.STREETWEAR],
+        "types": [OutfitType.MILITARY, OutfitType.STREETWEAR, OutfitType.ANIME],
         "colors": GREENS + ["camouflage", "BDU style", "tactical"]
     },
     "camouflage pants": {
@@ -166,8 +174,12 @@ MALE_BOTTOMS = {
         "colors": GREENS + BROWNS + ["woodland camo", "digital camo", "urban camo"]
     },
     "paratrooper pants": {
-        "types": [OutfitType.MILITARY, OutfitType.PUNK, OutfitType.STREETWEAR],
+        "types": [OutfitType.MILITARY, OutfitType.PUNK, OutfitType.STREETWEAR, OutfitType.ANIME],
         "colors": GREENS + BLACKS + ["cargo pockets", "utility", "combat style"]
+    },
+    "hakama pants": {
+        "types": [OutfitType.ANIME, OutfitType.FANTASY, OutfitType.ETHEREAL],
+        "colors": BLACKS + BLUES + WHITES + REDS + ["pleated", "traditional", "flowing"]
     },
     
     # Formal Variations
@@ -186,12 +198,16 @@ MALE_BOTTOMS = {
     
     # Tech/Modern
     "tech pants": {
-        "types": [OutfitType.MINIMALIST, OutfitType.STREETWEAR, OutfitType.CYBERPUNK],
+        "types": [OutfitType.MINIMALIST, OutfitType.STREETWEAR, OutfitType.CYBERPUNK, OutfitType.ANIME],
         "colors": BLACKS + GRAYS + ["technical fabric", "water-resistant", "minimal"]
     },
     "compression leggings": {
-        "types": [OutfitType.ATHLEISURE, OutfitType.CYBERPUNK],
+        "types": [OutfitType.ATHLEISURE, OutfitType.CYBERPUNK, OutfitType.ANIME],
         "colors": BLACKS + GRAYS + ["performance fabric", "fitted", "athletic"]
+    },
+    "mecha pilot leggings": {
+        "types": [OutfitType.ANIME, OutfitType.CYBERPUNK, OutfitType.ATHLEISURE],
+        "colors": BLACKS + WHITES + BLUES + REDS + METALLICS + ["panel seams", "techwear", "compression fit"]
     },
     "performance pants": {
         "types": [OutfitType.ATHLEISURE],
@@ -212,7 +228,7 @@ MALE_BOTTOMS = {
         "colors": BROWNS + GREENS + ["classic cut", "vintage style"]
     },
     "sailor pants": {
-        "types": [OutfitType.RETRO, OutfitType.MINIMALIST],
+        "types": [OutfitType.RETRO, OutfitType.MINIMALIST, OutfitType.ANIME],
         "colors": WHITES + BLUES + ["wide leg", "nautical", "button front"]
     },
     

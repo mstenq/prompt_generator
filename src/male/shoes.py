@@ -48,7 +48,7 @@ MALE_SHOES = {
     
     # Casual Shoes
     "sneakers": {
-        "types": [OutfitType.ATHLEISURE, OutfitType.STREETWEAR, OutfitType.NORMCORE, OutfitType.CASUAL_CHIC],
+        "types": [OutfitType.ATHLEISURE, OutfitType.STREETWEAR, OutfitType.NORMCORE, OutfitType.CASUAL_CHIC, OutfitType.ANIME],
         "colors": WHITES + BLACKS + NEONS + ["high-top", "chunky", "minimalist", "canvas"]
     },
     "white sneakers": {
@@ -60,7 +60,7 @@ MALE_SHOES = {
         "colors": WHITES + BLACKS + BLUES + NEONS + ["athletic", "mesh", "cushioned"]
     },
     "basketball shoes": {
-        "types": [OutfitType.ATHLEISURE, OutfitType.STREETWEAR],
+        "types": [OutfitType.ATHLEISURE, OutfitType.STREETWEAR, OutfitType.ANIME],
         "colors": BLACKS + WHITES + REDS + BLUES + ["high-top", "performance", "retro"]
     },
     "canvas shoes": {
@@ -76,13 +76,21 @@ MALE_SHOES = {
         "colors": BLACKS + WHITES + GRAYS + ["vulcanized", "flat sole", "durable"]
     },
     "retro sneakers": {
-        "types": [OutfitType.RETRO, OutfitType.STREETWEAR, OutfitType.CASUAL_CHIC],
+        "types": [OutfitType.RETRO, OutfitType.STREETWEAR, OutfitType.CASUAL_CHIC, OutfitType.ANIME],
         "colors": WHITES + BLUES + REDS + ["vintage", "chunky", "dad shoes"]
+    },
+    "academy loafers": {
+        "types": [OutfitType.ANIME, OutfitType.PREPPY, OutfitType.BUSINESS_WEAR],
+        "colors": BLACKS + BROWNS + WHITES + ["school uniform", "polished", "classic"]
+    },
+    "hero trainer sneakers": {
+        "types": [OutfitType.ANIME, OutfitType.ATHLEISURE, OutfitType.STREETWEAR],
+        "colors": REDS + BLUES + WHITES + BLACKS + ["bold panels", "high-top", "performance"]
     },
     
     # Boots
     "combat boots": {
-        "types": [OutfitType.GRUNGE, OutfitType.PUNK, OutfitType.MILITARY, OutfitType.GOTHIC],
+        "types": [OutfitType.GRUNGE, OutfitType.PUNK, OutfitType.MILITARY, OutfitType.GOTHIC, OutfitType.ANIME],
         "colors": BLACKS + BROWNS + ["leather", "steel toe", "lace-up", "tactical"]
     },
     "work boots": {
@@ -214,8 +222,12 @@ MALE_SHOES = {
         "colors": WHITES + BLUES + BROWNS + ["hybrid", "nautical", "canvas"]
     },
     "military boots": {
-        "types": [OutfitType.MILITARY, OutfitType.PUNK, OutfitType.STREETWEAR],
+        "types": [OutfitType.MILITARY, OutfitType.PUNK, OutfitType.STREETWEAR, OutfitType.ANIME],
         "colors": BLACKS + BROWNS + GREENS + ["tactical", "combat ready", "durable"]
+    },
+    "mecha pilot boots": {
+        "types": [OutfitType.ANIME, OutfitType.CYBERPUNK, OutfitType.MILITARY],
+        "colors": WHITES + BLACKS + BLUES + REDS + METALLICS + ["armored panels", "high ankle", "futuristic"]
     },
     "western boots": {
         "types": [OutfitType.COWBOY, OutfitType.ROCKABILLY],
@@ -224,7 +236,7 @@ MALE_SHOES = {
     
     # Tech/Modern
     "tech sneakers": {
-        "types": [OutfitType.CYBERPUNK, OutfitType.MINIMALIST, OutfitType.STREETWEAR],
+        "types": [OutfitType.CYBERPUNK, OutfitType.MINIMALIST, OutfitType.STREETWEAR, OutfitType.ANIME],
         "colors": BLACKS + WHITES + GRAYS + ["futuristic", "technical fabric", "modern"]
     },
     "smart shoes": {
@@ -232,8 +244,12 @@ MALE_SHOES = {
         "colors": BLACKS + GRAYS + ["tech features", "sleek", "modern"]
     },
     "performance boots": {
-        "types": [OutfitType.ATHLEISURE, OutfitType.CYBERPUNK],
+        "types": [OutfitType.ATHLEISURE, OutfitType.CYBERPUNK, OutfitType.ANIME],
         "colors": BLACKS + GRAYS + ["technical", "lightweight", "performance"]
+    },
+    "shonen training sandals": {
+        "types": [OutfitType.ANIME, OutfitType.ATHLEISURE, OutfitType.FANTASY],
+        "colors": BROWNS + BLACKS + BLUES + ["open toe", "wrap straps", "martial arts"]
     },
     
     # Vintage/Retro

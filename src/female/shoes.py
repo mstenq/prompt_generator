@@ -13,11 +13,11 @@ FEMALE_SHOES = {
         "colors": BLACKS + REDS + METALLICS + ["patent leather", "stiletto", "platform"]
     },
     "combat boots": {
-        "types": [OutfitType.GRUNGE, OutfitType.PUNK, OutfitType.MILITARY, OutfitType.GOTHIC],
+        "types": [OutfitType.GRUNGE, OutfitType.PUNK, OutfitType.MILITARY, OutfitType.GOTHIC, OutfitType.ANIME],
         "colors": BLACKS + BROWNS + ["leather", "steel toe", "lace-up"]
     },
     "sneakers": {
-        "types": [OutfitType.ATHLEISURE, OutfitType.STREETWEAR, OutfitType.NORMCORE, OutfitType.CASUAL_CHIC],
+        "types": [OutfitType.ATHLEISURE, OutfitType.STREETWEAR, OutfitType.NORMCORE, OutfitType.CASUAL_CHIC, OutfitType.ANIME],
         "colors": WHITES + BLACKS + NEONS + ["high-top", "chunky", "minimalist"]
     },
     "sandals": {
@@ -33,11 +33,11 @@ FEMALE_SHOES = {
         "colors": BROWNS + BLACKS + ["penny loafers", "tasseled"]
     },
     "mary janes": {
-        "types": [OutfitType.LOLITA, OutfitType.KAWAII, OutfitType.COTTAGECORE, OutfitType.PIN_UP],
+        "types": [OutfitType.LOLITA, OutfitType.KAWAII, OutfitType.COTTAGECORE, OutfitType.PIN_UP, OutfitType.ANIME],
         "colors": BLACKS + REDS + PASTELS + ["patent leather", "T-bar"]
     },
     "platform shoes": {
-        "types": [OutfitType.PUNK, OutfitType.CLUB_PARTY, OutfitType.GOTHIC, OutfitType.LOLITA],
+        "types": [OutfitType.PUNK, OutfitType.CLUB_PARTY, OutfitType.GOTHIC, OutfitType.LOLITA, OutfitType.ANIME],
         "colors": BLACKS + METALLICS + NEONS + ["chunky", "extreme height"]
     },
     "flip-flops": {
@@ -49,8 +49,12 @@ FEMALE_SHOES = {
         "colors": BLACKS + BROWNS + ["leather", "lace-up", "wingtip"]
     },
     "ballet flats": {
-        "types": [OutfitType.PREPPY, OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST, OutfitType.KAWAII],
+        "types": [OutfitType.PREPPY, OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST, OutfitType.KAWAII, OutfitType.ANIME],
         "colors": BLACKS + PASTELS + METALLICS + ["pointed toe", "bow detail"]
+    },
+    "idol stage heels": {
+        "types": [OutfitType.ANIME, OutfitType.KAWAII, OutfitType.CLUB_PARTY],
+        "colors": PASTELS + METALLICS + JEWEL_TONES + ["bows", "glitter", "performance"]
     },
     "cowboy boots": {
         "types": [OutfitType.COWBOY, OutfitType.FESTIVAL, OutfitType.ROCKABILLY],
@@ -91,7 +95,7 @@ FEMALE_SHOES = {
         "colors": BLACKS + BROWNS + PASTELS + ["comfortable", "classic"]
     },
     "mary jane heels": {
-        "types": [OutfitType.LOLITA, OutfitType.KAWAII, OutfitType.PIN_UP, OutfitType.ROMANTIC],
+        "types": [OutfitType.LOLITA, OutfitType.KAWAII, OutfitType.PIN_UP, OutfitType.ROMANTIC, OutfitType.ANIME],
         "colors": BLACKS + REDS + PASTELS + ["T-strap", "vintage", "sweet"]
     },
     "d'orsay pumps": {
@@ -181,11 +185,11 @@ FEMALE_SHOES = {
         "colors": BLACKS + BROWNS + ["elastic sides", "slip-on", "sleek"]
     },
     "military boots": {
-        "types": [OutfitType.MILITARY, OutfitType.GRUNGE, OutfitType.PUNK],
+        "types": [OutfitType.MILITARY, OutfitType.GRUNGE, OutfitType.PUNK, OutfitType.ANIME],
         "colors": BLACKS + BROWNS + GREENS + ["tactical", "heavy duty"]
     },
     "tactical boots": {
-        "types": [OutfitType.MILITARY, OutfitType.CYBERPUNK],
+        "types": [OutfitType.MILITARY, OutfitType.CYBERPUNK, OutfitType.ANIME],
         "colors": BLACKS + GREENS + ["reinforced", "utility"]
     },
     "hiking boots": {
@@ -197,7 +201,7 @@ FEMALE_SHOES = {
         "colors": BLACKS + BROWNS + ["corset-style", "vintage"]
     },
     "platform ankle boots": {
-        "types": [OutfitType.PUNK, OutfitType.GOTHIC, OutfitType.CLUB_PARTY],
+        "types": [OutfitType.PUNK, OutfitType.GOTHIC, OutfitType.CLUB_PARTY, OutfitType.ANIME],
         "colors": BLACKS + METALLICS + ["chunky", "extreme height"]
     },
     "chunky heeled boots": {
@@ -327,7 +331,7 @@ FEMALE_SHOES = {
         "colors": BLACKS + GRAYS + METALLICS + ["sleek", "professional"]
     },
     "mary jane flats": {
-        "types": [OutfitType.KAWAII, OutfitType.LOLITA, OutfitType.PREPPY, OutfitType.COTTAGECORE],
+        "types": [OutfitType.KAWAII, OutfitType.LOLITA, OutfitType.PREPPY, OutfitType.COTTAGECORE, OutfitType.ANIME],
         "colors": BLACKS + PASTELS + REDS + ["T-strap", "sweet"]
     },
     "t-strap flats": {
@@ -347,7 +351,7 @@ FEMALE_SHOES = {
         "colors": BROWNS + BLACKS + ["traditional", "penny keeper"]
     },
     "platform loafers": {
-        "types": [OutfitType.STREETWEAR, OutfitType.CASUAL_CHIC, OutfitType.RETRO],
+        "types": [OutfitType.STREETWEAR, OutfitType.CASUAL_CHIC, OutfitType.RETRO, OutfitType.ANIME],
         "colors": BLACKS + BROWNS + ["chunky sole", "elevated"]
     },
     "moccasins": {
@@ -401,8 +405,16 @@ FEMALE_SHOES = {
         "colors": WHITES + BLACKS + REDS + ["ankle-high", "basketball-style"]
     },
     "platform sneakers": {
-        "types": [OutfitType.STREETWEAR, OutfitType.CLUB_PARTY, OutfitType.KAWAII],
+        "types": [OutfitType.STREETWEAR, OutfitType.CLUB_PARTY, OutfitType.KAWAII, OutfitType.ANIME],
         "colors": WHITES + BLACKS + PASTELS + ["chunky sole", "elevated"]
+    },
+    "magical girl boots": {
+        "types": [OutfitType.ANIME, OutfitType.KAWAII, OutfitType.FANTASY],
+        "colors": PASTELS + WHITES + PINKS + METALLICS + ["knee-high", "ribbon trim", "sparkly"]
+    },
+    "mecha pilot boots": {
+        "types": [OutfitType.ANIME, OutfitType.CYBERPUNK, OutfitType.AVANT_GARDE],
+        "colors": WHITES + BLACKS + BLUES + REDS + METALLICS + ["armored panels", "futuristic", "high ankle"]
     },
     "slip-on sneakers": {
         "types": [OutfitType.CASUAL_CHIC, OutfitType.STREETWEAR, OutfitType.ATHLEISURE],
@@ -453,7 +465,7 @@ FEMALE_SHOES = {
         "colors": BLACKS + NEONS + SPECIAL + ["LED lights", "futuristic"]
     },
     "holographic sneakers": {
-        "types": [OutfitType.CLUB_PARTY, OutfitType.KAWAII, OutfitType.AVANT_GARDE],
+        "types": [OutfitType.CLUB_PARTY, OutfitType.KAWAII, OutfitType.AVANT_GARDE, OutfitType.ANIME],
         "colors": SPECIAL + METALLICS + ["iridescent", "rainbow"]
     },
     "custom painted sneakers": {
@@ -543,7 +555,7 @@ FEMALE_SHOES = {
         "colors": METALLICS + JEWEL_TONES + ["bejeweled", "luxury"]
     },
     "jelly sandals": {
-        "types": [OutfitType.BEACH_WEAR, OutfitType.KAWAII, OutfitType.RETRO],
+        "types": [OutfitType.BEACH_WEAR, OutfitType.KAWAII, OutfitType.RETRO, OutfitType.ANIME],
         "colors": NEONS + PASTELS + ["plastic", "translucent"]
     },
     "transparent pvc sandals": {
@@ -565,7 +577,7 @@ FEMALE_SHOES = {
         "colors": NEONS + PASTELS + WHITES + ["comfort", "ventilated"]
     },
     "fashion crocs": {
-        "types": [OutfitType.STREETWEAR, OutfitType.KAWAII, OutfitType.FESTIVAL],
+        "types": [OutfitType.STREETWEAR, OutfitType.KAWAII, OutfitType.FESTIVAL, OutfitType.ANIME],
         "colors": NEONS + PASTELS + METALLICS + ["platform", "embellished"]
     },
     "mule flats": {
@@ -577,16 +589,20 @@ FEMALE_SHOES = {
         "colors": BLACKS + METALLICS + NEONS + ["backless", "elevated"]
     },
     "japanese geta": {
-        "types": [OutfitType.KAWAII, OutfitType.ETHEREAL, OutfitType.AVANT_GARDE],
+        "types": [OutfitType.KAWAII, OutfitType.ETHEREAL, OutfitType.AVANT_GARDE, OutfitType.ANIME],
         "colors": BROWNS + BLACKS + ["wooden", "traditional", "elevated"]
     },
     "zori sandals": {
-        "types": [OutfitType.KAWAII, OutfitType.ETHEREAL, OutfitType.MINIMALIST],
+        "types": [OutfitType.KAWAII, OutfitType.ETHEREAL, OutfitType.MINIMALIST, OutfitType.ANIME],
         "colors": BLACKS + WHITES + BROWNS + ["flat", "traditional"]
     },
     "okobo shoes": {
-        "types": [OutfitType.KAWAII, OutfitType.LOLITA, OutfitType.AVANT_GARDE],
+        "types": [OutfitType.KAWAII, OutfitType.LOLITA, OutfitType.AVANT_GARDE, OutfitType.ANIME],
         "colors": BLACKS + REDS + WHITES + ["platform", "traditional"]
+    },
+    "academy loafers": {
+        "types": [OutfitType.ANIME, OutfitType.PREPPY, OutfitType.KAWAII],
+        "colors": BLACKS + BROWNS + WHITES + ["school uniform", "polished", "classic"]
     },
     "babouche slippers": {
         "types": [OutfitType.BOHEMIAN, OutfitType.ETHEREAL, OutfitType.CASUAL_CHIC],

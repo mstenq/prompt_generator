@@ -6,6 +6,7 @@ This file contains the OutfitType enum and related constants.
 from enum import Enum
 
 class OutfitType(Enum):
+    ANIME = "anime"
     ATHLEISURE = "athleisure"
     AVANT_GARDE = "avant-garde"
     BEACH_WEAR = "beach wear"

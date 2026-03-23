@@ -4,6 +4,7 @@ from .OutfitGenerator import OutfitGenerator
 from .SceneGenerator import SceneGenerator
 from .TopGenerator import TopGenerator
 from .BottomsGenerator import BottomsGenerator
+from .ShoeGenerator import ShoeGenerator
 
 NODE_CLASS_MAPPINGS = {
     "prompt-generator": PromptGenerator,
@@ -14,7 +15,8 @@ NODE_CLASS_MAPPINGS = {
     "male-generator": MaleCharacterGenerator,
     "simple-male-generator": SimpleMaleCharacterGenerator,
     "bottoms-generator": BottomsGenerator,
-    "top-generator": TopGenerator
+    "top-generator": TopGenerator,
+    "shoe-generator": ShoeGenerator
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
@@ -26,5 +28,6 @@ NODE_DISPLAY_NAME_MAPPINGS = {
     "male-generator": "Male Generator",
     "simple-male-generator": "Simple Male Generator",
     "bottoms-generator": "Bottoms Generator",
-    "top-generator": "Top Generator"
+    "top-generator": "Top Generator",
+    "shoe-generator": "Shoe Generator"
 }

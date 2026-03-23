@@ -11,6 +11,7 @@ const NODE_NAMES = [
 	"simple-male-generator",
 	"bottoms-generator",
 	"top-generator",
+	"shoe-generator",
 ];
 
 // Display text output on prompt_generator nodes

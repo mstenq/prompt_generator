@@ -29,11 +29,11 @@ FEMALE_BOTTOMS = {
         "colors": EARTH_TONES + JEWEL_TONES + ["flowing", "tiered", "floral print"]
     },
     "mini skirt": {
-        "types": [OutfitType.CLUB_PARTY, OutfitType.GRUNGE, OutfitType.PUNK, OutfitType.KAWAII],
+        "types": [OutfitType.CLUB_PARTY, OutfitType.GRUNGE, OutfitType.PUNK, OutfitType.KAWAII, OutfitType.ANIME],
         "colors": BLACKS + METALLICS + NEONS + ["leather", "plaid", "sequined"]
     },
     "leggings": {
-        "types": [OutfitType.ATHLEISURE, OutfitType.CASUAL_CHIC, OutfitType.GOTHIC],
+        "types": [OutfitType.ATHLEISURE, OutfitType.CASUAL_CHIC, OutfitType.GOTHIC, OutfitType.ANIME],
         "colors": BLACKS + GRAYS + NEONS + ["metallic", "mesh panels", "high-waisted"]
     },
     "cargo pants": {
@@ -61,7 +61,7 @@ FEMALE_BOTTOMS = {
         "colors": ["denim", "corduroy"] + EARTH_TONES + ["flared"]
     },
     "high-waisted shorts": {
-        "types": [OutfitType.PIN_UP, OutfitType.RETRO, OutfitType.FESTIVAL, OutfitType.KAWAII],
+        "types": [OutfitType.PIN_UP, OutfitType.RETRO, OutfitType.FESTIVAL, OutfitType.KAWAII, OutfitType.ANIME],
         "colors": PASTELS + REDS + ["denim", "polka dots", "gingham"]
     },
     "bondage pants": {
@@ -69,7 +69,7 @@ FEMALE_BOTTOMS = {
         "colors": BLACKS + ["chains", "straps", "zippers"]
     },
     "tutu skirt": {
-        "types": [OutfitType.LOLITA, OutfitType.KAWAII, OutfitType.ETHEREAL],
+        "types": [OutfitType.LOLITA, OutfitType.KAWAII, OutfitType.ETHEREAL, OutfitType.ANIME],
         "colors": PASTELS + WHITES + ["tulle", "layered", "puffy"]
     },
     
@@ -187,7 +187,7 @@ FEMALE_BOTTOMS = {
     
     # ATHLETIC & CASUAL PANTS
     "track pants": {
-        "types": [OutfitType.ATHLEISURE, OutfitType.STREETWEAR, OutfitType.NORMCORE],
+        "types": [OutfitType.ATHLEISURE, OutfitType.STREETWEAR, OutfitType.NORMCORE, OutfitType.ANIME],
         "colors": BLACKS + GRAYS + NEONS + ["side stripes", "elastic waist"]
     },
     "tearaway track pants": {
@@ -215,7 +215,7 @@ FEMALE_BOTTOMS = {
         "colors": BLACKS + GRAYS + PASTELS + ["soft", "comfortable"]
     },
     "leggings spandex": {
-        "types": [OutfitType.ATHLEISURE, OutfitType.CLUB_PARTY, OutfitType.GOTHIC],
+        "types": [OutfitType.ATHLEISURE, OutfitType.CLUB_PARTY, OutfitType.GOTHIC, OutfitType.ANIME],
         "colors": BLACKS + NEONS + METALLICS + ["shiny", "stretchy", "tight"]
     },
     "mesh panel leggings": {
@@ -503,7 +503,7 @@ FEMALE_BOTTOMS = {
         "colors": METALLICS + NEONS + ["ultra-short", "daring"]
     },
     "pleated mini skirt": {
-        "types": [OutfitType.KAWAII, OutfitType.PREPPY, OutfitType.LOLITA],
+        "types": [OutfitType.KAWAII, OutfitType.PREPPY, OutfitType.LOLITA, OutfitType.ANIME],
         "colors": PASTELS + BLUES + ["pleated", "school-style"]
     },
     "knife-pleat skirt": {
@@ -539,7 +539,7 @@ FEMALE_BOTTOMS = {
         "colors": EARTH_TONES + ["wrap-style", "flowing"]
     },
     "skater skirt": {
-        "types": [OutfitType.CASUAL_CHIC, OutfitType.KAWAII, OutfitType.STREETWEAR],
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.KAWAII, OutfitType.STREETWEAR, OutfitType.ANIME],
         "colors": PASTELS + BLACKS + ["flared", "fit-and-flare"]
     },
     "tulip skirt": {
@@ -595,7 +595,7 @@ FEMALE_BOTTOMS = {
         "colors": ["mixed denim", "patchwork", "artistic"]
     },
     "ruffled skirt": {
-        "types": [OutfitType.ROMANTIC, OutfitType.LOLITA, OutfitType.KAWAII],
+        "types": [OutfitType.ROMANTIC, OutfitType.LOLITA, OutfitType.KAWAII, OutfitType.ANIME],
         "colors": PASTELS + WHITES + ["ruffles", "feminine"]
     },
     "tiered maxi skirt": {
@@ -631,7 +631,7 @@ FEMALE_BOTTOMS = {
         "colors": PASTELS + WHITES + ["transparent", "layered"]
     },
     "tulle skirt short": {
-        "types": [OutfitType.ROMANTIC, OutfitType.KAWAII, OutfitType.LOLITA],
+        "types": [OutfitType.ROMANTIC, OutfitType.KAWAII, OutfitType.LOLITA, OutfitType.ANIME],
         "colors": PASTELS + WHITES + ["tulle", "puffy"]
     },
     "tulle skirt ballerina": {
@@ -695,11 +695,11 @@ FEMALE_BOTTOMS = {
         "colors": EARTH_TONES + JEWEL_TONES + ["draped", "loose"]
     },
     "bubble hem skirt": {
-        "types": [OutfitType.AVANT_GARDE, OutfitType.ROMANTIC, OutfitType.KAWAII],
+        "types": [OutfitType.AVANT_GARDE, OutfitType.ROMANTIC, OutfitType.KAWAII, OutfitType.ANIME],
         "colors": PASTELS + JEWEL_TONES + ["bubble hem", "structured"]
     },
     "apron skirt overlay": {
-        "types": [OutfitType.COTTAGECORE, OutfitType.LOLITA, OutfitType.KAWAII],
+        "types": [OutfitType.COTTAGECORE, OutfitType.LOLITA, OutfitType.KAWAII, OutfitType.ANIME],
         "colors": PASTELS + WHITES + ["apron-style", "layered"]
     },
     "kilt": {
@@ -707,16 +707,28 @@ FEMALE_BOTTOMS = {
         "colors": ["tartan", "plaid", "traditional"]
     },
     "school uniform pleated skirt": {
-        "types": [OutfitType.KAWAII, OutfitType.LOLITA, OutfitType.PREPPY],
+        "types": [OutfitType.KAWAII, OutfitType.LOLITA, OutfitType.PREPPY, OutfitType.ANIME],
         "colors": BLUES + GRAYS + ["pleated", "uniform-style"]
     },
     "tennis skirt": {
-        "types": [OutfitType.ATHLEISURE, OutfitType.PREPPY, OutfitType.KAWAII],
+        "types": [OutfitType.ATHLEISURE, OutfitType.PREPPY, OutfitType.KAWAII, OutfitType.ANIME],
         "colors": WHITES + PASTELS + ["pleated", "athletic"]
     },
     "cheerleading skirt": {
-        "types": [OutfitType.ATHLEISURE, OutfitType.KAWAII, OutfitType.PREPPY],
+        "types": [OutfitType.ATHLEISURE, OutfitType.KAWAII, OutfitType.PREPPY, OutfitType.ANIME],
         "colors": NEONS + WHITES + ["pleated", "sporty"]
+    },
+    "idol stage skirt": {
+        "types": [OutfitType.ANIME, OutfitType.KAWAII, OutfitType.CLUB_PARTY],
+        "colors": PASTELS + JEWEL_TONES + METALLICS + ["tiered", "frilled", "performance costume"]
+    },
+    "magical girl skirt": {
+        "types": [OutfitType.ANIME, OutfitType.KAWAII, OutfitType.FANTASY],
+        "colors": PASTELS + PINKS + WHITES + METALLICS + ["layered tulle", "ribbon trim", "sparkly"]
+    },
+    "shrine maiden hakama": {
+        "types": [OutfitType.ANIME, OutfitType.ETHEREAL, OutfitType.FANTASY],
+        "colors": REDS + WHITES + BLACKS + ["pleated", "traditional", "flowing"]
     },
     
     # ROMPERS & JUMPSUITS
@@ -785,11 +797,11 @@ FEMALE_BOTTOMS = {
         "colors": PASTELS + JEWEL_TONES + ["coordinated", "matching set"]
     },
     "suspender skirt": {
-        "types": [OutfitType.LOLITA, OutfitType.KAWAII, OutfitType.RETRO],
+        "types": [OutfitType.LOLITA, OutfitType.KAWAII, OutfitType.RETRO, OutfitType.ANIME],
         "colors": PASTELS + BLACKS + ["suspender straps", "vintage"]
     },
     "suspender shorts": {
-        "types": [OutfitType.RETRO, OutfitType.CASUAL_CHIC, OutfitType.KAWAII],
+        "types": [OutfitType.RETRO, OutfitType.CASUAL_CHIC, OutfitType.KAWAII, OutfitType.ANIME],
         "colors": PASTELS + ["suspender straps", "vintage"]
     },
     "suspender trousers": {
@@ -811,7 +823,7 @@ FEMALE_BOTTOMS = {
         "colors": BROWNS + BLACKS + ["bustle", "period-inspired"]
     },
     "petticoat skirt": {
-        "types": [OutfitType.LOLITA, OutfitType.STEAMPUNK, OutfitType.ROMANTIC],
+        "types": [OutfitType.LOLITA, OutfitType.STEAMPUNK, OutfitType.ROMANTIC, OutfitType.ANIME],
         "colors": WHITES + PASTELS + ["layered", "structured"]
     },
     "steampunk layered skirt": {
@@ -843,8 +855,12 @@ FEMALE_BOTTOMS = {
         "colors": METALLICS + ["chainmail", "armor-inspired"]
     },
     "armor-inspired pleated skirt": {
-        "types": [OutfitType.GOTHIC, OutfitType.STEAMPUNK, OutfitType.CYBERPUNK],
+        "types": [OutfitType.GOTHIC, OutfitType.STEAMPUNK, OutfitType.CYBERPUNK, OutfitType.ANIME],
         "colors": BLACKS + METALLICS + ["armor details", "structured"]
+    },
+    "mecha pilot leggings": {
+        "types": [OutfitType.ANIME, OutfitType.CYBERPUNK, OutfitType.ATHLEISURE],
+        "colors": BLACKS + WHITES + BLUES + REDS + METALLICS + ["panel seams", "compression fit", "techwear"]
     },
     "quilted skirt": {
         "types": [OutfitType.COTTAGECORE, OutfitType.RETRO, OutfitType.CASUAL_CHIC],

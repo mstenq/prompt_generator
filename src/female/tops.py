@@ -78,7 +78,7 @@ FEMALE_TOPS = {
         "colors": WHITES + PASTELS + ["puffy sleeves", "gathered"]
     },
     "puff-sleeve blouse": {
-        "types": [OutfitType.ROMANTIC, OutfitType.COTTAGECORE, OutfitType.KAWAII],
+        "types": [OutfitType.ROMANTIC, OutfitType.COTTAGECORE, OutfitType.KAWAII, OutfitType.ANIME],
         "colors": WHITES + PASTELS + ["puffy sleeves", "vintage"]
     },
     "poet blouse": {
@@ -94,11 +94,11 @@ FEMALE_TOPS = {
         "colors": WHITES + PASTELS + ["ruffles", "feminine"]
     },
     "peter pan collar blouse": {
-        "types": [OutfitType.PREPPY, OutfitType.KAWAII, OutfitType.COTTAGECORE],
+        "types": [OutfitType.PREPPY, OutfitType.KAWAII, OutfitType.COTTAGECORE, OutfitType.ANIME],
         "colors": WHITES + PASTELS + ["peter pan collar", "cute"]
     },
     "sailor collar blouse": {
-        "types": [OutfitType.KAWAII, OutfitType.RETRO, OutfitType.PREPPY],
+        "types": [OutfitType.KAWAII, OutfitType.RETRO, OutfitType.PREPPY, OutfitType.ANIME],
         "colors": WHITES + BLUES + ["sailor collar", "nautical"]
     },
     "mandarin collar blouse": {
@@ -118,7 +118,7 @@ FEMALE_TOPS = {
         "colors": WHITES + PASTELS + PATTERNS + ["high waistline", "flowing"]
     },
     "baby doll top": {
-        "types": [OutfitType.KAWAII, OutfitType.ROMANTIC, OutfitType.FESTIVAL],
+        "types": [OutfitType.KAWAII, OutfitType.ROMANTIC, OutfitType.FESTIVAL, OutfitType.ANIME],
         "colors": PASTELS + WHITES + ["loose fit", "childlike"]
     },
     "bardot top": {
@@ -174,7 +174,7 @@ FEMALE_TOPS = {
         "colors": BLACKS + WHITES + NEONS + PASTELS + ["fitted", "relaxed"]
     },
     "baby tee": {
-        "types": [OutfitType.KAWAII, OutfitType.CASUAL_CHIC, OutfitType.RETRO],
+        "types": [OutfitType.KAWAII, OutfitType.CASUAL_CHIC, OutfitType.RETRO, OutfitType.ANIME],
         "colors": PASTELS + WHITES + PINKS + ["fitted", "small fit"]
     },
     "ringer tee": {
@@ -238,7 +238,7 @@ FEMALE_TOPS = {
         "colors": BLACKS + GRAYS + NEONS + ["zip closure", "athletic"]
     },
     "kawaii hoodie": {
-        "types": [OutfitType.KAWAII, OutfitType.STREETWEAR],
+        "types": [OutfitType.KAWAII, OutfitType.STREETWEAR, OutfitType.ANIME],
         "colors": PASTELS + WHITES + PINKS + ["cute ears", "character design"]
     },
     "sweatshirt": {
@@ -266,7 +266,7 @@ FEMALE_TOPS = {
         "colors": BROWNS + GREENS + BLUES + GRAYS + ["layering", "classic"]
     },
     "cropped sweater": {
-        "types": [OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST, OutfitType.KAWAII],
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST, OutfitType.KAWAII, OutfitType.ANIME],
         "colors": PASTELS + WHITES + BROWNS + ["cropped", "fitted"]
     },
     "turtleneck sweater": {
@@ -286,7 +286,7 @@ FEMALE_TOPS = {
         "colors": PASTELS + WHITES + GRAYS + ["off-shoulder", "romantic"]
     },
     "puffy sweater": {
-        "types": [OutfitType.KAWAII, OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC],
+        "types": [OutfitType.KAWAII, OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC, OutfitType.ANIME],
         "colors": PASTELS + WHITES + PINKS + ["oversized", "fluffy"]
     },
     "argyle sweater": {
@@ -418,7 +418,7 @@ FEMALE_TOPS = {
         "colors": WHITES + GRAYS + BLUES + REDS + ["baseball style", "raglan"]
     },
     "cheerleader crop top": {
-        "types": [OutfitType.KAWAII, OutfitType.ATHLEISURE, OutfitType.FESTIVAL],
+        "types": [OutfitType.KAWAII, OutfitType.ATHLEISURE, OutfitType.FESTIVAL, OutfitType.ANIME],
         "colors": WHITES + BLUES + REDS + PINKS + ["sporty", "cropped"]
     },
     "triangle bikini top": {
@@ -829,16 +829,28 @@ FEMALE_TOPS = {
         "colors": WHITES + EARTH_TONES + PASTELS + ["embroidered", "folk style"]
     },
     "lolita blouse": {
-        "types": [OutfitType.LOLITA, OutfitType.KAWAII],
+        "types": [OutfitType.LOLITA, OutfitType.KAWAII, OutfitType.ANIME],
         "colors": WHITES + PASTELS + ["bow details", "frilly", "japanese fashion"]
     },
     "sailor fuku blouse": {
-        "types": [OutfitType.KAWAII, OutfitType.LOLITA],
+        "types": [OutfitType.KAWAII, OutfitType.LOLITA, OutfitType.ANIME],
         "colors": WHITES + BLUES + ["sailor collar", "school uniform style"]
     },
     "cartoon print tee": {
-        "types": [OutfitType.KAWAII, OutfitType.CASUAL_CHIC, OutfitType.FESTIVAL],
+        "types": [OutfitType.KAWAII, OutfitType.CASUAL_CHIC, OutfitType.FESTIVAL, OutfitType.ANIME],
         "colors": WHITES + PASTELS + NEONS + ["cartoon characters", "cute graphics"]
+    },
+    "idol performance blouse": {
+        "types": [OutfitType.ANIME, OutfitType.CLUB_PARTY, OutfitType.KAWAII],
+        "colors": PASTELS + WHITES + JEWEL_TONES + METALLICS + ["frilled trim", "stage bows", "sparkly"]
+    },
+    "heroine academy cardigan": {
+        "types": [OutfitType.ANIME, OutfitType.PREPPY, OutfitType.KAWAII],
+        "colors": BLUES + GRAYS + PASTELS + WHITES + ["academy crest", "contrast trim", "uniform"]
+    },
+    "anime track jacket": {
+        "types": [OutfitType.ANIME, OutfitType.ATHLEISURE, OutfitType.STREETWEAR],
+        "colors": PINKS + BLUES + WHITES + NEONS + ["club logo", "contrast stripes", "sporty"]
     },
     "rockabilly blouse": {
         "types": [OutfitType.ROCKABILLY, OutfitType.PIN_UP, OutfitType.RETRO],
@@ -917,7 +929,7 @@ FEMALE_TOPS = {
         "colors": ["snake print", "python print"] + GREENS + BROWNS + BLACKS
     },
     "school blazer vest": {
-        "types": [OutfitType.KAWAII, OutfitType.PREPPY, OutfitType.LOLITA],
+        "types": [OutfitType.KAWAII, OutfitType.PREPPY, OutfitType.LOLITA, OutfitType.ANIME],
         "colors": BLUES + GRAYS + BLACKS + ["school uniform", "structured"]
     },
     "fishnet top": {
@@ -1057,7 +1069,7 @@ FEMALE_TOPS = {
         "colors": BLACKS + GREENS + NEONS + ["satin", "metallic"]
     },
     "kimono": {
-        "types": [OutfitType.BOHEMIAN, OutfitType.ETHEREAL, OutfitType.KAWAII],
+        "types": [OutfitType.BOHEMIAN, OutfitType.ETHEREAL, OutfitType.KAWAII, OutfitType.ANIME],
         "colors": PASTELS + JEWEL_TONES + ["floral print", "silk", "embroidered"]
     },
     "bodysuit": {
@@ -1328,13 +1340,23 @@ FEMALE_TOPS = {
         "fullBody": True
     },
     "lolita dress": {
-        "types": [OutfitType.LOLITA, OutfitType.KAWAII],
+        "types": [OutfitType.LOLITA, OutfitType.KAWAII, OutfitType.ANIME],
         "colors": PASTELS + WHITES + BLACKS + ["sweet", "gothic", "classic", "elaborate"],
         "fullBody": True
     },
     "kawaii puff-sleeve dress": {
-        "types": [OutfitType.KAWAII, OutfitType.LOLITA],
+        "types": [OutfitType.KAWAII, OutfitType.LOLITA, OutfitType.ANIME],
         "colors": PASTELS + WHITES + ["cute", "puffy sleeves", "sweet"],
+        "fullBody": True
+    },
+    "magical girl dress": {
+        "types": [OutfitType.ANIME, OutfitType.KAWAII, OutfitType.FANTASY],
+        "colors": PASTELS + WHITES + PINKS + METALLICS + ["ribbons", "transformation outfit", "sparkly"],
+        "fullBody": True
+    },
+    "idol stage dress": {
+        "types": [OutfitType.ANIME, OutfitType.CLUB_PARTY, OutfitType.KAWAII],
+        "colors": PASTELS + JEWEL_TONES + METALLICS + ["layered skirt", "performance costume", "frilled"],
         "fullBody": True
     },
     "gothic Victorian mourning dress": {
@@ -1499,13 +1521,23 @@ FEMALE_TOPS = {
     
     # Uniforms and costumes
     "cheerleader uniform": {
-        "types": [OutfitType.ATHLEISURE, OutfitType.RETRO, OutfitType.KAWAII],
+        "types": [OutfitType.ATHLEISURE, OutfitType.RETRO, OutfitType.KAWAII, OutfitType.ANIME],
         "colors": NEONS + PASTELS + PATTERNS + ["sporty", "school colors", "pleated"],
         "fullBody": True
     },
     "school uniform dress": {
-        "types": [OutfitType.PREPPY, OutfitType.KAWAII, OutfitType.MINIMALIST],
+        "types": [OutfitType.PREPPY, OutfitType.KAWAII, OutfitType.MINIMALIST, OutfitType.ANIME],
         "colors": BLUES + GRAYS + BLACKS + ["sailor", "seifuku", "academic"],
+        "fullBody": True
+    },
+    "shrine maiden outfit": {
+        "types": [OutfitType.ANIME, OutfitType.ETHEREAL, OutfitType.FANTASY],
+        "colors": WHITES + REDS + ["hakama", "flowing sleeves", "traditional"],
+        "fullBody": True
+    },
+    "mecha pilot bodysuit": {
+        "types": [OutfitType.ANIME, OutfitType.CYBERPUNK, OutfitType.AVANT_GARDE],
+        "colors": WHITES + BLACKS + BLUES + REDS + METALLICS + ["panel seams", "futuristic", "form-fitting"],
         "fullBody": True
     },
     "nurse uniform dress": {
@@ -1514,7 +1546,7 @@ FEMALE_TOPS = {
         "fullBody": True
     },
     "maid outfit": {
-        "types": [OutfitType.KAWAII, OutfitType.GOTHIC, OutfitType.RETRO],
+        "types": [OutfitType.KAWAII, OutfitType.GOTHIC, OutfitType.RETRO, OutfitType.ANIME],
         "colors": BLACKS + WHITES + ["frilly", "cosplay", "French maid"],
         "fullBody": True
     },
@@ -1526,12 +1558,12 @@ FEMALE_TOPS = {
     
     # Cultural and traditional
     "kimono": {
-        "types": [OutfitType.EVENING_FORMAL, OutfitType.ETHEREAL, OutfitType.ROMANTIC],
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.ETHEREAL, OutfitType.ROMANTIC, OutfitType.ANIME],
         "colors": JEWEL_TONES + PATTERNS + ["silk", "traditional", "ornate", "Japanese"],
         "fullBody": True
     },
     "yukata": {
-        "types": [OutfitType.CASUAL_CHIC, OutfitType.ETHEREAL, OutfitType.FESTIVAL],
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.ETHEREAL, OutfitType.FESTIVAL, OutfitType.ANIME],
         "colors": PASTELS + PATTERNS + ["cotton", "summer", "casual kimono"],
         "fullBody": True
     },

@@ -50,7 +50,7 @@ No additional dependencies are required - the module uses only Python standard l
 
 ### Basic Setup
 
-1. In ComfyUI, add the **Prompt Generator** node (found under the `examples` category)
+1. In ComfyUI, add the **Prompt Generator** node (found under the `prompt_generator` category)
 2. The node has the following inputs:
 
     - **prompt**: Template string with placeholder tags (default: `"A photo of <<woman>> wearing <<femaleOutfit>> in <<scene>>"`)
@@ -60,6 +60,7 @@ No additional dependencies are required - the module uses only Python standard l
     - **megapixels**: Image resolution (0.1 to 10.0 MP)
     - **seed** (optional): Random seed (-1 for random)
     - **force_barefoot** (optional): Override footwear generation
+    - **var_1** to **var_6** (optional): `PROMPT_VAR` inputs for reusable prompt fragments from other generator nodes
 
 3. The node outputs:
     - **prompt**: Generated text prompt string
@@ -72,15 +73,30 @@ Use these placeholder tags in your prompt template. Each tag is replaced with ra
 
 #### Character Tags
 
--   `<<woman>>` or `<<femaleChar>>` - Full female character description
--   `<<man>>` or `<<maleChar>>` - Full male character description
--   `<<simpleWoman>>` or `<<simpleFemaleChar>>` - Simplified female description
--   `<<simpleMan>>` or `<<simpleMaleChar>>` - Simplified male description
+-   `<<female>>` or `<<woman>>` - Full female character description
+-   `<<male>>` or `<<man>>` - Full male character description
+-   `<<simpleFemale>>` or `<<simpleWoman>>` - Simplified female description
+-   `<<simpleMale>>` or `<<simpleMan>>` - Simplified male description
 
 #### Outfit Tags
 
 -   `<<femaleOutfit>>` - Female outfit matching selected style
 -   `<<maleOutfit>>` - Male outfit matching selected style
+-   `<<femaleTop>>` - Female top matching selected style
+-   `<<maleTop>>` - Male top matching selected style
+-   `<<femaleBottom>>` - Female bottom matching selected style
+-   `<<maleBottom>>` - Male bottom matching selected style
+-   `<<femaleShoe>>` - Female footwear matching selected style
+-   `<<maleShoe>>` - Male footwear matching selected style
+
+#### Variable Tags
+
+-   `<<var1>>` or `<<var_1>>` - Inject value from the `var_1` input
+-   `<<var2>>` or `<<var_2>>` - Inject value from the `var_2` input
+-   `<<var3>>` or `<<var_3>>` - Inject value from the `var_3` input
+-   `<<var4>>` or `<<var_4>>` - Inject value from the `var_4` input
+-   `<<var5>>` or `<<var_5>>` - Inject value from the `var_5` input
+-   `<<var6>>` or `<<var_6>>` - Inject value from the `var_6` input
 
 #### Pose Tags
 
@@ -169,11 +185,23 @@ Force Barefoot: True
 Output: "Athletic blonde woman with blue eyes lying on her back on sandy beach with palm trees, barefoot with toenails painted with coral, wearing turquoise bikini, white sun hat, sunset lighting"
 ```
 
+#### Example 6: Reusing Generator Outputs
+
+```
+Template: "Studio photo of <<var1>> wearing <<var2>>, <<standing>>, seamless backdrop"
+var_1: output from Simple Female Generator
+var_2: output from Outfit Generator
+Outfit Type: "random"
+Location: "anything"
+
+Output: "Studio photo of petite brunette woman with green eyes wearing beige cardigan, pleated skirt, brown ankle boots, standing with one hand on hip, seamless backdrop"
+```
+
 ### Outfit Style Types
 
 Available outfit types (select from dropdown):
 
--   random, athleisure, avant-garde, beach wear, bohemian, business wear, casual chic, club/party wear, cottagecore, cowboy, cyberpunk, ethereal, evening/formal wear, fantasy, festival wear, gothic, grunge, kawaii, lingerie, lolita, military, minimalist, normcore, pin-up, preppy, punk, retro, rockabilly, romantic, steampunk, streetwear, vintage
+-   random, anime, athleisure, avant-garde, beach wear, bohemian, business wear, casual chic, club/party wear, cottagecore, cowboy, cyberpunk, ethereal, evening/formal wear, fantasy, festival wear, gothic, grunge, kawaii, lingerie, lolita, military, minimalist, normcore, pin-up, preppy, punk, retro, rockabilly, romantic, steampunk, streetwear, vintage
 
 ### Location Types
 
@@ -183,18 +211,19 @@ Available location filters (select from dropdown):
 
 ### Tips
 
-1. **Scene-First Logic**: When using `outfit_type: "random"` with a specific location, the generator picks a scene first, then selects a compatible outfit type
-2. **Multiple Tags**: Use the same tag multiple times to generate different variations (e.g., two different characters)
-3. **Seed Control**: Set a specific seed value for reproducible prompts (useful for variations)
-4. **Image Dimensions**: The node automatically calculates dimensions - connect width/height outputs to your Empty Latent Image node
-5. **Mix Genders**: Combine `<<woman>>` and `<<man>>` tags for multi-character scenes
-6. **Color Consistency**: Use color category filters for cohesive palettes
+1. **Scene-First Logic**: When using `outfit_type: "random"` with a specific location, the generator picks a scene first, then selects a compatible outfit type.
+2. **Multiple Tags**: Use the same tag multiple times to generate different variations, such as two different characters in one prompt.
+3. **Seed Control**: Set a specific seed value for reproducible prompts and prompt variations.
+4. **Image Dimensions**: The node automatically calculates dimensions from aspect ratio and megapixels. Connect `width` and `height` to your Empty Latent Image node.
+5. **Composable Fragments**: Use `<<femaleTop>>`, `<<maleBottom>>`, or shoe tags when you want to build outfits manually instead of inserting a complete outfit.
+6. **Generator Chaining**: Connect outputs from `Female Generator`, `Male Generator`, `Outfit Generator`, `Top Generator`, `Bottoms Generator`, `Shoe Generator`, or `Scene Generator` into `var_1` through `var_6`, then reference them with `<<var1>>` through `<<var6>>`.
+7. **Color Consistency**: Use color category filters for cohesive palettes.
 
 ## Technical Details
 
 -   **Language**: Python (no external dependencies)
 -   **Node Type**: Custom ComfyUI node with string and integer outputs
--   **Category**: examples
+-   **Category**: prompt_generator
 -   **Randomization**: Uses Python's `random` module with optional seed control
 -   **Dimensions**: Calculated to nearest multiple of 8 (standard for AI image generation)
 
@@ -208,6 +237,7 @@ The project structure:
 -   `src/SceneGenerator.py` - Scene/location generation
 -   `src/PoseGenerator.py` - Pose description generation
 -   `src/ColorGenerator.py` - Color generation with category filters
+-   `src/ShoeGenerator.py` - Footwear generation with optional barefoot handling
 -   `src/enums.py` - Outfit and location type definitions
 -   `src/male/` - Male-specific attributes and clothing
 -   `src/female/` - Female-specific attributes and clothing
