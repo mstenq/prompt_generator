@@ -53,9 +53,46 @@ class LocationType(Enum):
     OFFICE = "office"
     OUTDOOR = "outdoors"
     STORE = "store"
+    FRONT_YARD = "front yard"
+    BACK_YARD = "back yard"
+    RESTAURANT = "restaurant"
+    BAR = "bar"
+    NIGHTCLUB = "nightclub"
+    GYM = "gym"
+    HOTEL = "hotel"
+    PARK = "park"
+    POOL = "pool"
+    SUBWAY = "subway"
+    AIRPORT = "airport"
+    TRAIN_STATION = "train station"
+    ROOFTOP = "rooftop"
+    FOREST = "forest"
+    MOUNTAIN = "mountain"
+    DESERT = "desert"
+    GARDEN = "garden"
+    STUDIO = "studio"
+    WAREHOUSE = "warehouse"
+    CHURCH = "church"
+    CARNIVAL = "carnival"
+    FARM = "farm"
+    BOAT = "boat"
+    GARAGE = "garage"
+    BASEMENT = "basement"
+    ATTIC = "attic"
+    BALCONY = "balcony"
 
 # Generate outfit type names for dropdown from enum values
 OUTFIT_TYPE_NAMES = ["random"] + [outfit_type.value for outfit_type in OutfitType]
 
 # Generate location type names for dropdown from enum values
 LOCATION_TYPE_NAMES = ["anything"] + [location_type.value for location_type in LocationType]
+
+FOOTWEAR_MODE_NAMES = [
+    "omit",
+    "barefoot - natural toenails",
+    "barefoot - painted toenails",
+    "socks - white",
+    "socks - black",
+    "socks - any color",
+    "shoes",
+]

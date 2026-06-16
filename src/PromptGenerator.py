@@ -1,7 +1,7 @@
 import random
 import math
 import re
-from .enums import OutfitType, OUTFIT_TYPE_NAMES, LOCATION_TYPE_NAMES
+from .enums import OutfitType, OUTFIT_TYPE_NAMES, LOCATION_TYPE_NAMES, FOOTWEAR_MODE_NAMES
 from .OutfitGenerator import OutfitGenerator
 from .SceneGenerator import SceneGenerator
 from .CharacterGenerator import CharacterGenerator
@@ -27,7 +27,7 @@ class PromptGenerator:
             },
             "optional": {
                 "seed": ("INT", {"default": -1, "min": -1, "max": 2147483647}),
-                "force_barefoot": ("BOOLEAN", {"default": False}),
+                "footwear_mode": (FOOTWEAR_MODE_NAMES, {"default": "shoes"}),
                 "var_1": ("PROMPT_VAR", {}),
                 "var_2": ("PROMPT_VAR", {}),
                 "var_3": ("PROMPT_VAR", {}),
@@ -81,7 +81,7 @@ class PromptGenerator:
         
         return width, height
 
-    def _substitute_template(self, template, outfit_type, location, force_barefoot=False, vars = []):
+    def _substitute_template(self, template, outfit_type, location, footwear_mode="shoes", vars = []):
         """Replace template placeholders with generated outfit and scene data"""
         result = template
         
@@ -248,11 +248,11 @@ class PromptGenerator:
         # OUTFIT
         ##############################################################################
         while "<<femaleOutfit>>" in result:
-            female_outfit = OutfitGenerator.generate_outfit(outfit_type_enum, "female", force_barefoot)
+            female_outfit = OutfitGenerator.generate_outfit(outfit_type_enum, "female", footwear_mode)
             result = result.replace("<<femaleOutfit>>", female_outfit, 1)            
             
         while "<<maleOutfit>>" in result:
-            male_outfit = OutfitGenerator.generate_outfit(outfit_type_enum, "male", force_barefoot)
+            male_outfit = OutfitGenerator.generate_outfit(outfit_type_enum, "male", footwear_mode)
             result = result.replace("<<maleOutfit>>", male_outfit, 1)
             
         while "<<femaleTop>>" in result:
@@ -272,11 +272,11 @@ class PromptGenerator:
             result = result.replace("<<maleBottom>>", male_bottom, 1)
             
         while "<<femaleShoe>>" in result:
-            female_shoe = ShoeGenerator.generate_shoe(outfit_type_enum, "female", force_barefoot)
+            female_shoe = ShoeGenerator.generate_shoe(outfit_type_enum, "female", footwear_mode)
             result = result.replace("<<femaleShoe>>", female_shoe, 1)
             
         while "<<maleShoe>>" in result:
-            male_shoe = ShoeGenerator.generate_shoe(outfit_type_enum, "male", force_barefoot)
+            male_shoe = ShoeGenerator.generate_shoe(outfit_type_enum, "male", footwear_mode)
             result = result.replace("<<maleShoe>>", male_shoe, 1)
             
         ##############################################################################
@@ -321,7 +321,7 @@ class PromptGenerator:
         
         return result
 
-    def generate_prompt(self, prompt, outfit_type, location, ratio, megapixels, seed=-1, force_barefoot=False, var_1=None, var_2=None, var_3=None, var_4=None, var_5=None, var_6=None):
+    def generate_prompt(self, prompt, outfit_type, location, ratio, megapixels, seed=-1, footwear_mode="shoes", var_1=None, var_2=None, var_3=None, var_4=None, var_5=None, var_6=None):
         """Generate a merged prompt with outfit and scene data substituted for placeholders"""
         
         # Use seed for randomization - if -1, use random seed
@@ -336,7 +336,7 @@ class PromptGenerator:
 
         # Substitute template placeholders with generated data
         # Note: outfit_type resolution happens inside _substitute_template
-        final_prompt = self._substitute_template(prompt, outfit_type, location, force_barefoot, vars)
+        final_prompt = self._substitute_template(prompt, outfit_type, location, footwear_mode, vars)
         
         # Debug logging
         print(f"DEBUG - original prompt: {prompt}")

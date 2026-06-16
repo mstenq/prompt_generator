@@ -5345,4 +5345,5459 @@ SCENES = {
         "types": [OutfitType.GRUNGE, OutfitType.GOTHIC, OutfitType.STREETWEAR, OutfitType.PUNK],
         "location": [LocationType.INDOOR, LocationType.STORE, LocationType.MALL],
     },
+
+    # Front Yard Scenes
+    "victorian house front yard with ornate trim, stained glass windows, and climbing ivy on the facade": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.ROMANTIC, OutfitType.VINTAGE, OutfitType.GOTHIC],
+        "location": [LocationType.OUTDOOR, LocationType.FRONT_YARD],
+    },
+    "colonial mansion front yard with brick walkway, tall columns, and manicured boxwood hedges": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.PREPPY, OutfitType.ROMANTIC],
+        "location": [LocationType.OUTDOOR, LocationType.FRONT_YARD],
+    },
+    "craftsman bungalow front yard with low-pitched roof, wide porch, and river rock landscaping": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC, OutfitType.PREPPY],
+        "location": [LocationType.OUTDOOR, LocationType.FRONT_YARD],
+    },
+    "mid-century modern home front yard with flat roof, geometric lines, and drought-tolerant plants": {
+        "types": [OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC, OutfitType.RETRO],
+        "location": [LocationType.OUTDOOR, LocationType.FRONT_YARD],
+    },
+    "contemporary glass house front yard with floor-to-ceiling windows, reflecting pool, and sculptural lawn": {
+        "types": [OutfitType.MINIMALIST, OutfitType.AVANT_GARDE, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.OUTDOOR, LocationType.FRONT_YARD],
+    },
+    "farmhouse front yard with wraparound porch, barn-red shutters, and wildflower borders": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC, OutfitType.COWBOY],
+        "location": [LocationType.OUTDOOR, LocationType.FRONT_YARD],
+    },
+    "Tudor-style home front yard with half-timbered facade, steep gables, and clipped yew hedges": {
+        "types": [OutfitType.PREPPY, OutfitType.VINTAGE, OutfitType.ROMANTIC],
+        "location": [LocationType.OUTDOOR, LocationType.FRONT_YARD],
+    },
+    "Mediterranean villa front yard with terracotta roof tiles, stucco walls, and olive trees": {
+        "types": [OutfitType.ROMANTIC, OutfitType.BOHEMIAN, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.FRONT_YARD],
+    },
+    "Cape Cod cottage front yard with cedar shingles, window boxes, and a picket fence gate": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.PREPPY, OutfitType.NORMCORE],
+        "location": [LocationType.OUTDOOR, LocationType.FRONT_YARD],
+    },
+    "art deco townhouse front yard with geometric ironwork, stepped facade, and manicured lawn": {
+        "types": [OutfitType.VINTAGE, OutfitType.EVENING_FORMAL, OutfitType.AVANT_GARDE],
+        "location": [LocationType.OUTDOOR, LocationType.FRONT_YARD],
+    },
+    "ranch-style home front yard with low profile, attached garage, and wide green lawn": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.NORMCORE, OutfitType.PREPPY],
+        "location": [LocationType.OUTDOOR, LocationType.FRONT_YARD],
+    },
+    "modern minimalist home front yard with concrete path, ornamental grasses, and clean lines": {
+        "types": [OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC, OutfitType.AVANT_GARDE],
+        "location": [LocationType.OUTDOOR, LocationType.FRONT_YARD],
+    },
+    "front yard rose garden with trellised climbers, gravel paths, and blooming hybrid tea roses": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.ROMANTIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.FRONT_YARD],
+    },
+    "front yard with sculpted topiary hedges, symmetrical beds, and a central fountain": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.PREPPY, OutfitType.ROMANTIC],
+        "location": [LocationType.OUTDOOR, LocationType.FRONT_YARD],
+    },
+    "front yard stone fountain surrounded by lavender beds and cobblestone walkway": {
+        "types": [OutfitType.ROMANTIC, OutfitType.COTTAGECORE, OutfitType.ETHEREAL],
+        "location": [LocationType.OUTDOOR, LocationType.FRONT_YARD],
+    },
+    "front yard flagstone walkway lined with solar lights and ornamental shrubs": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.COTTAGECORE, OutfitType.MINIMALIST],
+        "location": [LocationType.OUTDOOR, LocationType.FRONT_YARD],
+    },
+    "front yard Japanese maple garden with raked gravel, moss accents, and stepping stones": {
+        "types": [OutfitType.MINIMALIST, OutfitType.ETHEREAL, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.FRONT_YARD],
+    },
+    "desert xeriscape front yard with succulents, agave plants, and decomposed granite mulch": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.FRONT_YARD],
+    },
+    "spring front yard with colorful tulip beds, budding trees, and fresh green lawn": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.ROMANTIC, OutfitType.KAWAII],
+        "location": [LocationType.OUTDOOR, LocationType.FRONT_YARD],
+    },
+    "autumn front yard with pumpkins on the steps, hay bales, and orange maple leaves": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.FRONT_YARD],
+    },
+    "winter front yard with snow-dusted evergreens, frosted shrubs, and icicle-laden gutters": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC, OutfitType.ETHEREAL],
+        "location": [LocationType.OUTDOOR, LocationType.FRONT_YARD],
+    },
+    "front yard wildflower meadow edge blending into a trimmed suburban lawn": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.COTTAGECORE, OutfitType.ROMANTIC],
+        "location": [LocationType.OUTDOOR, LocationType.FRONT_YARD],
+    },
+    "suburban front yard wedding ceremony with white chairs, floral arch, and rose petals on the lawn": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.ROMANTIC, OutfitType.ETHEREAL],
+        "location": [LocationType.OUTDOOR, LocationType.FRONT_YARD],
+    },
+    "front yard graduation party with balloons on the mailbox, banner on the porch, and folding chairs": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.PREPPY, OutfitType.FESTIVAL],
+        "location": [LocationType.OUTDOOR, LocationType.FRONT_YARD],
+    },
+    "front yard birthday party with balloon arch on the driveway and colorful lawn decorations": {
+        "types": [OutfitType.KAWAII, OutfitType.CASUAL_CHIC, OutfitType.FESTIVAL],
+        "location": [LocationType.OUTDOOR, LocationType.FRONT_YARD],
+    },
+    "staged front yard open house with for-sale sign, fresh mulch, and potted plants by the door": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.PREPPY, OutfitType.MINIMALIST],
+        "location": [LocationType.OUTDOOR, LocationType.FRONT_YARD],
+    },
+    "neighborhood block party spilling across front yards with tables, grills, and bunting flags": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.FESTIVAL, OutfitType.NORMCORE],
+        "location": [LocationType.OUTDOOR, LocationType.FRONT_YARD],
+    },
+    "front yard with American flags on the porch and red-white-blue bunting for a holiday": {
+        "types": [OutfitType.PREPPY, OutfitType.CASUAL_CHIC, OutfitType.NORMCORE],
+        "location": [LocationType.OUTDOOR, LocationType.FRONT_YARD],
+    },
+    "Halloween-decorated front yard with jack-o-lanterns, spider webs, and fog machine on the porch": {
+        "types": [OutfitType.GOTHIC, OutfitType.PUNK, OutfitType.GRUNGE],
+        "location": [LocationType.OUTDOOR, LocationType.FRONT_YARD],
+    },
+    "Christmas front yard with elaborate light display, inflatable snowman, and lit wreath on the door": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC, OutfitType.KAWAII],
+        "location": [LocationType.OUTDOOR, LocationType.FRONT_YARD],
+    },
+    "front yard Easter egg hunt with pastel decorations, bunny cutouts, and baskets on the lawn": {
+        "types": [OutfitType.KAWAII, OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.FRONT_YARD],
+    },
+    "front yard baby shower setup with pink and blue balloons, gift table, and garden chairs": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.ROMANTIC, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.FRONT_YARD],
+    },
+    "southern home with wraparound porch, rocking chairs, and hanging ferns in the front yard": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.PREPPY, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.FRONT_YARD],
+    },
+    "grand brick steps leading to a double-door entrance with potted topiaries on each side": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.PREPPY, OutfitType.ROMANTIC],
+        "location": [LocationType.OUTDOOR, LocationType.FRONT_YARD],
+    },
+    "circular driveway front yard with a central island of flowers and a luxury sedan parked": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.PREPPY, OutfitType.MINIMALIST],
+        "location": [LocationType.OUTDOOR, LocationType.FRONT_YARD],
+    },
+    "wrought iron gate entrance with stone pillars and a long tree-lined driveway beyond": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.ROMANTIC, OutfitType.VINTAGE],
+        "location": [LocationType.OUTDOOR, LocationType.FRONT_YARD],
+    },
+    "carriage house front yard with cobblestone court, lantern posts, and horse-stable doors": {
+        "types": [OutfitType.VINTAGE, OutfitType.COTTAGECORE, OutfitType.ROMANTIC],
+        "location": [LocationType.OUTDOOR, LocationType.FRONT_YARD],
+    },
+    "covered portico front yard with arched entry, hanging lantern, and clipped hedges": {
+        "types": [OutfitType.ROMANTIC, OutfitType.PREPPY, OutfitType.COTTAGECORE],
+        "location": [LocationType.OUTDOOR, LocationType.FRONT_YARD],
+    },
+    "estate entrance with tall stone pillars, iron gates, and a gravel approach through oaks": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.PREPPY, OutfitType.ROMANTIC],
+        "location": [LocationType.OUTDOOR, LocationType.FRONT_YARD],
+    },
+    "second-story balcony overlooking the front yard with flower boxes and a curved driveway": {
+        "types": [OutfitType.ROMANTIC, OutfitType.CASUAL_CHIC, OutfitType.PREPPY],
+        "location": [LocationType.OUTDOOR, LocationType.FRONT_YARD],
+    },
+    "charming front yard mailbox garden with climbing roses, bird bath, and painted mailbox": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.BOHEMIAN, OutfitType.ROMANTIC],
+        "location": [LocationType.OUTDOOR, LocationType.FRONT_YARD],
+    },
+    "white picket fence front yard lane with cottage gates and hydrangea bushes": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.PREPPY, OutfitType.ROMANTIC],
+        "location": [LocationType.OUTDOOR, LocationType.FRONT_YARD],
+    },
+    "golden-hour suburban front yard with long shadows, warm light on the facade, and trimmed lawn": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.NORMCORE, OutfitType.COTTAGECORE],
+        "location": [LocationType.OUTDOOR, LocationType.FRONT_YARD],
+    },
+    "rainy front yard with umbrella on the porch, wet walkway, and glistening leaves": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.COTTAGECORE, OutfitType.ROMANTIC],
+        "location": [LocationType.OUTDOOR, LocationType.FRONT_YARD],
+    },
+    "foggy morning front yard with mist over the lawn and dew on spider webs": {
+        "types": [OutfitType.ETHEREAL, OutfitType.COTTAGECORE, OutfitType.GOTHIC],
+        "location": [LocationType.OUTDOOR, LocationType.FRONT_YARD],
+    },
+    "sunset mansion front yard with long driveway, amber sky, and silhouetted trees": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.ROMANTIC, OutfitType.ETHEREAL],
+        "location": [LocationType.OUTDOOR, LocationType.FRONT_YARD],
+    },
+    "twilight front yard with paper lantern path, glowing porch light, and fireflies": {
+        "types": [OutfitType.ROMANTIC, OutfitType.ETHEREAL, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.FRONT_YARD],
+    },
+    "spring blossom front yard with cherry trees in full bloom and petals on the walkway": {
+        "types": [OutfitType.ROMANTIC, OutfitType.COTTAGECORE, OutfitType.ETHEREAL],
+        "location": [LocationType.OUTDOOR, LocationType.FRONT_YARD],
+    },
+    "summer front yard lemonade stand with checkered tablecloth and shade umbrella": {
+        "types": [OutfitType.KAWAII, OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.FRONT_YARD],
+    },
+    "fall front yard with leaf-strewn walkway, mums in pots, and a harvest wreath on the door": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.FRONT_YARD],
+    },
+
+    # Back Yard Scenes
+    "luxury back yard with infinity pool, lounge chairs, and palm trees at golden hour": {
+        "types": [OutfitType.SWIMSUIT, OutfitType.BIKINI, OutfitType.BEACH_WEAR],
+        "location": [LocationType.OUTDOOR, LocationType.BACK_YARD],
+    },
+    "back yard lap pool with lane markers, teak decking, and glass pool fence": {
+        "types": [OutfitType.SWIMSUIT, OutfitType.ATHLEISURE, OutfitType.MINIMALIST],
+        "location": [LocationType.OUTDOOR, LocationType.BACK_YARD],
+    },
+    "back yard pool with diving board, concrete deck, and colorful pool toys scattered nearby": {
+        "types": [OutfitType.SWIMSUIT, OutfitType.BIKINI, OutfitType.ATHLEISURE],
+        "location": [LocationType.OUTDOOR, LocationType.BACK_YARD],
+    },
+    "back yard with inflatable kiddie pool, sprinkler, and grassy play area": {
+        "types": [OutfitType.KAWAII, OutfitType.CASUAL_CHIC, OutfitType.ATHLEISURE],
+        "location": [LocationType.OUTDOOR, LocationType.BACK_YARD],
+    },
+    "back yard hot tub deck with cedar surround, string lights, and privacy fence": {
+        "types": [OutfitType.SWIMSUIT, OutfitType.CASUAL_CHIC, OutfitType.ROMANTIC],
+        "location": [LocationType.OUTDOOR, LocationType.BACK_YARD],
+    },
+    "back yard pool party with inflatable floats, tropical drinks, and music speakers": {
+        "types": [OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.FESTIVAL],
+        "location": [LocationType.OUTDOOR, LocationType.BACK_YARD],
+    },
+    "back yard pool with natural rock waterfall feature and tropical landscaping": {
+        "types": [OutfitType.SWIMSUIT, OutfitType.BEACH_WEAR, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.BACK_YARD],
+    },
+    "back yard natural stone pool with boulders, ferns, and a wooden bridge": {
+        "types": [OutfitType.SWIMSUIT, OutfitType.BOHEMIAN, OutfitType.ETHEREAL],
+        "location": [LocationType.OUTDOOR, LocationType.BACK_YARD],
+    },
+    "back yard pool at night with underwater lights, lit palm trees, and moonlit water": {
+        "types": [OutfitType.SWIMSUIT, OutfitType.BIKINI, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.OUTDOOR, LocationType.BACK_YARD],
+    },
+    "back yard poolside cabana with white curtains, daybed, and shaded bar area": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.EVENING_FORMAL, OutfitType.ROMANTIC],
+        "location": [LocationType.OUTDOOR, LocationType.BACK_YARD],
+    },
+    "back yard BBQ party with smoking grill, picnic tables, and checkered tablecloths": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.PREPPY, OutfitType.FESTIVAL],
+        "location": [LocationType.OUTDOOR, LocationType.BACK_YARD],
+    },
+    "back yard patio dining under string lights with long farm table and candle centerpieces": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.ROMANTIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.BACK_YARD],
+    },
+    "back yard outdoor kitchen with stone counter, built-in grill, and herb planters": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.PREPPY, OutfitType.COTTAGECORE],
+        "location": [LocationType.OUTDOOR, LocationType.BACK_YARD],
+    },
+    "back yard fire pit circle with Adirondack chairs, s'mores supplies, and starry sky": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.BACK_YARD],
+    },
+    "back yard tiki bar with bamboo accents, thatched roof, and tropical drink setup": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.FESTIVAL, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.BACK_YARD],
+    },
+    "back yard garden cocktail party with linen-draped tables, champagne, and twinkle lights": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.ROMANTIC, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.BACK_YARD],
+    },
+    "back yard luau setup with tiki torches, leis on chairs, and a roasted pig table": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.FESTIVAL, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.BACK_YARD],
+    },
+    "back yard kids birthday party with piñata, balloon arch, and colorful bunting": {
+        "types": [OutfitType.KAWAII, OutfitType.CASUAL_CHIC, OutfitType.FESTIVAL],
+        "location": [LocationType.OUTDOOR, LocationType.BACK_YARD],
+    },
+    "back yard wine tasting patio with barrel tables, vineyard views, and grape vines overhead": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.ROMANTIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.BACK_YARD],
+    },
+    "back yard outdoor movie night with projector screen, blankets, and popcorn station": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.NORMCORE, OutfitType.COTTAGECORE],
+        "location": [LocationType.OUTDOOR, LocationType.BACK_YARD],
+    },
+    "back yard vegetable garden with raised beds, trellised tomatoes, and compost bin": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.BOHEMIAN, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.BACK_YARD],
+    },
+    "back yard greenhouse filled with tropical plants, potting bench, and misted glass panels": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.BOHEMIAN, OutfitType.ETHEREAL],
+        "location": [LocationType.OUTDOOR, LocationType.BACK_YARD],
+    },
+    "back yard koi pond with stepping stones, bamboo fence, and lily pads": {
+        "types": [OutfitType.ETHEREAL, OutfitType.BOHEMIAN, OutfitType.MINIMALIST],
+        "location": [LocationType.OUTDOOR, LocationType.BACK_YARD],
+    },
+    "back yard butterfly garden with wildflowers, bird bath, and wooden bench": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.BOHEMIAN, OutfitType.ROMANTIC],
+        "location": [LocationType.OUTDOOR, LocationType.BACK_YARD],
+    },
+    "back yard herb garden with labeled planters, stone path, and kitchen door nearby": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.BACK_YARD],
+    },
+    "back yard zen rock garden with raked gravel, moss islands, and bamboo screening": {
+        "types": [OutfitType.MINIMALIST, OutfitType.ETHEREAL, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.BACK_YARD],
+    },
+    "back yard orchard with fruit trees, wooden ladder, and fallen apples on the grass": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.BACK_YARD],
+    },
+    "back yard wildflower border along a cedar fence with bees and butterflies": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.COTTAGECORE, OutfitType.ROMANTIC],
+        "location": [LocationType.OUTDOOR, LocationType.BACK_YARD],
+    },
+    "back yard white gazebo with climbing roses, lattice sides, and garden chairs inside": {
+        "types": [OutfitType.ROMANTIC, OutfitType.COTTAGECORE, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.OUTDOOR, LocationType.BACK_YARD],
+    },
+    "back yard pergola draped with wisteria vines, hanging lanterns, and a dining set below": {
+        "types": [OutfitType.ROMANTIC, OutfitType.BOHEMIAN, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.BACK_YARD],
+    },
+    "back yard treehouse with rope ladder, wooden platform, and leafy canopy overhead": {
+        "types": [OutfitType.KAWAII, OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.BACK_YARD],
+    },
+    "back yard swing set and slide on a rubber mulch play area with picket fence": {
+        "types": [OutfitType.KAWAII, OutfitType.CASUAL_CHIC, OutfitType.ATHLEISURE],
+        "location": [LocationType.OUTDOOR, LocationType.BACK_YARD],
+    },
+    "back yard hammock strung between two oak trees with dappled shade and a book nearby": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.BOHEMIAN, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.BACK_YARD],
+    },
+    "back yard chicken coop with wire run, nesting boxes, and free-ranging hens": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC, OutfitType.NORMCORE],
+        "location": [LocationType.OUTDOOR, LocationType.BACK_YARD],
+    },
+    "back yard shed workshop with open doors, tools on pegboard, and woodworking bench": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.GRUNGE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.BACK_YARD],
+    },
+    "back yard covered patio with ceiling fan, wicker furniture, and potted palms": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.BEACH_WEAR, OutfitType.PREPPY],
+        "location": [LocationType.OUTDOOR, LocationType.BACK_YARD],
+    },
+    "estate back yard with manicured lawn, tiered fountain, and marble statuary": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.ROMANTIC, OutfitType.PREPPY],
+        "location": [LocationType.OUTDOOR, LocationType.BACK_YARD],
+    },
+    "back yard private tennis court with net, clay surface, and spectator bench": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.PREPPY, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.BACK_YARD],
+    },
+    "back yard putting green with sand trap, flag pin, and clubhouse view": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.PREPPY, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.BACK_YARD],
+    },
+    "back yard outdoor ballroom tent with chandeliers, dance floor, and draped fabric walls": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.ROMANTIC, OutfitType.ETHEREAL],
+        "location": [LocationType.OUTDOOR, LocationType.BACK_YARD],
+    },
+    "back yard estate rose garden with arbors, gravel paths, and heirloom varieties": {
+        "types": [OutfitType.ROMANTIC, OutfitType.COTTAGECORE, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.OUTDOOR, LocationType.BACK_YARD],
+    },
+    "back yard marble terrace with urn planters, wrought iron furniture, and city views": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.MINIMALIST, OutfitType.ROMANTIC],
+        "location": [LocationType.OUTDOOR, LocationType.BACK_YARD],
+    },
+    "back yard sculpted topiary maze with hedgerows, gravel paths, and a central bench": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.ROMANTIC, OutfitType.VINTAGE],
+        "location": [LocationType.OUTDOOR, LocationType.BACK_YARD],
+    },
+    "back yard vineyard rows at the property edge with grapevines and rolling hills beyond": {
+        "types": [OutfitType.ROMANTIC, OutfitType.BOHEMIAN, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.OUTDOOR, LocationType.BACK_YARD],
+    },
+    "back yard wedding reception with long dining tables, string lights, and floral centerpieces": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.ROMANTIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.BACK_YARD],
+    },
+    "back yard graduation cookout with banner on the fence, cooler of drinks, and folding chairs": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.PREPPY, OutfitType.FESTIVAL],
+        "location": [LocationType.OUTDOOR, LocationType.BACK_YARD],
+    },
+    "back yard anniversary dinner for two with candlelit table, rose petals, and fountain": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.ROMANTIC, OutfitType.ETHEREAL],
+        "location": [LocationType.OUTDOOR, LocationType.BACK_YARD],
+    },
+    "back yard poolside engagement party with champagne tower, floral arch, and sunset glow": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.ROMANTIC, OutfitType.BEACH_WEAR],
+        "location": [LocationType.OUTDOOR, LocationType.BACK_YARD],
+    },
+    "back yard summer festival tent with bunting, food stalls, and live music stage": {
+        "types": [OutfitType.FESTIVAL, OutfitType.BOHEMIAN, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.BACK_YARD],
+    },
+    "back yard outdoor yoga session on rolled mats with sunrise light and dewy grass": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.MINIMALIST, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.BACK_YARD],
+    },
+
+
+    # Restaurant Scenes
+    "intimate french bistro with candlelit tables, exposed brick walls, and vintage wine racks": {
+        "types": [OutfitType.ROMANTIC, OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.RESTAURANT],
+    },
+    "bustling tokyo ramen shop with steam rising from copper pots and red lantern glow": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.STREETWEAR, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.RESTAURANT, LocationType.CITY],
+    },
+    "grand italian trattoria with checkered floors, hanging garlic braids, and open wood-fired oven": {
+        "types": [OutfitType.ROMANTIC, OutfitType.CASUAL_CHIC, OutfitType.RETRO],
+        "location": [LocationType.INDOOR, LocationType.RESTAURANT],
+    },
+    "michelin-star tasting room with minimalist white plates and soft spotlighting on each course": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.MINIMALIST, OutfitType.AVANT_GARDE],
+        "location": [LocationType.INDOOR, LocationType.RESTAURANT],
+    },
+    "1950s american diner with chrome stools, neon jukebox, and checkerboard tile floor": {
+        "types": [OutfitType.RETRO, OutfitType.PIN_UP, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.RESTAURANT],
+    },
+    "dim sum parlor with bamboo steamers stacked high and round lazy susan tables": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.STREETWEAR, OutfitType.RETRO],
+        "location": [LocationType.INDOOR, LocationType.RESTAURANT, LocationType.CITY],
+    },
+    "spanish tapas bar interior with dark wood beams, jamón legs hanging overhead, and tiled walls": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.ROMANTIC, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.INDOOR, LocationType.RESTAURANT],
+    },
+    "korean bbq restaurant with built-in table grills, sizzling meat, and smoky ventilation hoods": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.STREETWEAR, OutfitType.ATHLEISURE],
+        "location": [LocationType.INDOOR, LocationType.RESTAURANT, LocationType.CITY],
+    },
+    "art deco seafood restaurant with brass railings, porthole windows, and nautical chandeliers": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.RETRO, OutfitType.ROMANTIC],
+        "location": [LocationType.INDOOR, LocationType.RESTAURANT],
+    },
+    "cozy scandinavian café-restaurant with blonde wood furniture, hygge candles, and wool throws": {
+        "types": [OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC, OutfitType.COTTAGECORE],
+        "location": [LocationType.INDOOR, LocationType.RESTAURANT],
+    },
+    "moroccan riad dining room with mosaic tile fountains, carved cedar screens, and brass lanterns": {
+        "types": [OutfitType.ROMANTIC, OutfitType.BOHEMIAN, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.INDOOR, LocationType.RESTAURANT],
+    },
+    "industrial loft restaurant with exposed steel beams, Edison bulbs, and communal farm tables": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST, OutfitType.AVANT_GARDE],
+        "location": [LocationType.INDOOR, LocationType.RESTAURANT, LocationType.CITY],
+    },
+    "victorian tea room with lace curtains, porcelain teapots, and tiered pastry stands": {
+        "types": [OutfitType.ROMANTIC, OutfitType.RETRO, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.RESTAURANT],
+    },
+    "mexican cantina interior with colorful papel picado banners, terracotta pots, and mariachi stage": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.FESTIVAL, OutfitType.RETRO],
+        "location": [LocationType.INDOOR, LocationType.RESTAURANT],
+    },
+    "sushi omakase counter with cedar bar seating, chef's knife work, and seasonal fish display": {
+        "types": [OutfitType.MINIMALIST, OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.RESTAURANT, LocationType.CITY],
+    },
+    "indian curry house with saffron-colored walls, brass serving dishes, and spice market aromas": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN, OutfitType.ROMANTIC],
+        "location": [LocationType.INDOOR, LocationType.RESTAURANT],
+    },
+    "greek taverna with whitewashed walls, blue-painted shutters, and olive branch centerpieces": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.ROMANTIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.INDOOR, LocationType.RESTAURANT],
+    },
+    "steakhouse dining room with dark leather booths, mahogany paneling, and dim amber lighting": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.BUSINESS_WEAR, OutfitType.RETRO],
+        "location": [LocationType.INDOOR, LocationType.RESTAURANT],
+    },
+    "plant-based fine dining with living green walls, sculptural plating, and ambient nature sounds": {
+        "types": [OutfitType.MINIMALIST, OutfitType.AVANT_GARDE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.RESTAURANT],
+    },
+    "thai street-food inspired restaurant with neon signs, plastic stools, and wok flame theatrics": {
+        "types": [OutfitType.STREETWEAR, OutfitType.CASUAL_CHIC, OutfitType.RETRO],
+        "location": [LocationType.INDOOR, LocationType.RESTAURANT, LocationType.CITY],
+    },
+    "russian tea house with samovars steaming, ornate samovar tea sets, and fur-trimmed booth seating": {
+        "types": [OutfitType.RETRO, OutfitType.ROMANTIC, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.INDOOR, LocationType.RESTAURANT],
+    },
+    "peruvian cevicheria with lime-green walls, fishing net décor, and ceviche bar counter": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.BEACH_WEAR, OutfitType.BOHEMIAN],
+        "location": [LocationType.INDOOR, LocationType.RESTAURANT],
+    },
+    "ethiopian restaurant with woven basket tables, injera bread spreads, and hand-washing ritual basin": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.CASUAL_CHIC, OutfitType.ROMANTIC],
+        "location": [LocationType.INDOOR, LocationType.RESTAURANT],
+    },
+    "belgian brasserie with art nouveau stained glass, mussel pot service, and abbey beer taps": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.RETRO, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.INDOOR, LocationType.RESTAURANT],
+    },
+    "chinese hot pot restaurant with divided broth cauldrons, dipping sauce bar, and bubbling steam": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.STREETWEAR, OutfitType.ATHLEISURE],
+        "location": [LocationType.INDOOR, LocationType.RESTAURANT, LocationType.CITY],
+    },
+    "provence countryside restaurant with lavender bundles, stone fireplace, and rustic linen tablecloths": {
+        "types": [OutfitType.ROMANTIC, OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.RESTAURANT],
+    },
+    "underground wine cellar restaurant with arched stone vaults, candle clusters, and oak barrel tables": {
+        "types": [OutfitType.ROMANTIC, OutfitType.EVENING_FORMAL, OutfitType.RETRO],
+        "location": [LocationType.INDOOR, LocationType.RESTAURANT],
+    },
+    "hawaiian poke bowl spot with surfboard wall art, tiki torches indoors, and tropical flower leis": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.BEACH_WEAR, OutfitType.BOHEMIAN],
+        "location": [LocationType.INDOOR, LocationType.RESTAURANT],
+    },
+    "lebanese mezze restaurant with mosaic floors, hookah corner, and mezze platter spreads": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.ROMANTIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.INDOOR, LocationType.RESTAURANT],
+    },
+    "new orleans creole restaurant with wrought iron balcony views inside, jazz trio corner, and gumbo pots": {
+        "types": [OutfitType.RETRO, OutfitType.ROMANTIC, OutfitType.PIN_UP],
+        "location": [LocationType.INDOOR, LocationType.RESTAURANT],
+    },
+    "swiss fondue chalet dining room with pine paneling, cowbell décor, and melted cheese cauldron": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC, OutfitType.ROMANTIC],
+        "location": [LocationType.INDOOR, LocationType.RESTAURANT],
+    },
+    "vietnamese pho shop with plastic table covers, herb garnish trays, and broth steam clouds": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.STREETWEAR, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.RESTAURANT, LocationType.CITY],
+    },
+    "turkish kebab house with copper grill smoke, rotating spit meat, and ornate tile backsplash": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.RESTAURANT],
+    },
+    "portuguese seafood tavern with blue azulejo tiles, sardine grill, and fishing boat model décor": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.RETRO, OutfitType.ROMANTIC],
+        "location": [LocationType.INDOOR, LocationType.RESTAURANT],
+    },
+    "farm-to-table restaurant with open kitchen, herb garden window boxes, and mason jar cocktails": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.RESTAURANT],
+    },
+    "jazz-age supper club dining room with velvet curtains, champagne towers, and live piano": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.PIN_UP, OutfitType.RETRO],
+        "location": [LocationType.INDOOR, LocationType.RESTAURANT],
+    },
+    "middle eastern shawarma shop with vertical rotisserie, flatbread press, and spice rack walls": {
+        "types": [OutfitType.STREETWEAR, OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.INDOOR, LocationType.RESTAURANT, LocationType.CITY],
+    },
+    "cuban paladar with vintage 1950s car photos, rum cocktail bar, and ropa vieja platters": {
+        "types": [OutfitType.RETRO, OutfitType.ROMANTIC, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.RESTAURANT],
+    },
+    "sun-dappled mediterranean restaurant patio with terracotta pots, grapevine trellis, and linen umbrellas": {
+        "types": [OutfitType.ROMANTIC, OutfitType.CASUAL_CHIC, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.OUTDOOR, LocationType.RESTAURANT, LocationType.CITY],
+    },
+    "rooftop restaurant terrace overlooking city skyline with string lights and glass windscreens": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC, OutfitType.ROMANTIC],
+        "location": [LocationType.OUTDOOR, LocationType.RESTAURANT, LocationType.CITY],
+    },
+    "french café sidewalk terrace with wicker bistro chairs, cobblestone street, and morning espresso crowd": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.ROMANTIC, OutfitType.MINIMALIST],
+        "location": [LocationType.OUTDOOR, LocationType.RESTAURANT, LocationType.CITY],
+    },
+    "tuscan vineyard restaurant patio with long harvest table, cypress trees, and golden hour light": {
+        "types": [OutfitType.ROMANTIC, OutfitType.CASUAL_CHIC, OutfitType.COTTAGECORE],
+        "location": [LocationType.OUTDOOR, LocationType.RESTAURANT],
+    },
+    "miami art deco hotel restaurant poolside patio with palm fronds and pastel umbrella shades": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.BEACH_WEAR, OutfitType.RETRO],
+        "location": [LocationType.OUTDOOR, LocationType.RESTAURANT, LocationType.CITY],
+    },
+    "japanese zen garden restaurant terrace with koi pond edge seating and maple tree canopy": {
+        "types": [OutfitType.MINIMALIST, OutfitType.ROMANTIC, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.RESTAURANT],
+    },
+    "texas hill country bbq restaurant picnic patio with long wooden benches and smoker pit nearby": {
+        "types": [OutfitType.COWBOY, OutfitType.CASUAL_CHIC, OutfitType.RETRO],
+        "location": [LocationType.OUTDOOR, LocationType.RESTAURANT],
+    },
+    "greek island cliffside taverna terrace with whitewashed railing and aegean sea sunset view": {
+        "types": [OutfitType.ROMANTIC, OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.RESTAURANT],
+    },
+    "brooklyn brownstone backyard restaurant garden patio with string lights and herb planter dividers": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN, OutfitType.STREETWEAR],
+        "location": [LocationType.OUTDOOR, LocationType.RESTAURANT, LocationType.CITY],
+    },
+    "moroccan courtyard restaurant open-air patio with mosaic fountain centerpiece and lantern strings": {
+        "types": [OutfitType.ROMANTIC, OutfitType.BOHEMIAN, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.OUTDOOR, LocationType.RESTAURANT],
+    },
+    "california farm restaurant orchard patio with fruit tree shade and farmstand flower arrangements": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC, OutfitType.ROMANTIC],
+        "location": [LocationType.OUTDOOR, LocationType.RESTAURANT],
+    },
+    "parisian hidden courtyard restaurant patio with ivy-covered stone walls and iron café tables": {
+        "types": [OutfitType.ROMANTIC, OutfitType.CASUAL_CHIC, OutfitType.RETRO],
+        "location": [LocationType.OUTDOOR, LocationType.RESTAURANT, LocationType.CITY],
+    },
+
+    # Bar Scenes
+    "hidden speakeasy behind unmarked door with velvet banquettes, dim amber sconces, and jazz trio": {
+        "types": [OutfitType.RETRO, OutfitType.EVENING_FORMAL, OutfitType.PIN_UP],
+        "location": [LocationType.INDOOR, LocationType.BAR, LocationType.CITY],
+    },
+    "irish pub with dark mahogany bar, Guinness taps, and vintage rugby memorabilia on walls": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.RETRO, OutfitType.GRUNGE],
+        "location": [LocationType.INDOOR, LocationType.BAR],
+    },
+    "craft cocktail lounge with marble bar top, copper shakers, and backlit bottle display wall": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.BAR, LocationType.CITY],
+    },
+    "dive bar with neon beer signs, sticky wooden floor, and pool table under cigarette haze": {
+        "types": [OutfitType.GRUNGE, OutfitType.STREETWEAR, OutfitType.RETRO],
+        "location": [LocationType.INDOOR, LocationType.BAR, LocationType.CITY],
+    },
+    "rooftop cocktail bar interior with floor-to-ceiling windows and panoramic night city views": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC, OutfitType.CLUB_PARTY],
+        "location": [LocationType.INDOOR, LocationType.BAR, LocationType.CITY],
+    },
+    "tiki bar with bamboo walls, thatched roof accents, flaming tiki torches, and rum punch bowls": {
+        "types": [OutfitType.RETRO, OutfitType.FESTIVAL, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.BAR],
+    },
+    "wine bar with exposed brick, barrel-table seating, and chalkboard wine list by the glass": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.ROMANTIC, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.BAR, LocationType.CITY],
+    },
+    "sports bar with wall of HD screens, team pennants, and crowded game-day atmosphere": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.STREETWEAR, OutfitType.ATHLEISURE],
+        "location": [LocationType.INDOOR, LocationType.BAR, LocationType.CITY],
+    },
+    "whiskey library bar with floor-to-ceiling bottle shelves, leather armchairs, and cigar humidor": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.RETRO, OutfitType.BUSINESS_WEAR],
+        "location": [LocationType.INDOOR, LocationType.BAR],
+    },
+    "punk rock bar with band stickers covering walls, jukebox blasting, and graffiti bathroom doors": {
+        "types": [OutfitType.PUNK, OutfitType.GRUNGE, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.BAR, LocationType.CITY],
+    },
+    "hotel lobby bar with grand piano, crystal chandeliers, and white-gloved bartender service": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.BUSINESS_WEAR, OutfitType.ROMANTIC],
+        "location": [LocationType.INDOOR, LocationType.BAR],
+    },
+    "mezcal bar with agave plant murals, clay copita glasses, and Oaxacan folk art shelves": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.CASUAL_CHIC, OutfitType.RETRO],
+        "location": [LocationType.INDOOR, LocationType.BAR, LocationType.CITY],
+    },
+    "german beer hall with long communal tables, stein racks overhead, and oompah band stage": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.FESTIVAL, OutfitType.RETRO],
+        "location": [LocationType.INDOOR, LocationType.BAR],
+    },
+    "jazz club bar with low stage, red velvet curtains, and smoky spotlight on saxophonist": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.RETRO, OutfitType.ROMANTIC],
+        "location": [LocationType.INDOOR, LocationType.BAR, LocationType.CITY],
+    },
+    "molecular mixology lab bar with dry ice cocktails, beakers, and laboratory glassware décor": {
+        "types": [OutfitType.AVANT_GARDE, OutfitType.CYBERPUNK, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.BAR, LocationType.CITY],
+    },
+    "country honky-tonk bar with line dancing floor, neon cowboy boot sign, and mechanical bull nearby": {
+        "types": [OutfitType.COWBOY, OutfitType.RETRO, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.BAR],
+    },
+    "absinthe bar with green fairy posters, ornate fountains, and Belle Époque absinthe spoons": {
+        "types": [OutfitType.RETRO, OutfitType.GOTHIC, OutfitType.ROMANTIC],
+        "location": [LocationType.INDOOR, LocationType.BAR],
+    },
+    "karaoke bar with private booth rooms, disco ball, and LED lyric screen on main stage": {
+        "types": [OutfitType.CLUB_PARTY, OutfitType.RETRO, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.BAR, LocationType.CITY],
+    },
+    "sake bar with tatami seating alcoves, cedar counter, and warm paper lantern glow": {
+        "types": [OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC, OutfitType.ROMANTIC],
+        "location": [LocationType.INDOOR, LocationType.BAR],
+    },
+    "prohibition-era basement bar with brick archways, password entry, and flask-shaped lamps": {
+        "types": [OutfitType.RETRO, OutfitType.PIN_UP, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.INDOOR, LocationType.BAR, LocationType.CITY],
+    },
+    "champagne bar with gold mirrored walls, coupe glass towers, and velvet rope VIP section": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.CLUB_PARTY, OutfitType.ROMANTIC],
+        "location": [LocationType.INDOOR, LocationType.BAR, LocationType.CITY],
+    },
+    "beach-themed tiki dive with fishing nets, pufferfish lamps, and hurricane glass cocktails": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.RETRO, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.BAR],
+    },
+    "scotch whisky bar with tartan plaid upholstery, peat smoke aroma, and glencairn glass service": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.RETRO, OutfitType.BUSINESS_WEAR],
+        "location": [LocationType.INDOOR, LocationType.BAR],
+    },
+    "latin salsa bar with dance floor tiles, live percussion band, and colorful papel picado": {
+        "types": [OutfitType.CLUB_PARTY, OutfitType.FESTIVAL, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.BAR, LocationType.CITY],
+    },
+    "gastropub with craft beer taps, gourmet bar snacks menu, and reclaimed wood interior": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.PREPPY, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.BAR, LocationType.CITY],
+    },
+    "blues bar with neon crossroads sign, worn barstools, and guitarist on corner stool": {
+        "types": [OutfitType.GRUNGE, OutfitType.RETRO, OutfitType.ROMANTIC],
+        "location": [LocationType.INDOOR, LocationType.BAR],
+    },
+    "hotel rooftop bar enclosure with retractable glass walls and heated outdoor lounge beyond": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.BAR, LocationType.CITY],
+    },
+    "vodka tasting bar with frozen shot glasses, ice sculpture bar back, and Russian nesting doll décor": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.MINIMALIST, OutfitType.CLUB_PARTY],
+        "location": [LocationType.INDOOR, LocationType.BAR],
+    },
+    "arcade bar with vintage pinball machines, craft beer on tap, and retro game cabinet row": {
+        "types": [OutfitType.RETRO, OutfitType.STREETWEAR, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.BAR, LocationType.CITY],
+    },
+    "art gallery bar hybrid with rotating exhibition walls and curator-selected wine pairings": {
+        "types": [OutfitType.AVANT_GARDE, OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.BAR, LocationType.CITY],
+    },
+    "cowboy saloon bar with swinging doors, brass spittoons, and long polished pine bar top": {
+        "types": [OutfitType.COWBOY, OutfitType.RETRO, OutfitType.GRUNGE],
+        "location": [LocationType.INDOOR, LocationType.BAR],
+    },
+    "gin botanical bar with hanging herb gardens, copper still display, and botanical illustration wallpaper": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.BAR],
+    },
+    "underground bunker bar with concrete walls, military surplus stools, and red emergency lighting": {
+        "types": [OutfitType.MILITARY, OutfitType.GRUNGE, OutfitType.CYBERPUNK],
+        "location": [LocationType.INDOOR, LocationType.BAR],
+    },
+    "piano bar with sing-along sheet music, spotlight on grand piano, and cocktail waitress in sequins": {
+        "types": [OutfitType.PIN_UP, OutfitType.RETRO, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.INDOOR, LocationType.BAR, LocationType.CITY],
+    },
+    "tequila cantina bar with agave field mural, salt-rim station, and mariachi jukebox": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.FESTIVAL, OutfitType.RETRO],
+        "location": [LocationType.INDOOR, LocationType.BAR],
+    },
+    "library bar with bookshelves behind bar, reading lamp pools, and literary cocktail menu": {
+        "types": [OutfitType.PREPPY, OutfitType.ROMANTIC, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.BAR, LocationType.CITY],
+    },
+    "neon-lit cyberpunk-themed bar with holographic menus, LED strip architecture, and synthwave DJ booth": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.CLUB_PARTY, OutfitType.AVANT_GARDE],
+        "location": [LocationType.INDOOR, LocationType.BAR, LocationType.CITY],
+    },
+    "bourbon street-style balcony bar overlooking parade route with wrought iron railings": {
+        "types": [OutfitType.FESTIVAL, OutfitType.RETRO, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.BAR, LocationType.CITY],
+    },
+    "mountain lodge aprés-ski bar with stone fireplace, antler chandelier, and hot toddy steam": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC, OutfitType.ATHLEISURE],
+        "location": [LocationType.INDOOR, LocationType.BAR],
+    },
+    "port wine lodge bar with river-view windows, oak cask aging room visible through glass": {
+        "types": [OutfitType.ROMANTIC, OutfitType.EVENING_FORMAL, OutfitType.RETRO],
+        "location": [LocationType.INDOOR, LocationType.BAR],
+    },
+    "cocktail omakase bar with eight-seat counter, chef-bartender performance, and seasonal tasting flight": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.MINIMALIST, OutfitType.AVANT_GARDE],
+        "location": [LocationType.INDOOR, LocationType.BAR, LocationType.CITY],
+    },
+    "dive punk karaoke basement bar with duct-taped microphones and sticker-covered bathroom mirror": {
+        "types": [OutfitType.PUNK, OutfitType.GRUNGE, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.BAR, LocationType.CITY],
+    },
+    "art deco cocktail bar with geometric gold leaf ceiling, martini glass chandeliers, and jazz age murals": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.RETRO, OutfitType.PIN_UP],
+        "location": [LocationType.INDOOR, LocationType.BAR, LocationType.CITY],
+    },
+    "farm distillery bar with copper pot still visible, hay bale seating, and apple orchard view windows": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC, OutfitType.RETRO],
+        "location": [LocationType.INDOOR, LocationType.BAR],
+    },
+    "high-end hotel sky bar with infinity edge glass floor and clouds visible below at dusk": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.MINIMALIST, OutfitType.ROMANTIC],
+        "location": [LocationType.INDOOR, LocationType.BAR, LocationType.CITY],
+    },
+    "rum pirate-themed bar with ship wheel décor, barrel-aged rum racks, and nautical rope rigging": {
+        "types": [OutfitType.RETRO, OutfitType.GRUNGE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.BAR],
+    },
+    "natural wine bar with minimal concrete interior, orange wine bottles, and sourdough bar snacks": {
+        "types": [OutfitType.MINIMALIST, OutfitType.BOHEMIAN, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.BAR, LocationType.CITY],
+    },
+    "blues and bourbon bar with vinyl record wall, worn leather Chesterfield, and low amber pendant lights": {
+        "types": [OutfitType.RETRO, OutfitType.GRUNGE, OutfitType.ROMANTIC],
+        "location": [LocationType.INDOOR, LocationType.BAR],
+    },
+    "hotel pool bar indoor cabana with tropical plants, bamboo screens, and frozen cocktail blender": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.CASUAL_CHIC, OutfitType.CLUB_PARTY],
+        "location": [LocationType.INDOOR, LocationType.BAR],
+    },
+    "underground jazz speakeasy with brick vault ceiling, candlelit tables, and upright bass corner": {
+        "types": [OutfitType.RETRO, OutfitType.ROMANTIC, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.INDOOR, LocationType.BAR, LocationType.CITY],
+    },
+
+    # Nightclub Scenes
+    "neon-drenched main dance floor with laser grid overhead and pounding bass speakers": {
+        "types": [OutfitType.CLUB_PARTY, OutfitType.CYBERPUNK, OutfitType.AVANT_GARDE],
+        "location": [LocationType.INDOOR, LocationType.NIGHTCLUB, LocationType.CITY],
+    },
+    "vip bottle service booth with velvet rope, champagne buckets, and LED bottle glorifier": {
+        "types": [OutfitType.CLUB_PARTY, OutfitType.EVENING_FORMAL, OutfitType.PIN_UP],
+        "location": [LocationType.INDOOR, LocationType.NIGHTCLUB, LocationType.CITY],
+    },
+    "underground techno bunker with concrete walls, strobe flashes, and fog machine haze": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.CLUB_PARTY, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.NIGHTCLUB, LocationType.CITY],
+    },
+    "retro disco club with mirror ball, colorful dance floor tiles, and platform shoe crowd": {
+        "types": [OutfitType.RETRO, OutfitType.CLUB_PARTY, OutfitType.PIN_UP],
+        "location": [LocationType.INDOOR, LocationType.NIGHTCLUB],
+    },
+    "latin reggaeton nightclub with salsa dance floor, live DJ booth, and tropical LED palms": {
+        "types": [OutfitType.CLUB_PARTY, OutfitType.FESTIVAL, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.NIGHTCLUB, LocationType.CITY],
+    },
+    "gothic industrial nightclub with chain curtains, red spotlight pools, and darkwave DJ set": {
+        "types": [OutfitType.GOTHIC, OutfitType.CLUB_PARTY, OutfitType.CYBERPUNK],
+        "location": [LocationType.INDOOR, LocationType.NIGHTCLUB, LocationType.CITY],
+    },
+    "rooftop enclosed nightclub with glass walls, city lights panorama, and rooftop pool edge": {
+        "types": [OutfitType.CLUB_PARTY, OutfitType.EVENING_FORMAL, OutfitType.AVANT_GARDE],
+        "location": [LocationType.INDOOR, LocationType.NIGHTCLUB, LocationType.CITY],
+    },
+    "hip-hop club with graffiti mural walls, go-go dancer platforms, and gold chain décor": {
+        "types": [OutfitType.STREETWEAR, OutfitType.CLUB_PARTY, OutfitType.PIN_UP],
+        "location": [LocationType.INDOOR, LocationType.NIGHTCLUB, LocationType.CITY],
+    },
+    "edm festival-style mega club with massive LED wall, CO2 cannons, and crowd surge energy": {
+        "types": [OutfitType.CLUB_PARTY, OutfitType.FESTIVAL, OutfitType.CYBERPUNK],
+        "location": [LocationType.INDOOR, LocationType.NIGHTCLUB, LocationType.CITY],
+    },
+    "1920s speakeasy nightclub with flapper dancers, art deco bar, and hidden dance floor": {
+        "types": [OutfitType.PIN_UP, OutfitType.RETRO, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.INDOOR, LocationType.NIGHTCLUB],
+    },
+    "k-pop themed nightclub with LED light sticks, holographic stage, and fan chant energy": {
+        "types": [OutfitType.KAWAII, OutfitType.CLUB_PARTY, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.NIGHTCLUB, LocationType.CITY],
+    },
+    "warehouse rave nightclub with exposed steel trusses, UV paint splatter, and DJ riser": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.PUNK, OutfitType.CLUB_PARTY],
+        "location": [LocationType.INDOOR, LocationType.NIGHTCLUB, LocationType.CITY],
+    },
+    "cabaret nightclub with feathered showgirl stage, velvet curtains, and spotlight runway": {
+        "types": [OutfitType.PIN_UP, OutfitType.AVANT_GARDE, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.INDOOR, LocationType.NIGHTCLUB],
+    },
+    "afrobeat nightclub with live drum circle, colorful Ankara fabric drapes, and dance circle": {
+        "types": [OutfitType.FESTIVAL, OutfitType.BOHEMIAN, OutfitType.CLUB_PARTY],
+        "location": [LocationType.INDOOR, LocationType.NIGHTCLUB, LocationType.CITY],
+    },
+    "minimalist white-room nightclub with monochrome décor, ambient techno, and sculptural seating": {
+        "types": [OutfitType.MINIMALIST, OutfitType.AVANT_GARDE, OutfitType.CLUB_PARTY],
+        "location": [LocationType.INDOOR, LocationType.NIGHTCLUB, LocationType.CITY],
+    },
+    "country line-dance nightclub with hay bale décor, neon boot sign, and mechanical bull corner": {
+        "types": [OutfitType.COWBOY, OutfitType.RETRO, OutfitType.CLUB_PARTY],
+        "location": [LocationType.INDOOR, LocationType.NIGHTCLUB],
+    },
+    "drag show nightclub with runway stage, spotlight sequins, and audience cabaret tables": {
+        "types": [OutfitType.AVANT_GARDE, OutfitType.CLUB_PARTY, OutfitType.PIN_UP],
+        "location": [LocationType.INDOOR, LocationType.NIGHTCLUB, LocationType.CITY],
+    },
+    "japanese host club with plush booth seating, champagne towers, and ornate gold interiors": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.KAWAII, OutfitType.CLUB_PARTY],
+        "location": [LocationType.INDOOR, LocationType.NIGHTCLUB],
+    },
+    "psychedelic trance nightclub with UV reactive art, liquid light projections, and incense haze": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.CYBERPUNK, OutfitType.FESTIVAL],
+        "location": [LocationType.INDOOR, LocationType.NIGHTCLUB],
+    },
+    "hipster indie dance club with vintage vinyl DJ booth, thrift-store décor, and disco lights": {
+        "types": [OutfitType.RETRO, OutfitType.GRUNGE, OutfitType.CLUB_PARTY],
+        "location": [LocationType.INDOOR, LocationType.NIGHTCLUB, LocationType.CITY],
+    },
+    "beach club indoor section with sand floor, tiki bar, and tropical house music": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.CLUB_PARTY, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.NIGHTCLUB],
+    },
+    "fashion week afterparty nightclub with runway extension, photographer flashes, and model crowd": {
+        "types": [OutfitType.AVANT_GARDE, OutfitType.EVENING_FORMAL, OutfitType.CLUB_PARTY],
+        "location": [LocationType.INDOOR, LocationType.NIGHTCLUB, LocationType.CITY],
+    },
+    "metal nightclub with band merch walls, mosh pit area, and aggressive strobe lighting": {
+        "types": [OutfitType.PUNK, OutfitType.GOTHIC, OutfitType.GRUNGE],
+        "location": [LocationType.INDOOR, LocationType.NIGHTCLUB, LocationType.CITY],
+    },
+    "ballroom converted nightclub with crystal chandeliers, parquet dance floor, and orchestra pit DJ": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.ROMANTIC, OutfitType.CLUB_PARTY],
+        "location": [LocationType.INDOOR, LocationType.NIGHTCLUB],
+    },
+    "cyberpunk-themed nightclub with holographic dancers, neon kanji signs, and rain-slick aesthetic": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.AVANT_GARDE, OutfitType.CLUB_PARTY],
+        "location": [LocationType.INDOOR, LocationType.NIGHTCLUB, LocationType.CITY],
+    },
+    "salsa nightclub with live band stage, hardwood dance floor, and spinning mirror ball": {
+        "types": [OutfitType.CLUB_PARTY, OutfitType.FESTIVAL, OutfitType.ROMANTIC],
+        "location": [LocationType.INDOOR, LocationType.NIGHTCLUB, LocationType.CITY],
+    },
+    "underground hip-hop battle club with graffiti cypher circle, boombox décor, and raw concrete": {
+        "types": [OutfitType.STREETWEAR, OutfitType.PUNK, OutfitType.CLUB_PARTY],
+        "location": [LocationType.INDOOR, LocationType.NIGHTCLUB, LocationType.CITY],
+    },
+    "luxury yacht-themed nightclub with porthole windows, nautical rope, and champagne spray": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.CLUB_PARTY, OutfitType.PREPPY],
+        "location": [LocationType.INDOOR, LocationType.NIGHTCLUB, LocationType.CITY],
+    },
+    "rave cave nightclub with stalactite projections, cave-like rock walls, and subwoofer rumble": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.GOTHIC, OutfitType.CLUB_PARTY],
+        "location": [LocationType.INDOOR, LocationType.NIGHTCLUB],
+    },
+    "pin-up burlesque nightclub with velvet booths, feather fans on stage, and martini service": {
+        "types": [OutfitType.PIN_UP, OutfitType.RETRO, OutfitType.ROMANTIC],
+        "location": [LocationType.INDOOR, LocationType.NIGHTCLUB],
+    },
+    "korean club room with soju bottle towers, neon noraebang booths, and K-pop video walls": {
+        "types": [OutfitType.KAWAII, OutfitType.CLUB_PARTY, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.NIGHTCLUB, LocationType.CITY],
+    },
+    "art installation nightclub with rotating sculptural pieces, gallery-white walls, and ambient beats": {
+        "types": [OutfitType.AVANT_GARDE, OutfitType.MINIMALIST, OutfitType.CLUB_PARTY],
+        "location": [LocationType.INDOOR, LocationType.NIGHTCLUB, LocationType.CITY],
+    },
+    "steampunk-themed nightclub with brass gears, clockwork projections, and industrial DJ platform": {
+        "types": [OutfitType.STEAMPUNK, OutfitType.RETRO, OutfitType.CLUB_PARTY],
+        "location": [LocationType.INDOOR, LocationType.NIGHTCLUB],
+    },
+    "pool party nightclub indoor section with swim-up bar, underwater LED lights, and DJ booth": {
+        "types": [OutfitType.CLUB_PARTY, OutfitType.BEACH_WEAR, OutfitType.BIKINI],
+        "location": [LocationType.INDOOR, LocationType.NIGHTCLUB],
+    },
+    "reggae dancehall nightclub with sound system wall of speakers, red-gold-green lighting, and dub vibes": {
+        "types": [OutfitType.FESTIVAL, OutfitType.BOHEMIAN, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.NIGHTCLUB, LocationType.CITY],
+    },
+    "futuristic nightclub with LED floor panels, robot bartender, and chrome geometric architecture": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.AVANT_GARDE, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.NIGHTCLUB, LocationType.CITY],
+    },
+    "vintage roller disco nightclub with skate floor, retro disco ball, and quad skate rental": {
+        "types": [OutfitType.RETRO, OutfitType.PIN_UP, OutfitType.CLUB_PARTY],
+        "location": [LocationType.INDOOR, LocationType.NIGHTCLUB],
+    },
+    "lgbtq+ pride nightclub with rainbow LED installation, inclusive dance floor, and drag host": {
+        "types": [OutfitType.CLUB_PARTY, OutfitType.AVANT_GARDE, OutfitType.FESTIVAL],
+        "location": [LocationType.INDOOR, LocationType.NIGHTCLUB, LocationType.CITY],
+    },
+    "bollywood nightclub with ornate gold pillars, colorful sari-draped décor, and bhangra DJ": {
+        "types": [OutfitType.FESTIVAL, OutfitType.BOHEMIAN, OutfitType.CLUB_PARTY],
+        "location": [LocationType.INDOOR, LocationType.NIGHTCLUB, LocationType.CITY],
+    },
+    "after-hours warehouse nightclub with sunrise light through cracked windows and exhausted dancers": {
+        "types": [OutfitType.GRUNGE, OutfitType.CYBERPUNK, OutfitType.CLUB_PARTY],
+        "location": [LocationType.INDOOR, LocationType.NIGHTCLUB, LocationType.CITY],
+    },
+    "champagne and caviar nightclub with ice sculpture bar, oyster station, and crystal décor": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.CLUB_PARTY, OutfitType.AVANT_GARDE],
+        "location": [LocationType.INDOOR, LocationType.NIGHTCLUB, LocationType.CITY],
+    },
+    "anime-themed nightclub with cosplay crowd, manga wall art, and J-pop remix DJ": {
+        "types": [OutfitType.ANIME, OutfitType.KAWAII, OutfitType.CLUB_PARTY],
+        "location": [LocationType.INDOOR, LocationType.NIGHTCLUB, LocationType.CITY],
+    },
+    "desert oasis themed nightclub with sand dunes projection, palm tree silhouettes, and tribal beats": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.FESTIVAL, OutfitType.CLUB_PARTY],
+        "location": [LocationType.INDOOR, LocationType.NIGHTCLUB],
+    },
+    "punk rock nightclub with stage diving area, band posters, and sticky beer-soaked floor": {
+        "types": [OutfitType.PUNK, OutfitType.GRUNGE, OutfitType.CLUB_PARTY],
+        "location": [LocationType.INDOOR, LocationType.NIGHTCLUB, LocationType.CITY],
+    },
+    "silent disco nightclub with glowing headphone zones, color-coded channels, and quiet dance floor": {
+        "types": [OutfitType.MINIMALIST, OutfitType.CLUB_PARTY, OutfitType.AVANT_GARDE],
+        "location": [LocationType.INDOOR, LocationType.NIGHTCLUB, LocationType.CITY],
+    },
+    "velvet underground-style nightclub with black walls, single spotlight, and avant-garde performances": {
+        "types": [OutfitType.AVANT_GARDE, OutfitType.GOTHIC, OutfitType.CLUB_PARTY],
+        "location": [LocationType.INDOOR, LocationType.NIGHTCLUB, LocationType.CITY],
+    },
+    "carnival-themed nightclub with ferris wheel projection, cotton candy bar, and funhouse mirrors": {
+        "types": [OutfitType.FESTIVAL, OutfitType.RETRO, OutfitType.PIN_UP],
+        "location": [LocationType.INDOOR, LocationType.NIGHTCLUB],
+    },
+    "high-energy shuffle nightclub with LED shuffle circle, fast-tempo house, and sneaker crowd": {
+        "types": [OutfitType.STREETWEAR, OutfitType.ATHLEISURE, OutfitType.CLUB_PARTY],
+        "location": [LocationType.INDOOR, LocationType.NIGHTCLUB, LocationType.CITY],
+    },
+    "opera house converted nightclub with balcony boxes, grand stage DJ setup, and dramatic lighting": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.GOTHIC, OutfitType.AVANT_GARDE],
+        "location": [LocationType.INDOOR, LocationType.NIGHTCLUB],
+    },
+    "neon Tokyo alley-inspired nightclub with narrow corridor dance floor and vending machine bar": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.KAWAII, OutfitType.CLUB_PARTY],
+        "location": [LocationType.INDOOR, LocationType.NIGHTCLUB, LocationType.CITY],
+    },
+
+    # Gym Scenes
+    "modern crossfit box with rubber flooring, pull-up rig, and chalk dust in the air": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.STREETWEAR, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.GYM],
+    },
+    "luxury hotel gym with floor-to-ceiling windows, Technogym equipment, and towel service station": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.MINIMALIST, OutfitType.BUSINESS_WEAR],
+        "location": [LocationType.INDOOR, LocationType.GYM],
+    },
+    "old-school iron gym with rusty free weights, motivational posters, and no-frills mirrors": {
+        "types": [OutfitType.STREETWEAR, OutfitType.GRUNGE, OutfitType.ATHLEISURE],
+        "location": [LocationType.INDOOR, LocationType.GYM],
+    },
+    "boutique spin studio with colored mood lighting, stadium seating bikes, and instructor podium": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.MINIMALIST, OutfitType.CLUB_PARTY],
+        "location": [LocationType.INDOOR, LocationType.GYM, LocationType.CITY],
+    },
+    "yoga studio with bamboo floors, meditation cushions, and soft natural morning light": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.MINIMALIST, OutfitType.BOHEMIAN],
+        "location": [LocationType.INDOOR, LocationType.GYM],
+    },
+    "24-hour neon-lit gym with fluorescent overhead lights and late-night solo lifters": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.STREETWEAR, OutfitType.NORMCORE],
+        "location": [LocationType.INDOOR, LocationType.GYM, LocationType.CITY],
+    },
+    "boxing gym with heavy bags hanging in rows, speed bag platform, and worn canvas ring": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.STREETWEAR, OutfitType.MILITARY],
+        "location": [LocationType.INDOOR, LocationType.GYM],
+    },
+    "climbing gym with colorful bouldering walls, crash pads, and chalk bag stations": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.STREETWEAR, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.GYM],
+    },
+    "university campus rec center with basketball court visible, student ID check-in, and busy cardio deck": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.STREETWEAR, OutfitType.PREPPY],
+        "location": [LocationType.INDOOR, LocationType.GYM, LocationType.CITY],
+    },
+    "pilates reformer studio with sleek machines, mirrored wall, and neutral-toned décor": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.GYM],
+    },
+    "warehouse-style gym with exposed ductwork, tire flip area, and battle rope stations": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.STREETWEAR, OutfitType.MILITARY],
+        "location": [LocationType.INDOOR, LocationType.GYM],
+    },
+    "hotel rooftop gym enclosure with city skyline view and compact cable machine setup": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.MINIMALIST, OutfitType.BUSINESS_WEAR],
+        "location": [LocationType.INDOOR, LocationType.GYM, LocationType.CITY],
+    },
+    "mma training gym with octagon cage, Thai pads on wall, and fighter mural": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.STREETWEAR, OutfitType.MILITARY],
+        "location": [LocationType.INDOOR, LocationType.GYM],
+    },
+    "women-only fitness studio with pink accent walls, group class mirrors, and smoothie bar corner": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.GYM, LocationType.CITY],
+    },
+    "powerlifting gym with competition platforms, calibrated plates, and chalk bucket stations": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.STREETWEAR, OutfitType.GRUNGE],
+        "location": [LocationType.INDOOR, LocationType.GYM],
+    },
+    "aerial silks circus gym with high ceilings, silk fabric drops, and crash mat flooring": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.BOHEMIAN, OutfitType.ETHEREAL],
+        "location": [LocationType.INDOOR, LocationType.GYM],
+    },
+    "corporate office building gym with badge-access entry, locker rooms, and lunchtime crowd": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.BUSINESS_WEAR, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.GYM, LocationType.CITY],
+    },
+    "retro 1980s gym with vintage Nautilus machines, orange carpet, and wall-mounted CRT TVs": {
+        "types": [OutfitType.RETRO, OutfitType.ATHLEISURE, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.GYM],
+    },
+    "swimming pool-adjacent gym with lap pool windows, aquatic cardio machines, and humid air": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.SWIMSUIT, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.GYM],
+    },
+    "functional fitness studio with kettlebell racks, sled push track, and turf sprint lane": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.STREETWEAR, OutfitType.MILITARY],
+        "location": [LocationType.INDOOR, LocationType.GYM],
+    },
+    "dance fitness studio with wall mirrors, hardwood floor, and Zumba class in session": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.FESTIVAL, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.GYM, LocationType.CITY],
+    },
+    "physical therapy gym hybrid with rehab equipment, resistance bands, and clinical white walls": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.MINIMALIST, OutfitType.NORMCORE],
+        "location": [LocationType.INDOOR, LocationType.GYM],
+    },
+    "underground basement gym with low ceilings, fluorescent flicker, and gritty atmosphere": {
+        "types": [OutfitType.GRUNGE, OutfitType.STREETWEAR, OutfitType.ATHLEISURE],
+        "location": [LocationType.INDOOR, LocationType.GYM, LocationType.CITY],
+    },
+    "luxury spa gym with marble accents, eucalyptus steam room visible, and orchid arrangements": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.MINIMALIST, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.INDOOR, LocationType.GYM],
+    },
+    "parkour training gym with foam pit, wall run obstacles, and urban obstacle course setup": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.STREETWEAR, OutfitType.PUNK],
+        "location": [LocationType.INDOOR, LocationType.GYM, LocationType.CITY],
+    },
+    "cycling gym with virtual reality screens, immersive road routes, and fan cooling": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.CYBERPUNK, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.GYM],
+    },
+    "hotel basement gym with compact equipment, mirrored walls, and single treadmill row": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.BUSINESS_WEAR, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.GYM],
+    },
+    "community center gym with basketball hoops lowered, folding bleachers, and family-friendly vibe": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.NORMCORE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.GYM],
+    },
+    "barre fitness studio with ballet barres, soft pink lighting, and tulle curtain accents": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.ROMANTIC, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.GYM, LocationType.CITY],
+    },
+    "strongman training gym with atlas stones, log press, and farmer walk handles": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.STREETWEAR, OutfitType.MILITARY],
+        "location": [LocationType.INDOOR, LocationType.GYM],
+    },
+    "hotel resort gym with tropical plant dividers, ocean-view windows, and open-air ventilation": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.BEACH_WEAR, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.GYM],
+    },
+    "kickboxing gym with muay thai ring, heavy bag forest, and Thai flag wall banner": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.STREETWEAR, OutfitType.MILITARY],
+        "location": [LocationType.INDOOR, LocationType.GYM],
+    },
+    "meditation and movement studio with floor cushions, singing bowls, and dim amber lighting": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.MINIMALIST, OutfitType.BOHEMIAN],
+        "location": [LocationType.INDOOR, LocationType.GYM],
+    },
+    "apartment building fitness room with basic dumbbell rack, one elliptical, and laundry room adjacent": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.NORMCORE, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.GYM, LocationType.CITY],
+    },
+    "Olympic weightlifting gym with platform blocks, bumper plates, and national flag banners": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.MILITARY, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.GYM],
+    },
+    "hot yoga studio with heated room, infrared panels, and sweat-drenched mirrored walls": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.MINIMALIST, OutfitType.BOHEMIAN],
+        "location": [LocationType.INDOOR, LocationType.GYM],
+    },
+    "military-style boot camp gym with obstacle course elements, drill instructor whistle, and camo netting": {
+        "types": [OutfitType.MILITARY, OutfitType.ATHLEISURE, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.GYM],
+    },
+    "hotel penthouse gym with private elevator access, panoramic views, and concierge towel service": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.EVENING_FORMAL, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.GYM, LocationType.CITY],
+    },
+    "gymnastics training center with balance beams, parallel bars, and foam pit landing zone": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.MINIMALIST, OutfitType.PREPPY],
+        "location": [LocationType.INDOOR, LocationType.GYM],
+    },
+    "rowing club indoor tank with erg machines lined up, boat oar wall display, and river club banners": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.PREPPY, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.GYM],
+    },
+    "neon cyberpunk-themed boutique gym with LED strip equipment, holographic trainers, and dark walls": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.ATHLEISURE, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.GYM, LocationType.CITY],
+    },
+    "senior fitness center with low-impact machines, handrail-equipped treadmills, and social seating area": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.NORMCORE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.GYM],
+    },
+    "hotel spa wellness gym with salt wall, infrared sauna adjacent, and herbal tea station": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.MINIMALIST, OutfitType.ROMANTIC],
+        "location": [LocationType.INDOOR, LocationType.GYM],
+    },
+    "grappling academy gym with wrestling mats, gi racks, and academy patch wall": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.STREETWEAR, OutfitType.MILITARY],
+        "location": [LocationType.INDOOR, LocationType.GYM],
+    },
+    "hotel conference center gym pop-up with portable equipment and convention attendee crowd": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.BUSINESS_WEAR, OutfitType.NORMCORE],
+        "location": [LocationType.INDOOR, LocationType.GYM, LocationType.CITY],
+    },
+    "calisthenics park indoor facility with pull-up bars, dip stations, and rings setup": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.STREETWEAR, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.GYM],
+    },
+    "hotel ski lodge gym with wood paneling, ski rack by door, and après workout fireplace nearby": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.GYM],
+    },
+    "rehabilitation sports gym with anti-gravity treadmill, hydrotherapy pool view, and athlete posters": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.MINIMALIST, OutfitType.PREPPY],
+        "location": [LocationType.INDOOR, LocationType.GYM],
+    },
+    "underground fight club aesthetic gym with bare bulb lighting, concrete floor, and no signage": {
+        "types": [OutfitType.GRUNGE, OutfitType.STREETWEAR, OutfitType.ATHLEISURE],
+        "location": [LocationType.INDOOR, LocationType.GYM, LocationType.CITY],
+    },
+    "boutique HIIT studio with heart rate monitor screens, turf floor stations, and motivational neon sign": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.STREETWEAR, OutfitType.CLUB_PARTY],
+        "location": [LocationType.INDOOR, LocationType.GYM, LocationType.CITY],
+    },
+
+    # Hotel Scenes
+    "grand hotel lobby with marble floors, crystal chandelier, and concierge desk with bellhops": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.BUSINESS_WEAR, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.HOTEL],
+    },
+    "boutique hotel reception with curated art pieces, fresh flower arrangement, and designer furniture": {
+        "types": [OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC, OutfitType.AVANT_GARDE],
+        "location": [LocationType.INDOOR, LocationType.HOTEL, LocationType.CITY],
+    },
+    "luxury suite bedroom with king bed, silk sheets, city-view floor-to-ceiling windows": {
+        "types": [OutfitType.ROMANTIC, OutfitType.EVENING_FORMAL, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.HOTEL, LocationType.CITY],
+    },
+    "hotel presidential suite living room with panoramic views, grand piano, and butler service cart": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.BUSINESS_WEAR, OutfitType.ROMANTIC],
+        "location": [LocationType.INDOOR, LocationType.HOTEL],
+    },
+    "art deco hotel corridor with geometric carpet, brass elevator doors, and sconce lighting": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.RETRO, OutfitType.ROMANTIC],
+        "location": [LocationType.INDOOR, LocationType.HOTEL],
+    },
+    "hotel spa relaxation lounge with heated loungers, cucumber water, and eucalyptus steam": {
+        "types": [OutfitType.MINIMALIST, OutfitType.ROMANTIC, OutfitType.ATHLEISURE],
+        "location": [LocationType.INDOOR, LocationType.HOTEL],
+    },
+    "rooftop hotel restaurant interior with panoramic windows and white tablecloth fine dining": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.ROMANTIC, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.HOTEL, LocationType.CITY],
+    },
+    "historic hotel library lounge with leather armchairs, globe bar cart, and afternoon tea service": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.PREPPY, OutfitType.ROMANTIC],
+        "location": [LocationType.INDOOR, LocationType.HOTEL],
+    },
+    "modern minimalist hotel room with platform bed, neutral palette, and smart home controls": {
+        "types": [OutfitType.MINIMALIST, OutfitType.BUSINESS_WEAR, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.HOTEL, LocationType.CITY],
+    },
+    "honeymoon suite with rose petal bed, champagne bucket, and balcony doors open to ocean breeze": {
+        "types": [OutfitType.ROMANTIC, OutfitType.EVENING_FORMAL, OutfitType.LINGERIE],
+        "location": [LocationType.INDOOR, LocationType.HOTEL],
+    },
+    "hotel business center with workstations, printer stations, and early-morning suited travelers": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.HOTEL, LocationType.CITY],
+    },
+    "tropical resort hotel open-air lobby with thatched roof, ceiling fans, and welcome fruit punch": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.BEACH_WEAR, OutfitType.BOHEMIAN],
+        "location": [LocationType.INDOOR, LocationType.HOTEL],
+    },
+    "gothic revival hotel staircase with ornate banister, stained glass window, and red carpet runner": {
+        "types": [OutfitType.GOTHIC, OutfitType.ROMANTIC, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.INDOOR, LocationType.HOTEL],
+    },
+    "hotel conference ballroom pre-event with round tables, stage setup, and AV crew testing lights": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.EVENING_FORMAL, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.HOTEL],
+    },
+    "ski lodge hotel great room with stone fireplace, mounted antlers, and hot cocoa station": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC, OutfitType.ATHLEISURE],
+        "location": [LocationType.INDOOR, LocationType.HOTEL],
+    },
+    "hotel rooftop bar lounge interior with retractable skylight and craft cocktail menu": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC, OutfitType.ROMANTIC],
+        "location": [LocationType.INDOOR, LocationType.HOTEL, LocationType.CITY],
+    },
+    "extended-stay hotel kitchenette suite with small dining table, mini fridge, and laptop workspace": {
+        "types": [OutfitType.MINIMALIST, OutfitType.BUSINESS_WEAR, OutfitType.NORMCORE],
+        "location": [LocationType.INDOOR, LocationType.HOTEL, LocationType.CITY],
+    },
+    "palace hotel grand ballroom with gold leaf ceiling, crystal chandeliers, and waltz-ready floor": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.ROMANTIC, OutfitType.AVANT_GARDE],
+        "location": [LocationType.INDOOR, LocationType.HOTEL],
+    },
+    "hotel pool indoor atrium with glass ceiling, palm trees, and heated turquoise water": {
+        "types": [OutfitType.SWIMSUIT, OutfitType.CASUAL_CHIC, OutfitType.ATHLEISURE],
+        "location": [LocationType.INDOOR, LocationType.HOTEL],
+    },
+    "design hotel elevator lobby with statement sculpture, mood lighting, and gallery wall": {
+        "types": [OutfitType.AVANT_GARDE, OutfitType.MINIMALIST, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.INDOOR, LocationType.HOTEL, LocationType.CITY],
+    },
+    "hotel bridal suite preparation room with vanity mirrors, floral arch, and champagne toast table": {
+        "types": [OutfitType.ROMANTIC, OutfitType.EVENING_FORMAL, OutfitType.PIN_UP],
+        "location": [LocationType.INDOOR, LocationType.HOTEL],
+    },
+    "airport hotel transit lounge room with blackout curtains, jet-lagged traveler, and room service tray": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.MINIMALIST, OutfitType.NORMCORE],
+        "location": [LocationType.INDOOR, LocationType.HOTEL],
+    },
+    "ryokan-style hotel room with tatami mats, futon bedding, and shoji screen doors": {
+        "types": [OutfitType.MINIMALIST, OutfitType.ROMANTIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.INDOOR, LocationType.HOTEL],
+    },
+    "hotel cigar lounge with leather Chesterfield sofas, humidor cabinet, and whiskey decanter service": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.BUSINESS_WEAR, OutfitType.RETRO],
+        "location": [LocationType.INDOOR, LocationType.HOTEL],
+    },
+    "overwater bungalow hotel room with glass floor panel showing lagoon fish below": {
+        "types": [OutfitType.ROMANTIC, OutfitType.BEACH_WEAR, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.HOTEL],
+    },
+    "hotel fitness center adjacent lounge with post-workout smoothie bar and massage chair": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.MINIMALIST, OutfitType.BUSINESS_WEAR],
+        "location": [LocationType.INDOOR, LocationType.HOTEL],
+    },
+    "victorian bed and breakfast hotel parlor with lace doilies, antique clock, and guest book": {
+        "types": [OutfitType.ROMANTIC, OutfitType.COTTAGECORE, OutfitType.RETRO],
+        "location": [LocationType.INDOOR, LocationType.HOTEL],
+    },
+    "hotel mezzanine library with spiral staircase, rare book collection, and reading nook alcoves": {
+        "types": [OutfitType.PREPPY, OutfitType.ROMANTIC, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.HOTEL],
+    },
+    "casino hotel gaming floor adjacent lounge with slot machine glow and cocktail waitress": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.CLUB_PARTY, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.HOTEL, LocationType.CITY],
+    },
+    "eco-lodge hotel room with reclaimed wood furniture, solar panel view, and organic cotton linens": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.MINIMALIST, OutfitType.COTTAGECORE],
+        "location": [LocationType.INDOOR, LocationType.HOTEL],
+    },
+    "hotel executive club floor lounge with complimentary breakfast buffet and city-view terrace door": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.EVENING_FORMAL, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.HOTEL, LocationType.CITY],
+    },
+    "moroccan riad hotel courtyard room opening to tiled fountain courtyard with orange trees": {
+        "types": [OutfitType.ROMANTIC, OutfitType.BOHEMIAN, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.INDOOR, LocationType.HOTEL],
+    },
+    "hotel jazz lounge with small stage, cocktail tables, and upright bass in corner": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.RETRO, OutfitType.ROMANTIC],
+        "location": [LocationType.INDOOR, LocationType.HOTEL],
+    },
+    "capsule hotel pod interior with compact sleeping berth, ambient blue lighting, and privacy curtain": {
+        "types": [OutfitType.MINIMALIST, OutfitType.CYBERPUNK, OutfitType.NORMCORE],
+        "location": [LocationType.INDOOR, LocationType.HOTEL, LocationType.CITY],
+    },
+    "hotel wedding venue preparation suite with dress rack, floral centerpieces, and nervous energy": {
+        "types": [OutfitType.ROMANTIC, OutfitType.EVENING_FORMAL, OutfitType.PIN_UP],
+        "location": [LocationType.INDOOR, LocationType.HOTEL],
+    },
+    "converted monastery hotel cell room with stone walls, arched window, and simple wooden crucifix": {
+        "types": [OutfitType.GOTHIC, OutfitType.MINIMALIST, OutfitType.ROMANTIC],
+        "location": [LocationType.INDOOR, LocationType.HOTEL],
+    },
+    "hotel afternoon tea salon with tiered sandwich stands, fine china, and harpist in corner": {
+        "types": [OutfitType.ROMANTIC, OutfitType.PREPPY, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.INDOOR, LocationType.HOTEL],
+    },
+    "penthouse hotel terrace room with private hot tub, fire pit, and skyline panorama through glass": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.ROMANTIC, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.HOTEL, LocationType.CITY],
+    },
+    "hotel art gallery corridor with rotating exhibition pieces and gallery track lighting": {
+        "types": [OutfitType.AVANT_GARDE, OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.HOTEL, LocationType.CITY],
+    },
+    "historic train car converted hotel suite with brass fixtures, velvet seating, and window landscape": {
+        "types": [OutfitType.RETRO, OutfitType.ROMANTIC, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.HOTEL],
+    },
+    "hotel kids club activity room with colorful play structures visible through glass partition": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.KAWAII, OutfitType.NORMCORE],
+        "location": [LocationType.INDOOR, LocationType.HOTEL],
+    },
+    "wellness retreat hotel meditation room with floor cushions, singing bowl, and Himalayan salt lamp": {
+        "types": [OutfitType.MINIMALIST, OutfitType.BOHEMIAN, OutfitType.ETHEREAL],
+        "location": [LocationType.INDOOR, LocationType.HOTEL],
+    },
+    "hotel luggage storage room with brass luggage carts, tagged suitcases, and bellhop uniforms": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.RETRO, OutfitType.NORMCORE],
+        "location": [LocationType.INDOOR, LocationType.HOTEL],
+    },
+    "ice hotel interior room with carved ice furniture, fur blankets, and blue ambient lighting": {
+        "types": [OutfitType.MINIMALIST, OutfitType.AVANT_GARDE, OutfitType.ROMANTIC],
+        "location": [LocationType.INDOOR, LocationType.HOTEL],
+    },
+    "hotel rooftop greenhouse lounge with tropical plants, glass walls, and afternoon tea service": {
+        "types": [OutfitType.ROMANTIC, OutfitType.BOHEMIAN, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.HOTEL, LocationType.CITY],
+    },
+    "boutique hotel bathroom suite with rainfall shower, marble vanity, and luxury amenity display": {
+        "types": [OutfitType.MINIMALIST, OutfitType.ROMANTIC, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.INDOOR, LocationType.HOTEL],
+    },
+    "hotel New Year's Eve gala ballroom with countdown clock, confetti cannons, and formal crowd": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.CLUB_PARTY, OutfitType.ROMANTIC],
+        "location": [LocationType.INDOOR, LocationType.HOTEL, LocationType.CITY],
+    },
+    "desert luxury tent hotel interior with woven rugs, lantern light, and stargazing roof flap open": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.ROMANTIC, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.HOTEL],
+    },
+    "hotel film noir themed bar lounge with black and white photos, jazz piano, and smoky atmosphere": {
+        "types": [OutfitType.RETRO, OutfitType.EVENING_FORMAL, OutfitType.PIN_UP],
+        "location": [LocationType.INDOOR, LocationType.HOTEL],
+    },
+    "floating houseboat hotel cabin with river views through porthole windows and gentle rocking motion": {
+        "types": [OutfitType.ROMANTIC, OutfitType.BOHEMIAN, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.HOTEL],
+    },
+
+    # Park Scenes
+    "sun-dappled meadow with wildflowers": {
+        "types": [OutfitType.FESTIVAL, OutfitType.BOHEMIAN, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.PARK],
+    },
+    "cherry blossom-lined walking path": {
+        "types": [OutfitType.FESTIVAL, OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.PARK],
+    },
+    "moss-covered stone bridge over a creek": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.FESTIVAL, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.PARK],
+    },
+    "picnic blanket under a sprawling oak tree": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.FESTIVAL, OutfitType.COTTAGECORE],
+        "location": [LocationType.OUTDOOR, LocationType.PARK],
+    },
+    "rustic wooden park bench at golden hour": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN, OutfitType.FESTIVAL],
+        "location": [LocationType.OUTDOOR, LocationType.PARK],
+    },
+    "butterfly garden in full bloom": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.CASUAL_CHIC, OutfitType.COTTAGECORE],
+        "location": [LocationType.OUTDOOR, LocationType.PARK],
+    },
+    "misty morning jogging trail through pines": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.FESTIVAL, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.PARK],
+    },
+    "autumn leaf-strewn woodland path": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.PARK],
+    },
+    "frozen pond with ice skaters nearby": {
+        "types": [OutfitType.FESTIVAL, OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.PARK],
+    },
+    "community garden raised beds": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.CASUAL_CHIC, OutfitType.FESTIVAL],
+        "location": [LocationType.OUTDOOR, LocationType.PARK],
+    },
+    "willow tree shade by a quiet pond": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.FESTIVAL, OutfitType.COTTAGECORE],
+        "location": [LocationType.OUTDOOR, LocationType.PARK],
+    },
+    "dog park fenced play area": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.FESTIVAL, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.PARK],
+    },
+    "sculpture garden with modern art pieces": {
+        "types": [OutfitType.FESTIVAL, OutfitType.BOHEMIAN, OutfitType.COTTAGECORE],
+        "location": [LocationType.OUTDOOR, LocationType.PARK],
+    },
+    "amphitheater stone steps at dusk": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.COTTAGECORE, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.PARK],
+    },
+    "botanical greenhouse exterior walkway": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.BOHEMIAN, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.PARK],
+    },
+    "fountain plaza with splashing water jets": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC, OutfitType.FESTIVAL],
+        "location": [LocationType.OUTDOOR, LocationType.PARK],
+    },
+    "tree-lined boulevard in spring bloom": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.COTTAGECORE, OutfitType.FESTIVAL],
+        "location": [LocationType.OUTDOOR, LocationType.PARK],
+    },
+    "hidden grove with fern-covered ground": {
+        "types": [OutfitType.FESTIVAL, OutfitType.CASUAL_CHIC, OutfitType.COTTAGECORE],
+        "location": [LocationType.OUTDOOR, LocationType.PARK],
+    },
+    "bird sanctuary wooden observation deck": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.BOHEMIAN, OutfitType.FESTIVAL],
+        "location": [LocationType.OUTDOOR, LocationType.PARK],
+    },
+    "sunset hilltop overlooking the city": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN, OutfitType.COTTAGECORE],
+        "location": [LocationType.OUTDOOR, LocationType.PARK],
+    },
+    "covered wooden gazebo in rain": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.PARK],
+    },
+    "wildflower prairie stretching to horizon": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.COTTAGECORE, OutfitType.FESTIVAL],
+        "location": [LocationType.OUTDOOR, LocationType.PARK],
+    },
+    "creek-side stepping stones": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.FESTIVAL, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.PARK],
+    },
+    "memorial rose garden in peak season": {
+        "types": [OutfitType.FESTIVAL, OutfitType.COTTAGECORE, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.PARK],
+    },
+    "playground swings at twilight": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.FESTIVAL, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.PARK],
+    },
+    "nature trail boardwalk through wetlands": {
+        "types": [OutfitType.FESTIVAL, OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.PARK],
+    },
+    "rock garden with zen raked gravel": {
+        "types": [OutfitType.FESTIVAL, OutfitType.BOHEMIAN, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.PARK],
+    },
+    "outdoor yoga lawn at sunrise": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.FESTIVAL, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.PARK],
+    },
+    "historic bandstand on village green": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN, OutfitType.FESTIVAL],
+        "location": [LocationType.OUTDOOR, LocationType.PARK],
+    },
+    "lily pad pond with dragonflies": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.CASUAL_CHIC, OutfitType.FESTIVAL],
+        "location": [LocationType.OUTDOOR, LocationType.PARK],
+    },
+    "shaded reading nook under maple trees": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.COTTAGECORE, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.PARK],
+    },
+    "outdoor chess tables in dappled light": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.PARK],
+    },
+    "community orchard with ripe fruit trees": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.PARK],
+    },
+    "firefly-lit meadow at summer dusk": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN, OutfitType.COTTAGECORE],
+        "location": [LocationType.OUTDOOR, LocationType.PARK],
+    },
+    "snow-covered pine forest clearing": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.CASUAL_CHIC, OutfitType.COTTAGECORE],
+        "location": [LocationType.OUTDOOR, LocationType.PARK],
+    },
+    "herb garden with lavender rows": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.BOHEMIAN, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.PARK],
+    },
+    "outdoor amphitheater empty seats": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.FESTIVAL, OutfitType.COTTAGECORE],
+        "location": [LocationType.OUTDOOR, LocationType.PARK],
+    },
+    "koi pond with arched red bridge": {
+        "types": [OutfitType.FESTIVAL, OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.PARK],
+    },
+    "wild blackberry bramble path": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC, OutfitType.FESTIVAL],
+        "location": [LocationType.OUTDOOR, LocationType.PARK],
+    },
+    "sunflower field edge near park fence": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.COTTAGECORE, OutfitType.FESTIVAL],
+        "location": [LocationType.OUTDOOR, LocationType.PARK],
+    },
+    "outdoor fitness station on gravel path": {
+        "types": [OutfitType.FESTIVAL, OutfitType.CASUAL_CHIC, OutfitType.COTTAGECORE],
+        "location": [LocationType.OUTDOOR, LocationType.PARK],
+    },
+    "bee apiary fenced meadow corner": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.FESTIVAL, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.PARK],
+    },
+    "storybook trail with carved wooden signs": {
+        "types": [OutfitType.FESTIVAL, OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.PARK],
+    },
+    "outdoor meditation circle of stones": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.CASUAL_CHIC, OutfitType.FESTIVAL],
+        "location": [LocationType.OUTDOOR, LocationType.PARK],
+    },
+    "rainbow flag festival grounds setup": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.FESTIVAL, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.PARK],
+    },
+    "outdoor library book exchange kiosk": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.FESTIVAL, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.PARK],
+    },
+    "treehouse lookout platform in woods": {
+        "types": [OutfitType.FESTIVAL, OutfitType.BOHEMIAN, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.PARK],
+    },
+    "outdoor pottery market on grass lawn": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN, OutfitType.FESTIVAL],
+        "location": [LocationType.OUTDOOR, LocationType.PARK],
+    },
+    "moonlit park path with lantern posts": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.CASUAL_CHIC, OutfitType.FESTIVAL],
+        "location": [LocationType.OUTDOOR, LocationType.PARK],
+    },
+    "spring tulip display in formal beds": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.FESTIVAL, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.PARK],
+    },
+
+    # Pool Scenes
+    "infinity pool overlooking ocean cliffs": {
+        "types": [OutfitType.SWIMSUIT, OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE],
+        "location": [LocationType.OUTDOOR, LocationType.POOL],
+    },
+    "rooftop pool with city skyline backdrop": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE, OutfitType.BIKINI],
+        "location": [LocationType.OUTDOOR, LocationType.POOL],
+    },
+    "resort lagoon pool with swim-up bar": {
+        "types": [OutfitType.SWIMSUIT, OutfitType.ATHLEISURE, OutfitType.BEACH_WEAR],
+        "location": [LocationType.OUTDOOR, LocationType.POOL],
+    },
+    "olympic-size lap pool lane markers": {
+        "types": [OutfitType.BIKINI, OutfitType.ATHLEISURE, OutfitType.SWIMSUIT],
+        "location": [LocationType.OUTDOOR, LocationType.POOL],
+    },
+    "tropical pool surrounded by palm trees": {
+        "types": [OutfitType.BIKINI, OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE],
+        "location": [LocationType.OUTDOOR, LocationType.POOL],
+    },
+    "desert oasis pool with sandstone deck": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT, OutfitType.ATHLEISURE],
+        "location": [LocationType.OUTDOOR, LocationType.POOL],
+    },
+    "backyard pool with inflatable lounger": {
+        "types": [OutfitType.SWIMSUIT, OutfitType.BEACH_WEAR, OutfitType.BIKINI],
+        "location": [LocationType.OUTDOOR, LocationType.POOL],
+    },
+    "hotel courtyard pool with mosaic tiles": {
+        "types": [OutfitType.SWIMSUIT, OutfitType.BIKINI, OutfitType.BEACH_WEAR],
+        "location": [LocationType.OUTDOOR, LocationType.POOL],
+    },
+    "natural rock pool at waterfall base": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE, OutfitType.SWIMSUIT],
+        "location": [LocationType.OUTDOOR, LocationType.POOL],
+    },
+    "community pool diving board platform": {
+        "types": [OutfitType.BIKINI, OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT],
+        "location": [LocationType.OUTDOOR, LocationType.POOL],
+    },
+    "indoor spa pool with steam rising": {
+        "types": [OutfitType.BIKINI, OutfitType.ATHLEISURE, OutfitType.BEACH_WEAR],
+        "location": [LocationType.INDOOR, LocationType.POOL],
+    },
+    "indoor hotel pool under glass dome": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.SWIMSUIT, OutfitType.BIKINI],
+        "location": [LocationType.INDOOR, LocationType.POOL],
+    },
+    "indoor lap pool with lane dividers": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT, OutfitType.BIKINI],
+        "location": [LocationType.INDOOR, LocationType.POOL],
+    },
+    "indoor wellness center pool with jets": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.ATHLEISURE],
+        "location": [LocationType.INDOOR, LocationType.POOL],
+    },
+    "indoor aquatic center competition pool": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.SWIMSUIT, OutfitType.BEACH_WEAR],
+        "location": [LocationType.INDOOR, LocationType.POOL],
+    },
+    "indoor resort pool with palm murals": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT],
+        "location": [LocationType.INDOOR, LocationType.POOL],
+    },
+    "indoor thermal pool with stone walls": {
+        "types": [OutfitType.SWIMSUIT, OutfitType.ATHLEISURE, OutfitType.BIKINI],
+        "location": [LocationType.INDOOR, LocationType.POOL],
+    },
+    "indoor gym pool with floor-to-ceiling windows": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.BEACH_WEAR, OutfitType.BIKINI],
+        "location": [LocationType.INDOOR, LocationType.POOL],
+    },
+    "poolside cabana with striped curtains": {
+        "types": [OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.BEACH_WEAR],
+        "location": [LocationType.OUTDOOR, LocationType.POOL],
+    },
+    "pool deck with sun loungers and umbrellas": {
+        "types": [OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.ATHLEISURE],
+        "location": [LocationType.OUTDOOR, LocationType.POOL],
+    },
+    "heated outdoor pool in winter steam": {
+        "types": [OutfitType.SWIMSUIT, OutfitType.BIKINI, OutfitType.ATHLEISURE],
+        "location": [LocationType.OUTDOOR, LocationType.POOL],
+    },
+    "kids splash pool with water slides": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.BIKINI, OutfitType.BEACH_WEAR],
+        "location": [LocationType.OUTDOOR, LocationType.POOL],
+    },
+    "pool grotto with hidden cave entrance": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.BIKINI, OutfitType.SWIMSUIT],
+        "location": [LocationType.OUTDOOR, LocationType.POOL],
+    },
+    "sunset pool party with floating lights": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT],
+        "location": [LocationType.OUTDOOR, LocationType.POOL],
+    },
+    "morning lap swim empty pool lanes": {
+        "types": [OutfitType.BIKINI, OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE],
+        "location": [LocationType.OUTDOOR, LocationType.POOL],
+    },
+    "pool volleyball net over shallow end": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.BEACH_WEAR, OutfitType.BIKINI],
+        "location": [LocationType.OUTDOOR, LocationType.POOL],
+    },
+    "lazy river pool with inner tubes": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.ATHLEISURE],
+        "location": [LocationType.OUTDOOR, LocationType.POOL],
+    },
+    "poolside bar with tropical cocktails": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.BIKINI, OutfitType.BEACH_WEAR],
+        "location": [LocationType.OUTDOOR, LocationType.POOL],
+    },
+    "cliffside pool with glass edge": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE, OutfitType.BIKINI],
+        "location": [LocationType.OUTDOOR, LocationType.POOL],
+    },
+    "villa pool surrounded by olive trees": {
+        "types": [OutfitType.BIKINI, OutfitType.ATHLEISURE, OutfitType.BEACH_WEAR],
+        "location": [LocationType.OUTDOOR, LocationType.POOL],
+    },
+    "beach club pool steps to sand": {
+        "types": [OutfitType.BIKINI, OutfitType.ATHLEISURE, OutfitType.SWIMSUIT],
+        "location": [LocationType.OUTDOOR, LocationType.POOL],
+    },
+    "pool with underwater bench seating": {
+        "types": [OutfitType.SWIMSUIT, OutfitType.ATHLEISURE, OutfitType.BIKINI],
+        "location": [LocationType.OUTDOOR, LocationType.POOL],
+    },
+    "night pool lit with blue led strips": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.SWIMSUIT, OutfitType.BIKINI],
+        "location": [LocationType.OUTDOOR, LocationType.POOL],
+    },
+    "poolside fire pit and lounge chairs": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.BIKINI, OutfitType.SWIMSUIT],
+        "location": [LocationType.OUTDOOR, LocationType.POOL],
+    },
+    "indoor infinity pool with city view": {
+        "types": [OutfitType.SWIMSUIT, OutfitType.BIKINI, OutfitType.ATHLEISURE],
+        "location": [LocationType.INDOOR, LocationType.POOL],
+    },
+    "indoor pool with retractable roof open": {
+        "types": [OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.ATHLEISURE],
+        "location": [LocationType.INDOOR, LocationType.POOL],
+    },
+    "indoor pool sauna adjacent glass wall": {
+        "types": [OutfitType.SWIMSUIT, OutfitType.BIKINI, OutfitType.ATHLEISURE],
+        "location": [LocationType.INDOOR, LocationType.POOL],
+    },
+    "indoor pool with underwater windows": {
+        "types": [OutfitType.BIKINI, OutfitType.ATHLEISURE, OutfitType.SWIMSUIT],
+        "location": [LocationType.INDOOR, LocationType.POOL],
+    },
+    "indoor pool at luxury spa retreat": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.BIKINI, OutfitType.SWIMSUIT],
+        "location": [LocationType.INDOOR, LocationType.POOL],
+    },
+    "pool deck yoga session at dawn": {
+        "types": [OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.ATHLEISURE],
+        "location": [LocationType.OUTDOOR, LocationType.POOL],
+    },
+    "poolside brunch table with fruit platter": {
+        "types": [OutfitType.SWIMSUIT, OutfitType.ATHLEISURE, OutfitType.BIKINI],
+        "location": [LocationType.OUTDOOR, LocationType.POOL],
+    },
+    "empty pool during maintenance drain": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.SWIMSUIT, OutfitType.BIKINI],
+        "location": [LocationType.OUTDOOR, LocationType.POOL],
+    },
+    "pool with floating breakfast tray": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT, OutfitType.ATHLEISURE],
+        "location": [LocationType.OUTDOOR, LocationType.POOL],
+    },
+    "water polo goals at deep end": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.SWIMSUIT, OutfitType.BEACH_WEAR],
+        "location": [LocationType.OUTDOOR, LocationType.POOL],
+    },
+    "pool with bubble jet massage corner": {
+        "types": [OutfitType.SWIMSUIT, OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE],
+        "location": [LocationType.OUTDOOR, LocationType.POOL],
+    },
+    "saltwater pool with ocean breeze": {
+        "types": [OutfitType.SWIMSUIT, OutfitType.ATHLEISURE, OutfitType.BEACH_WEAR],
+        "location": [LocationType.OUTDOOR, LocationType.POOL],
+    },
+    "pool surrounded by tropical garden": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT],
+        "location": [LocationType.OUTDOOR, LocationType.POOL],
+    },
+    "pool with swim-up tanning ledge": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE, OutfitType.SWIMSUIT],
+        "location": [LocationType.OUTDOOR, LocationType.POOL],
+    },
+    "indoor pool with arched brick ceiling": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.ATHLEISURE],
+        "location": [LocationType.INDOOR, LocationType.POOL],
+    },
+    "indoor pool with mood lighting strips": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.BIKINI, OutfitType.BEACH_WEAR],
+        "location": [LocationType.INDOOR, LocationType.POOL],
+    },
+
+    # Subway Scenes
+    "crowded rush hour subway platform": {
+        "types": [OutfitType.STREETWEAR, OutfitType.CYBERPUNK, OutfitType.GRUNGE],
+        "location": [LocationType.INDOOR, LocationType.SUBWAY, LocationType.CITY],
+    },
+    "empty late-night subway car interior": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.NORMCORE, OutfitType.GRUNGE],
+        "location": [LocationType.INDOOR, LocationType.SUBWAY, LocationType.CITY],
+    },
+    "graffiti-covered subway tunnel wall": {
+        "types": [OutfitType.GRUNGE, OutfitType.NORMCORE, OutfitType.CYBERPUNK],
+        "location": [LocationType.INDOOR, LocationType.SUBWAY, LocationType.CITY],
+    },
+    "subway turnstile entrance with fluorescent lights": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.STREETWEAR, OutfitType.NORMCORE],
+        "location": [LocationType.INDOOR, LocationType.SUBWAY, LocationType.CITY],
+    },
+    "subway escalator descending into depths": {
+        "types": [OutfitType.STREETWEAR, OutfitType.GRUNGE, OutfitType.CYBERPUNK],
+        "location": [LocationType.INDOOR, LocationType.SUBWAY, LocationType.CITY],
+    },
+    "subway map wall with route lines": {
+        "types": [OutfitType.GRUNGE, OutfitType.CYBERPUNK, OutfitType.NORMCORE],
+        "location": [LocationType.INDOOR, LocationType.SUBWAY, LocationType.CITY],
+    },
+    "subway bench waiting area with ads": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.GRUNGE, OutfitType.NORMCORE],
+        "location": [LocationType.INDOOR, LocationType.SUBWAY, LocationType.CITY],
+    },
+    "subway train doors opening at station": {
+        "types": [OutfitType.NORMCORE, OutfitType.CYBERPUNK, OutfitType.GRUNGE],
+        "location": [LocationType.INDOOR, LocationType.SUBWAY, LocationType.CITY],
+    },
+    "subway stairwell with tiled walls": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.GRUNGE, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.SUBWAY, LocationType.CITY],
+    },
+    "subway token booth vintage counter": {
+        "types": [OutfitType.NORMCORE, OutfitType.STREETWEAR, OutfitType.GRUNGE],
+        "location": [LocationType.INDOOR, LocationType.SUBWAY, LocationType.CITY],
+    },
+    "subway platform edge yellow safety line": {
+        "types": [OutfitType.STREETWEAR, OutfitType.NORMCORE, OutfitType.GRUNGE],
+        "location": [LocationType.INDOOR, LocationType.SUBWAY, LocationType.CITY],
+    },
+    "subway car pole grip standing room": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.NORMCORE, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.SUBWAY, LocationType.CITY],
+    },
+    "subway station archway brick ceiling": {
+        "types": [OutfitType.GRUNGE, OutfitType.STREETWEAR, OutfitType.NORMCORE],
+        "location": [LocationType.INDOOR, LocationType.SUBWAY, LocationType.CITY],
+    },
+    "subway transfer corridor connecting lines": {
+        "types": [OutfitType.STREETWEAR, OutfitType.NORMCORE, OutfitType.CYBERPUNK],
+        "location": [LocationType.INDOOR, LocationType.SUBWAY, LocationType.CITY],
+    },
+    "subway platform digital countdown board": {
+        "types": [OutfitType.NORMCORE, OutfitType.CYBERPUNK, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.SUBWAY, LocationType.CITY],
+    },
+    "subway tunnel lights stretching to vanishing point": {
+        "types": [OutfitType.GRUNGE, OutfitType.STREETWEAR, OutfitType.CYBERPUNK],
+        "location": [LocationType.INDOOR, LocationType.SUBWAY, LocationType.CITY],
+    },
+    "subway station newsstand kiosk": {
+        "types": [OutfitType.STREETWEAR, OutfitType.GRUNGE, OutfitType.NORMCORE],
+        "location": [LocationType.INDOOR, LocationType.SUBWAY, LocationType.CITY],
+    },
+    "subway emergency exit stairwell": {
+        "types": [OutfitType.NORMCORE, OutfitType.STREETWEAR, OutfitType.CYBERPUNK],
+        "location": [LocationType.INDOOR, LocationType.SUBWAY, LocationType.CITY],
+    },
+    "subway car window reflection at night": {
+        "types": [OutfitType.NORMCORE, OutfitType.GRUNGE, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.SUBWAY, LocationType.CITY],
+    },
+    "subway platform musician busking corner": {
+        "types": [OutfitType.STREETWEAR, OutfitType.CYBERPUNK, OutfitType.NORMCORE],
+        "location": [LocationType.INDOOR, LocationType.SUBWAY, LocationType.CITY],
+    },
+    "subway station mosaic tile artwork": {
+        "types": [OutfitType.GRUNGE, OutfitType.CYBERPUNK, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.SUBWAY, LocationType.CITY],
+    },
+    "subway ventilation grate steam rising": {
+        "types": [OutfitType.GRUNGE, OutfitType.NORMCORE, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.SUBWAY, LocationType.CITY],
+    },
+    "subway platform rain dripping from ceiling": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.STREETWEAR, OutfitType.GRUNGE],
+        "location": [LocationType.INDOOR, LocationType.SUBWAY, LocationType.CITY],
+    },
+    "subway car seats with worn fabric": {
+        "types": [OutfitType.NORMCORE, OutfitType.GRUNGE, OutfitType.CYBERPUNK],
+        "location": [LocationType.INDOOR, LocationType.SUBWAY, LocationType.CITY],
+    },
+    "subway station clock above tracks": {
+        "types": [OutfitType.STREETWEAR, OutfitType.NORMCORE, OutfitType.CYBERPUNK],
+        "location": [LocationType.INDOOR, LocationType.SUBWAY, LocationType.CITY],
+    },
+    "subway platform gap warning signs": {
+        "types": [OutfitType.NORMCORE, OutfitType.CYBERPUNK, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.SUBWAY, LocationType.CITY],
+    },
+    "subway underground shopping arcade entrance": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.STREETWEAR, OutfitType.NORMCORE],
+        "location": [LocationType.INDOOR, LocationType.SUBWAY, LocationType.CITY],
+    },
+    "subway station pillar with peeling paint": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.NORMCORE, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.SUBWAY, LocationType.CITY],
+    },
+    "subway car handrail chrome reflections": {
+        "types": [OutfitType.NORMCORE, OutfitType.STREETWEAR, OutfitType.CYBERPUNK],
+        "location": [LocationType.INDOOR, LocationType.SUBWAY, LocationType.CITY],
+    },
+    "subway platform crowd surge at doors": {
+        "types": [OutfitType.STREETWEAR, OutfitType.CYBERPUNK, OutfitType.NORMCORE],
+        "location": [LocationType.INDOOR, LocationType.SUBWAY, LocationType.CITY],
+    },
+    "subway station neon line name sign": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.STREETWEAR, OutfitType.GRUNGE],
+        "location": [LocationType.INDOOR, LocationType.SUBWAY, LocationType.CITY],
+    },
+    "subway tunnel curve with approaching headlights": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.GRUNGE, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.SUBWAY, LocationType.CITY],
+    },
+    "subway station wheelchair ramp access": {
+        "types": [OutfitType.GRUNGE, OutfitType.CYBERPUNK, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.SUBWAY, LocationType.CITY],
+    },
+    "subway platform vending machine corner": {
+        "types": [OutfitType.STREETWEAR, OutfitType.GRUNGE, OutfitType.CYBERPUNK],
+        "location": [LocationType.INDOOR, LocationType.SUBWAY, LocationType.CITY],
+    },
+    "subway car overhead strap handles": {
+        "types": [OutfitType.GRUNGE, OutfitType.STREETWEAR, OutfitType.CYBERPUNK],
+        "location": [LocationType.INDOOR, LocationType.SUBWAY, LocationType.CITY],
+    },
+    "subway station lost and found window": {
+        "types": [OutfitType.STREETWEAR, OutfitType.CYBERPUNK, OutfitType.GRUNGE],
+        "location": [LocationType.INDOOR, LocationType.SUBWAY, LocationType.CITY],
+    },
+    "subway platform maintenance workers zone": {
+        "types": [OutfitType.GRUNGE, OutfitType.CYBERPUNK, OutfitType.NORMCORE],
+        "location": [LocationType.INDOOR, LocationType.SUBWAY, LocationType.CITY],
+    },
+    "subway station security camera dome": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.NORMCORE, OutfitType.GRUNGE],
+        "location": [LocationType.INDOOR, LocationType.SUBWAY, LocationType.CITY],
+    },
+    "subway car floor mosaic pattern": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.GRUNGE, OutfitType.NORMCORE],
+        "location": [LocationType.INDOOR, LocationType.SUBWAY, LocationType.CITY],
+    },
+    "subway platform wind from passing train": {
+        "types": [OutfitType.NORMCORE, OutfitType.CYBERPUNK, OutfitType.GRUNGE],
+        "location": [LocationType.INDOOR, LocationType.SUBWAY, LocationType.CITY],
+    },
+    "subway station historic tile lettering": {
+        "types": [OutfitType.NORMCORE, OutfitType.GRUNGE, OutfitType.CYBERPUNK],
+        "location": [LocationType.INDOOR, LocationType.SUBWAY, LocationType.CITY],
+    },
+    "subway tunnel emergency phone box": {
+        "types": [OutfitType.GRUNGE, OutfitType.NORMCORE, OutfitType.CYBERPUNK],
+        "location": [LocationType.INDOOR, LocationType.SUBWAY, LocationType.CITY],
+    },
+    "subway platform bench with homeless sleeper": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.GRUNGE, OutfitType.NORMCORE],
+        "location": [LocationType.INDOOR, LocationType.SUBWAY, LocationType.CITY],
+    },
+    "subway car digital route display": {
+        "types": [OutfitType.NORMCORE, OutfitType.CYBERPUNK, OutfitType.GRUNGE],
+        "location": [LocationType.INDOOR, LocationType.SUBWAY, LocationType.CITY],
+    },
+    "subway station fare card tap gate": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.NORMCORE, OutfitType.GRUNGE],
+        "location": [LocationType.INDOOR, LocationType.SUBWAY, LocationType.CITY],
+    },
+    "subway platform puddle reflecting lights": {
+        "types": [OutfitType.GRUNGE, OutfitType.NORMCORE, OutfitType.CYBERPUNK],
+        "location": [LocationType.INDOOR, LocationType.SUBWAY, LocationType.CITY],
+    },
+    "subway car corner seat by window": {
+        "types": [OutfitType.GRUNGE, OutfitType.CYBERPUNK, OutfitType.NORMCORE],
+        "location": [LocationType.INDOOR, LocationType.SUBWAY, LocationType.CITY],
+    },
+    "subway station construction barricade zone": {
+        "types": [OutfitType.NORMCORE, OutfitType.GRUNGE, OutfitType.CYBERPUNK],
+        "location": [LocationType.INDOOR, LocationType.SUBWAY, LocationType.CITY],
+    },
+    "subway tunnel signal light changing": {
+        "types": [OutfitType.STREETWEAR, OutfitType.CYBERPUNK, OutfitType.GRUNGE],
+        "location": [LocationType.INDOOR, LocationType.SUBWAY, LocationType.CITY],
+    },
+    "subway platform last train announcement board": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.STREETWEAR, OutfitType.GRUNGE],
+        "location": [LocationType.INDOOR, LocationType.SUBWAY, LocationType.CITY],
+    },
+
+    # Airport Scenes
+    "departure gate lounge with runway view": {
+        "types": [OutfitType.MINIMALIST, OutfitType.ATHLEISURE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.AIRPORT, LocationType.CITY],
+    },
+    "international terminal check-in counters": {
+        "types": [OutfitType.MINIMALIST, OutfitType.BUSINESS_WEAR, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.AIRPORT, LocationType.CITY],
+    },
+    "airport security screening queue": {
+        "types": [OutfitType.MINIMALIST, OutfitType.BUSINESS_WEAR, OutfitType.ATHLEISURE],
+        "location": [LocationType.INDOOR, LocationType.AIRPORT, LocationType.CITY],
+    },
+    "duty-free shopping corridor": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.AIRPORT, LocationType.CITY],
+    },
+    "airport baggage claim carousel": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.ATHLEISURE, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.AIRPORT, LocationType.CITY],
+    },
+    "airport arrival hall with welcome signs": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.BUSINESS_WEAR, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.AIRPORT, LocationType.CITY],
+    },
+    "airport moving walkway between terminals": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.ATHLEISURE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.AIRPORT, LocationType.CITY],
+    },
+    "airport business class lounge fireplace": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.AIRPORT],
+    },
+    "airport customs inspection area": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.AIRPORT, LocationType.CITY],
+    },
+    "airport jet bridge boarding corridor": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST, OutfitType.BUSINESS_WEAR],
+        "location": [LocationType.INDOOR, LocationType.AIRPORT],
+    },
+    "airport food court with global cuisine": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.MINIMALIST, OutfitType.BUSINESS_WEAR],
+        "location": [LocationType.INDOOR, LocationType.AIRPORT, LocationType.CITY],
+    },
+    "airport observation deck overlooking tarmac": {
+        "types": [OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC, OutfitType.BUSINESS_WEAR],
+        "location": [LocationType.INDOOR, LocationType.AIRPORT],
+    },
+    "airport passport control queue lines": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.CASUAL_CHIC, OutfitType.ATHLEISURE],
+        "location": [LocationType.INDOOR, LocationType.AIRPORT, LocationType.CITY],
+    },
+    "airport gate seating rows with charging ports": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.BUSINESS_WEAR, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.AIRPORT, LocationType.CITY],
+    },
+    "airport information desk with flight boards": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.AIRPORT, LocationType.CITY],
+    },
+    "airport VIP lounge with leather chairs": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.BUSINESS_WEAR, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.AIRPORT],
+    },
+    "airport terminal glass wall runway sunset": {
+        "types": [OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC, OutfitType.ATHLEISURE],
+        "location": [LocationType.INDOOR, LocationType.AIRPORT, LocationType.CITY],
+    },
+    "airport luggage trolley parking area": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.MINIMALIST, OutfitType.ATHLEISURE],
+        "location": [LocationType.INDOOR, LocationType.AIRPORT, LocationType.CITY],
+    },
+    "airport currency exchange kiosk": {
+        "types": [OutfitType.MINIMALIST, OutfitType.ATHLEISURE, OutfitType.BUSINESS_WEAR],
+        "location": [LocationType.INDOOR, LocationType.AIRPORT, LocationType.CITY],
+    },
+    "airport prayer room quiet corner": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST, OutfitType.ATHLEISURE],
+        "location": [LocationType.INDOOR, LocationType.AIRPORT],
+    },
+    "airport kids play zone near gate": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.BUSINESS_WEAR, OutfitType.ATHLEISURE],
+        "location": [LocationType.INDOOR, LocationType.AIRPORT, LocationType.CITY],
+    },
+    "airport smoking lounge sealed room": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.ATHLEISURE, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.AIRPORT],
+    },
+    "airport lost luggage office counter": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.CASUAL_CHIC, OutfitType.BUSINESS_WEAR],
+        "location": [LocationType.INDOOR, LocationType.AIRPORT, LocationType.CITY],
+    },
+    "airport gate agent boarding podium": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.ATHLEISURE, OutfitType.BUSINESS_WEAR],
+        "location": [LocationType.INDOOR, LocationType.AIRPORT, LocationType.CITY],
+    },
+    "airport terminal skylight atrium": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.AIRPORT, LocationType.CITY],
+    },
+    "airport tram between concourses": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.AIRPORT, LocationType.CITY],
+    },
+    "airport first class check-in desk": {
+        "types": [OutfitType.MINIMALIST, OutfitType.BUSINESS_WEAR, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.AIRPORT, LocationType.CITY],
+    },
+    "airport gate area with delayed flight screen": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST, OutfitType.BUSINESS_WEAR],
+        "location": [LocationType.INDOOR, LocationType.AIRPORT, LocationType.CITY],
+    },
+    "airport terminal art installation hall": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.BUSINESS_WEAR, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.AIRPORT, LocationType.CITY],
+    },
+    "airport restroom hallway with signage": {
+        "types": [OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC, OutfitType.BUSINESS_WEAR],
+        "location": [LocationType.INDOOR, LocationType.AIRPORT],
+    },
+    "airport gate window plane pushback view": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.AIRPORT, LocationType.CITY],
+    },
+    "airport terminal floor directional arrows": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.AIRPORT, LocationType.CITY],
+    },
+    "airport lounge shower facility": {
+        "types": [OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC, OutfitType.BUSINESS_WEAR],
+        "location": [LocationType.INDOOR, LocationType.AIRPORT],
+    },
+    "airport terminal newsstand rack": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST, OutfitType.BUSINESS_WEAR],
+        "location": [LocationType.INDOOR, LocationType.AIRPORT, LocationType.CITY],
+    },
+    "airport gate priority boarding lane": {
+        "types": [OutfitType.MINIMALIST, OutfitType.BUSINESS_WEAR, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.AIRPORT, LocationType.CITY],
+    },
+    "airport terminal empty red-eye hours": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.BUSINESS_WEAR, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.AIRPORT, LocationType.CITY],
+    },
+    "airport baggage drop self-service kiosk": {
+        "types": [OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC, OutfitType.BUSINESS_WEAR],
+        "location": [LocationType.INDOOR, LocationType.AIRPORT, LocationType.CITY],
+    },
+    "airport terminal rain on glass facade": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.AIRPORT, LocationType.CITY],
+    },
+    "airport lounge buffet spread table": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST, OutfitType.BUSINESS_WEAR],
+        "location": [LocationType.INDOOR, LocationType.AIRPORT],
+    },
+    "airport terminal connecting flight desk": {
+        "types": [OutfitType.MINIMALIST, OutfitType.BUSINESS_WEAR, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.AIRPORT, LocationType.CITY],
+    },
+    "airport gate area family with strollers": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.AIRPORT, LocationType.CITY],
+    },
+    "airport terminal construction renovation zone": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.BUSINESS_WEAR, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.AIRPORT, LocationType.CITY],
+    },
+    "airport lounge quiet work pod": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.MINIMALIST, OutfitType.ATHLEISURE],
+        "location": [LocationType.INDOOR, LocationType.AIRPORT],
+    },
+    "airport terminal holiday decoration display": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.ATHLEISURE, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.AIRPORT, LocationType.CITY],
+    },
+    "airport gate last call boarding announcement": {
+        "types": [OutfitType.MINIMALIST, OutfitType.ATHLEISURE, OutfitType.BUSINESS_WEAR],
+        "location": [LocationType.INDOOR, LocationType.AIRPORT, LocationType.CITY],
+    },
+    "airport terminal floor seating pods": {
+        "types": [OutfitType.MINIMALIST, OutfitType.BUSINESS_WEAR, OutfitType.ATHLEISURE],
+        "location": [LocationType.INDOOR, LocationType.AIRPORT, LocationType.CITY],
+    },
+    "airport customs declaration form desk": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.MINIMALIST, OutfitType.BUSINESS_WEAR],
+        "location": [LocationType.INDOOR, LocationType.AIRPORT, LocationType.CITY],
+    },
+    "airport terminal night empty corridors": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.BUSINESS_WEAR, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.AIRPORT, LocationType.CITY],
+    },
+    "airway bridge window deplaning view": {
+        "types": [OutfitType.MINIMALIST, OutfitType.BUSINESS_WEAR, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.AIRPORT],
+    },
+    "airport terminal sunrise through windows": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.AIRPORT, LocationType.CITY],
+    },
+
+    # Train Station Scenes
+    "grand Victorian train station hall": {
+        "types": [OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC, OutfitType.RETRO],
+        "location": [LocationType.INDOOR, LocationType.TRAIN_STATION],
+    },
+    "outdoor platform with overhead wires": {
+        "types": [OutfitType.VINTAGE, OutfitType.RETRO, OutfitType.MINIMALIST],
+        "location": [LocationType.OUTDOOR, LocationType.TRAIN_STATION],
+    },
+    "train station clock tower facade": {
+        "types": [OutfitType.VINTAGE, OutfitType.CASUAL_CHIC, OutfitType.RETRO],
+        "location": [LocationType.OUTDOOR, LocationType.TRAIN_STATION],
+    },
+    "indoor waiting room with wooden benches": {
+        "types": [OutfitType.MINIMALIST, OutfitType.VINTAGE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.TRAIN_STATION],
+    },
+    "platform edge with arriving locomotive": {
+        "types": [OutfitType.MINIMALIST, OutfitType.RETRO, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.TRAIN_STATION],
+    },
+    "train station ticket office window": {
+        "types": [OutfitType.MINIMALIST, OutfitType.VINTAGE, OutfitType.RETRO],
+        "location": [LocationType.INDOOR, LocationType.TRAIN_STATION],
+    },
+    "covered platform shelter in rain": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST, OutfitType.VINTAGE],
+        "location": [LocationType.OUTDOOR, LocationType.TRAIN_STATION],
+    },
+    "train station departure board flip display": {
+        "types": [OutfitType.VINTAGE, OutfitType.MINIMALIST, OutfitType.RETRO],
+        "location": [LocationType.INDOOR, LocationType.TRAIN_STATION],
+    },
+    "outdoor platform bench at dusk": {
+        "types": [OutfitType.VINTAGE, OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST],
+        "location": [LocationType.OUTDOOR, LocationType.TRAIN_STATION],
+    },
+    "train station arched glass roof atrium": {
+        "types": [OutfitType.VINTAGE, OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.TRAIN_STATION],
+    },
+    "platform flower vendor cart": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.RETRO, OutfitType.MINIMALIST],
+        "location": [LocationType.OUTDOOR, LocationType.TRAIN_STATION],
+    },
+    "train station lost property office": {
+        "types": [OutfitType.RETRO, OutfitType.VINTAGE, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.TRAIN_STATION],
+    },
+    "outdoor platform snow on tracks": {
+        "types": [OutfitType.RETRO, OutfitType.VINTAGE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.TRAIN_STATION],
+    },
+    "train station first class lounge": {
+        "types": [OutfitType.VINTAGE, OutfitType.RETRO, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.TRAIN_STATION],
+    },
+    "platform gap between train and edge": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.RETRO, OutfitType.VINTAGE],
+        "location": [LocationType.OUTDOOR, LocationType.TRAIN_STATION],
+    },
+    "train station historic tile floor": {
+        "types": [OutfitType.MINIMALIST, OutfitType.RETRO, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.TRAIN_STATION],
+    },
+    "outdoor platform autumn leaves on rails": {
+        "types": [OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC, OutfitType.VINTAGE],
+        "location": [LocationType.OUTDOOR, LocationType.TRAIN_STATION],
+    },
+    "train station news kiosk on concourse": {
+        "types": [OutfitType.RETRO, OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.TRAIN_STATION],
+    },
+    "platform underpass tunnel connecting tracks": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.VINTAGE, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.TRAIN_STATION],
+    },
+    "outdoor platform sunset golden light": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST, OutfitType.RETRO],
+        "location": [LocationType.OUTDOOR, LocationType.TRAIN_STATION],
+    },
+    "train station luggage cart parking": {
+        "types": [OutfitType.RETRO, OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.TRAIN_STATION],
+    },
+    "platform with steam-era locomotive": {
+        "types": [OutfitType.RETRO, OutfitType.CASUAL_CHIC, OutfitType.VINTAGE],
+        "location": [LocationType.OUTDOOR, LocationType.TRAIN_STATION],
+    },
+    "train station cafe counter on concourse": {
+        "types": [OutfitType.RETRO, OutfitType.MINIMALIST, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.TRAIN_STATION],
+    },
+    "outdoor platform wind and coat tails": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.VINTAGE, OutfitType.RETRO],
+        "location": [LocationType.OUTDOOR, LocationType.TRAIN_STATION],
+    },
+    "train station information booth": {
+        "types": [OutfitType.VINTAGE, OutfitType.RETRO, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.TRAIN_STATION],
+    },
+    "platform with overhead departure sign": {
+        "types": [OutfitType.RETRO, OutfitType.CASUAL_CHIC, OutfitType.VINTAGE],
+        "location": [LocationType.OUTDOOR, LocationType.TRAIN_STATION],
+    },
+    "train station grand staircase to platforms": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.RETRO, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.TRAIN_STATION],
+    },
+    "outdoor platform fog rolling in": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.VINTAGE, OutfitType.RETRO],
+        "location": [LocationType.OUTDOOR, LocationType.TRAIN_STATION],
+    },
+    "train station bookshop on concourse": {
+        "types": [OutfitType.RETRO, OutfitType.VINTAGE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.TRAIN_STATION],
+    },
+    "platform with freight cars in background": {
+        "types": [OutfitType.VINTAGE, OutfitType.CASUAL_CHIC, OutfitType.RETRO],
+        "location": [LocationType.OUTDOOR, LocationType.TRAIN_STATION],
+    },
+    "train station restroom corridor": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST, OutfitType.RETRO],
+        "location": [LocationType.INDOOR, LocationType.TRAIN_STATION],
+    },
+    "outdoor platform pigeons on bench": {
+        "types": [OutfitType.RETRO, OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.TRAIN_STATION],
+    },
+    "train station heritage plaque on wall": {
+        "types": [OutfitType.MINIMALIST, OutfitType.RETRO, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.TRAIN_STATION],
+    },
+    "platform with high-speed train blur": {
+        "types": [OutfitType.RETRO, OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST],
+        "location": [LocationType.OUTDOOR, LocationType.TRAIN_STATION],
+    },
+    "train station waiting room fireplace": {
+        "types": [OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC, OutfitType.RETRO],
+        "location": [LocationType.INDOOR, LocationType.TRAIN_STATION],
+    },
+    "outdoor platform wildflowers trackside": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.RETRO, OutfitType.MINIMALIST],
+        "location": [LocationType.OUTDOOR, LocationType.TRAIN_STATION],
+    },
+    "train station elevator to underground platforms": {
+        "types": [OutfitType.VINTAGE, OutfitType.CASUAL_CHIC, OutfitType.RETRO],
+        "location": [LocationType.INDOOR, LocationType.TRAIN_STATION],
+    },
+    "platform with vintage luggage stacked": {
+        "types": [OutfitType.RETRO, OutfitType.CASUAL_CHIC, OutfitType.VINTAGE],
+        "location": [LocationType.OUTDOOR, LocationType.TRAIN_STATION],
+    },
+    "train station art deco lighting fixtures": {
+        "types": [OutfitType.RETRO, OutfitType.VINTAGE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.TRAIN_STATION],
+    },
+    "outdoor platform night platform lamps": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.RETRO, OutfitType.VINTAGE],
+        "location": [LocationType.OUTDOOR, LocationType.TRAIN_STATION],
+    },
+    "train station left luggage lockers": {
+        "types": [OutfitType.VINTAGE, OutfitType.RETRO, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.TRAIN_STATION],
+    },
+    "platform with conductor whistle moment": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.VINTAGE, OutfitType.RETRO],
+        "location": [LocationType.OUTDOOR, LocationType.TRAIN_STATION],
+    },
+    "train station mezzanine overlooking tracks": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.RETRO, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.TRAIN_STATION],
+    },
+    "outdoor platform spring blossom trees": {
+        "types": [OutfitType.MINIMALIST, OutfitType.RETRO, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.TRAIN_STATION],
+    },
+    "train station bar with stained glass": {
+        "types": [OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC, OutfitType.RETRO],
+        "location": [LocationType.INDOOR, LocationType.TRAIN_STATION],
+    },
+    "platform with bicycle storage racks": {
+        "types": [OutfitType.RETRO, OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST],
+        "location": [LocationType.OUTDOOR, LocationType.TRAIN_STATION],
+    },
+    "train station quiet early morning concourse": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST, OutfitType.RETRO],
+        "location": [LocationType.INDOOR, LocationType.TRAIN_STATION],
+    },
+    "outdoor platform rain on canopy": {
+        "types": [OutfitType.RETRO, OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.TRAIN_STATION],
+    },
+    "train station historic departure bell": {
+        "types": [OutfitType.RETRO, OutfitType.MINIMALIST, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.TRAIN_STATION],
+    },
+    "outdoor platform last train departure": {
+        "types": [OutfitType.VINTAGE, OutfitType.RETRO, OutfitType.MINIMALIST],
+        "location": [LocationType.OUTDOOR, LocationType.TRAIN_STATION],
+    },
+
+    # Rooftop Scenes
+    "downtown rooftop at golden hour with champagne flutes": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.EVENING_FORMAL, OutfitType.MINIMALIST],
+        "location": [LocationType.OUTDOOR, LocationType.ROOFTOP, LocationType.CITY],
+    },
+    "rain-slicked city rooftop after a summer storm": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST, OutfitType.CLUB_PARTY],
+        "location": [LocationType.OUTDOOR, LocationType.ROOFTOP, LocationType.CITY],
+    },
+    "neon-lit rooftop lounge overlooking midnight skyline": {
+        "types": [OutfitType.CLUB_PARTY, OutfitType.EVENING_FORMAL, OutfitType.MINIMALIST],
+        "location": [LocationType.OUTDOOR, LocationType.ROOFTOP, LocationType.CITY],
+    },
+    "minimalist rooftop terrace at dawn with soft fog": {
+        "types": [OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.OUTDOOR, LocationType.ROOFTOP, LocationType.CITY],
+    },
+    "rooftop cocktail party under string lights at dusk": {
+        "types": [OutfitType.CLUB_PARTY, OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.ROOFTOP, LocationType.CITY],
+    },
+    "windy rooftop helipad at blue hour with city glow": {
+        "types": [OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC, OutfitType.CLUB_PARTY],
+        "location": [LocationType.OUTDOOR, LocationType.ROOFTOP, LocationType.CITY],
+    },
+    "snow-dusted penthouse rooftop in winter twilight": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.ROOFTOP, LocationType.CITY],
+    },
+    "rooftop yoga deck at sunrise above glass towers": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.OUTDOOR, LocationType.ROOFTOP, LocationType.CITY],
+    },
+    "exclusive rooftop gala under a starlit canopy": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.CLUB_PARTY, OutfitType.MINIMALIST],
+        "location": [LocationType.OUTDOOR, LocationType.ROOFTOP, LocationType.CITY],
+    },
+    "abandoned rooftop with graffiti and overcast sky": {
+        "types": [OutfitType.CLUB_PARTY, OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST],
+        "location": [LocationType.OUTDOOR, LocationType.ROOFTOP, LocationType.CITY],
+    },
+    "rooftop pool party at high noon with heat haze": {
+        "types": [OutfitType.CLUB_PARTY, OutfitType.CASUAL_CHIC, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.OUTDOOR, LocationType.ROOFTOP, LocationType.CITY],
+    },
+    "quiet rooftop garden escape amid urban sprawl": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.OUTDOOR, LocationType.ROOFTOP, LocationType.CITY],
+    },
+    "rooftop jazz terrace on a humid summer night": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.CLUB_PARTY, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.ROOFTOP, LocationType.CITY],
+    },
+    "sleek rooftop bar with chrome railings at sunset": {
+        "types": [OutfitType.MINIMALIST, OutfitType.CLUB_PARTY, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.OUTDOOR, LocationType.ROOFTOP, LocationType.CITY],
+    },
+    "rooftop film screening under projector light rain": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.CLUB_PARTY, OutfitType.MINIMALIST],
+        "location": [LocationType.OUTDOOR, LocationType.ROOFTOP, LocationType.CITY],
+    },
+    "foggy rooftop observation deck at first light": {
+        "types": [OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.OUTDOOR, LocationType.ROOFTOP, LocationType.CITY],
+    },
+    "rooftop champagne brunch on a crisp autumn morning": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.EVENING_FORMAL, OutfitType.MINIMALIST],
+        "location": [LocationType.OUTDOOR, LocationType.ROOFTOP, LocationType.CITY],
+    },
+    "electric rooftop dance floor during a lightning storm": {
+        "types": [OutfitType.CLUB_PARTY, OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.ROOFTOP, LocationType.CITY],
+    },
+    "penthouse rooftop with infinity edge at twilight": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.ROOFTOP, LocationType.CITY],
+    },
+    "rooftop farmers market setup in early spring drizzle": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST, OutfitType.CLUB_PARTY],
+        "location": [LocationType.OUTDOOR, LocationType.ROOFTOP, LocationType.CITY],
+    },
+    "art deco rooftop terrace during a blood orange sunset": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST],
+        "location": [LocationType.OUTDOOR, LocationType.ROOFTOP, LocationType.CITY],
+    },
+    "rooftop speakeasy hidden behind a steel door at night": {
+        "types": [OutfitType.CLUB_PARTY, OutfitType.EVENING_FORMAL, OutfitType.MINIMALIST],
+        "location": [LocationType.OUTDOOR, LocationType.ROOFTOP, LocationType.CITY],
+    },
+    "rooftop picnic blanket spread under cotton candy clouds": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.OUTDOOR, LocationType.ROOFTOP, LocationType.CITY],
+    },
+    "industrial rooftop with exposed ducts in harsh noon sun": {
+        "types": [OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC, OutfitType.CLUB_PARTY],
+        "location": [LocationType.OUTDOOR, LocationType.ROOFTOP, LocationType.CITY],
+    },
+    "rooftop wedding reception under paper lanterns at dusk": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC, OutfitType.CLUB_PARTY],
+        "location": [LocationType.OUTDOOR, LocationType.ROOFTOP, LocationType.CITY],
+    },
+    "rooftop meditation space with incense at pre-dawn mist": {
+        "types": [OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.OUTDOOR, LocationType.ROOFTOP, LocationType.CITY],
+    },
+    "city rooftop during a sudden hailstorm and dark clouds": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST, OutfitType.CLUB_PARTY],
+        "location": [LocationType.OUTDOOR, LocationType.ROOFTOP, LocationType.CITY],
+    },
+    "rooftop vinyl listening lounge on a breezy fall evening": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.CLUB_PARTY, OutfitType.MINIMALIST],
+        "location": [LocationType.OUTDOOR, LocationType.ROOFTOP, LocationType.CITY],
+    },
+    "glass-walled rooftop atrium open to starry night sky": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.MINIMALIST, OutfitType.CLUB_PARTY],
+        "location": [LocationType.OUTDOOR, LocationType.ROOFTOP, LocationType.CITY],
+    },
+    "rooftop fashion shoot set with wind machines at dawn": {
+        "types": [OutfitType.MINIMALIST, OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.ROOFTOP, LocationType.CITY],
+    },
+    "rooftop hot tub steam rising into freezing winter air": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.EVENING_FORMAL, OutfitType.CLUB_PARTY],
+        "location": [LocationType.OUTDOOR, LocationType.ROOFTOP, LocationType.CITY],
+    },
+    "rooftop herb garden with bees on a sunny april afternoon": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.OUTDOOR, LocationType.ROOFTOP, LocationType.CITY],
+    },
+    "rooftop silent disco with colored headphones at midnight": {
+        "types": [OutfitType.CLUB_PARTY, OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.ROOFTOP, LocationType.CITY],
+    },
+    "rooftop overlooking fireworks on new year's eve": {
+        "types": [OutfitType.CLUB_PARTY, OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.ROOFTOP, LocationType.CITY],
+    },
+    "deserted rooftop parking level at 4am city stillness": {
+        "types": [OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC, OutfitType.CLUB_PARTY],
+        "location": [LocationType.OUTDOOR, LocationType.ROOFTOP, LocationType.CITY],
+    },
+    "rooftop wine tasting with vineyard crates at golden dusk": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST],
+        "location": [LocationType.OUTDOOR, LocationType.ROOFTOP, LocationType.CITY],
+    },
+    "rooftop greenhouse nook dripping with condensation": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.OUTDOOR, LocationType.ROOFTOP, LocationType.CITY],
+    },
+    "rooftop boxing ring under floodlights on a rainy night": {
+        "types": [OutfitType.CLUB_PARTY, OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST],
+        "location": [LocationType.OUTDOOR, LocationType.ROOFTOP, LocationType.CITY],
+    },
+    "rooftop telescope platform during a lunar eclipse": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.ROOFTOP, LocationType.CITY],
+    },
+    "rooftop sushi bar with cherry blossom petals drifting": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.EVENING_FORMAL, OutfitType.MINIMALIST],
+        "location": [LocationType.OUTDOOR, LocationType.ROOFTOP, LocationType.CITY],
+    },
+    "rooftop skate ramp covered in morning dew and mist": {
+        "types": [OutfitType.CLUB_PARTY, OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST],
+        "location": [LocationType.OUTDOOR, LocationType.ROOFTOP, LocationType.CITY],
+    },
+    "rooftop charity auction under crystal chandeliers outdoors": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.CLUB_PARTY, OutfitType.MINIMALIST],
+        "location": [LocationType.OUTDOOR, LocationType.ROOFTOP, LocationType.CITY],
+    },
+    "rooftop apiary with beehives on a hazy summer afternoon": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.OUTDOOR, LocationType.ROOFTOP, LocationType.CITY],
+    },
+    "rooftop cinema rooftop with velvet seats at blue hour": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC, OutfitType.CLUB_PARTY],
+        "location": [LocationType.OUTDOOR, LocationType.ROOFTOP, LocationType.CITY],
+    },
+    "rooftop graffiti mural wall during a paint festival": {
+        "types": [OutfitType.CLUB_PARTY, OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST],
+        "location": [LocationType.OUTDOOR, LocationType.ROOFTOP, LocationType.CITY],
+    },
+    "rooftop reflecting pool mirroring storm clouds overhead": {
+        "types": [OutfitType.MINIMALIST, OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.ROOFTOP, LocationType.CITY],
+    },
+    "rooftop tango floor with candles flickering in wind": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.CLUB_PARTY, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.ROOFTOP, LocationType.CITY],
+    },
+    "rooftop sunrise coffee ritual above sleeping metropolis": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.OUTDOOR, LocationType.ROOFTOP, LocationType.CITY],
+    },
+    "rooftop laser light show cutting through dense fog": {
+        "types": [OutfitType.CLUB_PARTY, OutfitType.EVENING_FORMAL, OutfitType.MINIMALIST],
+        "location": [LocationType.OUTDOOR, LocationType.ROOFTOP, LocationType.CITY],
+    },
+    "rooftop zen rock garden after a gentle spring shower": {
+        "types": [OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.OUTDOOR, LocationType.ROOFTOP, LocationType.CITY],
+    },
+
+    # Forest Scenes
+    "misty ancient forest path at dawn with spiderwebs": {
+        "types": [OutfitType.GOTHIC, OutfitType.ETHEREAL, OutfitType.COTTAGECORE],
+        "location": [LocationType.OUTDOOR, LocationType.FOREST],
+    },
+    "sun-dappled birch grove in late afternoon light": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.BOHEMIAN, OutfitType.ETHEREAL],
+        "location": [LocationType.OUTDOOR, LocationType.FOREST],
+    },
+    "dark pine forest clearing under a full moon": {
+        "types": [OutfitType.GOTHIC, OutfitType.ETHEREAL, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.FOREST],
+    },
+    "enchanted fern canyon after a spring rainfall": {
+        "types": [OutfitType.ETHEREAL, OutfitType.COTTAGECORE, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.FOREST],
+    },
+    "autumn maple forest with falling crimson leaves": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.BOHEMIAN, OutfitType.GOTHIC],
+        "location": [LocationType.OUTDOOR, LocationType.FOREST],
+    },
+    "moss-covered stone ruins deep in an old growth forest": {
+        "types": [OutfitType.GOTHIC, OutfitType.COTTAGECORE, OutfitType.ETHEREAL],
+        "location": [LocationType.OUTDOOR, LocationType.FOREST],
+    },
+    "bohemian forest campfire circle at twilight": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.COTTAGECORE, OutfitType.GOTHIC],
+        "location": [LocationType.OUTDOOR, LocationType.FOREST],
+    },
+    "ethereal fog bank drifting through redwood trunks": {
+        "types": [OutfitType.ETHEREAL, OutfitType.GOTHIC, OutfitType.COTTAGECORE],
+        "location": [LocationType.OUTDOOR, LocationType.FOREST],
+    },
+    "witch hazel grove during a witching hour drizzle": {
+        "types": [OutfitType.GOTHIC, OutfitType.BOHEMIAN, OutfitType.ETHEREAL],
+        "location": [LocationType.OUTDOOR, LocationType.FOREST],
+    },
+    "wildflower meadow edge bordering a dark oak forest": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.BOHEMIAN, OutfitType.ETHEREAL],
+        "location": [LocationType.OUTDOOR, LocationType.FOREST],
+    },
+    "frozen forest stream with icicle-laden branches": {
+        "types": [OutfitType.GOTHIC, OutfitType.ETHEREAL, OutfitType.COTTAGECORE],
+        "location": [LocationType.OUTDOOR, LocationType.FOREST],
+    },
+    "sunrise light piercing through a dense cedar canopy": {
+        "types": [OutfitType.ETHEREAL, OutfitType.COTTAGECORE, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.FOREST],
+    },
+    "gothic cathedral of towering hemlock trees at noon": {
+        "types": [OutfitType.GOTHIC, OutfitType.ETHEREAL, OutfitType.COTTAGECORE],
+        "location": [LocationType.OUTDOOR, LocationType.FOREST],
+    },
+    "bohemian tapestry hung between two forest birches": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.COTTAGECORE, OutfitType.ETHEREAL],
+        "location": [LocationType.OUTDOOR, LocationType.FOREST],
+    },
+    "thunderstorm rolling through a valley of spruce": {
+        "types": [OutfitType.GOTHIC, OutfitType.BOHEMIAN, OutfitType.ETHEREAL],
+        "location": [LocationType.OUTDOOR, LocationType.FOREST],
+    },
+    "cottagecore mushroom foraging trail in morning mist": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.BOHEMIAN, OutfitType.ETHEREAL],
+        "location": [LocationType.OUTDOOR, LocationType.FOREST],
+    },
+    "bioluminescent forest floor on a humid summer night": {
+        "types": [OutfitType.ETHEREAL, OutfitType.GOTHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.FOREST],
+    },
+    "abandoned forest chapel overtaken by ivy and vines": {
+        "types": [OutfitType.GOTHIC, OutfitType.COTTAGECORE, OutfitType.ETHEREAL],
+        "location": [LocationType.OUTDOOR, LocationType.FOREST],
+    },
+    "willow swamp forest with hanging moss at golden hour": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.ETHEREAL, OutfitType.GOTHIC],
+        "location": [LocationType.OUTDOOR, LocationType.FOREST],
+    },
+    "snow-laden evergreen forest in soft winter silence": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.ETHEREAL, OutfitType.GOTHIC],
+        "location": [LocationType.OUTDOOR, LocationType.FOREST],
+    },
+    "forest waterfall grotto with rainbow mist at midday": {
+        "types": [OutfitType.ETHEREAL, OutfitType.BOHEMIAN, OutfitType.COTTAGECORE],
+        "location": [LocationType.OUTDOOR, LocationType.FOREST],
+    },
+    "gothic ravens circling above a deadwood forest": {
+        "types": [OutfitType.GOTHIC, OutfitType.ETHEREAL, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.FOREST],
+    },
+    "bohemian drum circle deep in a bamboo thicket": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.GOTHIC, OutfitType.COTTAGECORE],
+        "location": [LocationType.OUTDOOR, LocationType.FOREST],
+    },
+    "cottagecore picnic blanket under a canopy of leaves": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.BOHEMIAN, OutfitType.ETHEREAL],
+        "location": [LocationType.OUTDOOR, LocationType.FOREST],
+    },
+    "ethereal sunbeams through morning fog in an ash forest": {
+        "types": [OutfitType.ETHEREAL, OutfitType.COTTAGECORE, OutfitType.GOTHIC],
+        "location": [LocationType.OUTDOOR, LocationType.FOREST],
+    },
+    "forest boardwalk through a carnivorous plant bog": {
+        "types": [OutfitType.GOTHIC, OutfitType.BOHEMIAN, OutfitType.ETHEREAL],
+        "location": [LocationType.OUTDOOR, LocationType.FOREST],
+    },
+    "wild blackberry bramble thicket at high summer noon": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.BOHEMIAN, OutfitType.GOTHIC],
+        "location": [LocationType.OUTDOOR, LocationType.FOREST],
+    },
+    "moonlit forest pool reflecting starlight perfectly": {
+        "types": [OutfitType.ETHEREAL, OutfitType.GOTHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.FOREST],
+    },
+    "cottagecore treehouse village connected by rope bridges": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.ETHEREAL, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.FOREST],
+    },
+    "gothic iron gate at the entrance to a forbidden forest": {
+        "types": [OutfitType.GOTHIC, OutfitType.ETHEREAL, OutfitType.COTTAGECORE],
+        "location": [LocationType.OUTDOOR, LocationType.FOREST],
+    },
+    "bohemian forest festival grounds after the rain": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.COTTAGECORE, OutfitType.GOTHIC],
+        "location": [LocationType.OUTDOOR, LocationType.FOREST],
+    },
+    "ethereal firefly swarm in a humid june evening grove": {
+        "types": [OutfitType.ETHEREAL, OutfitType.BOHEMIAN, OutfitType.COTTAGECORE],
+        "location": [LocationType.OUTDOOR, LocationType.FOREST],
+    },
+    "forest hollow with a ring of wild mushrooms at dusk": {
+        "types": [OutfitType.GOTHIC, OutfitType.COTTAGECORE, OutfitType.ETHEREAL],
+        "location": [LocationType.OUTDOOR, LocationType.FOREST],
+    },
+    "cottagecore herb drying racks among forest pines": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.GOTHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.FOREST],
+    },
+    "gothic cemetery border deep within a yew forest": {
+        "types": [OutfitType.GOTHIC, OutfitType.ETHEREAL, OutfitType.COTTAGECORE],
+        "location": [LocationType.OUTDOOR, LocationType.FOREST],
+    },
+    "bohemian silk canopy strung between forest maples": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.ETHEREAL, OutfitType.COTTAGECORE],
+        "location": [LocationType.OUTDOOR, LocationType.FOREST],
+    },
+    "forest river ford with stepping stones at sunrise": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.ETHEREAL, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.FOREST],
+    },
+    "ethereal aurora visible through a break in forest canopy": {
+        "types": [OutfitType.ETHEREAL, OutfitType.GOTHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.FOREST],
+    },
+    "gothic stone circle hidden in a foggy oak woodland": {
+        "types": [OutfitType.GOTHIC, OutfitType.BOHEMIAN, OutfitType.ETHEREAL],
+        "location": [LocationType.OUTDOOR, LocationType.FOREST],
+    },
+    "cottagecore fairy door carved into an ancient tree trunk": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.ETHEREAL, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.FOREST],
+    },
+    "forest fire scar regrowth with vibrant green shoots": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.COTTAGECORE, OutfitType.GOTHIC],
+        "location": [LocationType.OUTDOOR, LocationType.FOREST],
+    },
+    "ethereal frost crystals on every branch at dawn": {
+        "types": [OutfitType.ETHEREAL, OutfitType.COTTAGECORE, OutfitType.GOTHIC],
+        "location": [LocationType.OUTDOOR, LocationType.FOREST],
+    },
+    "gothic hollow tree trunk altar covered in candle wax": {
+        "types": [OutfitType.GOTHIC, OutfitType.BOHEMIAN, OutfitType.COTTAGECORE],
+        "location": [LocationType.OUTDOOR, LocationType.FOREST],
+    },
+    "bohemian forest hot spring surrounded by ferns": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.ETHEREAL, OutfitType.COTTAGECORE],
+        "location": [LocationType.OUTDOOR, LocationType.FOREST],
+    },
+    "cottagecore wild bee apiary at the forest edge": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.BOHEMIAN, OutfitType.GOTHIC],
+        "location": [LocationType.OUTDOOR, LocationType.FOREST],
+    },
+    "forest canopy walkway swaying in a windy autumn storm": {
+        "types": [OutfitType.GOTHIC, OutfitType.ETHEREAL, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.FOREST],
+    },
+    "ethereal morning dew on spider silk between trees": {
+        "types": [OutfitType.ETHEREAL, OutfitType.COTTAGECORE, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.FOREST],
+    },
+    "gothic twisted root archway over a forest trail": {
+        "types": [OutfitType.GOTHIC, OutfitType.COTTAGECORE, OutfitType.ETHEREAL],
+        "location": [LocationType.OUTDOOR, LocationType.FOREST],
+    },
+    "bohemian forest tea ceremony on a mossy log platform": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.COTTAGECORE, OutfitType.ETHEREAL],
+        "location": [LocationType.OUTDOOR, LocationType.FOREST],
+    },
+    "cottagecore lantern-lit forest path during first snowfall": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.GOTHIC, OutfitType.ETHEREAL],
+        "location": [LocationType.OUTDOOR, LocationType.FOREST],
+    },
+
+    # Mountain Scenes
+    "alpine summit at sunrise with cloud sea below": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.MILITARY, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.MOUNTAIN],
+    },
+    "rocky mountain trail switchback in afternoon heat": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.COTTAGECORE, OutfitType.MILITARY],
+        "location": [LocationType.OUTDOOR, LocationType.MOUNTAIN],
+    },
+    "snow-capped peak base camp at blue hour": {
+        "types": [OutfitType.MILITARY, OutfitType.ATHLEISURE, OutfitType.COTTAGECORE],
+        "location": [LocationType.OUTDOOR, LocationType.MOUNTAIN],
+    },
+    "mountain meadow wildflowers at golden hour": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC, OutfitType.ATHLEISURE],
+        "location": [LocationType.OUTDOOR, LocationType.MOUNTAIN],
+    },
+    "steep cliff overlook during a dramatic thunderstorm": {
+        "types": [OutfitType.MILITARY, OutfitType.ATHLEISURE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.MOUNTAIN],
+    },
+    "mountain cabin porch with valley view at dusk": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC, OutfitType.ATHLEISURE],
+        "location": [LocationType.OUTDOOR, LocationType.MOUNTAIN],
+    },
+    "glacier lake reflection on a windless morning": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.ATHLEISURE, OutfitType.COTTAGECORE],
+        "location": [LocationType.OUTDOOR, LocationType.MOUNTAIN],
+    },
+    "military observation post on a foggy ridge": {
+        "types": [OutfitType.MILITARY, OutfitType.ATHLEISURE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.MOUNTAIN],
+    },
+    "mountain boulder field under harsh midday sun": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.MILITARY, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.MOUNTAIN],
+    },
+    "alpine ski lodge deck in fresh powder snowfall": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.ATHLEISURE, OutfitType.COTTAGECORE],
+        "location": [LocationType.OUTDOOR, LocationType.MOUNTAIN],
+    },
+    "mountain pass road at dawn with frost on guardrails": {
+        "types": [OutfitType.MILITARY, OutfitType.CASUAL_CHIC, OutfitType.ATHLEISURE],
+        "location": [LocationType.OUTDOOR, LocationType.MOUNTAIN],
+    },
+    "cottagecore mountain herb garden on a terraced slope": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC, OutfitType.ATHLEISURE],
+        "location": [LocationType.OUTDOOR, LocationType.MOUNTAIN],
+    },
+    "rocky scree slope during a dust storm": {
+        "types": [OutfitType.MILITARY, OutfitType.ATHLEISURE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.MOUNTAIN],
+    },
+    "mountain waterfall plunge pool in summer shade": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.MOUNTAIN],
+    },
+    "high altitude plateau with prayer flags fluttering": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.ATHLEISURE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.MOUNTAIN],
+    },
+    "mountain ridge line hike at sunset with long shadows": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.CASUAL_CHIC, OutfitType.MILITARY],
+        "location": [LocationType.OUTDOOR, LocationType.MOUNTAIN],
+    },
+    "abandoned mountain bunker entrance overgrown with grass": {
+        "types": [OutfitType.MILITARY, OutfitType.COTTAGECORE, OutfitType.ATHLEISURE],
+        "location": [LocationType.OUTDOOR, LocationType.MOUNTAIN],
+    },
+    "mountain goat trail along a sheer cliff face": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.MILITARY, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.MOUNTAIN],
+    },
+    "cottagecore mountain tea house on a misty morning": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC, OutfitType.ATHLEISURE],
+        "location": [LocationType.OUTDOOR, LocationType.MOUNTAIN],
+    },
+    "volcanic mountain crater rim at midday haze": {
+        "types": [OutfitType.MILITARY, OutfitType.ATHLEISURE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.MOUNTAIN],
+    },
+    "mountain river gorge with rapids after spring melt": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.COTTAGECORE, OutfitType.MILITARY],
+        "location": [LocationType.OUTDOOR, LocationType.MOUNTAIN],
+    },
+    "casual chic mountain overlook cafe at golden hour": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.COTTAGECORE, OutfitType.ATHLEISURE],
+        "location": [LocationType.OUTDOOR, LocationType.MOUNTAIN],
+    },
+    "military training ground on a barren mountain plateau": {
+        "types": [OutfitType.MILITARY, OutfitType.ATHLEISURE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.MOUNTAIN],
+    },
+    "mountain wildflower slope in breezy late spring": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.ATHLEISURE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.MOUNTAIN],
+    },
+    "ice cave entrance at the foot of a glacier": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.MILITARY, OutfitType.COTTAGECORE],
+        "location": [LocationType.OUTDOOR, LocationType.MOUNTAIN],
+    },
+    "mountain cable car station above the cloud line": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.ATHLEISURE, OutfitType.MILITARY],
+        "location": [LocationType.OUTDOOR, LocationType.MOUNTAIN],
+    },
+    "cottagecore mountain barn with hay bales at dawn": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.MILITARY, OutfitType.ATHLEISURE],
+        "location": [LocationType.OUTDOOR, LocationType.MOUNTAIN],
+    },
+    "rocky mountain col between two storm fronts": {
+        "types": [OutfitType.MILITARY, OutfitType.ATHLEISURE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.MOUNTAIN],
+    },
+    "mountain hot spring pool steaming in winter air": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.COTTAGECORE, OutfitType.ATHLEISURE],
+        "location": [LocationType.OUTDOOR, LocationType.MOUNTAIN],
+    },
+    "alpine lake dock at twilight with mirror stillness": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.ATHLEISURE, OutfitType.COTTAGECORE],
+        "location": [LocationType.OUTDOOR, LocationType.MOUNTAIN],
+    },
+    "mountain rescue helipad on a windswept peak": {
+        "types": [OutfitType.MILITARY, OutfitType.ATHLEISURE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.MOUNTAIN],
+    },
+    "cottagecore mountain orchard in autumn harvest light": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC, OutfitType.ATHLEISURE],
+        "location": [LocationType.OUTDOOR, LocationType.MOUNTAIN],
+    },
+    "sheer granite face during a rock climbing session": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.MILITARY, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.MOUNTAIN],
+    },
+    "mountain monastery terrace overlooking misty valleys": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.COTTAGECORE, OutfitType.ATHLEISURE],
+        "location": [LocationType.OUTDOOR, LocationType.MOUNTAIN],
+    },
+    "military radar station on a remote snowy summit": {
+        "types": [OutfitType.MILITARY, OutfitType.CASUAL_CHIC, OutfitType.ATHLEISURE],
+        "location": [LocationType.OUTDOOR, LocationType.MOUNTAIN],
+    },
+    "mountain wildfire lookout tower at sunset": {
+        "types": [OutfitType.MILITARY, OutfitType.COTTAGECORE, OutfitType.ATHLEISURE],
+        "location": [LocationType.OUTDOOR, LocationType.MOUNTAIN],
+    },
+    "cottagecore mountain stream crossing with stepping stones": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.ATHLEISURE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.MOUNTAIN],
+    },
+    "alpine tundra plateau under midnight starlight": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.CASUAL_CHIC, OutfitType.MILITARY],
+        "location": [LocationType.OUTDOOR, LocationType.MOUNTAIN],
+    },
+    "mountain switchback road during a blizzard": {
+        "types": [OutfitType.MILITARY, OutfitType.ATHLEISURE, OutfitType.COTTAGECORE],
+        "location": [LocationType.OUTDOOR, LocationType.MOUNTAIN],
+    },
+    "casual chic mountain vineyard terrace at harvest": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.COTTAGECORE, OutfitType.ATHLEISURE],
+        "location": [LocationType.OUTDOOR, LocationType.MOUNTAIN],
+    },
+    "mountain saddle pass with wild horses grazing": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.ATHLEISURE, OutfitType.MILITARY],
+        "location": [LocationType.OUTDOOR, LocationType.MOUNTAIN],
+    },
+    "rocky pinnacle summit during a lightning storm": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.MILITARY, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.MOUNTAIN],
+    },
+    "mountain railway trestle bridge in morning fog": {
+        "types": [OutfitType.MILITARY, OutfitType.CASUAL_CHIC, OutfitType.ATHLEISURE],
+        "location": [LocationType.OUTDOOR, LocationType.MOUNTAIN],
+    },
+    "cottagecore mountain cheese cave entrance at cool dusk": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC, OutfitType.MILITARY],
+        "location": [LocationType.OUTDOOR, LocationType.MOUNTAIN],
+    },
+    "high mountain desert plateau with sparse juniper": {
+        "types": [OutfitType.MILITARY, OutfitType.ATHLEISURE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.MOUNTAIN],
+    },
+    "mountain avalanche path through fresh spring snow": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.MILITARY, OutfitType.COTTAGECORE],
+        "location": [LocationType.OUTDOOR, LocationType.MOUNTAIN],
+    },
+    "casual chic mountain spa deck with panoramic views": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.ATHLEISURE, OutfitType.COTTAGECORE],
+        "location": [LocationType.OUTDOOR, LocationType.MOUNTAIN],
+    },
+    "military mountain bunker complex carved into rock": {
+        "types": [OutfitType.MILITARY, OutfitType.ATHLEISURE, OutfitType.COTTAGECORE],
+        "location": [LocationType.OUTDOOR, LocationType.MOUNTAIN],
+    },
+    "mountain wild thyme slope buzzing with bees at noon": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.ATHLEISURE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.MOUNTAIN],
+    },
+    "alpine star observatory dome on a crystal clear night": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.MILITARY, OutfitType.ATHLEISURE],
+        "location": [LocationType.OUTDOOR, LocationType.MOUNTAIN],
+    },
+
+    # Desert Scenes
+    "sun-baked sand dunes at high noon with heat shimmer": {
+        "types": [OutfitType.COWBOY, OutfitType.BOHEMIAN, OutfitType.MILITARY],
+        "location": [LocationType.OUTDOOR, LocationType.DESERT],
+    },
+    "desert canyon slot with red rock walls at dawn": {
+        "types": [OutfitType.COWBOY, OutfitType.GRUNGE, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.DESERT],
+    },
+    "abandoned desert gas station at twilight": {
+        "types": [OutfitType.GRUNGE, OutfitType.COWBOY, OutfitType.MILITARY],
+        "location": [LocationType.OUTDOOR, LocationType.DESERT],
+    },
+    "bohemian desert festival camp under a star canopy": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.COWBOY, OutfitType.GRUNGE],
+        "location": [LocationType.OUTDOOR, LocationType.DESERT],
+    },
+    "military desert training ground in dusty wind": {
+        "types": [OutfitType.MILITARY, OutfitType.GRUNGE, OutfitType.COWBOY],
+        "location": [LocationType.OUTDOOR, LocationType.DESERT],
+    },
+    "desert oasis palm grove at golden hour": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.COWBOY, OutfitType.MILITARY],
+        "location": [LocationType.OUTDOOR, LocationType.DESERT],
+    },
+    "cracked desert salt flat reflecting storm clouds": {
+        "types": [OutfitType.GRUNGE, OutfitType.MILITARY, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.DESERT],
+    },
+    "cowboy desert corral at sunrise with dust clouds": {
+        "types": [OutfitType.COWBOY, OutfitType.MILITARY, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.DESERT],
+    },
+    "desert ghost town main street in harsh afternoon sun": {
+        "types": [OutfitType.GRUNGE, OutfitType.COWBOY, OutfitType.MILITARY],
+        "location": [LocationType.OUTDOOR, LocationType.DESERT],
+    },
+    "bohemian desert yoga circle at sunrise": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.COWBOY, OutfitType.GRUNGE],
+        "location": [LocationType.OUTDOOR, LocationType.DESERT],
+    },
+    "military desert outpost watchtower during sandstorm": {
+        "types": [OutfitType.MILITARY, OutfitType.COWBOY, OutfitType.GRUNGE],
+        "location": [LocationType.OUTDOOR, LocationType.DESERT],
+    },
+    "desert wildflower superbloom after rare spring rain": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.COWBOY, OutfitType.GRUNGE],
+        "location": [LocationType.OUTDOOR, LocationType.DESERT],
+    },
+    "grunge desert junkyard with rusted cars at dusk": {
+        "types": [OutfitType.GRUNGE, OutfitType.COWBOY, OutfitType.MILITARY],
+        "location": [LocationType.OUTDOOR, LocationType.DESERT],
+    },
+    "desert mesa overlook during a blood red sunset": {
+        "types": [OutfitType.COWBOY, OutfitType.BOHEMIAN, OutfitType.MILITARY],
+        "location": [LocationType.OUTDOOR, LocationType.DESERT],
+    },
+    "military desert airstrip at dawn with heat haze": {
+        "types": [OutfitType.MILITARY, OutfitType.GRUNGE, OutfitType.COWBOY],
+        "location": [LocationType.OUTDOOR, LocationType.DESERT],
+    },
+    "bohemian desert art installation among cacti": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.GRUNGE, OutfitType.COWBOY],
+        "location": [LocationType.OUTDOOR, LocationType.DESERT],
+    },
+    "desert riverbed dry wash after flash flood remnants": {
+        "types": [OutfitType.GRUNGE, OutfitType.MILITARY, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.DESERT],
+    },
+    "cowboy desert campfire under a milky way sky": {
+        "types": [OutfitType.COWBOY, OutfitType.BOHEMIAN, OutfitType.GRUNGE],
+        "location": [LocationType.OUTDOOR, LocationType.DESERT],
+    },
+    "desert volcanic black rock field at midday": {
+        "types": [OutfitType.MILITARY, OutfitType.GRUNGE, OutfitType.COWBOY],
+        "location": [LocationType.OUTDOOR, LocationType.DESERT],
+    },
+    "bohemian desert textile market in morning shade": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.COWBOY, OutfitType.MILITARY],
+        "location": [LocationType.OUTDOOR, LocationType.DESERT],
+    },
+    "grunge desert mine shaft entrance at blue hour": {
+        "types": [OutfitType.GRUNGE, OutfitType.MILITARY, OutfitType.COWBOY],
+        "location": [LocationType.OUTDOOR, LocationType.DESERT],
+    },
+    "desert saguaro cactus forest during monsoon lightning": {
+        "types": [OutfitType.COWBOY, OutfitType.GRUNGE, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.DESERT],
+    },
+    "military desert convoy rest stop at noon": {
+        "types": [OutfitType.MILITARY, OutfitType.COWBOY, OutfitType.GRUNGE],
+        "location": [LocationType.OUTDOOR, LocationType.DESERT],
+    },
+    "desert wind farm turbines on a dusty ridge": {
+        "types": [OutfitType.GRUNGE, OutfitType.MILITARY, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.DESERT],
+    },
+    "cowboy desert horse trail through juniper scrub": {
+        "types": [OutfitType.COWBOY, OutfitType.MILITARY, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.DESERT],
+    },
+    "bohemian desert drum circle at full moon rise": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.GRUNGE, OutfitType.COWBOY],
+        "location": [LocationType.OUTDOOR, LocationType.DESERT],
+    },
+    "desert petrified wood field under overcast sky": {
+        "types": [OutfitType.GRUNGE, OutfitType.BOHEMIAN, OutfitType.COWBOY],
+        "location": [LocationType.OUTDOOR, LocationType.DESERT],
+    },
+    "military desert bunker entrance half buried in sand": {
+        "types": [OutfitType.MILITARY, OutfitType.GRUNGE, OutfitType.COWBOY],
+        "location": [LocationType.OUTDOOR, LocationType.DESERT],
+    },
+    "desert hot spring pool steaming at winter dawn": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.COWBOY, OutfitType.GRUNGE],
+        "location": [LocationType.OUTDOOR, LocationType.DESERT],
+    },
+    "cowboy desert saloon porch during a dust devil": {
+        "types": [OutfitType.COWBOY, OutfitType.GRUNGE, OutfitType.MILITARY],
+        "location": [LocationType.OUTDOOR, LocationType.DESERT],
+    },
+    "grunge desert radio tower on a lonely hilltop": {
+        "types": [OutfitType.GRUNGE, OutfitType.MILITARY, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.DESERT],
+    },
+    "desert Joshua tree grove at magic hour": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.COWBOY, OutfitType.GRUNGE],
+        "location": [LocationType.OUTDOOR, LocationType.DESERT],
+    },
+    "military desert obstacle course in scorching heat": {
+        "types": [OutfitType.MILITARY, OutfitType.COWBOY, OutfitType.GRUNGE],
+        "location": [LocationType.OUTDOOR, LocationType.DESERT],
+    },
+    "desert caravan rest stop with woven tents": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.COWBOY, OutfitType.MILITARY],
+        "location": [LocationType.OUTDOOR, LocationType.DESERT],
+    },
+    "cowboy desert branding pen at early morning": {
+        "types": [OutfitType.COWBOY, OutfitType.MILITARY, OutfitType.GRUNGE],
+        "location": [LocationType.OUTDOOR, LocationType.DESERT],
+    },
+    "grunge desert highway overpass at midnight": {
+        "types": [OutfitType.GRUNGE, OutfitType.COWBOY, OutfitType.MILITARY],
+        "location": [LocationType.OUTDOOR, LocationType.DESERT],
+    },
+    "desert sandstone arch at sunrise with long shadows": {
+        "types": [OutfitType.COWBOY, OutfitType.BOHEMIAN, OutfitType.GRUNGE],
+        "location": [LocationType.OUTDOOR, LocationType.DESERT],
+    },
+    "bohemian desert crystal healing circle at dusk": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.GRUNGE, OutfitType.MILITARY],
+        "location": [LocationType.OUTDOOR, LocationType.DESERT],
+    },
+    "military desert missile silo hatch in flat terrain": {
+        "types": [OutfitType.MILITARY, OutfitType.GRUNGE, OutfitType.COWBOY],
+        "location": [LocationType.OUTDOOR, LocationType.DESERT],
+    },
+    "desert playa lake bed after rain with mirror reflections": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.GRUNGE, OutfitType.COWBOY],
+        "location": [LocationType.OUTDOOR, LocationType.DESERT],
+    },
+    "cowboy desert windmill pump at golden afternoon": {
+        "types": [OutfitType.COWBOY, OutfitType.BOHEMIAN, OutfitType.MILITARY],
+        "location": [LocationType.OUTDOOR, LocationType.DESERT],
+    },
+    "grunge desert scrap metal sculpture garden": {
+        "types": [OutfitType.GRUNGE, OutfitType.BOHEMIAN, OutfitType.COWBOY],
+        "location": [LocationType.OUTDOOR, LocationType.DESERT],
+    },
+    "desert nomad camp with camel silhouettes at sunset": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.COWBOY, OutfitType.MILITARY],
+        "location": [LocationType.OUTDOOR, LocationType.DESERT],
+    },
+    "military desert radar dome on a rocky outcrop": {
+        "types": [OutfitType.MILITARY, OutfitType.COWBOY, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.DESERT],
+    },
+    "desert badlands erosion formations at harsh noon": {
+        "types": [OutfitType.GRUNGE, OutfitType.COWBOY, OutfitType.MILITARY],
+        "location": [LocationType.OUTDOOR, LocationType.DESERT],
+    },
+    "cowboy desert rodeo arena under floodlights at night": {
+        "types": [OutfitType.COWBOY, OutfitType.GRUNGE, OutfitType.MILITARY],
+        "location": [LocationType.OUTDOOR, LocationType.DESERT],
+    },
+    "bohemian desert silk canopy lounge in afternoon shade": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.COWBOY, OutfitType.GRUNGE],
+        "location": [LocationType.OUTDOOR, LocationType.DESERT],
+    },
+    "desert meteor crater rim during a cold dawn": {
+        "types": [OutfitType.MILITARY, OutfitType.GRUNGE, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.DESERT],
+    },
+    "grunge desert abandoned motel pool at twilight": {
+        "types": [OutfitType.GRUNGE, OutfitType.BOHEMIAN, OutfitType.COWBOY],
+        "location": [LocationType.OUTDOOR, LocationType.DESERT],
+    },
+    "desert cliff dwelling ruins at last light": {
+        "types": [OutfitType.COWBOY, OutfitType.BOHEMIAN, OutfitType.MILITARY],
+        "location": [LocationType.OUTDOOR, LocationType.DESERT],
+    },
+
+    # Garden Scenes
+    "english rose garden in full bloom at golden hour": {
+        "types": [OutfitType.ROMANTIC, OutfitType.COTTAGECORE, OutfitType.ETHEREAL],
+        "location": [LocationType.OUTDOOR, LocationType.GARDEN],
+    },
+    "japanese zen garden with raked gravel at dawn": {
+        "types": [OutfitType.ETHEREAL, OutfitType.ROMANTIC, OutfitType.COTTAGECORE],
+        "location": [LocationType.OUTDOOR, LocationType.GARDEN],
+    },
+    "bohemian wildflower garden with macrame hammocks": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.COTTAGECORE, OutfitType.ROMANTIC],
+        "location": [LocationType.OUTDOOR, LocationType.GARDEN],
+    },
+    "gothic walled garden with iron gates at twilight": {
+        "types": [OutfitType.ROMANTIC, OutfitType.ETHEREAL, OutfitType.COTTAGECORE],
+        "location": [LocationType.OUTDOOR, LocationType.GARDEN],
+    },
+    "cottagecore vegetable patch after a spring shower": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.ROMANTIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.GARDEN],
+    },
+    "ethereal moonlit garden with white night-blooming flowers": {
+        "types": [OutfitType.ETHEREAL, OutfitType.ROMANTIC, OutfitType.COTTAGECORE],
+        "location": [LocationType.OUTDOOR, LocationType.GARDEN],
+    },
+    "romantic garden gazebo draped in wisteria at sunset": {
+        "types": [OutfitType.ROMANTIC, OutfitType.ETHEREAL, OutfitType.COTTAGECORE],
+        "location": [LocationType.OUTDOOR, LocationType.GARDEN],
+    },
+    "bohemian herb garden with wind chimes at midday": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.COTTAGECORE, OutfitType.ROMANTIC],
+        "location": [LocationType.OUTDOOR, LocationType.GARDEN],
+    },
+    "cottagecore butterfly garden in summer haze": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.ETHEREAL, OutfitType.ROMANTIC],
+        "location": [LocationType.OUTDOOR, LocationType.GARDEN],
+    },
+    "ethereal morning mist in a formal parterre garden": {
+        "types": [OutfitType.ETHEREAL, OutfitType.ROMANTIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.GARDEN],
+    },
+    "romantic garden fountain courtyard during light rain": {
+        "types": [OutfitType.ROMANTIC, OutfitType.COTTAGECORE, OutfitType.ETHEREAL],
+        "location": [LocationType.OUTDOOR, LocationType.GARDEN],
+    },
+    "bohemian succulent garden on terracotta steps": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.ROMANTIC, OutfitType.COTTAGECORE],
+        "location": [LocationType.OUTDOOR, LocationType.GARDEN],
+    },
+    "cottagecore lavender field border garden at dusk": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.ROMANTIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.GARDEN],
+    },
+    "ethereal garden arbor tunnel of blooming jasmine": {
+        "types": [OutfitType.ETHEREAL, OutfitType.ROMANTIC, OutfitType.COTTAGECORE],
+        "location": [LocationType.OUTDOOR, LocationType.GARDEN],
+    },
+    "romantic secret garden hidden behind ivy walls": {
+        "types": [OutfitType.ROMANTIC, OutfitType.COTTAGECORE, OutfitType.ETHEREAL],
+        "location": [LocationType.OUTDOOR, LocationType.GARDEN],
+    },
+    "bohemian garden tea party setup under cherry blossoms": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.ROMANTIC, OutfitType.COTTAGECORE],
+        "location": [LocationType.OUTDOOR, LocationType.GARDEN],
+    },
+    "cottagecore kitchen garden with heirloom tomatoes": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.BOHEMIAN, OutfitType.ROMANTIC],
+        "location": [LocationType.OUTDOOR, LocationType.GARDEN],
+    },
+    "ethereal garden pond with lily pads at sunrise": {
+        "types": [OutfitType.ETHEREAL, OutfitType.ROMANTIC, OutfitType.COTTAGECORE],
+        "location": [LocationType.OUTDOOR, LocationType.GARDEN],
+    },
+    "romantic garden maze center at blue hour": {
+        "types": [OutfitType.ROMANTIC, OutfitType.ETHEREAL, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.GARDEN],
+    },
+    "bohemian mandala flower bed garden in autumn light": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.COTTAGECORE, OutfitType.ETHEREAL],
+        "location": [LocationType.OUTDOOR, LocationType.GARDEN],
+    },
+    "cottagecore bee garden buzzing at warm afternoon": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.ROMANTIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.GARDEN],
+    },
+    "ethereal frost-kissed garden on a cold november morning": {
+        "types": [OutfitType.ETHEREAL, OutfitType.COTTAGECORE, OutfitType.ROMANTIC],
+        "location": [LocationType.OUTDOOR, LocationType.GARDEN],
+    },
+    "romantic garden swing beneath an old oak tree": {
+        "types": [OutfitType.ROMANTIC, OutfitType.BOHEMIAN, OutfitType.COTTAGECORE],
+        "location": [LocationType.OUTDOOR, LocationType.GARDEN],
+    },
+    "bohemian garden fire pit circle at starry night": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.ROMANTIC, OutfitType.ETHEREAL],
+        "location": [LocationType.OUTDOOR, LocationType.GARDEN],
+    },
+    "cottagecore potting shed garden corner in spring drizzle": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.ETHEREAL, OutfitType.ROMANTIC],
+        "location": [LocationType.OUTDOOR, LocationType.GARDEN],
+    },
+    "ethereal garden with hanging lanterns at twilight": {
+        "types": [OutfitType.ETHEREAL, OutfitType.BOHEMIAN, OutfitType.ROMANTIC],
+        "location": [LocationType.OUTDOOR, LocationType.GARDEN],
+    },
+    "romantic topiary garden after a summer storm": {
+        "types": [OutfitType.ROMANTIC, OutfitType.COTTAGECORE, OutfitType.ETHEREAL],
+        "location": [LocationType.OUTDOOR, LocationType.GARDEN],
+    },
+    "bohemian xeriscape garden with desert blooms": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.ETHEREAL, OutfitType.COTTAGECORE],
+        "location": [LocationType.OUTDOOR, LocationType.GARDEN],
+    },
+    "cottagecore herb spiral garden at morning dew": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.ROMANTIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.GARDEN],
+    },
+    "ethereal garden sundial casting long shadows at noon": {
+        "types": [OutfitType.ETHEREAL, OutfitType.ROMANTIC, OutfitType.COTTAGECORE],
+        "location": [LocationType.OUTDOOR, LocationType.GARDEN],
+    },
+    "romantic garden bridge over a koi stream": {
+        "types": [OutfitType.ROMANTIC, OutfitType.ETHEREAL, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.GARDEN],
+    },
+    "bohemian garden mosaic path through wild grasses": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.COTTAGECORE, OutfitType.ROMANTIC],
+        "location": [LocationType.OUTDOOR, LocationType.GARDEN],
+    },
+    "cottagecore orchard garden with fallen apple blossoms": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.ROMANTIC, OutfitType.ETHEREAL],
+        "location": [LocationType.OUTDOOR, LocationType.GARDEN],
+    },
+    "ethereal garden greenhouse exterior dripping with rain": {
+        "types": [OutfitType.ETHEREAL, OutfitType.COTTAGECORE, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.GARDEN],
+    },
+    "romantic garden pergola covered in climbing roses": {
+        "types": [OutfitType.ROMANTIC, OutfitType.BOHEMIAN, OutfitType.COTTAGECORE],
+        "location": [LocationType.OUTDOOR, LocationType.GARDEN],
+    },
+    "bohemian garden sculpture park at golden hour": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.ROMANTIC, OutfitType.ETHEREAL],
+        "location": [LocationType.OUTDOOR, LocationType.GARDEN],
+    },
+    "cottagecore fairy garden with miniature houses": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.ETHEREAL, OutfitType.ROMANTIC],
+        "location": [LocationType.OUTDOOR, LocationType.GARDEN],
+    },
+    "ethereal garden with fireflies on a humid july evening": {
+        "types": [OutfitType.ETHEREAL, OutfitType.ROMANTIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.GARDEN],
+    },
+    "romantic sunken garden terrace at sunset": {
+        "types": [OutfitType.ROMANTIC, OutfitType.COTTAGECORE, OutfitType.ETHEREAL],
+        "location": [LocationType.OUTDOOR, LocationType.GARDEN],
+    },
+    "bohemian community garden plot in afternoon sun": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.COTTAGECORE, OutfitType.ROMANTIC],
+        "location": [LocationType.OUTDOOR, LocationType.GARDEN],
+    },
+    "victorian glass conservatory filled with tropical ferns": {
+        "types": [OutfitType.ROMANTIC, OutfitType.ETHEREAL, OutfitType.COTTAGECORE],
+        "location": [LocationType.INDOOR, LocationType.GARDEN],
+    },
+    "indoor orchid conservatory during a rainy afternoon": {
+        "types": [OutfitType.ETHEREAL, OutfitType.ROMANTIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.INDOOR, LocationType.GARDEN],
+    },
+    "cottagecore conservatory potting bench in winter warmth": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.ROMANTIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.INDOOR, LocationType.GARDEN],
+    },
+    "ethereal conservatory with stained glass roof at dawn": {
+        "types": [OutfitType.ETHEREAL, OutfitType.COTTAGECORE, OutfitType.ROMANTIC],
+        "location": [LocationType.INDOOR, LocationType.GARDEN],
+    },
+    "romantic conservatory dinner table among blooming camellias": {
+        "types": [OutfitType.ROMANTIC, OutfitType.BOHEMIAN, OutfitType.ETHEREAL],
+        "location": [LocationType.INDOOR, LocationType.GARDEN],
+    },
+    "bohemian conservatory lounge with hanging plants": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.COTTAGECORE, OutfitType.ROMANTIC],
+        "location": [LocationType.INDOOR, LocationType.GARDEN],
+    },
+    "indoor palm house conservatory in humid tropical heat": {
+        "types": [OutfitType.ETHEREAL, OutfitType.BOHEMIAN, OutfitType.COTTAGECORE],
+        "location": [LocationType.INDOOR, LocationType.GARDEN],
+    },
+    "cottagecore conservatory seed starting shelves in spring": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.ETHEREAL, OutfitType.ROMANTIC],
+        "location": [LocationType.INDOOR, LocationType.GARDEN],
+    },
+    "romantic moonlit conservatory with candlelit pathways": {
+        "types": [OutfitType.ROMANTIC, OutfitType.ETHEREAL, OutfitType.COTTAGECORE],
+        "location": [LocationType.INDOOR, LocationType.GARDEN],
+    },
+    "bohemian conservatory art studio surrounded by vines": {
+        "types": [OutfitType.BOHEMIAN, OutfitType.ETHEREAL, OutfitType.ROMANTIC],
+        "location": [LocationType.INDOOR, LocationType.GARDEN],
+    },
+
+    # Studio Scenes
+    "white cyclorama photography studio with softbox lighting": {
+        "types": [OutfitType.MINIMALIST, OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.STUDIO],
+    },
+    "minimalist concrete studio with floor-to-ceiling windows": {
+        "types": [OutfitType.AVANT_GARDE, OutfitType.MINIMALIST, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.INDOOR, LocationType.STUDIO],
+    },
+    "fashion shoot loft with exposed brick and track lights": {
+        "types": [OutfitType.AVANT_GARDE, OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.STUDIO],
+    },
+    "high-key studio with seamless paper backdrop": {
+        "types": [OutfitType.AVANT_GARDE, OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.STUDIO],
+    },
+    "industrial photo studio with metal truss rigging": {
+        "types": [OutfitType.MINIMALIST, OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.STUDIO],
+    },
+    "boutique portrait studio with velvet curtains": {
+        "types": [OutfitType.AVANT_GARDE, OutfitType.MINIMALIST, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.INDOOR, LocationType.STUDIO],
+    },
+    "daylight studio with north-facing skylights": {
+        "types": [OutfitType.AVANT_GARDE, OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.STUDIO],
+    },
+    "black box studio with dramatic spotlight": {
+        "types": [OutfitType.AVANT_GARDE, OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.STUDIO],
+    },
+    "editorial studio with geometric prop blocks": {
+        "types": [OutfitType.MINIMALIST, OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.STUDIO],
+    },
+    "runway rehearsal space with mirrored wall": {
+        "types": [OutfitType.AVANT_GARDE, OutfitType.MINIMALIST, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.INDOOR, LocationType.STUDIO],
+    },
+    "makeup chair area in backstage studio": {
+        "types": [OutfitType.AVANT_GARDE, OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.STUDIO],
+    },
+    "styling rack corner of a commercial studio": {
+        "types": [OutfitType.AVANT_GARDE, OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.STUDIO],
+    },
+    "green screen studio with chroma key floor": {
+        "types": [OutfitType.MINIMALIST, OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.STUDIO],
+    },
+    "vintage film studio with wooden floorboards": {
+        "types": [OutfitType.AVANT_GARDE, OutfitType.MINIMALIST, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.INDOOR, LocationType.STUDIO],
+    },
+    "open-plan creative studio with easels and mannequins": {
+        "types": [OutfitType.AVANT_GARDE, OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.STUDIO],
+    },
+    "sound-dampened studio with acoustic panels": {
+        "types": [OutfitType.AVANT_GARDE, OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.STUDIO],
+    },
+    "gallery-white studio with floating staircase": {
+        "types": [OutfitType.MINIMALIST, OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.STUDIO],
+    },
+    "converted warehouse studio with polished concrete": {
+        "types": [OutfitType.AVANT_GARDE, OutfitType.MINIMALIST, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.INDOOR, LocationType.STUDIO],
+    },
+    "sunlit atelier studio with linen drapes": {
+        "types": [OutfitType.AVANT_GARDE, OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.STUDIO],
+    },
+    "moody charcoal studio with single key light": {
+        "types": [OutfitType.AVANT_GARDE, OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.STUDIO],
+    },
+    "pop-up studio inside a renovated factory": {
+        "types": [OutfitType.MINIMALIST, OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.STUDIO],
+    },
+    "boutique studio with parquet flooring": {
+        "types": [OutfitType.AVANT_GARDE, OutfitType.MINIMALIST, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.INDOOR, LocationType.STUDIO],
+    },
+    "studio mezzanine overlooking shooting floor": {
+        "types": [OutfitType.AVANT_GARDE, OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.STUDIO],
+    },
+    "infinity cove studio with curved white walls": {
+        "types": [OutfitType.AVANT_GARDE, OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.STUDIO],
+    },
+    "rental studio with rolling wardrobe racks": {
+        "types": [OutfitType.MINIMALIST, OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.STUDIO],
+    },
+    "art direction studio cluttered with fabric swatches": {
+        "types": [OutfitType.AVANT_GARDE, OutfitType.MINIMALIST, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.INDOOR, LocationType.STUDIO],
+    },
+    "studio corner with ring light and tripod setup": {
+        "types": [OutfitType.AVANT_GARDE, OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.STUDIO],
+    },
+    "loft studio with exposed ductwork and pendant lamps": {
+        "types": [OutfitType.AVANT_GARDE, OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.STUDIO],
+    },
+    "boutique studio with arched windows and plaster walls": {
+        "types": [OutfitType.MINIMALIST, OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.STUDIO],
+    },
+    "studio set with minimalist cube platforms": {
+        "types": [OutfitType.AVANT_GARDE, OutfitType.MINIMALIST, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.INDOOR, LocationType.STUDIO],
+    },
+    "photography studio dressing room with mirrors": {
+        "types": [OutfitType.AVANT_GARDE, OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.STUDIO],
+    },
+    "studio with paper roll backdrops in muted tones": {
+        "types": [OutfitType.AVANT_GARDE, OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.STUDIO],
+    },
+    "creative studio with projection mapping wall": {
+        "types": [OutfitType.MINIMALIST, OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.STUDIO],
+    },
+    "studio lounge with mid-century furniture props": {
+        "types": [OutfitType.AVANT_GARDE, OutfitType.MINIMALIST, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.INDOOR, LocationType.STUDIO],
+    },
+    "open studio with polished marble floor": {
+        "types": [OutfitType.AVANT_GARDE, OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.STUDIO],
+    },
+    "studio alcove with sheer diffusion panels": {
+        "types": [OutfitType.AVANT_GARDE, OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.STUDIO],
+    },
+    "fashion studio with garment steamer and irons": {
+        "types": [OutfitType.MINIMALIST, OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.STUDIO],
+    },
+    "studio with hanging plants and natural textures": {
+        "types": [OutfitType.AVANT_GARDE, OutfitType.MINIMALIST, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.INDOOR, LocationType.STUDIO],
+    },
+    "compact studio with fold-away backdrop stand": {
+        "types": [OutfitType.AVANT_GARDE, OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.STUDIO],
+    },
+    "studio with checkerboard floor for editorial shoots": {
+        "types": [OutfitType.AVANT_GARDE, OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.STUDIO],
+    },
+    "day-for-night studio with controlled blackout blinds": {
+        "types": [OutfitType.MINIMALIST, OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.STUDIO],
+    },
+    "studio with sculptural plinths and pedestals": {
+        "types": [OutfitType.AVANT_GARDE, OutfitType.MINIMALIST, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.INDOOR, LocationType.STUDIO],
+    },
+    "boutique studio with herringbone wood floor": {
+        "types": [OutfitType.AVANT_GARDE, OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.STUDIO],
+    },
+    "studio set dressed with monochrome furniture": {
+        "types": [OutfitType.AVANT_GARDE, OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.STUDIO],
+    },
+    "studio with rolling ladder and prop shelves": {
+        "types": [OutfitType.MINIMALIST, OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.STUDIO],
+    },
+    "creative studio with mood boards pinned to walls": {
+        "types": [OutfitType.AVANT_GARDE, OutfitType.MINIMALIST, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.INDOOR, LocationType.STUDIO],
+    },
+    "studio with frosted glass partition and soft glow": {
+        "types": [OutfitType.AVANT_GARDE, OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.STUDIO],
+    },
+    "high-ceiling studio with cable rigging overhead": {
+        "types": [OutfitType.AVANT_GARDE, OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.STUDIO],
+    },
+    "studio corner with vintage camera collection display": {
+        "types": [OutfitType.MINIMALIST, OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.STUDIO],
+    },
+    "intimate portrait studio with tufted bench seating": {
+        "types": [OutfitType.AVANT_GARDE, OutfitType.MINIMALIST, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.INDOOR, LocationType.STUDIO],
+    },
+
+    # Warehouse Scenes
+    "abandoned warehouse with broken skylights and dust motes": {
+        "types": [OutfitType.GRUNGE, OutfitType.PUNK, OutfitType.MILITARY],
+        "location": [LocationType.INDOOR, LocationType.WAREHOUSE],
+    },
+    "converted warehouse loft with exposed steel beams": {
+        "types": [OutfitType.GRUNGE, OutfitType.PUNK, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.WAREHOUSE],
+    },
+    "empty warehouse floor with graffiti-covered walls": {
+        "types": [OutfitType.PUNK, OutfitType.MILITARY, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.WAREHOUSE],
+    },
+    "warehouse loading dock with roll-up doors open": {
+        "types": [OutfitType.GRUNGE, OutfitType.MILITARY, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.WAREHOUSE],
+    },
+    "dim warehouse aisle between towering pallet racks": {
+        "types": [OutfitType.GRUNGE, OutfitType.PUNK, OutfitType.MILITARY],
+        "location": [LocationType.INDOOR, LocationType.WAREHOUSE],
+    },
+    "warehouse mezzanine overlooking concrete floor": {
+        "types": [OutfitType.GRUNGE, OutfitType.PUNK, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.WAREHOUSE],
+    },
+    "spray-painted warehouse with stencil murals": {
+        "types": [OutfitType.PUNK, OutfitType.MILITARY, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.WAREHOUSE],
+    },
+    "warehouse corner with stacked shipping containers": {
+        "types": [OutfitType.GRUNGE, OutfitType.MILITARY, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.WAREHOUSE],
+    },
+    "industrial warehouse with chain-link partitions": {
+        "types": [OutfitType.GRUNGE, OutfitType.PUNK, OutfitType.MILITARY],
+        "location": [LocationType.INDOOR, LocationType.WAREHOUSE],
+    },
+    "warehouse with flickering fluorescent tube lights": {
+        "types": [OutfitType.GRUNGE, OutfitType.PUNK, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.WAREHOUSE],
+    },
+    "rain-leaking warehouse with puddles on concrete": {
+        "types": [OutfitType.PUNK, OutfitType.MILITARY, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.WAREHOUSE],
+    },
+    "warehouse storage bay with rusted metal shelving": {
+        "types": [OutfitType.GRUNGE, OutfitType.MILITARY, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.WAREHOUSE],
+    },
+    "open warehouse with forklift and pallet jacks": {
+        "types": [OutfitType.GRUNGE, OutfitType.PUNK, OutfitType.MILITARY],
+        "location": [LocationType.INDOOR, LocationType.WAREHOUSE],
+    },
+    "warehouse catwalk above factory floor": {
+        "types": [OutfitType.GRUNGE, OutfitType.PUNK, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.WAREHOUSE],
+    },
+    "derelict warehouse with shattered windows": {
+        "types": [OutfitType.PUNK, OutfitType.MILITARY, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.WAREHOUSE],
+    },
+    "warehouse studio space with cinder block walls": {
+        "types": [OutfitType.GRUNGE, OutfitType.MILITARY, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.WAREHOUSE],
+    },
+    "warehouse with corrugated metal walls and oil stains": {
+        "types": [OutfitType.GRUNGE, OutfitType.PUNK, OutfitType.MILITARY],
+        "location": [LocationType.INDOOR, LocationType.WAREHOUSE],
+    },
+    "converted warehouse event space with string lights": {
+        "types": [OutfitType.GRUNGE, OutfitType.PUNK, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.WAREHOUSE],
+    },
+    "warehouse back room with locked chain doors": {
+        "types": [OutfitType.PUNK, OutfitType.MILITARY, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.WAREHOUSE],
+    },
+    "warehouse with exposed rebar and unfinished columns": {
+        "types": [OutfitType.GRUNGE, OutfitType.MILITARY, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.WAREHOUSE],
+    },
+    "sprawling warehouse with numbered bay doors": {
+        "types": [OutfitType.GRUNGE, OutfitType.PUNK, OutfitType.MILITARY],
+        "location": [LocationType.INDOOR, LocationType.WAREHOUSE],
+    },
+    "warehouse corner piled with wooden crates": {
+        "types": [OutfitType.GRUNGE, OutfitType.PUNK, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.WAREHOUSE],
+    },
+    "warehouse with overhead crane and hook chains": {
+        "types": [OutfitType.PUNK, OutfitType.MILITARY, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.WAREHOUSE],
+    },
+    "underground warehouse basement with low ceiling": {
+        "types": [OutfitType.GRUNGE, OutfitType.MILITARY, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.WAREHOUSE],
+    },
+    "warehouse with peeling paint and water damage": {
+        "types": [OutfitType.GRUNGE, OutfitType.PUNK, OutfitType.MILITARY],
+        "location": [LocationType.INDOOR, LocationType.WAREHOUSE],
+    },
+    "warehouse loading ramp with yellow safety stripes": {
+        "types": [OutfitType.GRUNGE, OutfitType.PUNK, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.WAREHOUSE],
+    },
+    "warehouse with tagged roller shutters": {
+        "types": [OutfitType.PUNK, OutfitType.MILITARY, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.WAREHOUSE],
+    },
+    "open warehouse with sawdust and workshop debris": {
+        "types": [OutfitType.GRUNGE, OutfitType.MILITARY, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.WAREHOUSE],
+    },
+    "warehouse corridor with flickering emergency exit sign": {
+        "types": [OutfitType.GRUNGE, OutfitType.PUNK, OutfitType.MILITARY],
+        "location": [LocationType.INDOOR, LocationType.WAREHOUSE],
+    },
+    "warehouse with stacked tires and auto parts": {
+        "types": [OutfitType.GRUNGE, OutfitType.PUNK, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.WAREHOUSE],
+    },
+    "warehouse loft with rope swings and rigging": {
+        "types": [OutfitType.PUNK, OutfitType.MILITARY, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.WAREHOUSE],
+    },
+    "warehouse with broken tile floor and rebar showing": {
+        "types": [OutfitType.GRUNGE, OutfitType.MILITARY, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.WAREHOUSE],
+    },
+    "warehouse corner with makeshift skate ramp": {
+        "types": [OutfitType.GRUNGE, OutfitType.PUNK, OutfitType.MILITARY],
+        "location": [LocationType.INDOOR, LocationType.WAREHOUSE],
+    },
+    "warehouse with metal staircase and grated landings": {
+        "types": [OutfitType.GRUNGE, OutfitType.PUNK, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.WAREHOUSE],
+    },
+    "warehouse bay with morning light through dust": {
+        "types": [OutfitType.PUNK, OutfitType.MILITARY, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.WAREHOUSE],
+    },
+    "warehouse with hanging industrial lamps": {
+        "types": [OutfitType.GRUNGE, OutfitType.MILITARY, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.WAREHOUSE],
+    },
+    "warehouse with pallet fort and stacked boxes": {
+        "types": [OutfitType.GRUNGE, OutfitType.PUNK, OutfitType.MILITARY],
+        "location": [LocationType.INDOOR, LocationType.WAREHOUSE],
+    },
+    "warehouse with exposed brick and iron columns": {
+        "types": [OutfitType.GRUNGE, OutfitType.PUNK, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.WAREHOUSE],
+    },
+    "warehouse storage with shrink-wrapped pallets": {
+        "types": [OutfitType.PUNK, OutfitType.MILITARY, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.WAREHOUSE],
+    },
+    "warehouse with oil drum fire pit setup": {
+        "types": [OutfitType.GRUNGE, OutfitType.MILITARY, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.WAREHOUSE],
+    },
+    "warehouse with tagged concrete pillars": {
+        "types": [OutfitType.GRUNGE, OutfitType.PUNK, OutfitType.MILITARY],
+        "location": [LocationType.INDOOR, LocationType.WAREHOUSE],
+    },
+    "warehouse mezzanine with chain-link railing": {
+        "types": [OutfitType.GRUNGE, OutfitType.PUNK, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.WAREHOUSE],
+    },
+    "warehouse with collapsed ceiling tiles": {
+        "types": [OutfitType.PUNK, OutfitType.MILITARY, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.WAREHOUSE],
+    },
+    "warehouse corner with welding sparks and tools": {
+        "types": [OutfitType.GRUNGE, OutfitType.MILITARY, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.WAREHOUSE],
+    },
+    "warehouse with rain dripping through roof holes": {
+        "types": [OutfitType.GRUNGE, OutfitType.PUNK, OutfitType.MILITARY],
+        "location": [LocationType.INDOOR, LocationType.WAREHOUSE],
+    },
+    "warehouse with numbered storage lockers": {
+        "types": [OutfitType.GRUNGE, OutfitType.PUNK, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.WAREHOUSE],
+    },
+    "warehouse with conveyor belt remnants": {
+        "types": [OutfitType.PUNK, OutfitType.MILITARY, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.WAREHOUSE],
+    },
+    "warehouse with broken neon sign on wall": {
+        "types": [OutfitType.GRUNGE, OutfitType.MILITARY, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.WAREHOUSE],
+    },
+    "warehouse with stacked lumber and sawhorses": {
+        "types": [OutfitType.GRUNGE, OutfitType.PUNK, OutfitType.MILITARY],
+        "location": [LocationType.INDOOR, LocationType.WAREHOUSE],
+    },
+    "warehouse with graffiti tunnel connecting bays": {
+        "types": [OutfitType.GRUNGE, OutfitType.PUNK, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.WAREHOUSE],
+    },
+
+    # Church Scenes
+    "gothic cathedral nave with stained glass windows": {
+        "types": [OutfitType.ETHEREAL, OutfitType.ROMANTIC, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.CHURCH],
+    },
+    "stone chapel with candlelit altar": {
+        "types": [OutfitType.GOTHIC, OutfitType.ETHEREAL, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.CHURCH],
+    },
+    "abandoned church with ivy creeping through broken windows": {
+        "types": [OutfitType.GOTHIC, OutfitType.ETHEREAL, OutfitType.ROMANTIC],
+        "location": [LocationType.INDOOR, LocationType.CHURCH],
+    },
+    "small country chapel with wooden pews": {
+        "types": [OutfitType.GOTHIC, OutfitType.ROMANTIC, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.CHURCH],
+    },
+    "cathedral choir loft with carved wooden railings": {
+        "types": [OutfitType.ETHEREAL, OutfitType.ROMANTIC, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.CHURCH],
+    },
+    "church crypt with vaulted stone ceilings": {
+        "types": [OutfitType.GOTHIC, OutfitType.ETHEREAL, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.CHURCH],
+    },
+    "ornate basilica with gilded iconostasis": {
+        "types": [OutfitType.GOTHIC, OutfitType.ETHEREAL, OutfitType.ROMANTIC],
+        "location": [LocationType.INDOOR, LocationType.CHURCH],
+    },
+    "rainy church courtyard with mossy headstones": {
+        "types": [OutfitType.GOTHIC, OutfitType.ROMANTIC, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.CHURCH],
+    },
+    "church sacristy with embroidered vestments on hooks": {
+        "types": [OutfitType.ETHEREAL, OutfitType.ROMANTIC, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.CHURCH],
+    },
+    "cathedral transept with rose window light": {
+        "types": [OutfitType.GOTHIC, OutfitType.ETHEREAL, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.CHURCH],
+    },
+    "ruined church with collapsed roof beams": {
+        "types": [OutfitType.GOTHIC, OutfitType.ETHEREAL, OutfitType.ROMANTIC],
+        "location": [LocationType.INDOOR, LocationType.CHURCH],
+    },
+    "chapel confessional booth in dim candlelight": {
+        "types": [OutfitType.GOTHIC, OutfitType.ROMANTIC, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.CHURCH],
+    },
+    "church bell tower with rope and iron bell": {
+        "types": [OutfitType.ETHEREAL, OutfitType.ROMANTIC, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.CHURCH],
+    },
+    "stone church with arched cloister walkway": {
+        "types": [OutfitType.GOTHIC, OutfitType.ETHEREAL, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.CHURCH],
+    },
+    "cathedral side chapel with marble statues": {
+        "types": [OutfitType.GOTHIC, OutfitType.ETHEREAL, OutfitType.ROMANTIC],
+        "location": [LocationType.INDOOR, LocationType.CHURCH],
+    },
+    "village church with whitewashed walls and wildflowers": {
+        "types": [OutfitType.GOTHIC, OutfitType.ROMANTIC, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.CHURCH],
+    },
+    "church organ loft with towering pipes": {
+        "types": [OutfitType.ETHEREAL, OutfitType.ROMANTIC, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.CHURCH],
+    },
+    "gothic church with flying buttresses visible outside": {
+        "types": [OutfitType.GOTHIC, OutfitType.ETHEREAL, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.CHURCH],
+    },
+    "chapel with flickering votive candles along walls": {
+        "types": [OutfitType.GOTHIC, OutfitType.ETHEREAL, OutfitType.ROMANTIC],
+        "location": [LocationType.INDOOR, LocationType.CHURCH],
+    },
+    "cathedral apse with frescoed ceiling": {
+        "types": [OutfitType.GOTHIC, OutfitType.ROMANTIC, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.CHURCH],
+    },
+    "church cemetery gate with wrought iron arch": {
+        "types": [OutfitType.ETHEREAL, OutfitType.ROMANTIC, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.CHURCH],
+    },
+    "stone chapel with leaded glass windows": {
+        "types": [OutfitType.GOTHIC, OutfitType.ETHEREAL, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.CHURCH],
+    },
+    "church nave with long aisle of wooden pews": {
+        "types": [OutfitType.GOTHIC, OutfitType.ETHEREAL, OutfitType.ROMANTIC],
+        "location": [LocationType.INDOOR, LocationType.CHURCH],
+    },
+    "cathedral baptistery with marble font": {
+        "types": [OutfitType.GOTHIC, OutfitType.ROMANTIC, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.CHURCH],
+    },
+    "abandoned chapel overtaken by wild roses": {
+        "types": [OutfitType.ETHEREAL, OutfitType.ROMANTIC, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.CHURCH],
+    },
+    "church vestry with antique mirrors and lace": {
+        "types": [OutfitType.GOTHIC, OutfitType.ETHEREAL, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.CHURCH],
+    },
+    "cathedral with incense smoke drifting through light": {
+        "types": [OutfitType.GOTHIC, OutfitType.ETHEREAL, OutfitType.ROMANTIC],
+        "location": [LocationType.INDOOR, LocationType.CHURCH],
+    },
+    "small stone church on a windswept hill": {
+        "types": [OutfitType.GOTHIC, OutfitType.ROMANTIC, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.CHURCH],
+    },
+    "church crypt with stone sarcophagi": {
+        "types": [OutfitType.ETHEREAL, OutfitType.ROMANTIC, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.CHURCH],
+    },
+    "gothic chapel with pointed arch doorways": {
+        "types": [OutfitType.GOTHIC, OutfitType.ETHEREAL, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.CHURCH],
+    },
+    "cathedral with checkerboard marble floor": {
+        "types": [OutfitType.GOTHIC, OutfitType.ETHEREAL, OutfitType.ROMANTIC],
+        "location": [LocationType.INDOOR, LocationType.CHURCH],
+    },
+    "church porch with carved wooden doors": {
+        "types": [OutfitType.GOTHIC, OutfitType.ROMANTIC, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.CHURCH],
+    },
+    "chapel altar draped in white linen cloth": {
+        "types": [OutfitType.ETHEREAL, OutfitType.ROMANTIC, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.CHURCH],
+    },
+    "cathedral with towering ribbed vault ceiling": {
+        "types": [OutfitType.GOTHIC, OutfitType.ETHEREAL, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.CHURCH],
+    },
+    "country church with wildflower meadow outside": {
+        "types": [OutfitType.GOTHIC, OutfitType.ETHEREAL, OutfitType.ROMANTIC],
+        "location": [LocationType.INDOOR, LocationType.CHURCH],
+    },
+    "church with weathered stone gargoyles overhead": {
+        "types": [OutfitType.GOTHIC, OutfitType.ROMANTIC, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.CHURCH],
+    },
+    "cathedral side aisle with dim amber light": {
+        "types": [OutfitType.ETHEREAL, OutfitType.ROMANTIC, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.CHURCH],
+    },
+    "stone chapel with iron candelabras": {
+        "types": [OutfitType.GOTHIC, OutfitType.ETHEREAL, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.CHURCH],
+    },
+    "church with hymn books left open on pews": {
+        "types": [OutfitType.GOTHIC, OutfitType.ETHEREAL, OutfitType.ROMANTIC],
+        "location": [LocationType.INDOOR, LocationType.CHURCH],
+    },
+    "cathedral with carved wooden pulpit": {
+        "types": [OutfitType.GOTHIC, OutfitType.ROMANTIC, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.CHURCH],
+    },
+    "ruined abbey church with grass growing inside": {
+        "types": [OutfitType.ETHEREAL, OutfitType.ROMANTIC, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.CHURCH],
+    },
+    "chapel with stained glass casting colored light": {
+        "types": [OutfitType.GOTHIC, OutfitType.ETHEREAL, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.CHURCH],
+    },
+    "church with stone baptismal pool": {
+        "types": [OutfitType.GOTHIC, OutfitType.ETHEREAL, OutfitType.ROMANTIC],
+        "location": [LocationType.INDOOR, LocationType.CHURCH],
+    },
+    "cathedral triforium gallery overlooking nave": {
+        "types": [OutfitType.GOTHIC, OutfitType.ROMANTIC, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.CHURCH],
+    },
+    "small chapel with hand-painted icons": {
+        "types": [OutfitType.ETHEREAL, OutfitType.ROMANTIC, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.CHURCH],
+    },
+    "church with wrought iron chandelier": {
+        "types": [OutfitType.GOTHIC, OutfitType.ETHEREAL, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.CHURCH],
+    },
+    "gothic cathedral with lancet windows": {
+        "types": [OutfitType.GOTHIC, OutfitType.ETHEREAL, OutfitType.ROMANTIC],
+        "location": [LocationType.INDOOR, LocationType.CHURCH],
+    },
+    "chapel with velvet kneelers and prie-dieu": {
+        "types": [OutfitType.GOTHIC, OutfitType.ROMANTIC, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.CHURCH],
+    },
+    "church with moss-covered stone steps": {
+        "types": [OutfitType.ETHEREAL, OutfitType.ROMANTIC, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.CHURCH],
+    },
+    "cathedral ambulatory with side chapels": {
+        "types": [OutfitType.GOTHIC, OutfitType.ETHEREAL, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.CHURCH],
+    },
+
+    # Carnival Scenes
+    "abandoned carnival midway with rusted ferris wheel": {
+        "types": [OutfitType.FESTIVAL, OutfitType.GOTHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.CARNIVAL],
+    },
+    "carnival entrance gate with faded ticket booth": {
+        "types": [OutfitType.FESTIVAL, OutfitType.PUNK, OutfitType.GOTHIC],
+        "location": [LocationType.OUTDOOR, LocationType.CARNIVAL],
+    },
+    "neon-lit carnival at night with spinning rides": {
+        "types": [OutfitType.PUNK, OutfitType.GOTHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.CARNIVAL],
+    },
+    "carnival game stalls with stuffed prize walls": {
+        "types": [OutfitType.FESTIVAL, OutfitType.PUNK, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.CARNIVAL],
+    },
+    "empty carnival lot with overturned popcorn cart": {
+        "types": [OutfitType.FESTIVAL, OutfitType.GOTHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.CARNIVAL],
+    },
+    "carnival carousel with peeling paint horses": {
+        "types": [OutfitType.FESTIVAL, OutfitType.PUNK, OutfitType.GOTHIC],
+        "location": [LocationType.OUTDOOR, LocationType.CARNIVAL],
+    },
+    "foggy carnival grounds at dawn": {
+        "types": [OutfitType.PUNK, OutfitType.GOTHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.CARNIVAL],
+    },
+    "carnival funhouse mirror maze entrance": {
+        "types": [OutfitType.FESTIVAL, OutfitType.PUNK, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.CARNIVAL],
+    },
+    "carnival bumper car arena with scuffed floor": {
+        "types": [OutfitType.FESTIVAL, OutfitType.GOTHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.CARNIVAL],
+    },
+    "carnival food court with cotton candy machines": {
+        "types": [OutfitType.FESTIVAL, OutfitType.PUNK, OutfitType.GOTHIC],
+        "location": [LocationType.OUTDOOR, LocationType.CARNIVAL],
+    },
+    "derelict carnival with collapsed tent canvas": {
+        "types": [OutfitType.PUNK, OutfitType.GOTHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.CARNIVAL],
+    },
+    "carnival ring toss alley with blinking lights": {
+        "types": [OutfitType.FESTIVAL, OutfitType.PUNK, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.CARNIVAL],
+    },
+    "carnival haunted house facade with painted monsters": {
+        "types": [OutfitType.FESTIVAL, OutfitType.GOTHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.CARNIVAL],
+    },
+    "carnival parking lot with striped tents": {
+        "types": [OutfitType.FESTIVAL, OutfitType.PUNK, OutfitType.GOTHIC],
+        "location": [LocationType.OUTDOOR, LocationType.CARNIVAL],
+    },
+    "carnival tilt-a-whirl with chipped paint": {
+        "types": [OutfitType.PUNK, OutfitType.GOTHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.CARNIVAL],
+    },
+    "carnival boardwalk with game barkers signs": {
+        "types": [OutfitType.FESTIVAL, OutfitType.PUNK, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.CARNIVAL],
+    },
+    "carnival swing ride silhouetted at sunset": {
+        "types": [OutfitType.FESTIVAL, OutfitType.GOTHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.CARNIVAL],
+    },
+    "carnival tunnel of love boat channel": {
+        "types": [OutfitType.FESTIVAL, OutfitType.PUNK, OutfitType.GOTHIC],
+        "location": [LocationType.OUTDOOR, LocationType.CARNIVAL],
+    },
+    "carnival prize counter with shelves of plush toys": {
+        "types": [OutfitType.PUNK, OutfitType.GOTHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.CARNIVAL],
+    },
+    "carnival shooting gallery with paper targets": {
+        "types": [OutfitType.FESTIVAL, OutfitType.PUNK, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.CARNIVAL],
+    },
+    "carnival scrambler ride with centrifugal lights": {
+        "types": [OutfitType.FESTIVAL, OutfitType.GOTHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.CARNIVAL],
+    },
+    "carnival ticket wicket with torn banners": {
+        "types": [OutfitType.FESTIVAL, OutfitType.PUNK, OutfitType.GOTHIC],
+        "location": [LocationType.OUTDOOR, LocationType.CARNIVAL],
+    },
+    "carnival dunk tank with painted bullseye": {
+        "types": [OutfitType.PUNK, OutfitType.GOTHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.CARNIVAL],
+    },
+    "carnival mirror tent with distorted reflections": {
+        "types": [OutfitType.FESTIVAL, OutfitType.PUNK, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.CARNIVAL],
+    },
+    "carnival whack-a-mole booth with worn mallets": {
+        "types": [OutfitType.FESTIVAL, OutfitType.GOTHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.CARNIVAL],
+    },
+    "carnival roller coaster track overhead": {
+        "types": [OutfitType.FESTIVAL, OutfitType.PUNK, OutfitType.GOTHIC],
+        "location": [LocationType.OUTDOOR, LocationType.CARNIVAL],
+    },
+    "carnival kissing booth with heart-shaped sign": {
+        "types": [OutfitType.PUNK, OutfitType.GOTHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.CARNIVAL],
+    },
+    "carnival ring of fire motorcycle cage": {
+        "types": [OutfitType.FESTIVAL, OutfitType.PUNK, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.CARNIVAL],
+    },
+    "carnival balloon dart game wall": {
+        "types": [OutfitType.FESTIVAL, OutfitType.GOTHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.CARNIVAL],
+    },
+    "carnival pirate ship ride at full swing": {
+        "types": [OutfitType.FESTIVAL, OutfitType.PUNK, OutfitType.GOTHIC],
+        "location": [LocationType.OUTDOOR, LocationType.CARNIVAL],
+    },
+    "carnival fortune teller tent with beaded curtain": {
+        "types": [OutfitType.PUNK, OutfitType.GOTHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.CARNIVAL],
+    },
+    "carnival candy floss stand with pink clouds": {
+        "types": [OutfitType.FESTIVAL, OutfitType.PUNK, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.CARNIVAL],
+    },
+    "carnival strength tester hammer game": {
+        "types": [OutfitType.FESTIVAL, OutfitType.GOTHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.CARNIVAL],
+    },
+    "carnival log flume splash zone": {
+        "types": [OutfitType.FESTIVAL, OutfitType.PUNK, OutfitType.GOTHIC],
+        "location": [LocationType.OUTDOOR, LocationType.CARNIVAL],
+    },
+    "carnival octopus ride with waving arms": {
+        "types": [OutfitType.PUNK, OutfitType.GOTHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.CARNIVAL],
+    },
+    "carnival ticket stub littered pathway": {
+        "types": [OutfitType.FESTIVAL, OutfitType.PUNK, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.CARNIVAL],
+    },
+    "carnival ghost train tunnel entrance": {
+        "types": [OutfitType.FESTIVAL, OutfitType.GOTHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.CARNIVAL],
+    },
+    "carnival teacup ride with floral patterns": {
+        "types": [OutfitType.FESTIVAL, OutfitType.PUNK, OutfitType.GOTHIC],
+        "location": [LocationType.OUTDOOR, LocationType.CARNIVAL],
+    },
+    "carnival ringmaster stage with red curtains": {
+        "types": [OutfitType.PUNK, OutfitType.GOTHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.CARNIVAL],
+    },
+    "carnival bumper boats on murky water": {
+        "types": [OutfitType.FESTIVAL, OutfitType.PUNK, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.CARNIVAL],
+    },
+    "carnival zip line tower with safety harnesses": {
+        "types": [OutfitType.FESTIVAL, OutfitType.GOTHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.CARNIVAL],
+    },
+    "carnival paintball gallery with splattered targets": {
+        "types": [OutfitType.FESTIVAL, OutfitType.PUNK, OutfitType.GOTHIC],
+        "location": [LocationType.OUTDOOR, LocationType.CARNIVAL],
+    },
+    "carnival sideshow banner alley": {
+        "types": [OutfitType.PUNK, OutfitType.GOTHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.CARNIVAL],
+    },
+    "carnival swing boat ride at peak arc": {
+        "types": [OutfitType.FESTIVAL, OutfitType.PUNK, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.CARNIVAL],
+    },
+    "carnival ring fire performer platform": {
+        "types": [OutfitType.FESTIVAL, OutfitType.GOTHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.CARNIVAL],
+    },
+    "carnival balloon arch entrance tunnel": {
+        "types": [OutfitType.FESTIVAL, OutfitType.PUNK, OutfitType.GOTHIC],
+        "location": [LocationType.OUTDOOR, LocationType.CARNIVAL],
+    },
+    "carnival milk bottle toss lane": {
+        "types": [OutfitType.PUNK, OutfitType.GOTHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.CARNIVAL],
+    },
+    "carnival scrambler queue rail with chains": {
+        "types": [OutfitType.FESTIVAL, OutfitType.PUNK, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.CARNIVAL],
+    },
+    "carnival after-hours lot with single security light": {
+        "types": [OutfitType.FESTIVAL, OutfitType.GOTHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.CARNIVAL],
+    },
+    "carnival ferris wheel gondolas frozen at apex": {
+        "types": [OutfitType.FESTIVAL, OutfitType.PUNK, OutfitType.GOTHIC],
+        "location": [LocationType.OUTDOOR, LocationType.CARNIVAL],
+    },
+
+    # Farm Scenes
+    "red barn with open hayloft doors at golden hour": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.FARM],
+    },
+    "wheat field with rolling hills and fence line": {
+        "types": [OutfitType.COWBOY, OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.FARM],
+    },
+    "farmhouse porch with rocking chairs and mason jars": {
+        "types": [OutfitType.COWBOY, OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.FARM],
+    },
+    "rustic chicken coop with scattered feed": {
+        "types": [OutfitType.COWBOY, OutfitType.COTTAGECORE, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.FARM],
+    },
+    "horse stable aisle with wooden stall doors": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.FARM],
+    },
+    "farm orchard with ladder leaning on apple tree": {
+        "types": [OutfitType.COWBOY, OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.FARM],
+    },
+    "windmill on open prairie with wild grasses": {
+        "types": [OutfitType.COWBOY, OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.FARM],
+    },
+    "farm tractor parked beside silo at sunrise": {
+        "types": [OutfitType.COWBOY, OutfitType.COTTAGECORE, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.FARM],
+    },
+    "vegetable garden rows with drip irrigation": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.FARM],
+    },
+    "farm pond with wooden dock and cattails": {
+        "types": [OutfitType.COWBOY, OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.FARM],
+    },
+    "sheep pasture with split-rail fence": {
+        "types": [OutfitType.COWBOY, OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.FARM],
+    },
+    "farm milking parlor with stainless tanks": {
+        "types": [OutfitType.COWBOY, OutfitType.COTTAGECORE, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.FARM],
+    },
+    "cornfield path with towering stalks on both sides": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.FARM],
+    },
+    "farm equipment shed with rusted tools": {
+        "types": [OutfitType.COWBOY, OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.FARM],
+    },
+    "hay bale stack beside weathered fence post": {
+        "types": [OutfitType.COWBOY, OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.FARM],
+    },
+    "farm gate with hand-painted welcome sign": {
+        "types": [OutfitType.COWBOY, OutfitType.COTTAGECORE, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.FARM],
+    },
+    "sunflower field stretching to the horizon": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.FARM],
+    },
+    "farm chicken yard with wire mesh fencing": {
+        "types": [OutfitType.COWBOY, OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.FARM],
+    },
+    "rustic farmhouse kitchen garden with herbs": {
+        "types": [OutfitType.COWBOY, OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.FARM],
+    },
+    "farm gravel driveway lined with maple trees": {
+        "types": [OutfitType.COWBOY, OutfitType.COTTAGECORE, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.FARM],
+    },
+    "pig pen with muddy wallow and trough": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.FARM],
+    },
+    "farm grain silo with ladder and catwalk": {
+        "types": [OutfitType.COWBOY, OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.FARM],
+    },
+    "wildflower meadow bordering farm pasture": {
+        "types": [OutfitType.COWBOY, OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.FARM],
+    },
+    "farm apple orchard in autumn leaf fall": {
+        "types": [OutfitType.COWBOY, OutfitType.COTTAGECORE, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.FARM],
+    },
+    "dairy farm with black and white cows grazing": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.FARM],
+    },
+    "farm compost pile beside wooden pallets": {
+        "types": [OutfitType.COWBOY, OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.FARM],
+    },
+    "goat pen with climbing platforms and bells": {
+        "types": [OutfitType.COWBOY, OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.FARM],
+    },
+    "farm windbreak of evergreen trees": {
+        "types": [OutfitType.COWBOY, OutfitType.COTTAGECORE, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.FARM],
+    },
+    "irrigation canal running through crop rows": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.FARM],
+    },
+    "farm scarecrow in tattered plaid shirt": {
+        "types": [OutfitType.COWBOY, OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.FARM],
+    },
+    "beehive boxes at edge of clover field": {
+        "types": [OutfitType.COWBOY, OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.FARM],
+    },
+    "farm wagon with wooden wheels in tall grass": {
+        "types": [OutfitType.COWBOY, OutfitType.COTTAGECORE, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.FARM],
+    },
+    "chicken run with roosting bars and nesting boxes": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.FARM],
+    },
+    "farm creek crossing with stone stepping path": {
+        "types": [OutfitType.COWBOY, OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.FARM],
+    },
+    "tobacco drying barn with hanging leaves": {
+        "types": [OutfitType.COWBOY, OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.FARM],
+    },
+    "farm pumpkin patch in October mist": {
+        "types": [OutfitType.COWBOY, OutfitType.COTTAGECORE, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.FARM],
+    },
+    "horse paddock with white rail fence": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.FARM],
+    },
+    "farm tool shed with open door and pitchfork": {
+        "types": [OutfitType.COWBOY, OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.FARM],
+    },
+    "lavender rows on hillside farm plot": {
+        "types": [OutfitType.COWBOY, OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.FARM],
+    },
+    "farm stone wall bordering sheep meadow": {
+        "types": [OutfitType.COWBOY, OutfitType.COTTAGECORE, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.FARM],
+    },
+    "rustic farm stand with hand-lettered prices": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.FARM],
+    },
+    "farm blackberry bramble along fence line": {
+        "types": [OutfitType.COWBOY, OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.FARM],
+    },
+    "cattle pen with metal chute and gate": {
+        "types": [OutfitType.COWBOY, OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.FARM],
+    },
+    "farm oat field rippling in summer breeze": {
+        "types": [OutfitType.COWBOY, OutfitType.COTTAGECORE, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.FARM],
+    },
+    "duck pond beside farm barn with reeds": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.FARM],
+    },
+    "farm herb drying rack in open-air shed": {
+        "types": [OutfitType.COWBOY, OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.FARM],
+    },
+    "peach orchard with wooden picking crates": {
+        "types": [OutfitType.COWBOY, OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.FARM],
+    },
+    "farm dirt road with tire tracks and dust": {
+        "types": [OutfitType.COWBOY, OutfitType.COTTAGECORE, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.FARM],
+    },
+    "goose pond at farm edge with cattail fringe": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN],
+        "location": [LocationType.OUTDOOR, LocationType.FARM],
+    },
+    "farm greenhouse with steamed glass panels": {
+        "types": [OutfitType.COWBOY, OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.FARM],
+    },
+
+    # Boat Scenes
+    "sun-drenched yacht bow at midday": {
+        "types": [OutfitType.PREPPY, OutfitType.BEACH_WEAR, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.BOAT],
+    },
+    "polished teak deck during golden hour": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.PREPPY, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.OUTDOOR, LocationType.BOAT],
+    },
+    "sailboat cockpit with billowing white sails": {
+        "types": [OutfitType.PREPPY, OutfitType.BEACH_WEAR, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.BOAT],
+    },
+    "luxury motor yacht stern lounge at sunset": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC, OutfitType.PREPPY],
+        "location": [LocationType.OUTDOOR, LocationType.BOAT],
+    },
+    "wooden fishing skiff on calm morning water": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.BEACH_WEAR, OutfitType.PREPPY],
+        "location": [LocationType.OUTDOOR, LocationType.BOAT],
+    },
+    "catamaran netting stretched over turquoise sea": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.CASUAL_CHIC, OutfitType.PREPPY],
+        "location": [LocationType.OUTDOOR, LocationType.BOAT],
+    },
+    "classic schooner helm with brass instruments": {
+        "types": [OutfitType.PREPPY, OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.BOAT],
+    },
+    "speedboat wake cutting through glassy lake": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.CASUAL_CHIC, OutfitType.PREPPY],
+        "location": [LocationType.OUTDOOR, LocationType.BOAT],
+    },
+    "yacht flybridge with champagne bucket at dusk": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.PREPPY, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.BOAT],
+    },
+    "dinghy tied to a mooring buoy at dawn": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.CASUAL_CHIC, OutfitType.PREPPY],
+        "location": [LocationType.OUTDOOR, LocationType.BOAT],
+    },
+    "houseboat rooftop deck with potted palms": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.BEACH_WEAR, OutfitType.PREPPY],
+        "location": [LocationType.OUTDOOR, LocationType.BOAT],
+    },
+    "sailboat mast against cloudless summer sky": {
+        "types": [OutfitType.PREPPY, OutfitType.BEACH_WEAR, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.BOAT],
+    },
+    "yacht swim platform with folded diving ladder": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.CASUAL_CHIC, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.OUTDOOR, LocationType.BOAT],
+    },
+    "canal barge deck passing under stone bridge": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.PREPPY, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.OUTDOOR, LocationType.BOAT],
+    },
+    "pontoon boat party deck with string lights": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.BEACH_WEAR, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.OUTDOOR, LocationType.BOAT],
+    },
+    "rowboat drifting through lily-covered pond": {
+        "types": [OutfitType.PREPPY, OutfitType.CASUAL_CHIC, OutfitType.BEACH_WEAR],
+        "location": [LocationType.OUTDOOR, LocationType.BOAT],
+    },
+    "yacht salon doorway opening to open sea": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC, OutfitType.PREPPY],
+        "location": [LocationType.OUTDOOR, LocationType.BOAT],
+    },
+    "kayak pulled alongside a anchored sailboat": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.CASUAL_CHIC, OutfitType.PREPPY],
+        "location": [LocationType.OUTDOOR, LocationType.BOAT],
+    },
+    "wooden sailboat cabin hatch with sea breeze": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.PREPPY, OutfitType.BEACH_WEAR],
+        "location": [LocationType.OUTDOOR, LocationType.BOAT],
+    },
+    "yacht bow rail with distant island horizon": {
+        "types": [OutfitType.PREPPY, OutfitType.BEACH_WEAR, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.OUTDOOR, LocationType.BOAT],
+    },
+    "fishing trawler deck with coiled rope piles": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.BEACH_WEAR, OutfitType.PREPPY],
+        "location": [LocationType.OUTDOOR, LocationType.BOAT],
+    },
+    "sunset cruise deck with jazz quartet corner": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC, OutfitType.PREPPY],
+        "location": [LocationType.OUTDOOR, LocationType.BOAT],
+    },
+    "sailboat tiller with wind-filled mainsail": {
+        "types": [OutfitType.PREPPY, OutfitType.CASUAL_CHIC, OutfitType.BEACH_WEAR],
+        "location": [LocationType.OUTDOOR, LocationType.BOAT],
+    },
+    "yacht jacuzzi tub on upper deck at twilight": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.BEACH_WEAR, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.BOAT],
+    },
+    "narrow canal boat bow with flower boxes": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.PREPPY, OutfitType.BEACH_WEAR],
+        "location": [LocationType.OUTDOOR, LocationType.BOAT],
+    },
+    "motor yacht aft deck with linen-draped table": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.PREPPY, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.BOAT],
+    },
+    "sailboat boom shadow across teak planks": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.PREPPY, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.BOAT],
+    },
+    "party yacht dance floor under starlit sky": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC, OutfitType.PREPPY],
+        "location": [LocationType.OUTDOOR, LocationType.BOAT],
+    },
+    "wooden dory beached beside a dock ladder": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.BEACH_WEAR, OutfitType.PREPPY],
+        "location": [LocationType.OUTDOOR, LocationType.BOAT],
+    },
+    "yacht sun pad with stacked nautical cushions": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.CASUAL_CHIC, OutfitType.PREPPY],
+        "location": [LocationType.OUTDOOR, LocationType.BOAT],
+    },
+    "sailboat winch and cleat close-up on deck": {
+        "types": [OutfitType.PREPPY, OutfitType.CASUAL_CHIC, OutfitType.BEACH_WEAR],
+        "location": [LocationType.OUTDOOR, LocationType.BOAT],
+    },
+    "harbor tour boat upper open-air seating": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.PREPPY, OutfitType.BEACH_WEAR],
+        "location": [LocationType.OUTDOOR, LocationType.BOAT],
+    },
+    "yacht boarding gangway over marina water": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.PREPPY, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.BOAT],
+    },
+    "sloop anchored in a sheltered cove": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.CASUAL_CHIC, OutfitType.PREPPY],
+        "location": [LocationType.OUTDOOR, LocationType.BOAT],
+    },
+    "yacht bar counter facing endless ocean": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC, OutfitType.PREPPY],
+        "location": [LocationType.OUTDOOR, LocationType.BOAT],
+    },
+    "sailboat jib unfurling in fresh sea wind": {
+        "types": [OutfitType.PREPPY, OutfitType.BEACH_WEAR, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.BOAT],
+    },
+    "houseboat front porch with rocking chairs": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.PREPPY, OutfitType.BEACH_WEAR],
+        "location": [LocationType.OUTDOOR, LocationType.BOAT],
+    },
+    "yacht helipad edge overlooking blue water": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.PREPPY, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.BOAT],
+    },
+    "fishing boat stern with tackle box open": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.BEACH_WEAR, OutfitType.PREPPY],
+        "location": [LocationType.OUTDOOR, LocationType.BOAT],
+    },
+    "sailboat companionway steps to open deck": {
+        "types": [OutfitType.PREPPY, OutfitType.CASUAL_CHIC, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.OUTDOOR, LocationType.BOAT],
+    },
+    "yacht tender davits with folded life jackets": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.PREPPY, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.BOAT],
+    },
+    "river cruise boat observation deck at noon": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.PREPPY, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.OUTDOOR, LocationType.BOAT],
+    },
+    "sailboat pulpit rail with dolphin wake below": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.CASUAL_CHIC, OutfitType.PREPPY],
+        "location": [LocationType.OUTDOOR, LocationType.BOAT],
+    },
+    "yacht aft sunshade with wicker lounge set": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.EVENING_FORMAL, OutfitType.PREPPY],
+        "location": [LocationType.OUTDOOR, LocationType.BOAT],
+    },
+    "wooden sailboat moored at weathered pier": {
+        "types": [OutfitType.PREPPY, OutfitType.BEACH_WEAR, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.BOAT],
+    },
+    "catamaran trampoline net over splashing waves": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.CASUAL_CHIC, OutfitType.PREPPY],
+        "location": [LocationType.OUTDOOR, LocationType.BOAT],
+    },
+    "yacht formal dinner setup on aft deck": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.PREPPY, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.BOAT],
+    },
+    "sailboat masthead view from spreader level": {
+        "types": [OutfitType.PREPPY, OutfitType.CASUAL_CHIC, OutfitType.BEACH_WEAR],
+        "location": [LocationType.OUTDOOR, LocationType.BOAT],
+    },
+    "houseboat rooftop garden with river sunset": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.BEACH_WEAR, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.OUTDOOR, LocationType.BOAT],
+    },
+    "yacht swim ladder dangling in crystal water": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.BOAT],
+    },
+
+    # Garage Scenes
+    "oil-stained concrete garage with open bay door": {
+        "types": [OutfitType.GRUNGE, OutfitType.PUNK, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.GARAGE],
+    },
+    "cluttered home garage with pegboard tools": {
+        "types": [OutfitType.STREETWEAR, OutfitType.GRUNGE, OutfitType.MILITARY],
+        "location": [LocationType.INDOOR, LocationType.GARAGE],
+    },
+    "muscle car garage with chrome engine exposed": {
+        "types": [OutfitType.GRUNGE, OutfitType.STREETWEAR, OutfitType.PUNK],
+        "location": [LocationType.INDOOR, LocationType.GARAGE],
+    },
+    "dim garage lit by single hanging work lamp": {
+        "types": [OutfitType.PUNK, OutfitType.GRUNGE, OutfitType.MILITARY],
+        "location": [LocationType.INDOOR, LocationType.GARAGE],
+    },
+    "band practice garage with stacked amplifiers": {
+        "types": [OutfitType.PUNK, OutfitType.GRUNGE, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.GARAGE],
+    },
+    "motorcycle garage with leather jacket on peg": {
+        "types": [OutfitType.STREETWEAR, OutfitType.PUNK, OutfitType.GRUNGE],
+        "location": [LocationType.INDOOR, LocationType.GARAGE],
+    },
+    "military surplus gear stacked in garage corner": {
+        "types": [OutfitType.MILITARY, OutfitType.GRUNGE, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.GARAGE],
+    },
+    "graffiti-tagged garage wall behind parked van": {
+        "types": [OutfitType.PUNK, OutfitType.STREETWEAR, OutfitType.GRUNGE],
+        "location": [LocationType.INDOOR, LocationType.GARAGE],
+    },
+    "vintage pickup truck garage with hay bales": {
+        "types": [OutfitType.GRUNGE, OutfitType.MILITARY, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.GARAGE],
+    },
+    "garage workbench covered in wrenches and bolts": {
+        "types": [OutfitType.STREETWEAR, OutfitType.GRUNGE, OutfitType.PUNK],
+        "location": [LocationType.INDOOR, LocationType.GARAGE],
+    },
+    "converted garage art studio with spray cans": {
+        "types": [OutfitType.PUNK, OutfitType.STREETWEAR, OutfitType.GRUNGE],
+        "location": [LocationType.INDOOR, LocationType.GARAGE],
+    },
+    "snow-covered garage interior with idling truck": {
+        "types": [OutfitType.MILITARY, OutfitType.GRUNGE, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.GARAGE],
+    },
+    "garage loft with ladder and stored surfboards": {
+        "types": [OutfitType.STREETWEAR, OutfitType.GRUNGE, OutfitType.PUNK],
+        "location": [LocationType.INDOOR, LocationType.GARAGE],
+    },
+    "neon sign glow in a late-night garage": {
+        "types": [OutfitType.PUNK, OutfitType.GRUNGE, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.GARAGE],
+    },
+    "garage gym setup with punching bag hanging": {
+        "types": [OutfitType.MILITARY, OutfitType.STREETWEAR, OutfitType.GRUNGE],
+        "location": [LocationType.INDOOR, LocationType.GARAGE],
+    },
+    "rusted classic car on jack stands in garage": {
+        "types": [OutfitType.GRUNGE, OutfitType.PUNK, OutfitType.MILITARY],
+        "location": [LocationType.INDOOR, LocationType.GARAGE],
+    },
+    "garage packed with moving boxes and tarps": {
+        "types": [OutfitType.STREETWEAR, OutfitType.GRUNGE, OutfitType.PUNK],
+        "location": [LocationType.INDOOR, LocationType.GARAGE],
+    },
+    "custom chopper build mid-frame in garage": {
+        "types": [OutfitType.PUNK, OutfitType.STREETWEAR, OutfitType.GRUNGE],
+        "location": [LocationType.INDOOR, LocationType.GARAGE],
+    },
+    "garage floor with tire marks and chalk outlines": {
+        "types": [OutfitType.GRUNGE, OutfitType.STREETWEAR, OutfitType.MILITARY],
+        "location": [LocationType.INDOOR, LocationType.GARAGE],
+    },
+    "suburban two-car garage with basketball hoop": {
+        "types": [OutfitType.STREETWEAR, OutfitType.GRUNGE, OutfitType.PUNK],
+        "location": [LocationType.INDOOR, LocationType.GARAGE],
+    },
+    "garage freezer and camping gear stacked high": {
+        "types": [OutfitType.MILITARY, OutfitType.GRUNGE, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.GARAGE],
+    },
+    "lowrider garage with hydraulic lift platform": {
+        "types": [OutfitType.STREETWEAR, OutfitType.PUNK, OutfitType.GRUNGE],
+        "location": [LocationType.INDOOR, LocationType.GARAGE],
+    },
+    "garage with chain-link storage cages and bikes": {
+        "types": [OutfitType.GRUNGE, OutfitType.STREETWEAR, OutfitType.PUNK],
+        "location": [LocationType.INDOOR, LocationType.GARAGE],
+    },
+    "industrial garage bay with rolling steel door": {
+        "types": [OutfitType.MILITARY, OutfitType.GRUNGE, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.GARAGE],
+    },
+    "garage poker table between parked motorcycles": {
+        "types": [OutfitType.PUNK, OutfitType.GRUNGE, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.GARAGE],
+    },
+    "dusty garage attic stairs with cobweb corners": {
+        "types": [OutfitType.GRUNGE, OutfitType.PUNK, OutfitType.MILITARY],
+        "location": [LocationType.INDOOR, LocationType.GARAGE],
+    },
+    "garage stereo blasting beside polished rims": {
+        "types": [OutfitType.STREETWEAR, OutfitType.PUNK, OutfitType.GRUNGE],
+        "location": [LocationType.INDOOR, LocationType.GARAGE],
+    },
+    "mechanic garage with hydraulic floor jack": {
+        "types": [OutfitType.GRUNGE, OutfitType.MILITARY, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.GARAGE],
+    },
+    "garage mini stage with drum kit and cables": {
+        "types": [OutfitType.PUNK, OutfitType.GRUNGE, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.GARAGE],
+    },
+    "overhead garage door half open at dawn": {
+        "types": [OutfitType.STREETWEAR, OutfitType.GRUNGE, OutfitType.MILITARY],
+        "location": [LocationType.INDOOR, LocationType.GARAGE],
+    },
+    "garage shelf lined with paint cans and solvents": {
+        "types": [OutfitType.GRUNGE, OutfitType.PUNK, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.GARAGE],
+    },
+    "detailing bay garage with foam cannon setup": {
+        "types": [OutfitType.STREETWEAR, OutfitType.GRUNGE, OutfitType.PUNK],
+        "location": [LocationType.INDOOR, LocationType.GARAGE],
+    },
+    "garage corner shrine of band posters and stickers": {
+        "types": [OutfitType.PUNK, OutfitType.GRUNGE, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.GARAGE],
+    },
+    "military jeep restoration project in garage": {
+        "types": [OutfitType.MILITARY, OutfitType.GRUNGE, OutfitType.PUNK],
+        "location": [LocationType.INDOOR, LocationType.GARAGE],
+    },
+    "garage with fluorescent tubes and concrete stains": {
+        "types": [OutfitType.GRUNGE, OutfitType.STREETWEAR, OutfitType.MILITARY],
+        "location": [LocationType.INDOOR, LocationType.GARAGE],
+    },
+    "skateboard ramp folded against garage wall": {
+        "types": [OutfitType.STREETWEAR, OutfitType.PUNK, OutfitType.GRUNGE],
+        "location": [LocationType.INDOOR, LocationType.GARAGE],
+    },
+    "garage kegerator beside tool chest drawers": {
+        "types": [OutfitType.PUNK, OutfitType.STREETWEAR, OutfitType.GRUNGE],
+        "location": [LocationType.INDOOR, LocationType.GARAGE],
+    },
+    "abandoned garage with shattered window panes": {
+        "types": [OutfitType.GRUNGE, OutfitType.PUNK, OutfitType.MILITARY],
+        "location": [LocationType.INDOOR, LocationType.GARAGE],
+    },
+    "garage epoxy floor reflecting overhead lights": {
+        "types": [OutfitType.STREETWEAR, OutfitType.GRUNGE, OutfitType.PUNK],
+        "location": [LocationType.INDOOR, LocationType.GARAGE],
+    },
+    "tactical gear drying on garage clothesline": {
+        "types": [OutfitType.MILITARY, OutfitType.STREETWEAR, OutfitType.GRUNGE],
+        "location": [LocationType.INDOOR, LocationType.GARAGE],
+    },
+    "garage turntable setup between speaker stacks": {
+        "types": [OutfitType.PUNK, OutfitType.STREETWEAR, OutfitType.GRUNGE],
+        "location": [LocationType.INDOOR, LocationType.GARAGE],
+    },
+    "classic hot rod garage with checkered floor": {
+        "types": [OutfitType.GRUNGE, OutfitType.STREETWEAR, OutfitType.PUNK],
+        "location": [LocationType.INDOOR, LocationType.GARAGE],
+    },
+    "garage welding station with spark-scarred table": {
+        "types": [OutfitType.MILITARY, OutfitType.GRUNGE, OutfitType.PUNK],
+        "location": [LocationType.INDOOR, LocationType.GARAGE],
+    },
+    "garage mini fridge covered in band stickers": {
+        "types": [OutfitType.PUNK, OutfitType.GRUNGE, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.GARAGE],
+    },
+    "garage with snow chains and winter tires stacked": {
+        "types": [OutfitType.MILITARY, OutfitType.GRUNGE, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.GARAGE],
+    },
+    "low-ceiling garage packed with vintage crates": {
+        "types": [OutfitType.GRUNGE, OutfitType.PUNK, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.GARAGE],
+    },
+    "garage dartboard beside parked dirt bike": {
+        "types": [OutfitType.STREETWEAR, OutfitType.PUNK, OutfitType.GRUNGE],
+        "location": [LocationType.INDOOR, LocationType.GARAGE],
+    },
+    "garage air compressor hissing beside workbench": {
+        "types": [OutfitType.GRUNGE, OutfitType.MILITARY, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.GARAGE],
+    },
+    "garage loft bed above parked project car": {
+        "types": [OutfitType.PUNK, OutfitType.GRUNGE, OutfitType.STREETWEAR],
+        "location": [LocationType.INDOOR, LocationType.GARAGE],
+    },
+    "garage with open trunk and road trip gear": {
+        "types": [OutfitType.STREETWEAR, OutfitType.GRUNGE, OutfitType.MILITARY],
+        "location": [LocationType.INDOOR, LocationType.GARAGE],
+    },
+
+    # Basement Scenes
+    "unfinished basement with exposed joists and pipes": {
+        "types": [OutfitType.GRUNGE, OutfitType.GOTHIC, OutfitType.PUNK],
+        "location": [LocationType.INDOOR, LocationType.BASEMENT],
+    },
+    "cyberpunk basement server room with cable racks": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.GRUNGE, OutfitType.PUNK],
+        "location": [LocationType.INDOOR, LocationType.BASEMENT],
+    },
+    "gothic basement chapel with candlelit altar": {
+        "types": [OutfitType.GOTHIC, OutfitType.PUNK, OutfitType.GRUNGE],
+        "location": [LocationType.INDOOR, LocationType.BASEMENT],
+    },
+    "punk basement venue with sticker-covered walls": {
+        "types": [OutfitType.PUNK, OutfitType.GRUNGE, OutfitType.GOTHIC],
+        "location": [LocationType.INDOOR, LocationType.BASEMENT],
+    },
+    "floodlit basement laundry room with humming machines": {
+        "types": [OutfitType.GRUNGE, OutfitType.CYBERPUNK, OutfitType.PUNK],
+        "location": [LocationType.INDOOR, LocationType.BASEMENT],
+    },
+    "basement recording booth with foam panel walls": {
+        "types": [OutfitType.PUNK, OutfitType.GRUNGE, OutfitType.CYBERPUNK],
+        "location": [LocationType.INDOOR, LocationType.BASEMENT],
+    },
+    "damp basement stone walls with iron support beams": {
+        "types": [OutfitType.GOTHIC, OutfitType.GRUNGE, OutfitType.PUNK],
+        "location": [LocationType.INDOOR, LocationType.BASEMENT],
+    },
+    "basement gaming den with rgb monitors glowing": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.GRUNGE, OutfitType.PUNK],
+        "location": [LocationType.INDOOR, LocationType.BASEMENT],
+    },
+    "basement wine cellar with arched brick ceiling": {
+        "types": [OutfitType.GOTHIC, OutfitType.GRUNGE, OutfitType.CYBERPUNK],
+        "location": [LocationType.INDOOR, LocationType.BASEMENT],
+    },
+    "graffiti basement tunnel with flickering bulbs": {
+        "types": [OutfitType.PUNK, OutfitType.GRUNGE, OutfitType.CYBERPUNK],
+        "location": [LocationType.INDOOR, LocationType.BASEMENT],
+    },
+    "basement workshop with soldering iron and parts bins": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.GRUNGE, OutfitType.PUNK],
+        "location": [LocationType.INDOOR, LocationType.BASEMENT],
+    },
+    "creepy basement furnace room with rusted pipes": {
+        "types": [OutfitType.GOTHIC, OutfitType.GRUNGE, OutfitType.PUNK],
+        "location": [LocationType.INDOOR, LocationType.BASEMENT],
+    },
+    "basement punk show mosh pit under low ceiling": {
+        "types": [OutfitType.PUNK, OutfitType.GRUNGE, OutfitType.GOTHIC],
+        "location": [LocationType.INDOOR, LocationType.BASEMENT],
+    },
+    "basement fallout shelter stocked with canned goods": {
+        "types": [OutfitType.GRUNGE, OutfitType.CYBERPUNK, OutfitType.GOTHIC],
+        "location": [LocationType.INDOOR, LocationType.BASEMENT],
+    },
+    "neon-lit basement arcade with vintage cabinets": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.PUNK, OutfitType.GRUNGE],
+        "location": [LocationType.INDOOR, LocationType.BASEMENT],
+    },
+    "basement storage maze of labeled cardboard boxes": {
+        "types": [OutfitType.GRUNGE, OutfitType.GOTHIC, OutfitType.PUNK],
+        "location": [LocationType.INDOOR, LocationType.BASEMENT],
+    },
+    "basement occult library with dusty grimoires": {
+        "types": [OutfitType.GOTHIC, OutfitType.CYBERPUNK, OutfitType.PUNK],
+        "location": [LocationType.INDOOR, LocationType.BASEMENT],
+    },
+    "basement skate ramp with chipped concrete floor": {
+        "types": [OutfitType.PUNK, OutfitType.GRUNGE, OutfitType.CYBERPUNK],
+        "location": [LocationType.INDOOR, LocationType.BASEMENT],
+    },
+    "basement boiler room with steam hissing valves": {
+        "types": [OutfitType.GRUNGE, OutfitType.GOTHIC, OutfitType.CYBERPUNK],
+        "location": [LocationType.INDOOR, LocationType.BASEMENT],
+    },
+    "basement hacker lab with multiple terminal screens": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.GRUNGE, OutfitType.PUNK],
+        "location": [LocationType.INDOOR, LocationType.BASEMENT],
+    },
+    "basement speakeasy bar with brick vault door": {
+        "types": [OutfitType.GOTHIC, OutfitType.PUNK, OutfitType.GRUNGE],
+        "location": [LocationType.INDOOR, LocationType.BASEMENT],
+    },
+    "basement concrete stairs with peeling paint": {
+        "types": [OutfitType.GRUNGE, OutfitType.PUNK, OutfitType.GOTHIC],
+        "location": [LocationType.INDOOR, LocationType.BASEMENT],
+    },
+    "basement tattoo parlor with blacklight posters": {
+        "types": [OutfitType.PUNK, OutfitType.GOTHIC, OutfitType.GRUNGE],
+        "location": [LocationType.INDOOR, LocationType.BASEMENT],
+    },
+    "basement grow room with purple grow lights": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.GRUNGE, OutfitType.PUNK],
+        "location": [LocationType.INDOOR, LocationType.BASEMENT],
+    },
+    "basement horror movie set with plastic sheeting": {
+        "types": [OutfitType.GOTHIC, OutfitType.GRUNGE, OutfitType.PUNK],
+        "location": [LocationType.INDOOR, LocationType.BASEMENT],
+    },
+    "basement drum circle corner with rug and candles": {
+        "types": [OutfitType.GOTHIC, OutfitType.PUNK, OutfitType.GRUNGE],
+        "location": [LocationType.INDOOR, LocationType.BASEMENT],
+    },
+    "basement electronics graveyard with gutted monitors": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.GRUNGE, OutfitType.PUNK],
+        "location": [LocationType.INDOOR, LocationType.BASEMENT],
+    },
+    "basement pool table under bare bulb light": {
+        "types": [OutfitType.GRUNGE, OutfitType.PUNK, OutfitType.GOTHIC],
+        "location": [LocationType.INDOOR, LocationType.BASEMENT],
+    },
+    "basement crypt-like hallway with stone floor": {
+        "types": [OutfitType.GOTHIC, OutfitType.GRUNGE, OutfitType.CYBERPUNK],
+        "location": [LocationType.INDOOR, LocationType.BASEMENT],
+    },
+    "basement synth studio with analog modular racks": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.PUNK, OutfitType.GRUNGE],
+        "location": [LocationType.INDOOR, LocationType.BASEMENT],
+    },
+    "basement flooded corner with standing water": {
+        "types": [OutfitType.GRUNGE, OutfitType.GOTHIC, OutfitType.PUNK],
+        "location": [LocationType.INDOOR, LocationType.BASEMENT],
+    },
+    "basement zine printing press with ink rollers": {
+        "types": [OutfitType.PUNK, OutfitType.GRUNGE, OutfitType.CYBERPUNK],
+        "location": [LocationType.INDOOR, LocationType.BASEMENT],
+    },
+    "basement velvet lounge with red low lighting": {
+        "types": [OutfitType.GOTHIC, OutfitType.PUNK, OutfitType.CYBERPUNK],
+        "location": [LocationType.INDOOR, LocationType.BASEMENT],
+    },
+    "basement circuit board workbench under magnifier lamp": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.GRUNGE, OutfitType.GOTHIC],
+        "location": [LocationType.INDOOR, LocationType.BASEMENT],
+    },
+    "basement rehearsal space with duct-taped cables": {
+        "types": [OutfitType.PUNK, OutfitType.GRUNGE, OutfitType.CYBERPUNK],
+        "location": [LocationType.INDOOR, LocationType.BASEMENT],
+    },
+    "basement crawl space entrance with hanging cobwebs": {
+        "types": [OutfitType.GOTHIC, OutfitType.GRUNGE, OutfitType.PUNK],
+        "location": [LocationType.INDOOR, LocationType.BASEMENT],
+    },
+    "basement vr rig room with motion capture sensors": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.GRUNGE, OutfitType.PUNK],
+        "location": [LocationType.INDOOR, LocationType.BASEMENT],
+    },
+    "basement taxidermy workshop with specimen jars": {
+        "types": [OutfitType.GOTHIC, OutfitType.GRUNGE, OutfitType.PUNK],
+        "location": [LocationType.INDOOR, LocationType.BASEMENT],
+    },
+    "basement punk zine distro with Xerox machine": {
+        "types": [OutfitType.PUNK, OutfitType.CYBERPUNK, OutfitType.GRUNGE],
+        "location": [LocationType.INDOOR, LocationType.BASEMENT],
+    },
+    "basement cold storage room with frosted breath": {
+        "types": [OutfitType.GRUNGE, OutfitType.GOTHIC, OutfitType.CYBERPUNK],
+        "location": [LocationType.INDOOR, LocationType.BASEMENT],
+    },
+    "basement candlelit séance circle on concrete floor": {
+        "types": [OutfitType.GOTHIC, OutfitType.PUNK, OutfitType.GRUNGE],
+        "location": [LocationType.INDOOR, LocationType.BASEMENT],
+    },
+    "basement retro computer museum with beige towers": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.GRUNGE, OutfitType.GOTHIC],
+        "location": [LocationType.INDOOR, LocationType.BASEMENT],
+    },
+    "basement punk merch table with screen-print frames": {
+        "types": [OutfitType.PUNK, OutfitType.GRUNGE, OutfitType.GOTHIC],
+        "location": [LocationType.INDOOR, LocationType.BASEMENT],
+    },
+    "basement utility sink area with mop and buckets": {
+        "types": [OutfitType.GRUNGE, OutfitType.PUNK, OutfitType.CYBERPUNK],
+        "location": [LocationType.INDOOR, LocationType.BASEMENT],
+    },
+    "basement gothic mirror hall with cracked glass": {
+        "types": [OutfitType.GOTHIC, OutfitType.CYBERPUNK, OutfitType.GRUNGE],
+        "location": [LocationType.INDOOR, LocationType.BASEMENT],
+    },
+    "basement dj booth with vinyl crates stacked high": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.PUNK, OutfitType.GRUNGE],
+        "location": [LocationType.INDOOR, LocationType.BASEMENT],
+    },
+    "basement storm shelter with metal door and bench": {
+        "types": [OutfitType.GRUNGE, OutfitType.GOTHIC, OutfitType.CYBERPUNK],
+        "location": [LocationType.INDOOR, LocationType.BASEMENT],
+    },
+    "basement punk practice space with broken cymbal": {
+        "types": [OutfitType.PUNK, OutfitType.GRUNGE, OutfitType.GOTHIC],
+        "location": [LocationType.INDOOR, LocationType.BASEMENT],
+    },
+    "basement fiber optic cable hub with blinking nodes": {
+        "types": [OutfitType.CYBERPUNK, OutfitType.GRUNGE, OutfitType.GOTHIC],
+        "location": [LocationType.INDOOR, LocationType.BASEMENT],
+    },
+    "basement root cellar with earthen walls and crates": {
+        "types": [OutfitType.GOTHIC, OutfitType.GRUNGE, OutfitType.PUNK],
+        "location": [LocationType.INDOOR, LocationType.BASEMENT],
+    },
+
+    # Attic Scenes
+    "sunlit attic with sloped ceiling and dormer window": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.VINTAGE, OutfitType.ETHEREAL],
+        "location": [LocationType.INDOOR, LocationType.ATTIC],
+    },
+    "dusty attic trunk room with lace doilies": {
+        "types": [OutfitType.VINTAGE, OutfitType.COTTAGECORE, OutfitType.GOTHIC],
+        "location": [LocationType.INDOOR, LocationType.ATTIC],
+    },
+    "gothic attic nursery with antique rocking horse": {
+        "types": [OutfitType.GOTHIC, OutfitType.VINTAGE, OutfitType.ETHEREAL],
+        "location": [LocationType.INDOOR, LocationType.ATTIC],
+    },
+    "ethereal attic loft with gauze curtains drifting": {
+        "types": [OutfitType.ETHEREAL, OutfitType.COTTAGECORE, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.ATTIC],
+    },
+    "cottagecore attic sewing nook with fabric bolts": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.VINTAGE, OutfitType.ETHEREAL],
+        "location": [LocationType.INDOOR, LocationType.ATTIC],
+    },
+    "attic rafters draped with dried lavender bundles": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.ETHEREAL, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.ATTIC],
+    },
+    "vintage attic dress form beside oval mirror": {
+        "types": [OutfitType.VINTAGE, OutfitType.GOTHIC, OutfitType.COTTAGECORE],
+        "location": [LocationType.INDOOR, LocationType.ATTIC],
+    },
+    "attic gothic window with rain streaked glass": {
+        "types": [OutfitType.GOTHIC, OutfitType.ETHEREAL, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.ATTIC],
+    },
+    "attic artist garret with easel and skylight": {
+        "types": [OutfitType.ETHEREAL, OutfitType.VINTAGE, OutfitType.COTTAGECORE],
+        "location": [LocationType.INDOOR, LocationType.ATTIC],
+    },
+    "attic cedar chest overflowing with old letters": {
+        "types": [OutfitType.VINTAGE, OutfitType.COTTAGECORE, OutfitType.GOTHIC],
+        "location": [LocationType.INDOOR, LocationType.ATTIC],
+    },
+    "attic fairy light canopy over low beam ceiling": {
+        "types": [OutfitType.ETHEREAL, OutfitType.COTTAGECORE, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.ATTIC],
+    },
+    "attic taxidermy moth collection in glass cases": {
+        "types": [OutfitType.GOTHIC, OutfitType.VINTAGE, OutfitType.ETHEREAL],
+        "location": [LocationType.INDOOR, LocationType.ATTIC],
+    },
+    "attic herb drying rack with twine and jars": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.VINTAGE, OutfitType.ETHEREAL],
+        "location": [LocationType.INDOOR, LocationType.ATTIC],
+    },
+    "attic gramophone corner with stacked 78 records": {
+        "types": [OutfitType.VINTAGE, OutfitType.GOTHIC, OutfitType.COTTAGECORE],
+        "location": [LocationType.INDOOR, LocationType.ATTIC],
+    },
+    "attic moonlit alcove with feather pillow nest": {
+        "types": [OutfitType.ETHEREAL, OutfitType.GOTHIC, OutfitType.COTTAGECORE],
+        "location": [LocationType.INDOOR, LocationType.ATTIC],
+    },
+    "attic quilt frame with half-finished patchwork": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.VINTAGE, OutfitType.ETHEREAL],
+        "location": [LocationType.INDOOR, LocationType.ATTIC],
+    },
+    "attic gothic portrait gallery leaning on rafters": {
+        "types": [OutfitType.GOTHIC, OutfitType.VINTAGE, OutfitType.ETHEREAL],
+        "location": [LocationType.INDOOR, LocationType.ATTIC],
+    },
+    "attic telescope pointed through round skylight": {
+        "types": [OutfitType.ETHEREAL, OutfitType.VINTAGE, OutfitType.GOTHIC],
+        "location": [LocationType.INDOOR, LocationType.ATTIC],
+    },
+    "attic wicker basket storage with quilted blankets": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.VINTAGE, OutfitType.GOTHIC],
+        "location": [LocationType.INDOOR, LocationType.ATTIC],
+    },
+    "attic typewriter desk with yellowed manuscript pages": {
+        "types": [OutfitType.VINTAGE, OutfitType.GOTHIC, OutfitType.ETHEREAL],
+        "location": [LocationType.INDOOR, LocationType.ATTIC],
+    },
+    "attic candlelit reading nook under angled roof": {
+        "types": [OutfitType.GOTHIC, OutfitType.COTTAGECORE, OutfitType.ETHEREAL],
+        "location": [LocationType.INDOOR, LocationType.ATTIC],
+    },
+    "attic dried flower wreath workshop with scissors": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.ETHEREAL, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.ATTIC],
+    },
+    "attic vintage hat box collection on wooden floor": {
+        "types": [OutfitType.VINTAGE, OutfitType.COTTAGECORE, OutfitType.GOTHIC],
+        "location": [LocationType.INDOOR, LocationType.ATTIC],
+    },
+    "attic cobweb corner with porcelain doll shelf": {
+        "types": [OutfitType.GOTHIC, OutfitType.VINTAGE, OutfitType.ETHEREAL],
+        "location": [LocationType.INDOOR, LocationType.ATTIC],
+    },
+    "attic sunbeam shaft through dusty air particles": {
+        "types": [OutfitType.ETHEREAL, OutfitType.VINTAGE, OutfitType.COTTAGECORE],
+        "location": [LocationType.INDOOR, LocationType.ATTIC],
+    },
+    "attic pottery wheel corner with clay splatters": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.VINTAGE, OutfitType.ETHEREAL],
+        "location": [LocationType.INDOOR, LocationType.ATTIC],
+    },
+    "attic steamer trunk labeled with travel stickers": {
+        "types": [OutfitType.VINTAGE, OutfitType.ETHEREAL, OutfitType.GOTHIC],
+        "location": [LocationType.INDOOR, LocationType.ATTIC],
+    },
+    "attic gothic chandelier without power hanging askew": {
+        "types": [OutfitType.GOTHIC, OutfitType.VINTAGE, OutfitType.COTTAGECORE],
+        "location": [LocationType.INDOOR, LocationType.ATTIC],
+    },
+    "attic dreamcatcher wall with feather mobiles": {
+        "types": [OutfitType.ETHEREAL, OutfitType.COTTAGECORE, OutfitType.GOTHIC],
+        "location": [LocationType.INDOOR, LocationType.ATTIC],
+    },
+    "attic spinning wheel beside basket of raw wool": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.VINTAGE, OutfitType.ETHEREAL],
+        "location": [LocationType.INDOOR, LocationType.ATTIC],
+    },
+    "attic antique vanity with tarnished silver brush set": {
+        "types": [OutfitType.VINTAGE, OutfitType.GOTHIC, OutfitType.ETHEREAL],
+        "location": [LocationType.INDOOR, LocationType.ATTIC],
+    },
+    "attic tarot reading table with velvet cloth": {
+        "types": [OutfitType.GOTHIC, OutfitType.ETHEREAL, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.ATTIC],
+    },
+    "attic pressed flower journal desk by window": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.VINTAGE, OutfitType.ETHEREAL],
+        "location": [LocationType.INDOOR, LocationType.ATTIC],
+    },
+    "attic brass bed frame with lace canopy": {
+        "types": [OutfitType.VINTAGE, OutfitType.ETHEREAL, OutfitType.GOTHIC],
+        "location": [LocationType.INDOOR, LocationType.ATTIC],
+    },
+    "attic gothic stained glass fragment on sill": {
+        "types": [OutfitType.GOTHIC, OutfitType.ETHEREAL, OutfitType.COTTAGECORE],
+        "location": [LocationType.INDOOR, LocationType.ATTIC],
+    },
+    "attic mason jar candle-making station with wax": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.GOTHIC, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.ATTIC],
+    },
+    "attic vintage camera collection on shelf run": {
+        "types": [OutfitType.VINTAGE, OutfitType.ETHEREAL, OutfitType.COTTAGECORE],
+        "location": [LocationType.INDOOR, LocationType.ATTIC],
+    },
+    "attic wind chime corner with open gable vent": {
+        "types": [OutfitType.ETHEREAL, OutfitType.COTTAGECORE, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.ATTIC],
+    },
+    "attic gothic writing desk with inkwell and quill": {
+        "types": [OutfitType.GOTHIC, OutfitType.VINTAGE, OutfitType.ETHEREAL],
+        "location": [LocationType.INDOOR, LocationType.ATTIC],
+    },
+    "attic embroidery hoop wall with floral patterns": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.VINTAGE, OutfitType.GOTHIC],
+        "location": [LocationType.INDOOR, LocationType.ATTIC],
+    },
+    "attic music box shelf with ballerina figurines": {
+        "types": [OutfitType.VINTAGE, OutfitType.GOTHIC, OutfitType.ETHEREAL],
+        "location": [LocationType.INDOOR, LocationType.ATTIC],
+    },
+    "attic gossamer fabric draped over exposed beams": {
+        "types": [OutfitType.ETHEREAL, OutfitType.GOTHIC, OutfitType.COTTAGECORE],
+        "location": [LocationType.INDOOR, LocationType.ATTIC],
+    },
+    "attic apothecary shelf with labeled glass bottles": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.GOTHIC, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.ATTIC],
+    },
+    "attic vintage suitcase tower tied with ribbon": {
+        "types": [OutfitType.VINTAGE, OutfitType.COTTAGECORE, OutfitType.ETHEREAL],
+        "location": [LocationType.INDOOR, LocationType.ATTIC],
+    },
+    "attic gothic lace curtain filtering afternoon light": {
+        "types": [OutfitType.GOTHIC, OutfitType.ETHEREAL, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.ATTIC],
+    },
+    "attic watercolor paint set beside open sketchbook": {
+        "types": [OutfitType.ETHEREAL, OutfitType.COTTAGECORE, OutfitType.VINTAGE],
+        "location": [LocationType.INDOOR, LocationType.ATTIC],
+    },
+    "attic rocking chair with hand-knit throw blanket": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.VINTAGE, OutfitType.GOTHIC],
+        "location": [LocationType.INDOOR, LocationType.ATTIC],
+    },
+    "attic gothic birdcage empty beside potted fern": {
+        "types": [OutfitType.GOTHIC, OutfitType.COTTAGECORE, OutfitType.ETHEREAL],
+        "location": [LocationType.INDOOR, LocationType.ATTIC],
+    },
+    "attic star chart pinned above narrow writing desk": {
+        "types": [OutfitType.ETHEREAL, OutfitType.VINTAGE, OutfitType.GOTHIC],
+        "location": [LocationType.INDOOR, LocationType.ATTIC],
+    },
+    "attic heirloom quilt draped over wooden ladder": {
+        "types": [OutfitType.VINTAGE, OutfitType.COTTAGECORE, OutfitType.ETHEREAL],
+        "location": [LocationType.INDOOR, LocationType.ATTIC],
+    },
+
+    # Balcony Scenes
+    "flower-filled balcony overlooking quiet garden": {
+        "types": [OutfitType.ROMANTIC, OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST],
+        "location": [LocationType.OUTDOOR, LocationType.BALCONY],
+    },
+    "minimalist glass balcony with sleek metal railing": {
+        "types": [OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.OUTDOOR, LocationType.BALCONY],
+    },
+    "urban high-rise balcony with skyline at dusk": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.BALCONY, LocationType.CITY],
+    },
+    "romantic balcony bistro set with candle lanterns": {
+        "types": [OutfitType.ROMANTIC, OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.BALCONY],
+    },
+    "casual chic balcony with morning coffee tray": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST, OutfitType.ROMANTIC],
+        "location": [LocationType.OUTDOOR, LocationType.BALCONY],
+    },
+    "parisian wrought-iron balcony with geranium boxes": {
+        "types": [OutfitType.ROMANTIC, OutfitType.CASUAL_CHIC, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.OUTDOOR, LocationType.BALCONY, LocationType.CITY],
+    },
+    "penthouse balcony infinity edge above city lights": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.MINIMALIST, OutfitType.ROMANTIC],
+        "location": [LocationType.OUTDOOR, LocationType.BALCONY, LocationType.CITY],
+    },
+    "balcony hammock strung between potted olive trees": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.ROMANTIC, OutfitType.MINIMALIST],
+        "location": [LocationType.OUTDOOR, LocationType.BALCONY],
+    },
+    "snow-dusted balcony with steaming mug on rail": {
+        "types": [OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC, OutfitType.ROMANTIC],
+        "location": [LocationType.OUTDOOR, LocationType.BALCONY],
+    },
+    "balcony herb garden with terracotta pots lined up": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.ROMANTIC, OutfitType.MINIMALIST],
+        "location": [LocationType.OUTDOOR, LocationType.BALCONY],
+    },
+    "rooftop-adjacent balcony with string light canopy": {
+        "types": [OutfitType.ROMANTIC, OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.BALCONY, LocationType.CITY],
+    },
+    "minimalist concrete balcony with single lounge chair": {
+        "types": [OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.OUTDOOR, LocationType.BALCONY],
+    },
+    "balcony champagne toast setup at golden hour": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.ROMANTIC, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.BALCONY],
+    },
+    "coastal balcony with ocean breeze and linen curtains": {
+        "types": [OutfitType.ROMANTIC, OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST],
+        "location": [LocationType.OUTDOOR, LocationType.BALCONY],
+    },
+    "urban apartment balcony crowded with potted succulents": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST, OutfitType.ROMANTIC],
+        "location": [LocationType.OUTDOOR, LocationType.BALCONY, LocationType.CITY],
+    },
+    "balcony yoga mat corner facing sunrise horizon": {
+        "types": [OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC, OutfitType.ROMANTIC],
+        "location": [LocationType.OUTDOOR, LocationType.BALCONY],
+    },
+    "gothic iron balcony overlooking cobblestone street": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.ROMANTIC, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.BALCONY, LocationType.CITY],
+    },
+    "balcony picnic blanket with cheese board spread": {
+        "types": [OutfitType.ROMANTIC, OutfitType.CASUAL_CHIC, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.OUTDOOR, LocationType.BALCONY],
+    },
+    "modern city balcony with floor-to-ceiling glass door": {
+        "types": [OutfitType.MINIMALIST, OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.BALCONY, LocationType.CITY],
+    },
+    "balcony telescope aimed at night sky above skyline": {
+        "types": [OutfitType.ROMANTIC, OutfitType.MINIMALIST, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.OUTDOOR, LocationType.BALCONY, LocationType.CITY],
+    },
+    "rainy balcony with droplets on glass balustrade": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.ROMANTIC, OutfitType.MINIMALIST],
+        "location": [LocationType.OUTDOOR, LocationType.BALCONY],
+    },
+    "balcony formal railing with velvet throw on bench": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.ROMANTIC, OutfitType.MINIMALIST],
+        "location": [LocationType.OUTDOOR, LocationType.BALCONY],
+    },
+    "narrow european balcony with laundry lines fluttering": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.ROMANTIC, OutfitType.MINIMALIST],
+        "location": [LocationType.OUTDOOR, LocationType.BALCONY, LocationType.CITY],
+    },
+    "balcony fire pit table with city glow beyond": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC, OutfitType.ROMANTIC],
+        "location": [LocationType.OUTDOOR, LocationType.BALCONY, LocationType.CITY],
+    },
+    "balcony reading chair with stacked novels and throw": {
+        "types": [OutfitType.MINIMALIST, OutfitType.ROMANTIC, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.BALCONY],
+    },
+    "luxury hotel balcony with marble rail and sea view": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.ROMANTIC, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.BALCONY],
+    },
+    "balcony sunset silhouette against warm orange sky": {
+        "types": [OutfitType.ROMANTIC, OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.BALCONY],
+    },
+    "urban loft balcony with exposed brick wall edge": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.OUTDOOR, LocationType.BALCONY, LocationType.CITY],
+    },
+    "balcony wind chimes and bamboo screen privacy": {
+        "types": [OutfitType.MINIMALIST, OutfitType.ROMANTIC, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.BALCONY],
+    },
+    "balcony formal dinner table for two under stars": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.ROMANTIC, OutfitType.MINIMALIST],
+        "location": [LocationType.OUTDOOR, LocationType.BALCONY],
+    },
+    "tree-lined balcony overlooking park canopy below": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.ROMANTIC, OutfitType.MINIMALIST],
+        "location": [LocationType.OUTDOOR, LocationType.BALCONY],
+    },
+    "midtown balcony with neon signs reflected on glass": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST],
+        "location": [LocationType.OUTDOOR, LocationType.BALCONY, LocationType.CITY],
+    },
+    "balcony citrus tree in pot beside wicker loveseat": {
+        "types": [OutfitType.ROMANTIC, OutfitType.CASUAL_CHIC, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.OUTDOOR, LocationType.BALCONY],
+    },
+    "minimalist japanese balcony with stone lantern": {
+        "types": [OutfitType.MINIMALIST, OutfitType.ROMANTIC, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.BALCONY],
+    },
+    "balcony jazz evening with small speaker and wine": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.ROMANTIC, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.BALCONY, LocationType.CITY],
+    },
+    "wraparound balcony with panoramic mountain view": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST, OutfitType.ROMANTIC],
+        "location": [LocationType.OUTDOOR, LocationType.BALCONY],
+    },
+    "balcony fairy lights draped over railing at night": {
+        "types": [OutfitType.ROMANTIC, OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.BALCONY],
+    },
+    "downtown balcony overlooking busy intersection below": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.EVENING_FORMAL, OutfitType.MINIMALIST],
+        "location": [LocationType.OUTDOOR, LocationType.BALCONY, LocationType.CITY],
+    },
+    "balcony easel setup painting the view beyond rail": {
+        "types": [OutfitType.ROMANTIC, OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST],
+        "location": [LocationType.OUTDOOR, LocationType.BALCONY],
+    },
+    "balcony brunch spread with fresh pastries and juice": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.ROMANTIC, OutfitType.MINIMALIST],
+        "location": [LocationType.OUTDOOR, LocationType.BALCONY],
+    },
+    "skyscraper balcony helipad view at blue hour": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.BALCONY, LocationType.CITY],
+    },
+    "balcony climbing ivy wall with wooden bench": {
+        "types": [OutfitType.ROMANTIC, OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST],
+        "location": [LocationType.OUTDOOR, LocationType.BALCONY],
+    },
+    "balcony cocktail hour with crystal tumblers lined up": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.ROMANTIC, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.BALCONY],
+    },
+    "suburban balcony with backyard fence view below": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST, OutfitType.ROMANTIC],
+        "location": [LocationType.OUTDOOR, LocationType.BALCONY],
+    },
+    "balcony wind-swept sheer curtains at twilight": {
+        "types": [OutfitType.ROMANTIC, OutfitType.EVENING_FORMAL, OutfitType.MINIMALIST],
+        "location": [LocationType.OUTDOOR, LocationType.BALCONY],
+    },
+    "urban balcony herb drying rack with city haze beyond": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST, OutfitType.ROMANTIC],
+        "location": [LocationType.OUTDOOR, LocationType.BALCONY, LocationType.CITY],
+    },
+    "balcony telescope and star map on small side table": {
+        "types": [OutfitType.MINIMALIST, OutfitType.ROMANTIC, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.OUTDOOR, LocationType.BALCONY],
+    },
+    "corner balcony with L-shaped seating and lanterns": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC, OutfitType.ROMANTIC],
+        "location": [LocationType.OUTDOOR, LocationType.BALCONY, LocationType.CITY],
+    },
+    "balcony sunrise meditation with incense smoke drifting": {
+        "types": [OutfitType.MINIMALIST, OutfitType.ROMANTIC, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.BALCONY],
+    },
+    "historic townhouse balcony above lantern-lit street": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.ROMANTIC, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.OUTDOOR, LocationType.BALCONY, LocationType.CITY],
+    },
 }

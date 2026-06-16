@@ -1,7 +1,8 @@
 import random
-from .enums import OutfitType, OUTFIT_TYPE_NAMES
+from .enums import OutfitType, OUTFIT_TYPE_NAMES, FOOTWEAR_MODE_NAMES
 from .female.shoes import FEMALE_SHOES
 from .male.shoes import MALE_SHOES
+from .ColorGenerator import ColorGenerator
 from .utils import clean_generated_text
 
 
@@ -17,7 +18,7 @@ class ShoeGenerator:
                 "sex": (["female", "male"], {"default": "female"}),
             },
             "optional": {
-                "force_barefoot": ("BOOLEAN", {"default": False}),
+                "footwear_mode": (FOOTWEAR_MODE_NAMES, {"default": "shoes"}),
                 "seed": ("INT", {"default": -1, "min": -1, "max": 2147483647}),
             },
         }
@@ -30,7 +31,7 @@ class ShoeGenerator:
     CATEGORY = "prompt_generator"
     OUTPUT_NODE = True
        
-    def generate_shoe_node(self, outfit_type, sex, seed=-1, force_barefoot=False):
+    def generate_shoe_node(self, outfit_type, sex, seed=-1, footwear_mode="shoes"):
         """Node function to generate shoe with optional seed for randomness"""
         if seed != -1:
             random.seed(seed)
@@ -49,15 +50,37 @@ class ShoeGenerator:
             if outfit_type_enum is None:
                 outfit_type_enum = OutfitType.CASUAL_CHIC  # Default fallback
                 
-        shoe_description = self.generate_shoe(outfit_type_enum, sex, force_barefoot)
+        shoe_description = self.generate_shoe(outfit_type_enum, sex, footwear_mode)
         return {
             "ui": {"text": (shoe_description,)},
             "result": (shoe_description,)
         }
     
     @staticmethod
-    def generate_shoe(outfit_type_enum, sex="female", force_barefoot=False):
-        """Generate a single outfit description for the given outfit type and sex"""
+    def generate_shoe(outfit_type_enum, sex="female", footwear_mode="shoes"):
+        """Generate a single footwear description for the given outfit type and sex"""
+        if footwear_mode == "omit":
+            return ""
+
+        if footwear_mode == "barefoot - natural toenails":
+            return clean_generated_text("barefoot")
+
+        if footwear_mode == "barefoot - painted toenails":
+            if sex == "female":
+                nail_color = random.choice(FEMALE_SHOES["barefoot"]["colors"])
+                return clean_generated_text(f"barefoot with toenails painted with {nail_color}")
+            return clean_generated_text("barefoot")
+
+        if footwear_mode == "socks - white":
+            return clean_generated_text("white socks")
+
+        if footwear_mode == "socks - black":
+            return clean_generated_text("black socks")
+
+        if footwear_mode == "socks - any color":
+            sock_color = ColorGenerator.generate_color()
+            return clean_generated_text(f"{sock_color} socks")
+
         # Use either male or female clothing items based on sex parameter
         if sex == "female":
             SHOES = FEMALE_SHOES
@@ -65,37 +88,17 @@ class ShoeGenerator:
             SHOES = MALE_SHOES
 
         # Filter clothing items that match the selected outfit type
-        compatible_shoes = [name for name, data in SHOES.items() if outfit_type_enum in data["types"]]
+        compatible_shoes = [
+            name for name, data in SHOES.items()
+            if outfit_type_enum in data["types"] and name != "barefoot"
+        ]
         
         # Fallback to all items if no matches found (shouldn't happen with proper data)
         if not compatible_shoes:
-            compatible_shoes = list(SHOES.keys())
+            compatible_shoes = [name for name in SHOES.keys() if name != "barefoot"]
               
-        # Force barefoot if requested, otherwise use existing logic
-        if force_barefoot:
-            selected_shoes = "barefoot"
-        elif outfit_type_enum == OutfitType.BEACH_WEAR and random.random() < 0.4:
-            selected_shoes = "barefoot"
-        elif outfit_type_enum == OutfitType.LINGERIE and random.random() < 0.4:
-            selected_shoes = "barefoot"
-        else:
-            selected_shoes = random.choice(compatible_shoes)
-        
+        selected_shoes = random.choice(compatible_shoes)
         shoe_color = random.choice(SHOES[selected_shoes]["colors"])
-        
-        # Create outfit description
-        if selected_shoes == "barefoot":
-            # Only add toenail polish for female characters
-            if sex == "female":
-                shoe_part = f"{selected_shoes} with toenails painted with {shoe_color}"
-            else:
-                shoe_part = f"{selected_shoes}"
-        else:
-            shoe_part = f"{shoe_color} {selected_shoes}"
-        
-        shoe_description = f"{shoe_part}"
-        
-        # Clean up the generated text
-        shoe_description = clean_generated_text(shoe_description)
+        shoe_description = clean_generated_text(f"{shoe_color} {selected_shoes}")
         
         return shoe_description
