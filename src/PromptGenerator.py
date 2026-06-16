@@ -268,8 +268,8 @@ class PromptGenerator:
             result = result.replace("<<femaleBottom>>", female_shoe, 1)
             
         while "<<maleBottom>>" in result:
-            male_shoe = TopGenerator.generate_bottom(outfit_type_enum, "male")
-            result = result.replace("<<maleBottom>>", male_shoe, 1)
+            male_bottom = BottomsGenerator.generate_bottom(outfit_type_enum, "male")
+            result = result.replace("<<maleBottom>>", male_bottom, 1)
             
         while "<<femaleShoe>>" in result:
             female_shoe = ShoeGenerator.generate_shoe(outfit_type_enum, "female", force_barefoot)
