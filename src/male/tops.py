@@ -321,7 +321,7 @@ MALE_TOPS = {
         "colors": METALLICS + ["shiny", "futuristic", "party wear"]
     },
     "chain mail top": {
-        "types": [OutfitType.CYBERPUNK, OutfitType.PUNK, OutfitType.AVANT_GARDE],
+        "types": [OutfitType.CYBERPUNK, OutfitType.PUNK, OutfitType.AVANT_GARDE, OutfitType.MEDIEVAL],
         "colors": METALLICS + ["metal links", "industrial", "armor-inspired"]
     },
     
@@ -349,6 +349,50 @@ MALE_TOPS = {
     "mecha pilot suit": {
         "types": [OutfitType.ANIME, OutfitType.CYBERPUNK, OutfitType.MILITARY],
         "colors": WHITES + BLACKS + BLUES + REDS + METALLICS + ["panel armor", "techwear", "fitted"],
+        "fullBody": True
+    },
+
+    # Medieval
+    "linen peasant tunic": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.COTTAGECORE, OutfitType.NORMCORE, OutfitType.FANTASY],
+        "colors": BROWNS + EARTH_TONES + WHITES + ["rough weave", "simple cut", "drawstring neckline"]
+    },
+    "noble doublet": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.EVENING_FORMAL, OutfitType.ROMANTIC, OutfitType.FANTASY],
+        "colors": JEWEL_TONES + PURPLES + BLUES + ["embroidered", "fitted", "slashed sleeves"]
+    },
+    "heraldic tabard": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.FANTASY],
+        "colors": REDS + BLUES + WHITES + ["coat of arms", "emblazoned", "sleeveless overgarment"]
+    },
+    "chainmail hauberk": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.FANTASY],
+        "colors": METALLICS + GRAYS + ["linked rings", "mail armor", "knee-length"]
+    },
+    "leather jerkin": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.COWBOY],
+        "colors": BROWNS + BLACKS + ["hardened leather", "sleeveless", "laced front"]
+    },
+    "monk's habit": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.GOTHIC, OutfitType.FANTASY],
+        "colors": BROWNS + GRAYS + BLACKS + ["hooded robe", "rope belt", "simple wool"],
+        "fullBody": True
+    },
+    "ranger hooded cloak": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.FANTASY, OutfitType.BOHEMIAN],
+        "colors": GREENS + BROWNS + GRAYS + ["forest green", "travel-worn", "deep hood"]
+    },
+    "knight surcoat": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.ROMANTIC],
+        "colors": WHITES + REDS + BLUES + ["heraldic cross", "over armor", "flowing hem"]
+    },
+    "bard velvet doublet": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.ROMANTIC, OutfitType.FESTIVAL],
+        "colors": PURPLES + JEWEL_TONES + ["rich velvet", "gold trim", "laced cuffs"]
+    },
+    "wizard robe": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.FANTASY, OutfitType.GOTHIC],
+        "colors": PURPLES + BLUES + BLACKS + ["star motifs", "wide sleeves", "mystical"],
         "fullBody": True
     }
 }

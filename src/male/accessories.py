@@ -224,6 +224,48 @@ MALE_ACCESSORIES = {
     "bandana": {
         "types": [OutfitType.STREETWEAR, OutfitType.COWBOY, OutfitType.PUNK, OutfitType.GRUNGE],
         "colors": REDS + BLUES + BLACKS + ["cotton", "paisley", "head wrap", "neck wear"]
+    },
+
+    # Medieval
+    "leather belt pouch": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.FANTASY, OutfitType.COTTAGECORE],
+        "colors": BROWNS + BLACKS + ["coin purse", "drawstring", "travel gear"]
+    },
+    "sword belt": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.FANTASY],
+        "colors": BROWNS + BLACKS + METALLICS + ["baldric", "scabbard loop", "cross-strap"]
+    },
+    "chainmail gauntlets": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.FANTASY],
+        "colors": METALLICS + GRAYS + ["mail gloves", "linked rings", "finger plates"]
+    },
+    "heraldic cloak pin": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.ROMANTIC, OutfitType.FANTASY],
+        "colors": METALLICS + JEWEL_TONES + ["enamel crest", "brooch clasp", "noble insignia"]
+    },
+    "iron circlet": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.FANTASY, OutfitType.GOTHIC],
+        "colors": METALLICS + GRAYS + ["simple band", "forehead crown", "forged iron"]
+    },
+    "leather bracers": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.FANTASY],
+        "colors": BROWNS + BLACKS + ["forearm guards", "laced leather", "archer style"]
+    },
+    "quiver": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.FANTASY],
+        "colors": BROWNS + BLACKS + ["leather back strap", "arrow fletching", "hunter gear"]
+    },
+    "wooden tankard": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.COTTAGECORE, OutfitType.FESTIVAL],
+        "colors": BROWNS + ["carved oak", "iron bands", "tavern prop"]
+    },
+    "signet ring": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.EVENING_FORMAL, OutfitType.ROMANTIC],
+        "colors": METALLICS + JEWEL_TONES + ["family crest", "wax seal", "noble heirloom"]
+    },
+    "fur-trimmed cape": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.ROMANTIC, OutfitType.GOTHIC],
+        "colors": BROWNS + GRAYS + BLACKS + ["wolf fur trim", "wool cloak", "shoulder clasp"]
     }
 }
 

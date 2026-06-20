@@ -3,6 +3,8 @@ import { ComfyWidgets } from "../../../scripts/widgets.js";
 
 const NODE_NAMES = [
 	"outfit-generator",
+	"female-outfit-generator",
+	"male-outfit-generator",
 	"prompt-generator",
 	"scene-generator",
 	"female-generator",

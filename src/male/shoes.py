@@ -302,5 +302,47 @@ MALE_SHOES = {
     "barefoot": {
         "types": [OutfitType.BEACH_WEAR, OutfitType.CASUAL_CHIC, OutfitType.BOHEMIAN, OutfitType.ETHEREAL, OutfitType.FESTIVAL],
         "colors": ["natural", "tanned", "sun-kissed", "relaxed"]
+    },
+
+    # Medieval
+    "leather turnshoes": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.COTTAGECORE, OutfitType.FANTASY],
+        "colors": BROWNS + BLACKS + ["soft leather", "turned sole", "simple lace"]
+    },
+    "knee-high riding boots": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.ROMANTIC],
+        "colors": BROWNS + BLACKS + ["polished leather", "folded cuff", "riding heel"]
+    },
+    "armored sabatons": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.FANTASY],
+        "colors": METALLICS + GRAYS + ["steel toe cap", "articulated plates", "knight armor"]
+    },
+    "peasant rope sandals": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.COTTAGECORE, OutfitType.BOHEMIAN],
+        "colors": BROWNS + EARTH_TONES + ["braided rope", "simple sole", "rustic"]
+    },
+    "fur-lined winter boots": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.COTTAGECORE, OutfitType.NORMCORE],
+        "colors": BROWNS + GRAYS + BLACKS + ["sheepskin lining", "sturdy leather", "snow-ready"]
+    },
+    "noble velvet slippers": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.EVENING_FORMAL, OutfitType.ROMANTIC],
+        "colors": PURPLES + BLUES + JEWEL_TONES + ["soft velvet", "embroidered", "indoor court"]
+    },
+    "hunter leather boots": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.FANTASY, OutfitType.MILITARY],
+        "colors": BROWNS + GREENS + BLACKS + ["scuffed leather", "soft sole", "forest trails"]
+    },
+    "chainmail boot covers": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.FANTASY],
+        "colors": METALLICS + GRAYS + ["mail overshoes", "linked rings", "armor accessory"]
+    },
+    "ranger soft boots": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.FANTASY, OutfitType.BOHEMIAN],
+        "colors": BROWNS + GREENS + GRAYS + ["supple leather", "quiet tread", "travel worn"]
+    },
+    "battle-worn leather boots": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.PUNK],
+        "colors": BROWNS + BLACKS + GRAYS + ["scuffed", "mud-stained", "reinforced sole"]
     }
 }

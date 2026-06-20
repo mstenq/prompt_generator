@@ -13,7 +13,7 @@ FEMALE_SHOES = {
         "colors": BLACKS + REDS + METALLICS + ["patent leather", "stiletto", "platform"]
     },
     "combat boots": {
-        "types": [OutfitType.GRUNGE, OutfitType.PUNK, OutfitType.MILITARY, OutfitType.GOTHIC, OutfitType.ANIME],
+        "types": [OutfitType.GRUNGE, OutfitType.PUNK, OutfitType.MILITARY, OutfitType.GOTHIC, OutfitType.ANIME, OutfitType.MEDIEVAL],
         "colors": BLACKS + BROWNS + ["leather", "steel toe", "lace-up"]
     },
     "sneakers": {
@@ -301,7 +301,7 @@ FEMALE_SHOES = {
         "colors": BROWNS + BLACKS + METALLICS + ["buckled", "industrial"]
     },
     "corset-laced boots": {
-        "types": [OutfitType.GOTHIC, OutfitType.STEAMPUNK, OutfitType.ROMANTIC],
+        "types": [OutfitType.GOTHIC, OutfitType.STEAMPUNK, OutfitType.ROMANTIC, OutfitType.MEDIEVAL],
         "colors": BLACKS + REDS + BROWNS + ["corset-style", "dramatic"]
     },
     "furry winter boots": {
@@ -502,6 +502,10 @@ FEMALE_SHOES = {
         "types": [OutfitType.CLUB_PARTY, OutfitType.RETRO, OutfitType.BEACH_WEAR],
         "colors": WHITES + METALLICS + NEONS + ["elevated", "chunky"]
     },
+    "detailed platform sandals": {
+        "types": [OutfitType.ANIME, OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.CLUB_PARTY, OutfitType.FESTIVAL],
+        "colors": WHITES + METALLICS + NEONS + PASTELS + ["embellished", "strappy", "chunky sole", "detailed"]
+    },
     "wedge sandals": {
         "types": [OutfitType.BOHEMIAN, OutfitType.CASUAL_CHIC, OutfitType.BEACH_WEAR],
         "colors": BROWNS + EARTH_TONES + ["cork", "rope", "woven"]
@@ -652,7 +656,209 @@ FEMALE_SHOES = {
         "types": [OutfitType.AVANT_GARDE, OutfitType.CYBERPUNK, OutfitType.MINIMALIST],
         "colors": WHITES + BLACKS + SPECIAL + ["3D-printed", "geometric"]
     },
-    
+
+    # Medieval
+    "turnshoes": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.COTTAGECORE, OutfitType.VINTAGE],
+        "colors": BROWNS + BLACKS + ["soft leather", "hand-stitched", "turned sole"]
+    },
+    "lace-up medieval boots": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.FANTASY],
+        "colors": BROWNS + BLACKS + ["cross-laced", "calf-length", "rugged leather"]
+    },
+    "suede peasant sandals": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.BOHEMIAN, OutfitType.COTTAGECORE],
+        "colors": BROWNS + EARTH_TONES + ["simple straps", "worn suede", "rustic"]
+    },
+    "armored sabatons": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.FANTASY, OutfitType.MILITARY],
+        "colors": METALLICS + GRAYS + ["plate armor", "articulated toes", "knight"]
+    },
+    "fur-lined medieval winter boots": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.COTTAGECORE, OutfitType.FANTASY],
+        "colors": BROWNS + WHITES + GRAYS + ["fur cuff", "insulated", "snow-ready"]
+    },
+    "noble velvet slippers": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.EVENING_FORMAL, OutfitType.ROMANTIC],
+        "colors": JEWEL_TONES + PURPLES + REDS + ["velvet", "gold embroidery", "courtly"]
+    },
+    "elven soft boots": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.FANTASY, OutfitType.ETHEREAL],
+        "colors": GREENS + BROWNS + WHITES + ["supple leather", "leaf-stitched", "graceful"]
+    },
+    "chainmail boot covers": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.FANTASY, OutfitType.MILITARY],
+        "colors": METALLICS + GRAYS + ["mail weave", "layered armor", "battle-worn"]
+    },
+    "hobnail boots": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.GRUNGE],
+        "colors": BROWNS + BLACKS + ["studded sole", "heavy leather", "marching"]
+    },
+    "medieval leather ankle boots": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.COTTAGECORE, OutfitType.CASUAL_CHIC],
+        "colors": BROWNS + BLACKS + ["ankle height", "stitched seams", "practical"]
+    },
+    "knee-high medieval riding boots": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.COWBOY],
+        "colors": BROWNS + BLACKS + ["riding heel", "tall shaft", "equestrian"]
+    },
+    "knotted medieval rope sandals": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.BOHEMIAN, OutfitType.BEACH_WEAR],
+        "colors": BROWNS + EARTH_TONES + ["hemp rope", "knotted straps", "simple"]
+    },
+    "pointed medieval poulaines": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.GOTHIC, OutfitType.EVENING_FORMAL],
+        "colors": BLACKS + BROWNS + REDS + ["elongated toe", "crakow", "noble"]
+    },
+    "wrought iron greaves boots": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.FANTASY, OutfitType.MILITARY],
+        "colors": METALLICS + BLACKS + ["shin guards", "forged iron", "heavy"]
+    },
+    "soft leather buskins": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.ROMANTIC, OutfitType.COTTAGECORE],
+        "colors": BROWNS + EARTH_TONES + ["calf wrap", "soft fold", "classical"]
+    },
+    "crusader sollerets": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.FANTASY],
+        "colors": METALLICS + BROWNS + ["steel capped", "holy order", "armored foot"]
+    },
+    "bard's soft leather shoes": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.BOHEMIAN, OutfitType.FESTIVAL],
+        "colors": BROWNS + JEWEL_TONES + ["travel-worn", "flexible sole", "performer"]
+    },
+    "blacksmith's leather boots": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.STEAMPUNK, OutfitType.MILITARY],
+        "colors": BROWNS + BLACKS + GRAYS + ["scorch marks", "thick sole", "work-worn"]
+    },
+    "wench's lace-up boots": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.FESTIVAL, OutfitType.COTTAGECORE],
+        "colors": BROWNS + BLACKS + ["tavern-ready", "sturdy laces", "practical"]
+    },
+    "queen's embroidered velvet boots": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.EVENING_FORMAL, OutfitType.ROMANTIC],
+        "colors": JEWEL_TONES + PURPLES + METALLICS + ["gold thread", "royal crest", "ornate"]
+    },
+    "pilgrim's walking shoes": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.COTTAGECORE, OutfitType.BOHEMIAN],
+        "colors": BROWNS + GRAYS + ["well-traveled", "simple leather", "dusty"]
+    },
+    "archer's soft leather boots": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.ATHLEISURE],
+        "colors": GREENS + BROWNS + ["quiet tread", "ankle flexible", "forest"]
+    },
+    "healer's herb-dyed sandals": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.BOHEMIAN, OutfitType.ETHEREAL],
+        "colors": GREENS + EARTH_TONES + ["plant-dyed", "open toe", "apothecary"]
+    },
+    "sorceress pointed slippers": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.FANTASY, OutfitType.GOTHIC],
+        "colors": PURPLES + BLACKS + JEWEL_TONES + ["curled toe", "arcane symbols", "mystical"]
+    },
+    "rusted chainmail war boots": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.GOTHIC],
+        "colors": METALLICS + BROWNS + ["battle-rusted", "mail overlay", "veteran"]
+    },
+    "fur-trimmed viking boots": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.FANTASY],
+        "colors": BROWNS + WHITES + GRAYS + ["norse fur", "braided laces", "northern"]
+    },
+    "laced calf-length boots": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.GRUNGE],
+        "colors": BROWNS + BLACKS + ["front lacing", "calf high", "soldier"]
+    },
+    "monk's rope sandals": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.ETHEREAL, OutfitType.MINIMALIST],
+        "colors": BROWNS + GRAYS + WHITES + ["humble rope", "open weave", "ascetic"]
+    },
+    "studded brigandine boot wraps": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.PUNK],
+        "colors": BROWNS + BLACKS + METALLICS + ["riveted plates", "layered", "mercenary"]
+    },
+    "dyed wool felt boots": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.COTTAGECORE, OutfitType.BOHEMIAN],
+        "colors": EARTH_TONES + GRAYS + BROWNS + ["felted wool", "warm", "highland"]
+    },
+    "burnished steel toe sabatons": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.FANTASY, OutfitType.MILITARY],
+        "colors": METALLICS + ["polished steel", "reinforced toe", "jousting"]
+    },
+    "medieval peasant wooden clogs": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.COTTAGECORE, OutfitType.VINTAGE],
+        "colors": BROWNS + EARTH_TONES + ["carved wood", "leather strap", "field work"]
+    },
+    "jester's curled-toe shoes": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.FESTIVAL, OutfitType.AVANT_GARDE],
+        "colors": JEWEL_TONES + REDS + YELLOWS + ["upturned bells", "motley", "playful"]
+    },
+    "herbalist suede ankle wraps": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.BOHEMIAN, OutfitType.ETHEREAL],
+        "colors": GREENS + BROWNS + EARTH_TONES + ["soft suede", "wrapped ankle", "forager"]
+    },
+    "embroidered court slippers": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.EVENING_FORMAL, OutfitType.ROMANTIC],
+        "colors": JEWEL_TONES + METALLICS + ["silk embroidery", "low profile", "noble court"]
+    },
+    "dwarven iron-shod boots": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.FANTASY, OutfitType.STEAMPUNK],
+        "colors": GRAYS + BROWNS + METALLICS + ["iron plates", "heavy tread", "mountain forge"]
+    },
+    "ranger's soft hide boots": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.COTTAGECORE, OutfitType.FANTASY],
+        "colors": GREENS + BROWNS + ["supple hide", "silent step", "woodland"]
+    },
+    "medieval suede hunting boots": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.COTTAGECORE],
+        "colors": BROWNS + GREENS + ["soft suede", "lace-up calf", "tracker"]
+    },
+    "crusader's leather spur boots": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.COWBOY],
+        "colors": BROWNS + BLACKS + METALLICS + ["spurred heel", "cavalry", "holy war"]
+    },
+    "witch's buckled leather boots": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.GOTHIC, OutfitType.FANTASY],
+        "colors": BLACKS + PURPLES + BROWNS + ["iron buckles", "weathered", "occult"]
+    },
+    "scribe's simple leather shoes": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.BUSINESS_WEAR, OutfitType.MINIMALIST],
+        "colors": BROWNS + BLACKS + GRAYS + ["plain leather", "low heel", "monastery"]
+    },
+    "tower guard plate boots": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.FANTASY],
+        "colors": METALLICS + GRAYS + ["full plate", "castle guard", "reinforced shin"]
+    },
+    "vineyard worker sandals": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.COTTAGECORE, OutfitType.BOHEMIAN],
+        "colors": BROWNS + EARTH_TONES + ["leather thongs", "sun-worn", "harvest"]
+    },
+    "falconer leather gaiters": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.COTTAGECORE, OutfitType.MILITARY],
+        "colors": BROWNS + EARTH_TONES + ["knee gaiters", "soft leather", "noble sport"]
+    },
+    "knight errant mail boots": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.FANTASY, OutfitType.MILITARY],
+        "colors": METALLICS + BROWNS + ["mail and leather", "wandering", "quest-worn"]
+    },
+    "serf's worn leather shoes": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.COTTAGECORE, OutfitType.GRUNGE],
+        "colors": BROWNS + GRAYS + ["patched leather", "humble", "field-worn"]
+    },
+    "royal burgundy velvet boots": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.EVENING_FORMAL, OutfitType.ROMANTIC],
+        "colors": REDS + JEWEL_TONES + PURPLES + ["burgundy velvet", "gold trim", "regal"]
+    },
+    "merchant's buckled ankle boots": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.BUSINESS_WEAR, OutfitType.CASUAL_CHIC],
+        "colors": BROWNS + BLACKS + METALLICS + ["brass buckles", "travel merchant", "practical"]
+    },
+    "forest druid bark-wrapped boots": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.FANTASY, OutfitType.ETHEREAL],
+        "colors": GREENS + BROWNS + EARTH_TONES + ["bark weave", "moss-lined", "nature-bound"]
+    },
+    "mermaid-scale iridescent boots": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.FANTASY, OutfitType.ETHEREAL],
+        "colors": BLUES + GREENS + SPECIAL + ["scale texture", "shimmering", "fae-touched"]
+    },
+
     # Barefoot with nail polish options
     "barefoot": {
         "types": [OutfitType.LINGERIE, OutfitType.BEACH_WEAR, OutfitType.ETHEREAL, OutfitType.ROMANTIC, OutfitType.BOHEMIAN, OutfitType.FESTIVAL, OutfitType.CASUAL_CHIC],

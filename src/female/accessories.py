@@ -28,8 +28,12 @@ FEMALE_ACCESSORIES = {
         "types": [OutfitType.BUSINESS_WEAR, OutfitType.PREPPY, OutfitType.EVENING_FORMAL, OutfitType.COTTAGECORE],
         "colors": WHITES + ["classic", "vintage", "layered"]
     },
+    "necklace": {
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.CASUAL_CHIC, OutfitType.ROMANTIC, OutfitType.EVENING_FORMAL, OutfitType.BEACH_WEAR, OutfitType.BIKINI],
+        "colors": METALLICS + JEWEL_TONES + WHITES + ["delicate", "elegant", "simple"]
+    },
     "flower crown": {
-        "types": [OutfitType.BOHEMIAN, OutfitType.FESTIVAL, OutfitType.COTTAGECORE, OutfitType.ETHEREAL],
+        "types": [OutfitType.BOHEMIAN, OutfitType.FESTIVAL, OutfitType.COTTAGECORE, OutfitType.ETHEREAL, OutfitType.MEDIEVAL],
         "colors": PASTELS + ["dried flowers", "fresh flowers", "braided"]
     },
     "snapback": {
@@ -103,7 +107,7 @@ FEMALE_ACCESSORIES = {
         "colors": METALLICS + JEWEL_TONES + ["draped", "minimal", "elegant"]
     },
     "medallion necklace": {
-        "types": [OutfitType.BOHEMIAN, OutfitType.FESTIVAL, OutfitType.STREETWEAR, OutfitType.PUNK],
+        "types": [OutfitType.BOHEMIAN, OutfitType.FESTIVAL, OutfitType.STREETWEAR, OutfitType.PUNK, OutfitType.MEDIEVAL],
         "colors": METALLICS + EARTH_TONES + ["engraved", "vintage"]
     },
     "chain necklace": {
@@ -121,6 +125,10 @@ FEMALE_ACCESSORIES = {
     "lock necklace": {
         "types": [OutfitType.PUNK, OutfitType.GRUNGE, OutfitType.GOTHIC, OutfitType.STREETWEAR, OutfitType.CYBERPUNK],
         "colors": BLACKS + METALLICS + ["padlock", "chain", "industrial"]
+    },
+    "neck ring": {
+        "types": [OutfitType.ANIME, OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.FESTIVAL, OutfitType.AVANT_GARDE, OutfitType.ETHEREAL],
+        "colors": METALLICS + ["gold", "silver", "minimal", "metal band"]
     },
     "spike choker": {
         "types": [OutfitType.PUNK, OutfitType.GOTHIC, OutfitType.GRUNGE, OutfitType.CLUB_PARTY, OutfitType.CYBERPUNK],
@@ -221,6 +229,10 @@ FEMALE_ACCESSORIES = {
     "slave bracelet": {
         "types": [OutfitType.ETHEREAL, OutfitType.BOHEMIAN, OutfitType.FESTIVAL, OutfitType.ROMANTIC],
         "colors": METALLICS + ["chain", "delicate"]
+    },
+    "stacked gold bracelets": {
+        "types": [OutfitType.ANIME, OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.EVENING_FORMAL, OutfitType.CASUAL_CHIC],
+        "colors": METALLICS + ["gold", "stacked", "bangles"]
     },
 
     # --- Earrings ---
@@ -350,6 +362,14 @@ FEMALE_ACCESSORIES = {
         "types": [OutfitType.BEACH_WEAR, OutfitType.FESTIVAL, OutfitType.ROMANTIC],
         "colors": WHITES + PASTELS + BROWNS + ["flowing", "floppy"]
     },
+    "white sun hat": {
+        "types": [OutfitType.ANIME, OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.FESTIVAL, OutfitType.CASUAL_CHIC],
+        "colors": WHITES + ["wide brim", "summer", "woven"]
+    },
+    "hat ribbon": {
+        "types": [OutfitType.ANIME, OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.ROMANTIC, OutfitType.KAWAII, OutfitType.FESTIVAL],
+        "colors": WHITES + PASTELS + REDS + PINKS + ["ribbon trim", "decorative", "bow"]
+    },
     "cloche hat": {
         "types": [OutfitType.RETRO, OutfitType.ROMANTIC, OutfitType.COTTAGECORE],
         "colors": PASTELS + WHITES + BROWNS + ["felt", "vintage"]
@@ -391,15 +411,15 @@ FEMALE_ACCESSORIES = {
         "colors": PASTELS + JEWEL_TONES + WHITES + ["styled", "flowing"]
     },
     "floral crown": {
-        "types": [OutfitType.BOHEMIAN, OutfitType.FESTIVAL, OutfitType.COTTAGECORE, OutfitType.ETHEREAL],
+        "types": [OutfitType.BOHEMIAN, OutfitType.FESTIVAL, OutfitType.COTTAGECORE, OutfitType.ETHEREAL, OutfitType.MEDIEVAL],
         "colors": PASTELS + ["dried flowers", "fresh flowers", "braided"]
     },
     "tiara": {
-        "types": [OutfitType.EVENING_FORMAL, OutfitType.ROMANTIC, OutfitType.ETHEREAL, OutfitType.KAWAII],
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.ROMANTIC, OutfitType.ETHEREAL, OutfitType.KAWAII, OutfitType.MEDIEVAL],
         "colors": METALLICS + WHITES + JEWEL_TONES + ["sparkling", "delicate"]
     },
     "crystal crown": {
-        "types": [OutfitType.ETHEREAL, OutfitType.AVANT_GARDE, OutfitType.FESTIVAL, OutfitType.GOTHIC],
+        "types": [OutfitType.ETHEREAL, OutfitType.AVANT_GARDE, OutfitType.FESTIVAL, OutfitType.GOTHIC, OutfitType.MEDIEVAL],
         "colors": JEWEL_TONES + METALLICS + WHITES + ["glowing", "spiked"]
     },
     "horned headpiece": {
@@ -423,7 +443,7 @@ FEMALE_ACCESSORIES = {
         "colors": BLACKS + ["lace", "sheer"]
     },
     "witch hat": {
-        "types": [OutfitType.GOTHIC, OutfitType.FESTIVAL, OutfitType.STEAMPUNK, OutfitType.AVANT_GARDE],
+        "types": [OutfitType.GOTHIC, OutfitType.FESTIVAL, OutfitType.STEAMPUNK, OutfitType.AVANT_GARDE, OutfitType.MEDIEVAL],
         "colors": BLACKS + PURPLES + ["pointed", "felt"]
     },
     "helmet": {
@@ -508,6 +528,10 @@ FEMALE_ACCESSORIES = {
         "types": [OutfitType.KAWAII, OutfitType.LOLITA, OutfitType.FESTIVAL, OutfitType.STREETWEAR],
         "colors": PASTELS + BLACKS + ["oversized", "round"]
     },
+    "eyewear on head": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.CASUAL_CHIC, OutfitType.FESTIVAL],
+        "colors": BLACKS + METALLICS + PASTELS + ["sunglasses on head", "casual"]
+    },
 
     # --- Bags & Packs ---
     "shoulder bag": {
@@ -523,7 +547,7 @@ FEMALE_ACCESSORIES = {
         "colors": BROWNS + BLACKS + GREENS + ["canvas", "leather"]
     },
     "satchel bag": {
-        "types": [OutfitType.BUSINESS_WEAR, OutfitType.CASUAL_CHIC, OutfitType.PREPPY, OutfitType.COTTAGECORE],
+        "types": [OutfitType.BUSINESS_WEAR, OutfitType.CASUAL_CHIC, OutfitType.PREPPY, OutfitType.COTTAGECORE, OutfitType.MEDIEVAL],
         "colors": BROWNS + BLACKS + ["structured", "leather"]
     },
     "saddle bag": {
@@ -551,7 +575,7 @@ FEMALE_ACCESSORIES = {
         "colors": BROWNS + BLACKS + PASTELS + ["drawstring", "leather"]
     },
     "drawstring pouch": {
-        "types": [OutfitType.FESTIVAL, OutfitType.EVENING_FORMAL, OutfitType.BOHEMIAN, OutfitType.KAWAII],
+        "types": [OutfitType.FESTIVAL, OutfitType.EVENING_FORMAL, OutfitType.BOHEMIAN, OutfitType.KAWAII, OutfitType.MEDIEVAL],
         "colors": PASTELS + JEWEL_TONES + METALLICS + ["drawstring", "soft"]
     },
     "backpack (classic)": {
@@ -603,7 +627,7 @@ FEMALE_ACCESSORIES = {
         "colors": JEWEL_TONES + METALLICS + WHITES + ["beaded", "satin"]
     },
     "beaded pouch bag": {
-        "types": [OutfitType.BOHEMIAN, OutfitType.FESTIVAL, OutfitType.KAWAII, OutfitType.COTTAGECORE],
+        "types": [OutfitType.BOHEMIAN, OutfitType.FESTIVAL, OutfitType.KAWAII, OutfitType.COTTAGECORE, OutfitType.MEDIEVAL],
         "colors": PASTELS + JEWEL_TONES + ["beaded", "handmade"]
     },
     "sequin party bag": {
@@ -627,7 +651,7 @@ FEMALE_ACCESSORIES = {
         "colors": NEONS + PASTELS + ["translucent", "jelly"]
     },
     "chainmail purse": {
-        "types": [OutfitType.STEAMPUNK, OutfitType.GOTHIC, OutfitType.AVANT_GARDE, OutfitType.FESTIVAL],
+        "types": [OutfitType.STEAMPUNK, OutfitType.GOTHIC, OutfitType.AVANT_GARDE, OutfitType.FESTIVAL, OutfitType.MEDIEVAL],
         "colors": METALLICS + BLACKS + ["chainmail", "linked"]
     },
     "spiked punk bag": {
@@ -779,7 +803,7 @@ FEMALE_ACCESSORIES = {
         "colors": BLACKS + PASTELS + ["knit", "cozy"]
     },
     "gauntlet gloves": {
-        "types": [OutfitType.STEAMPUNK, OutfitType.AVANT_GARDE, OutfitType.GOTHIC, OutfitType.PUNK],
+        "types": [OutfitType.STEAMPUNK, OutfitType.AVANT_GARDE, OutfitType.GOTHIC, OutfitType.PUNK, OutfitType.MEDIEVAL],
         "colors": METALLICS + BLACKS + BROWNS + ["gauntlet", "armor"]
     },
     "lace bridal gloves": {
@@ -840,6 +864,10 @@ FEMALE_ACCESSORIES = {
         "types": [OutfitType.ETHEREAL, OutfitType.ROMANTIC, OutfitType.COTTAGECORE],
         "colors": WHITES + PASTELS + ["lace", "delicate"]
     },
+    "transparent shawl": {
+        "types": [OutfitType.ANIME, OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.ETHEREAL, OutfitType.ROMANTIC],
+        "colors": WHITES + PASTELS + ["sheer", "transparent", "lightweight"]
+    },
     "feather stole": {
         "types": [OutfitType.EVENING_FORMAL, OutfitType.AVANT_GARDE, OutfitType.ETHEREAL],
         "colors": WHITES + BLACKS + PASTELS + ["feather", "luxury"]
@@ -861,7 +889,7 @@ FEMALE_ACCESSORIES = {
         "colors": PASTELS + JEWEL_TONES + WHITES + ["wrap", "styled"]
     },
     "capelet wrap": {
-        "types": [OutfitType.AVANT_GARDE, OutfitType.EVENING_FORMAL, OutfitType.ETHEREAL],
+        "types": [OutfitType.AVANT_GARDE, OutfitType.EVENING_FORMAL, OutfitType.ETHEREAL, OutfitType.MEDIEVAL],
         "colors": WHITES + BLACKS + JEWEL_TONES + ["capelet", "structured"]
     },
     "poncho-style wrap": {
@@ -973,7 +1001,7 @@ FEMALE_ACCESSORIES = {
         "colors": WHITES + BLACKS + PASTELS + ["lace", "parasol"]
     },
     "folding hand fan": {
-        "types": [OutfitType.LOLITA, OutfitType.FESTIVAL, OutfitType.ROMANTIC, OutfitType.ETHEREAL],
+        "types": [OutfitType.LOLITA, OutfitType.FESTIVAL, OutfitType.ROMANTIC, OutfitType.ETHEREAL, OutfitType.MEDIEVAL],
         "colors": PASTELS + JEWEL_TONES + ["fan", "folding"]
     },
     "mask (masquerade)": {
@@ -993,11 +1021,11 @@ FEMALE_ACCESSORIES = {
         "colors": BLACKS + METALLICS + ["spiked", "collar", "harness"]
     },
     "shoulder armor accessory": {
-        "types": [OutfitType.STEAMPUNK, OutfitType.AVANT_GARDE, OutfitType.GOTHIC, OutfitType.PUNK],
+        "types": [OutfitType.STEAMPUNK, OutfitType.AVANT_GARDE, OutfitType.GOTHIC, OutfitType.PUNK, OutfitType.MEDIEVAL],
         "colors": METALLICS + BLACKS + ["armor", "shoulder"]
     },
     "chainmail shawl": {
-        "types": [OutfitType.STEAMPUNK, OutfitType.GOTHIC, OutfitType.AVANT_GARDE, OutfitType.FESTIVAL],
+        "types": [OutfitType.STEAMPUNK, OutfitType.GOTHIC, OutfitType.AVANT_GARDE, OutfitType.FESTIVAL, OutfitType.MEDIEVAL],
         "colors": METALLICS + BLACKS + ["chainmail", "draped"]
     },
     "feather wings": {
@@ -1305,6 +1333,208 @@ FEMALE_ACCESSORIES = {
     "riding crop accessory": {
         "types": [OutfitType.LINGERIE, OutfitType.GOTHIC, OutfitType.CLUB_PARTY],
         "colors": BLACKS + BROWNS + ["riding crop", "costume", "prop"]
-    }
+    },
+
+    # Medieval
+    "leather sword belt": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.COWBOY],
+        "colors": BROWNS + BLACKS + ["leather", "sword frog", "buckled"]
+    },
+    "double-wrap leather belt": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.COTTAGECORE, OutfitType.BOHEMIAN],
+        "colors": BROWNS + BLACKS + ["wrapped", "leather", "rustic"]
+    },
+    "heraldic belt buckle": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.EVENING_FORMAL],
+        "colors": METALLICS + BROWNS + ["heraldic", "engraved", "noble"]
+    },
+    "noble brocade sash belt": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.ROMANTIC, OutfitType.EVENING_FORMAL],
+        "colors": JEWEL_TONES + METALLICS + ["brocade", "sash", "courtly"]
+    },
+    "peasant rope belt": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.COTTAGECORE, OutfitType.BOHEMIAN],
+        "colors": EARTH_TONES + BROWNS + ["rope", "knotted", "simple"]
+    },
+    "coin pouch on belt": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.FESTIVAL, OutfitType.STEAMPUNK],
+        "colors": BROWNS + METALLICS + ["leather", "coin pouch", "drawstring"]
+    },
+    "leather belt pouch": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.COTTAGECORE, OutfitType.COWBOY],
+        "colors": BROWNS + BLACKS + ["leather", "belt pouch", "travel"]
+    },
+    "herbalist drawstring pouch": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.BOHEMIAN, OutfitType.COTTAGECORE],
+        "colors": EARTH_TONES + GREENS + ["herbs", "drawstring", "healer"]
+    },
+    "noble velvet drawstring purse": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.ROMANTIC, OutfitType.EVENING_FORMAL],
+        "colors": JEWEL_TONES + METALLICS + ["velvet", "drawstring", "noble"]
+    },
+    "alms purse": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.ROMANTIC, OutfitType.COTTAGECORE],
+        "colors": BROWNS + WHITES + ["alms", "drawstring", "simple"]
+    },
+    "merchant leather satchel": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.COWBOY, OutfitType.CASUAL_CHIC],
+        "colors": BROWNS + BLACKS + ["leather", "merchant", "crossbody"]
+    },
+    "leather wrist coin purse": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.FESTIVAL, OutfitType.COTTAGECORE],
+        "colors": BROWNS + METALLICS + ["wrist", "coin purse", "leather"]
+    },
+    "silver circlet": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.ETHEREAL, OutfitType.ROMANTIC],
+        "colors": METALLICS + WHITES + ["silver", "circlet", "delicate"]
+    },
+    "gold filigree circlet": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.ROMANTIC, OutfitType.EVENING_FORMAL],
+        "colors": METALLICS + JEWEL_TONES + ["gold", "filigree", "noble"]
+    },
+    "elven leaf circlet": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.FANTASY, OutfitType.ETHEREAL],
+        "colors": GREENS + METALLICS + ["leaf", "elven", "nature"]
+    },
+    "bronze warrior circlet": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.FANTASY, OutfitType.MILITARY],
+        "colors": METALLICS + EARTH_TONES + ["bronze", "warrior", "forged"]
+    },
+    "noble gemmed tiara crown": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.ROMANTIC, OutfitType.EVENING_FORMAL],
+        "colors": METALLICS + JEWEL_TONES + ["gemmed", "tiara", "royal"]
+    },
+    "wimple head covering": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.ROMANTIC, OutfitType.COTTAGECORE],
+        "colors": WHITES + PASTELS + ["wimple", "linen", "modest"]
+    },
+    "linen coif head wrap": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.COTTAGECORE, OutfitType.BOHEMIAN],
+        "colors": WHITES + EARTH_TONES + ["linen", "coif", "peasant"]
+    },
+    "chainmail coif hood": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.GOTHIC],
+        "colors": METALLICS + GRAYS + ["chainmail", "coif", "linked"]
+    },
+    "mail coif with veil": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.GOTHIC, OutfitType.FANTASY],
+        "colors": METALLICS + BLACKS + WHITES + ["mail", "veil", "shadowed"]
+    },
+    "steel gauntlets": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.STEAMPUNK],
+        "colors": METALLICS + GRAYS + ["steel", "gauntlets", "articulated"]
+    },
+    "leather archer bracers": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.COTTAGECORE, OutfitType.FESTIVAL],
+        "colors": BROWNS + EARTH_TONES + ["leather", "archer", "forearm"]
+    },
+    "studded leather bracers": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.PUNK, OutfitType.GOTHIC],
+        "colors": BLACKS + BROWNS + METALLICS + ["studded", "leather", "bracers"]
+    },
+    "fur-trimmed bracers": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.GOTHIC, OutfitType.COTTAGECORE],
+        "colors": BROWNS + BLACKS + WHITES + ["fur-trimmed", "leather", "warm"]
+    },
+    "wool traveling cloak": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.COTTAGECORE, OutfitType.BOHEMIAN],
+        "colors": EARTH_TONES + BROWNS + GRAYS + ["wool", "traveling", "hoodless"]
+    },
+    "hooded travel cloak": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.GOTHIC, OutfitType.FANTASY],
+        "colors": BROWNS + BLACKS + GREENS + ["hooded", "travel", "wool"]
+    },
+    "noble velvet cloak": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.ROMANTIC, OutfitType.EVENING_FORMAL],
+        "colors": JEWEL_TONES + METALLICS + ["velvet", "noble", "lined"]
+    },
+    "fur-lined winter cloak": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.COTTAGECORE, OutfitType.GOTHIC],
+        "colors": BROWNS + BLACKS + WHITES + ["fur-lined", "winter", "heavy"]
+    },
+    "elven leaf brooch": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.FANTASY, OutfitType.ETHEREAL],
+        "colors": GREENS + METALLICS + ["leaf", "elven", "enamel"]
+    },
+    "heraldic brooch pin": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.EVENING_FORMAL],
+        "colors": METALLICS + JEWEL_TONES + ["heraldic", "brooch", "crest"]
+    },
+    "celtic knot brooch": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.BOHEMIAN, OutfitType.FESTIVAL],
+        "colors": METALLICS + EARTH_TONES + ["celtic knot", "brooch", "woven"]
+    },
+    "heraldic signet ring": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.EVENING_FORMAL, OutfitType.ROMANTIC],
+        "colors": METALLICS + JEWEL_TONES + ["signet", "heraldic", "sealed"]
+    },
+    "archer's leather quiver": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.FESTIVAL],
+        "colors": BROWNS + BLACKS + ["leather", "quiver", "archer"]
+    },
+    "decorative heater shield": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.FANTASY, OutfitType.MILITARY],
+        "colors": METALLICS + JEWEL_TONES + ["heater shield", "painted", "heraldic"]
+    },
+    "heraldic round shield": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.FESTIVAL],
+        "colors": METALLICS + EARTH_TONES + ["round shield", "heraldic", "wood and iron"]
+    },
+    "flower garland headband": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.BOHEMIAN, OutfitType.FESTIVAL],
+        "colors": PASTELS + EARTH_TONES + ["flower garland", "woven", "fresh"]
+    },
+    "maypole flower garland": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.FESTIVAL, OutfitType.COTTAGECORE],
+        "colors": PASTELS + WHITES + ["maypole", "flower garland", "festive"]
+    },
+    "wooden prayer beads": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.ROMANTIC, OutfitType.GOTHIC],
+        "colors": BROWNS + WHITES + ["wooden", "prayer beads", "carved"]
+    },
+    "rosary necklace": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.ROMANTIC, OutfitType.GOTHIC],
+        "colors": WHITES + BLACKS + METALLICS + ["rosary", "beaded", "devotional"]
+    },
+    "fur hand muff": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.ROMANTIC, OutfitType.GOTHIC],
+        "colors": BROWNS + BLACKS + WHITES + ["fur", "hand muff", "winter"]
+    },
+    "heraldic cloak pin": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.ROMANTIC],
+        "colors": METALLICS + JEWEL_TONES + ["heraldic", "cloak pin", "fastener"]
+    },
+    "girdle chain belt": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.EVENING_FORMAL, OutfitType.ROMANTIC],
+        "colors": METALLICS + JEWEL_TONES + ["girdle", "chain", "waist"]
+    },
+    "leather arm guards": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.FESTIVAL],
+        "colors": BROWNS + BLACKS + ["leather", "arm guards", "strapped"]
+    },
+    "leather belt with dagger sheath": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.GOTHIC, OutfitType.STEAMPUNK],
+        "colors": BROWNS + BLACKS + METALLICS + ["dagger sheath", "leather belt", "buckled"]
+    },
+    "healer's herb satchel": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.BOHEMIAN, OutfitType.COTTAGECORE],
+        "colors": GREENS + BROWNS + EARTH_TONES + ["herb satchel", "healer", "canvas"]
+    },
+    "druid antler circlet": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.FANTASY, OutfitType.BOHEMIAN],
+        "colors": BROWNS + EARTH_TONES + METALLICS + ["antler", "druid", "natural"]
+    },
+    "witch's charm pouch": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.GOTHIC, OutfitType.FESTIVAL],
+        "colors": BLACKS + PURPLES + EARTH_TONES + ["charm pouch", "witch", "drawstring"]
+    },
+    "knight's pauldron cape": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.FANTASY],
+        "colors": METALLICS + BLACKS + JEWEL_TONES + ["pauldron", "cape", "armored"]
+    },
+    "copper torc necklace": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.BOHEMIAN, OutfitType.FANTASY],
+        "colors": METALLICS + EARTH_TONES + ["copper", "torc", "celtic"]
+    },
 }
 

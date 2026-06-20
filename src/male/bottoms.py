@@ -294,6 +294,48 @@ MALE_BOTTOMS = {
     "sleep shorts": {
         "types": [OutfitType.NORMCORE],
         "colors": BLUES + GRAYS + ["comfortable", "lightweight", "loungewear"]
+    },
+
+    # Medieval
+    "wool hose": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.COTTAGECORE, OutfitType.NORMCORE],
+        "colors": BROWNS + GRAYS + WHITES + ["fitted legs", "woven wool", "gartered"]
+    },
+    "leather breeches": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.COWBOY, OutfitType.MILITARY],
+        "colors": BROWNS + BLACKS + ["soft leather", "knee-length", "laced"]
+    },
+    "noble breeches": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.EVENING_FORMAL, OutfitType.ROMANTIC],
+        "colors": BLUES + PURPLES + JEWEL_TONES + ["fine wool", "slim fit", "embroidered seams"]
+    },
+    "chainmail chausses": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.FANTASY],
+        "colors": METALLICS + GRAYS + ["mail leg armor", "linked rings", "battle-ready"]
+    },
+    "peasant roughspun pants": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.COTTAGECORE, OutfitType.NORMCORE],
+        "colors": BROWNS + EARTH_TONES + GRAYS + ["coarse fabric", "loose fit", "patched"]
+    },
+    "kilt-style wrap": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.FANTASY, OutfitType.FESTIVAL],
+        "colors": GREENS + BLUES + REDS + ["plaid wool", "wrapped layers", "belted"]
+    },
+    "armored leg guards": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.FANTASY],
+        "colors": METALLICS + GRAYS + ["plate greaves", "strapped", "polished steel"]
+    },
+    "tavern worker pants": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.COTTAGECORE, OutfitType.NORMCORE],
+        "colors": BROWNS + GRAYS + ["sturdy canvas", "rolled cuffs", "practical"]
+    },
+    "hunter leather leggings": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.FANTASY, OutfitType.MILITARY],
+        "colors": BROWNS + GREENS + BLACKS + ["soft leather", "forest worn", "fitted"]
+    },
+    "court satin trousers": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.EVENING_FORMAL, OutfitType.ROMANTIC],
+        "colors": BLUES + PURPLES + BLACKS + ["lustrous satin", "tailored", "noble cut"]
     }
 }
 

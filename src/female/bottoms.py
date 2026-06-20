@@ -607,7 +607,7 @@ FEMALE_BOTTOMS = {
         "colors": EARTH_TONES + PASTELS + ["vintage", "modest"]
     },
     "peasant skirt": {
-        "types": [OutfitType.BOHEMIAN, OutfitType.FESTIVAL, OutfitType.COTTAGECORE],
+        "types": [OutfitType.MEDIEVAL, OutfitType.BOHEMIAN, OutfitType.FESTIVAL, OutfitType.COTTAGECORE],
         "colors": EARTH_TONES + ["flowing", "ethnic-inspired"]
     },
     "gypsy skirt": {
@@ -671,7 +671,7 @@ FEMALE_BOTTOMS = {
         "colors": BLACKS + PURPLES + ["layered", "dramatic"]
     },
     "corset-belt skirt": {
-        "types": [OutfitType.GOTHIC, OutfitType.STEAMPUNK, OutfitType.ROMANTIC],
+        "types": [OutfitType.MEDIEVAL, OutfitType.GOTHIC, OutfitType.STEAMPUNK, OutfitType.ROMANTIC],
         "colors": BLACKS + REDS + ["corset waist", "fitted"]
     },
     "bustle skirt steampunk": {
@@ -823,7 +823,7 @@ FEMALE_BOTTOMS = {
         "colors": BROWNS + BLACKS + ["bustle", "period-inspired"]
     },
     "petticoat skirt": {
-        "types": [OutfitType.LOLITA, OutfitType.STEAMPUNK, OutfitType.ROMANTIC, OutfitType.ANIME],
+        "types": [OutfitType.MEDIEVAL, OutfitType.LOLITA, OutfitType.STEAMPUNK, OutfitType.ROMANTIC, OutfitType.ANIME],
         "colors": WHITES + PASTELS + ["layered", "structured"]
     },
     "steampunk layered skirt": {
@@ -851,11 +851,11 @@ FEMALE_BOTTOMS = {
         "colors": ["transparent", "vinyl", "futuristic"]
     },
     "chainmail skirt": {
-        "types": [OutfitType.GOTHIC, OutfitType.STEAMPUNK, OutfitType.AVANT_GARDE],
+        "types": [OutfitType.MEDIEVAL, OutfitType.GOTHIC, OutfitType.STEAMPUNK, OutfitType.AVANT_GARDE],
         "colors": METALLICS + ["chainmail", "armor-inspired"]
     },
     "armor-inspired pleated skirt": {
-        "types": [OutfitType.GOTHIC, OutfitType.STEAMPUNK, OutfitType.CYBERPUNK, OutfitType.ANIME],
+        "types": [OutfitType.MEDIEVAL, OutfitType.GOTHIC, OutfitType.STEAMPUNK, OutfitType.CYBERPUNK, OutfitType.ANIME],
         "colors": BLACKS + METALLICS + ["armor details", "structured"]
     },
     "mecha pilot leggings": {
@@ -1183,6 +1183,208 @@ FEMALE_BOTTOMS = {
     "strappy thong skirt hybrid": {
         "types": [OutfitType.LINGERIE, OutfitType.GOTHIC, OutfitType.CLUB_PARTY],
         "colors": BLACKS + REDS + JEWEL_TONES + ["thong base", "skirt overlay", "strappy"]
+    },
+
+    # Medieval
+    "long linen peasant skirt": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.COTTAGECORE, OutfitType.BOHEMIAN],
+        "colors": EARTH_TONES + WHITES + ["ankle-length", "gathered waist", "linen"]
+    },
+    "gored peasant skirt": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.COTTAGECORE, OutfitType.BOHEMIAN],
+        "colors": EARTH_TONES + BROWNS + ["gored panels", "full skirt", "rustic"]
+    },
+    "wool peasant skirt": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.COTTAGECORE, OutfitType.BOHEMIAN],
+        "colors": EARTH_TONES + GRAYS + BROWNS + ["heavy wool", "warm", "modest"]
+    },
+    "patchwork peasant skirt": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.COTTAGECORE, OutfitType.BOHEMIAN],
+        "colors": EARTH_TONES + BROWNS + ["patchwork", "hand-stitched", "rustic"]
+    },
+    "farmhouse apron skirt": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.COTTAGECORE, OutfitType.BOHEMIAN],
+        "colors": EARTH_TONES + WHITES + BROWNS + ["apron overlay", "pockets", "workwear"]
+    },
+    "woven braid-trim peasant skirt": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.COTTAGECORE, OutfitType.BOHEMIAN],
+        "colors": EARTH_TONES + BROWNS + ["braid trim", "folk details", "gathered"]
+    },
+    "rustic hemp work skirt": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.COTTAGECORE, OutfitType.BOHEMIAN],
+        "colors": EARTH_TONES + GRAYS + ["hemp weave", "durable", "field work"]
+    },
+    "village market skirt": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.COTTAGECORE, OutfitType.BOHEMIAN],
+        "colors": EARTH_TONES + PASTELS + ["simple cut", "practical", "modest length"]
+    },
+    "noble brocade court skirt": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.ROMANTIC, OutfitType.EVENING_FORMAL],
+        "colors": JEWEL_TONES + METALLICS + ["brocade", "ornate weave", "courtly"]
+    },
+    "velvet baronial skirt": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.ROMANTIC, OutfitType.EVENING_FORMAL],
+        "colors": JEWEL_TONES + PURPLES + REDS + ["velvet", "rich drape", "noble"]
+    },
+    "embroidered heraldic skirt": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.ROMANTIC, OutfitType.EVENING_FORMAL],
+        "colors": JEWEL_TONES + METALLICS + ["heraldic embroidery", "crest motifs", "regal"]
+    },
+    "damask noble overskirt": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.ROMANTIC, OutfitType.EVENING_FORMAL],
+        "colors": JEWEL_TONES + PURPLES + BLUES + ["damask pattern", "layered", "aristocratic"]
+    },
+    "silk ceremonial court skirt": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.ROMANTIC, OutfitType.EVENING_FORMAL],
+        "colors": JEWEL_TONES + WHITES + METALLICS + ["silk", "ceremonial", "floor-length"]
+    },
+    "gold-trimmed royal skirt": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.ROMANTIC, OutfitType.EVENING_FORMAL],
+        "colors": JEWEL_TONES + METALLICS + ["gold trim", "royal", "ornate hem"]
+    },
+    "tapestry-panel noble skirt": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.ROMANTIC, OutfitType.EVENING_FORMAL],
+        "colors": JEWEL_TONES + EARTH_TONES + ["tapestry panels", "story motifs", "luxurious"]
+    },
+    "chainmail leggings": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.GOTHIC, OutfitType.FANTASY],
+        "colors": METALLICS + GRAYS + ["chainmail", "linked rings", "armor legs"]
+    },
+    "leather battle skirt": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.GOTHIC, OutfitType.FANTASY],
+        "colors": BROWNS + BLACKS + ["leather", "battle-worn", "split hem"]
+    },
+    "plate-armor panel skirt": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.GOTHIC, OutfitType.FANTASY],
+        "colors": METALLICS + GRAYS + BLACKS + ["plate panels", "articulated", "armored"]
+    },
+    "brigandine battle skirt": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.GOTHIC, OutfitType.FANTASY],
+        "colors": BROWNS + BLACKS + METALLICS + ["brigandine", "riveted plates", "warrior"]
+    },
+    "split-front battle skirt": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.GOTHIC, OutfitType.FANTASY],
+        "colors": BLACKS + GRAYS + BROWNS + ["split front", "riding cut", "combat-ready"]
+    },
+    "studded leather war skirt": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.GOTHIC, OutfitType.FANTASY],
+        "colors": BLACKS + BROWNS + ["studded", "reinforced", "mercenary"]
+    },
+    "scale-mail skirt": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.GOTHIC, OutfitType.FANTASY],
+        "colors": METALLICS + GRAYS + ["scale mail", "overlapping scales", "armor"]
+    },
+    "reinforced gambeson skirt": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.GOTHIC, OutfitType.FANTASY],
+        "colors": GRAYS + BROWNS + EARTH_TONES + ["quilted", "padded", "gambeson"]
+    },
+    "dark knight fauld skirt": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.GOTHIC, OutfitType.FANTASY],
+        "colors": BLACKS + GRAYS + METALLICS + ["fauld plates", "knight", "armored hip"]
+    },
+    "elven split skirt": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.FANTASY, OutfitType.ETHEREAL, OutfitType.GOTHIC],
+        "colors": GREENS + JEWEL_TONES + WHITES + ["elven cut", "graceful split", "flowing"]
+    },
+    "druidic leaf-trim skirt": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.FANTASY, OutfitType.ETHEREAL, OutfitType.GOTHIC],
+        "colors": GREENS + EARTH_TONES + ["leaf trim", "nature motifs", "forest"]
+    },
+    "enchanted starweave skirt": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.FANTASY, OutfitType.ETHEREAL, OutfitType.GOTHIC],
+        "colors": PURPLES + BLUES + METALLICS + ["star motifs", "shimmering weave", "arcane"]
+    },
+    "moonlit ethereal underskirt": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.FANTASY, OutfitType.ETHEREAL, OutfitType.GOTHIC],
+        "colors": WHITES + BLUES + PURPLES + ["sheer layers", "moonlit", "gossamer"]
+    },
+    "sorceress layered skirt": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.FANTASY, OutfitType.ETHEREAL, OutfitType.GOTHIC],
+        "colors": PURPLES + BLACKS + JEWEL_TONES + ["layered tiers", "mystic", "dramatic"]
+    },
+    "fae gossamer skirt": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.FANTASY, OutfitType.ETHEREAL, OutfitType.GOTHIC],
+        "colors": PASTELS + WHITES + GREENS + ["gossamer", "iridescent", "fae"]
+    },
+    "wool hose": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.COTTAGECORE, OutfitType.BOHEMIAN],
+        "colors": EARTH_TONES + GRAYS + BROWNS + ["wool", "fitted legs", "historical"]
+    },
+    "fitted kirtle skirt": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.ROMANTIC, OutfitType.COTTAGECORE],
+        "colors": EARTH_TONES + JEWEL_TONES + ["fitted bodice skirt", "kirtle", "laced"]
+    },
+    "layered underskirt": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.ROMANTIC, OutfitType.COTTAGECORE],
+        "colors": WHITES + PASTELS + EARTH_TONES + ["layered", "chemise peek", "volume"]
+    },
+    "medieval A-line kirtle": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.ROMANTIC, OutfitType.COTTAGECORE],
+        "colors": EARTH_TONES + JEWEL_TONES + ["A-line", "wool blend", "period cut"]
+    },
+    "linen split skirt": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.COTTAGECORE, OutfitType.BOHEMIAN],
+        "colors": EARTH_TONES + WHITES + BROWNS + ["split panels", "linen", "walking ease"]
+    },
+    "woolen hose leggings": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.COTTAGECORE, OutfitType.BOHEMIAN],
+        "colors": GRAYS + BROWNS + EARTH_TONES + ["woolen", "footed hose", "warm"]
+    },
+    "leather breeches": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.COTTAGECORE],
+        "colors": BROWNS + BLACKS + ["leather", "fitted", "riding"]
+    },
+    "riding breeches": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.ROMANTIC],
+        "colors": BROWNS + BLACKS + GRAYS + ["riding cut", "reinforced seat", "practical"]
+    },
+    "full-length wool skirt": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.COTTAGECORE, OutfitType.ROMANTIC],
+        "colors": EARTH_TONES + GRAYS + BROWNS + ["full-length", "heavy wool", "modest"]
+    },
+    "side-laced kirtle skirt": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.ROMANTIC, OutfitType.COTTAGECORE],
+        "colors": EARTH_TONES + JEWEL_TONES + ["side lacing", "fitted waist", "kirtle"]
+    },
+    "long split riding skirt": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.ROMANTIC],
+        "colors": BROWNS + BLACKS + EARTH_TONES + ["split sides", "riding", "long hem"]
+    },
+    "quilted wool underskirt": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.COTTAGECORE, OutfitType.ROMANTIC],
+        "colors": EARTH_TONES + GRAYS + WHITES + ["quilted wool", "warm lining", "layered"]
+    },
+    "chemise peek underskirt": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.ROMANTIC, OutfitType.COTTAGECORE],
+        "colors": WHITES + PASTELS + ["chemise hem", "layered peek", "delicate"]
+    },
+    "tunic-length kirtle skirt": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.COTTAGECORE, OutfitType.ROMANTIC],
+        "colors": EARTH_TONES + BROWNS + ["tunic length", "simple cut", "belted"]
+    },
+    "crusader tabard skirt": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.FANTASY],
+        "colors": WHITES + REDS + BLACKS + METALLICS + ["tabard panels", "cross emblem", "crusader"]
+    },
+    "falconer's leather split skirt": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.COTTAGECORE],
+        "colors": BROWNS + BLACKS + ["leather", "split hem", "outdoor"]
+    },
+    "pilgrim's walking skirt": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.COTTAGECORE, OutfitType.BOHEMIAN],
+        "colors": BROWNS + EARTH_TONES + GRAYS + ["walking length", "sturdy", "travel-worn"]
+    },
+    "bardic performance skirt": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.FANTASY, OutfitType.ROMANTIC],
+        "colors": JEWEL_TONES + EARTH_TONES + ["colorful panels", "performance", "festive trim"]
+    },
+    "monastery wool skirt": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.COTTAGECORE, OutfitType.MINIMALIST],
+        "colors": GRAYS + BROWNS + EARTH_TONES + ["plain wool", "modest", "simple hem"]
+    },
+    "hedge witch layered skirt": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.FANTASY, OutfitType.ETHEREAL, OutfitType.GOTHIC],
+        "colors": GREENS + EARTH_TONES + PURPLES + ["layered herbs trim", "rustic mystic", "asymmetric"]
     }
 }
 

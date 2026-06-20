@@ -104,7 +104,7 @@ SCENES = {
         "location": [LocationType.INDOOR],
     },
     "stone castle courtyard": {
-        "types": [OutfitType.GOTHIC, OutfitType.ROMANTIC, OutfitType.ETHEREAL],
+        "types": [OutfitType.GOTHIC, OutfitType.ROMANTIC, OutfitType.ETHEREAL, OutfitType.MEDIEVAL],
         "location": [LocationType.OUTDOOR],
     },
     "flower-filled meadow": {
@@ -980,7 +980,7 @@ SCENES = {
     },
     # Historic / Cultural Settings
     "medieval castle dining hall": {
-        "types": [OutfitType.GOTHIC, OutfitType.ROMANTIC, OutfitType.EVENING_FORMAL],
+        "types": [OutfitType.GOTHIC, OutfitType.ROMANTIC, OutfitType.EVENING_FORMAL, OutfitType.MEDIEVAL],
         "location": [LocationType.INDOOR],
     },
     "stone dungeon cell": {
@@ -1004,7 +1004,7 @@ SCENES = {
         "location": [LocationType.OUTDOOR],
     },
     "renaissance courtyard": {
-        "types": [OutfitType.ROMANTIC, OutfitType.EVENING_FORMAL, OutfitType.ETHEREAL],
+        "types": [OutfitType.ROMANTIC, OutfitType.EVENING_FORMAL, OutfitType.ETHEREAL, OutfitType.MEDIEVAL, OutfitType.FANTASY],
         "location": [LocationType.OUTDOOR, LocationType.INDOOR],
     },
     "victorian parlor room": {
@@ -1816,7 +1816,7 @@ SCENES = {
         "location": [LocationType.INDOOR, LocationType.BEDROOM],
     },
     "medieval stone chamber with simple straw bedding": {
-        "types": [OutfitType.GOTHIC,  OutfitType.LINGERIE],
+        "types": [OutfitType.GOTHIC, OutfitType.LINGERIE, OutfitType.MEDIEVAL],
         "location": [LocationType.INDOOR, LocationType.BEDROOM],
     },
     "Arctic cabin bedroom with furs and wooden bed": {
@@ -2936,7 +2936,7 @@ SCENES = {
     
     # Tallinn, Estonia
     "Tallinn medieval old town": {
-        "types": [OutfitType.VINTAGE, OutfitType.GOTHIC, OutfitType.CASUAL_CHIC],
+        "types": [OutfitType.VINTAGE, OutfitType.GOTHIC, OutfitType.CASUAL_CHIC, OutfitType.MEDIEVAL],
         "location": [LocationType.OUTDOOR, LocationType.CITY],
     },
     
@@ -10799,5 +10799,211 @@ SCENES = {
     "historic townhouse balcony above lantern-lit street": {
         "types": [OutfitType.EVENING_FORMAL, OutfitType.ROMANTIC, OutfitType.CASUAL_CHIC],
         "location": [LocationType.OUTDOOR, LocationType.BALCONY, LocationType.CITY],
+    },
+    # Sauna scenes
+    "finnish cedar sauna with hot stones and tiered wooden benches": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.LINGERIE, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.SAUNA],
+    },
+    "infrared sauna cabin with glowing red heat panels": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.LINGERIE, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.SAUNA],
+    },
+    "traditional russian banya with birch whisk bundles on hooks": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.LINGERIE, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.SAUNA],
+    },
+    "hotel sauna with marble tiles and folded white towels": {
+        "types": [OutfitType.LINGERIE, OutfitType.MINIMALIST, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.INDOOR, LocationType.SAUNA, LocationType.HOTEL],
+    },
+    "dry sauna with eucalyptus oil dispenser on cedar wall": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.SAUNA],
+    },
+    "steam sauna with misty haze and dim amber lighting": {
+        "types": [OutfitType.LINGERIE, OutfitType.BEACH_WEAR, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.SAUNA],
+    },
+    "barrel-shaped wooden sauna interior with curved benches": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.COTTAGECORE, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.SAUNA],
+    },
+    "lakeside lodge sauna with knotty pine walls and stone heater": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE],
+        "location": [LocationType.INDOOR, LocationType.SAUNA],
+    },
+    "luxury spa sauna with heated stone floor and orchid vase": {
+        "types": [OutfitType.LINGERIE, OutfitType.EVENING_FORMAL, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.SAUNA, LocationType.SPA],
+    },
+    "co-ed sauna with tiered cedar seating and water bucket": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.ATHLEISURE, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.SAUNA],
+    },
+    "private sauna suite with personal ladle and cold shower": {
+        "types": [OutfitType.LINGERIE, OutfitType.BEACH_WEAR, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.SAUNA, LocationType.SPA],
+    },
+    "gym sauna with tiled floor and metal towel hooks": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.BEACH_WEAR, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.SAUNA, LocationType.GYM],
+    },
+    "scandinavian minimalist sauna with clean lines and pale wood": {
+        "types": [OutfitType.MINIMALIST, OutfitType.ATHLEISURE, OutfitType.LINGERIE],
+        "location": [LocationType.INDOOR, LocationType.SAUNA],
+    },
+    "sauna with panoramic window overlooking snowy forest": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.COTTAGECORE, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.SAUNA],
+    },
+    "aromatherapy sauna with lavender steam and soft glow": {
+        "types": [OutfitType.ETHEREAL, OutfitType.LINGERIE, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.SAUNA, LocationType.SPA],
+    },
+    "salt wall sauna with pink himalayan brick panels": {
+        "types": [OutfitType.MINIMALIST, OutfitType.LINGERIE, OutfitType.ATHLEISURE],
+        "location": [LocationType.INDOOR, LocationType.SAUNA, LocationType.SPA],
+    },
+    "japanese onsen-style sauna room with bamboo accents": {
+        "types": [OutfitType.MINIMALIST, OutfitType.BEACH_WEAR, OutfitType.ETHEREAL],
+        "location": [LocationType.INDOOR, LocationType.SAUNA],
+    },
+    "boutique spa sauna with led bench lighting and candles": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.SAUNA, LocationType.SPA],
+    },
+    "sauna cooling room with cold plunge tub adjacent": {
+        "types": [OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.BEACH_WEAR],
+        "location": [LocationType.INDOOR, LocationType.SAUNA, LocationType.SPA],
+    },
+    "rooftop spa sauna with city skyline through frosted glass": {
+        "types": [OutfitType.LINGERIE, OutfitType.EVENING_FORMAL, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.SAUNA, LocationType.SPA],
+    },
+    "rustic log cabin sauna with chinking walls and iron stove": {
+        "types": [OutfitType.COTTAGECORE, OutfitType.BEACH_WEAR, OutfitType.COWBOY],
+        "location": [LocationType.INDOOR, LocationType.SAUNA],
+    },
+    "modern black-tile sauna with led strip bench lighting": {
+        "types": [OutfitType.MINIMALIST, OutfitType.LINGERIE, OutfitType.ATHLEISURE],
+        "location": [LocationType.INDOOR, LocationType.SAUNA],
+    },
+    "wellness center sauna with relaxation music speakers": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.MINIMALIST, OutfitType.BEACH_WEAR],
+        "location": [LocationType.INDOOR, LocationType.SAUNA],
+    },
+    "couples sauna with dual bench levels and dim lanterns": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.BEACH_WEAR],
+        "location": [LocationType.INDOOR, LocationType.SAUNA, LocationType.SPA],
+    },
+    "hammam-style steam sauna with mosaic tile floor": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.ETHEREAL, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.SAUNA, LocationType.SPA],
+    },
+    # Spa scenes
+    "luxury spa relaxation lounge with herbal tea station": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.SPA],
+    },
+    "spa treatment room with massage table and flickering candles": {
+        "types": [OutfitType.LINGERIE, OutfitType.ETHEREAL, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.SPA],
+    },
+    "spa hydrotherapy pool with jets and mosaic tile walls": {
+        "types": [OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.BEACH_WEAR],
+        "location": [LocationType.INDOOR, LocationType.SPA, LocationType.POOL],
+    },
+    "spa mud bath room with warm clay basins and stone walls": {
+        "types": [OutfitType.LINGERIE, OutfitType.BEACH_WEAR, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.SPA],
+    },
+    "spa aromatherapy bar with essential oil diffusers and herbs": {
+        "types": [OutfitType.ETHEREAL, OutfitType.BOHEMIAN, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.SPA],
+    },
+    "spa zen garden room with raked sand and bamboo screens": {
+        "types": [OutfitType.MINIMALIST, OutfitType.ETHEREAL, OutfitType.BOHEMIAN],
+        "location": [LocationType.INDOOR, LocationType.SPA],
+    },
+    "spa facial treatment room with steamer and vanity mirrors": {
+        "types": [OutfitType.LINGERIE, OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.SPA],
+    },
+    "spa nail salon station with plush pedicure chairs": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.LINGERIE, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.SPA],
+    },
+    "spa herbal steam room with mint and eucalyptus vapor": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.LINGERIE, OutfitType.ATHLEISURE],
+        "location": [LocationType.INDOOR, LocationType.SPA, LocationType.SAUNA],
+    },
+    "spa meditation room with floor cushions and incense smoke": {
+        "types": [OutfitType.ETHEREAL, OutfitType.BOHEMIAN, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.SPA],
+    },
+    "spa reception lobby with orchids and trickling water feature": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.MINIMALIST, OutfitType.CASUAL_CHIC],
+        "location": [LocationType.INDOOR, LocationType.SPA],
+    },
+    "spa locker room with wood lockers and folded robes": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.LINGERIE, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.SPA],
+    },
+    "spa couples suite with dual soaking tubs and rose petals": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.EVENING_FORMAL],
+        "location": [LocationType.INDOOR, LocationType.SPA],
+    },
+    "spa reflexology foot bath station with smooth river stones": {
+        "types": [OutfitType.LINGERIE, OutfitType.BEACH_WEAR, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.SPA],
+    },
+    "spa thermal bath with mineral water pools and arched ceilings": {
+        "types": [OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.BEACH_WEAR],
+        "location": [LocationType.INDOOR, LocationType.SPA, LocationType.POOL],
+    },
+    "spa yoga retreat studio with bamboo floors and soft light": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.BOHEMIAN, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.SPA],
+    },
+    "spa salt grotto with ambient blue lighting and stalactites": {
+        "types": [OutfitType.ETHEREAL, OutfitType.LINGERIE, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.SPA],
+    },
+    "spa float therapy pod room with dim purple glow": {
+        "types": [OutfitType.LINGERIE, OutfitType.MINIMALIST, OutfitType.ETHEREAL],
+        "location": [LocationType.INDOOR, LocationType.SPA],
+    },
+    "spa champagne lounge with cucumber water pitchers and loungers": {
+        "types": [OutfitType.EVENING_FORMAL, OutfitType.ROMANTIC, OutfitType.LINGERIE],
+        "location": [LocationType.INDOOR, LocationType.SPA],
+    },
+    "spa atrium with living green wall and natural skylight": {
+        "types": [OutfitType.CASUAL_CHIC, OutfitType.MINIMALIST, OutfitType.BOHEMIAN],
+        "location": [LocationType.INDOOR, LocationType.SPA],
+    },
+    "spa reflexology lounge with reclining chairs and dim lamps": {
+        "types": [OutfitType.LINGERIE, OutfitType.ROMANTIC, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.SPA],
+    },
+    "spa thai massage pavilion with silk drapes and floor mats": {
+        "types": [OutfitType.LINGERIE, OutfitType.BOHEMIAN, OutfitType.ETHEREAL],
+        "location": [LocationType.INDOOR, LocationType.SPA],
+    },
+    "spa salt scrub station with sea salt jars and warm towels": {
+        "types": [OutfitType.BEACH_WEAR, OutfitType.LINGERIE, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.SPA],
+    },
+    "spa relaxation pod with zero-gravity chairs and headphones": {
+        "types": [OutfitType.ATHLEISURE, OutfitType.MINIMALIST, OutfitType.LINGERIE],
+        "location": [LocationType.INDOOR, LocationType.SPA],
+    },
+    "spa solarium lounge with heated loungers and glass ceiling": {
+        "types": [OutfitType.BIKINI, OutfitType.BEACH_WEAR, OutfitType.LINGERIE],
+        "location": [LocationType.INDOOR, LocationType.SPA],
+    },
+    "hotel spa wellness corridor with eucalyptus scent and robes": {
+        "types": [OutfitType.LINGERIE, OutfitType.EVENING_FORMAL, OutfitType.MINIMALIST],
+        "location": [LocationType.INDOOR, LocationType.SPA, LocationType.HOTEL],
     },
 }

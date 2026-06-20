@@ -110,7 +110,7 @@ FEMALE_TOPS = {
         "colors": BLACKS + WHITES + PASTELS + JEWEL_TONES + ["peplum hem", "fitted"]
     },
     "tunic top": {
-        "types": [OutfitType.BOHEMIAN, OutfitType.CASUAL_CHIC, OutfitType.COTTAGECORE],
+        "types": [OutfitType.MEDIEVAL, OutfitType.BOHEMIAN, OutfitType.CASUAL_CHIC, OutfitType.COTTAGECORE],
         "colors": WHITES + EARTH_TONES + PASTELS + PATTERNS + ["loose fit", "flowing"]
     },
     "empire waist blouse": {
@@ -569,6 +569,14 @@ FEMALE_TOPS = {
         "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.BOHEMIAN, OutfitType.FESTIVAL],
         "colors": WHITES + EARTH_TONES + BROWNS + ["macramé", "rope design", "bohemian", "artisanal"]
     },
+    "cross-strap bikini top": {
+        "types": [OutfitType.ANIME, OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.FESTIVAL],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + BLUES + PURPLES + ["cross straps", "strappy", "athletic"]
+    },
+    "O-ring bikini top": {
+        "types": [OutfitType.ANIME, OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT, OutfitType.CLUB_PARTY],
+        "colors": BLACKS + WHITES + NEONS + PASTELS + METALLICS + PURPLES + BLUES + ["O-ring", "hardware", "ring detail"]
+    },
     "classic one-piece swimsuit (scoop neck, full coverage)": {
         "types": [OutfitType.BEACH_WEAR, OutfitType.SWIMSUIT],
         "colors": BLACKS + WHITES + NEONS + PASTELS + PATTERNS + ["classic", "scoop neck", "full coverage"],
@@ -817,7 +825,7 @@ FEMALE_TOPS = {
         "colors": WHITES + PASTELS + PATTERNS + ["apron style", "vintage"]
     },
     "smocked peasant top": {
-        "types": [OutfitType.COTTAGECORE, OutfitType.BOHEMIAN, OutfitType.ROMANTIC],
+        "types": [OutfitType.MEDIEVAL, OutfitType.COTTAGECORE, OutfitType.BOHEMIAN, OutfitType.ROMANTIC],
         "colors": WHITES + PASTELS + EARTH_TONES + ["smocked", "gathered"]
     },
     "gingham blouse": {
@@ -825,7 +833,7 @@ FEMALE_TOPS = {
         "colors": ["gingham check"] + PASTELS + WHITES + ["checkered pattern"]
     },
     "embroidered peasant blouse": {
-        "types": [OutfitType.BOHEMIAN, OutfitType.COTTAGECORE, OutfitType.FESTIVAL],
+        "types": [OutfitType.MEDIEVAL, OutfitType.BOHEMIAN, OutfitType.COTTAGECORE, OutfitType.FESTIVAL],
         "colors": WHITES + EARTH_TONES + PASTELS + ["embroidered", "folk style"]
     },
     "lolita blouse": {
@@ -1109,7 +1117,7 @@ FEMALE_TOPS = {
         "colors": BLACKS + ["leather", "metal details", "straps"]
     },
     "chainmail top": {
-        "types": [OutfitType.CYBERPUNK, OutfitType.GOTHIC, OutfitType.AVANT_GARDE],
+        "types": [OutfitType.MEDIEVAL, OutfitType.CYBERPUNK, OutfitType.GOTHIC, OutfitType.AVANT_GARDE],
         "colors": METALLICS + BLACKS + ["chain links", "metallic"]
     },
     "sequin bralette": {
@@ -1129,7 +1137,7 @@ FEMALE_TOPS = {
         "colors": BLACKS + NEONS + METALLICS + ["see-through", "layered"]
     },
     "peasant top": {
-        "types": [OutfitType.BOHEMIAN, OutfitType.COTTAGECORE, OutfitType.FESTIVAL],
+        "types": [OutfitType.MEDIEVAL, OutfitType.BOHEMIAN, OutfitType.COTTAGECORE, OutfitType.FESTIVAL],
         "colors": WHITES + EARTH_TONES + ["embroidered", "flowing", "off-shoulder"]
     },
     
@@ -1325,7 +1333,7 @@ FEMALE_TOPS = {
         "fullBody": True
     },
     "boho peasant maxi dress": {
-        "types": [OutfitType.BOHEMIAN, OutfitType.FESTIVAL, OutfitType.COTTAGECORE],
+        "types": [OutfitType.MEDIEVAL, OutfitType.BOHEMIAN, OutfitType.FESTIVAL, OutfitType.COTTAGECORE],
         "colors": EARTH_TONES + PATTERNS + ["flowing", "embroidered", "free-spirited"],
         "fullBody": True
     },
@@ -1551,7 +1559,7 @@ FEMALE_TOPS = {
         "fullBody": True
     },
     "nun's habit": {
-        "types": [OutfitType.GOTHIC, OutfitType.MINIMALIST],
+        "types": [OutfitType.MEDIEVAL, OutfitType.GOTHIC, OutfitType.MINIMALIST],
         "colors": BLACKS + WHITES + GRAYS + ["religious", "modest", "traditional"],
         "fullBody": True
     },
@@ -1669,12 +1677,12 @@ FEMALE_TOPS = {
         "fullBody": True
     },
     "cape dress": {
-        "types": [OutfitType.GOTHIC, OutfitType.ETHEREAL, OutfitType.AVANT_GARDE],
+        "types": [OutfitType.MEDIEVAL, OutfitType.GOTHIC, OutfitType.ETHEREAL, OutfitType.AVANT_GARDE],
         "colors": BLACKS + JEWEL_TONES + ["dramatic", "flowing", "cape-like"],
         "fullBody": True
     },
     "cloak dress": {
-        "types": [OutfitType.GOTHIC, OutfitType.ETHEREAL, OutfitType.FANTASY],
+        "types": [OutfitType.MEDIEVAL, OutfitType.GOTHIC, OutfitType.ETHEREAL, OutfitType.FANTASY],
         "colors": BLACKS + PURPLES + JEWEL_TONES + ["hooded", "mysterious", "layered"],
         "fullBody": True
     },
@@ -1704,12 +1712,12 @@ FEMALE_TOPS = {
         "fullBody": True
     },
     "monk's robe": {
-        "types": [OutfitType.MINIMALIST, OutfitType.GOTHIC, OutfitType.ETHEREAL],
+        "types": [OutfitType.MEDIEVAL, OutfitType.MINIMALIST, OutfitType.GOTHIC, OutfitType.ETHEREAL],
         "colors": BROWNS + GRAYS + BLACKS + ["simple", "hooded", "monastic"],
         "fullBody": True
     },
     "wizard robe": {
-        "types": [OutfitType.GOTHIC, OutfitType.ETHEREAL, OutfitType.FESTIVAL],
+        "types": [OutfitType.MEDIEVAL, OutfitType.GOTHIC, OutfitType.ETHEREAL, OutfitType.FESTIVAL],
         "colors": PURPLES + BLACKS + JEWEL_TONES + ["mystical", "flowing", "ornate"],
         "fullBody": True
     },
@@ -1751,7 +1759,7 @@ FEMALE_TOPS = {
         "fullBody": True
     },
     "chainmail dress": {
-        "types": [OutfitType.GOTHIC, OutfitType.CYBERPUNK, OutfitType.AVANT_GARDE],
+        "types": [OutfitType.MEDIEVAL, OutfitType.GOTHIC, OutfitType.CYBERPUNK, OutfitType.AVANT_GARDE],
         "colors": METALLICS + BLACKS + ["metal", "armor", "textured"],
         "fullBody": True
     },
@@ -2412,6 +2420,228 @@ FEMALE_TOPS = {
     "halter bikini top with detachable chains and cheeky cut bottom": {
         "types": [OutfitType.BEACH_WEAR, OutfitType.BIKINI, OutfitType.SWIMSUIT],
         "colors": BLACKS + WHITES + METALLICS + NEONS + ["halter", "detachable chains", "cheeky cut", "hardware"],
+        "fullBody": True
+    },
+
+    # Medieval
+    "linen chemise": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.COTTAGECORE, OutfitType.BOHEMIAN],
+        "colors": WHITES + EARTH_TONES + PASTELS + ["linen", "simple", "layering"]
+    },
+    "wool peasant blouse": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.COTTAGECORE, OutfitType.BOHEMIAN],
+        "colors": EARTH_TONES + BROWNS + GRAYS + ["wool", "rustic", "warm"]
+    },
+    "lace-up bodice": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.COTTAGECORE, OutfitType.BOHEMIAN],
+        "colors": EARTH_TONES + BROWNS + WHITES + ["lace-up", "fitted", "corset-style"]
+    },
+    "handwoven peasant tunic": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.COTTAGECORE, OutfitType.BOHEMIAN],
+        "colors": EARTH_TONES + WHITES + BROWNS + ["handwoven", "loose fit", "rustic"]
+    },
+    "rustic smock top": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.COTTAGECORE, OutfitType.BOHEMIAN],
+        "colors": WHITES + EARTH_TONES + GRAYS + ["smock", "gathered", "workwear"]
+    },
+    "homespun village blouse": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.COTTAGECORE, OutfitType.BOHEMIAN],
+        "colors": EARTH_TONES + BROWNS + WHITES + ["homespun", "village", "modest"]
+    },
+    "gathered neck peasant chemise": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.COTTAGECORE, OutfitType.BOHEMIAN],
+        "colors": WHITES + PASTELS + EARTH_TONES + ["gathered neck", "soft", "flowing"]
+    },
+    "woven linen under-tunic": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.COTTAGECORE, OutfitType.BOHEMIAN],
+        "colors": WHITES + EARTH_TONES + ["linen", "undergarment", "layering"]
+    },
+    "field-worker smock blouse": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.COTTAGECORE, OutfitType.BOHEMIAN],
+        "colors": BROWNS + EARTH_TONES + GRAYS + ["field-worker", "durable", "practical"]
+    },
+    "herb-stitched peasant top": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.COTTAGECORE, OutfitType.BOHEMIAN],
+        "colors": GREENS + EARTH_TONES + WHITES + ["herb-stitched", "folk embroidery", "rustic"]
+    },
+    "patchwork village tunic": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.COTTAGECORE, OutfitType.BOHEMIAN],
+        "colors": EARTH_TONES + BROWNS + GRAYS + PATTERNS + ["patchwork", "village", "handmade"]
+    },
+    "rye-colored homespun shift top": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.COTTAGECORE, OutfitType.BOHEMIAN],
+        "colors": BROWNS + EARTH_TONES + YELLOWS + ["homespun", "shift", "simple"]
+    },
+    "velvet noblewoman gown": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.ROMANTIC, OutfitType.EVENING_FORMAL],
+        "colors": JEWEL_TONES + PURPLES + REDS + ["velvet", "noble", "luxurious"],
+        "fullBody": True
+    },
+    "brocade court gown": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.ROMANTIC, OutfitType.EVENING_FORMAL],
+        "colors": JEWEL_TONES + METALLICS + PURPLES + ["brocade", "court", "ornate"],
+        "fullBody": True
+    },
+    "fitted kirtle gown": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.ROMANTIC, OutfitType.EVENING_FORMAL],
+        "colors": JEWEL_TONES + EARTH_TONES + REDS + ["kirtle", "fitted", "elegant"],
+        "fullBody": True
+    },
+    "ermine-trimmed royal dress": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.ROMANTIC, OutfitType.EVENING_FORMAL],
+        "colors": WHITES + JEWEL_TONES + METALLICS + ["ermine trim", "royal", "regal"],
+        "fullBody": True
+    },
+    "gold-embroidered court gown": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.ROMANTIC, OutfitType.EVENING_FORMAL],
+        "colors": JEWEL_TONES + METALLICS + PURPLES + ["gold embroidery", "court", "opulent"],
+        "fullBody": True
+    },
+    "silk damask noblewoman dress": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.ROMANTIC, OutfitType.EVENING_FORMAL],
+        "colors": JEWEL_TONES + PURPLES + REDS + ["silk damask", "noblewoman", "refined"],
+        "fullBody": True
+    },
+    "high-necked lady's kirtle": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.ROMANTIC, OutfitType.EVENING_FORMAL],
+        "colors": JEWEL_TONES + EARTH_TONES + WHITES + ["high-necked", "kirtle", "ladylike"]
+    },
+    "baronial surcoat gown": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.ROMANTIC, OutfitType.EVENING_FORMAL],
+        "colors": JEWEL_TONES + METALLICS + EARTH_TONES + ["surcoat", "baronial", "heraldic"],
+        "fullBody": True
+    },
+    "jeweled bodice court gown": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.ROMANTIC, OutfitType.EVENING_FORMAL],
+        "colors": JEWEL_TONES + METALLICS + ["jeweled bodice", "court", "glittering"],
+        "fullBody": True
+    },
+    "queen's coronation gown": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.ROMANTIC, OutfitType.EVENING_FORMAL],
+        "colors": JEWEL_TONES + METALLICS + PURPLES + ["coronation", "queen", "ceremonial"],
+        "fullBody": True
+    },
+    "heraldic silk noblewoman dress": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.ROMANTIC, OutfitType.EVENING_FORMAL],
+        "colors": JEWEL_TONES + METALLICS + REDS + ["heraldic", "silk", "noblewoman"],
+        "fullBody": True
+    },
+    "fur-trimmed winter court gown": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.ROMANTIC, OutfitType.EVENING_FORMAL],
+        "colors": JEWEL_TONES + BROWNS + WHITES + ["fur trim", "winter court", "warm"],
+        "fullBody": True
+    },
+    "chainmail hauberk": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.GOTHIC, OutfitType.FANTASY],
+        "colors": METALLICS + GRAYS + ["chainmail", "hauberk", "armor"]
+    },
+    "leather brigandine top": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.GOTHIC, OutfitType.FANTASY],
+        "colors": BROWNS + BLACKS + GRAYS + ["leather", "brigandine", "reinforced"]
+    },
+    "padded gambeson top": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.GOTHIC, OutfitType.FANTASY],
+        "colors": EARTH_TONES + BROWNS + GRAYS + ["padded", "gambeson", "quilted"]
+    },
+    "scale mail chestpiece": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.GOTHIC, OutfitType.FANTASY],
+        "colors": METALLICS + GRAYS + BLACKS + ["scale mail", "chestpiece", "armor"]
+    },
+    "plate cuirass bodice": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.GOTHIC, OutfitType.FANTASY],
+        "colors": METALLICS + GRAYS + BLACKS + ["plate", "cuirass", "armored"]
+    },
+    "knight's surcoat top": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.GOTHIC, OutfitType.FANTASY],
+        "colors": JEWEL_TONES + METALLICS + WHITES + ["surcoat", "knight", "heraldic"]
+    },
+    "studded leather armor top": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.GOTHIC, OutfitType.FANTASY],
+        "colors": BROWNS + BLACKS + GRAYS + ["studded leather", "armor", "rugged"]
+    },
+    "ringmail hauberk tunic": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.GOTHIC, OutfitType.FANTASY],
+        "colors": METALLICS + GRAYS + ["ringmail", "hauberk", "chain links"]
+    },
+    "women's lamellar armor top": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.GOTHIC, OutfitType.FANTASY],
+        "colors": METALLICS + BROWNS + GRAYS + ["lamellar", "armor", "segmented"]
+    },
+    "heraldic tabard armor top": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.MILITARY, OutfitType.GOTHIC, OutfitType.FANTASY],
+        "colors": JEWEL_TONES + METALLICS + WHITES + ["heraldic tabard", "armor", "coat of arms"]
+    },
+    "cloister sister's wimple top": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.GOTHIC, OutfitType.ETHEREAL, OutfitType.MINIMALIST],
+        "colors": WHITES + BLACKS + GRAYS + ["wimple", "cloister", "modest"]
+    },
+    "abbess's ceremonial habit": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.GOTHIC, OutfitType.ETHEREAL, OutfitType.MINIMALIST],
+        "colors": BLACKS + WHITES + GRAYS + ["abbess", "ceremonial", "religious"],
+        "fullBody": True
+    },
+    "priestess's linen robe": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.GOTHIC, OutfitType.ETHEREAL, OutfitType.MINIMALIST],
+        "colors": WHITES + EARTH_TONES + ["linen", "priestess", "serene"],
+        "fullBody": True
+    },
+    "pilgrim's travel cloak robe": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.GOTHIC, OutfitType.ETHEREAL, OutfitType.MINIMALIST],
+        "colors": BROWNS + GRAYS + EARTH_TONES + ["pilgrim", "travel cloak", "humble"],
+        "fullBody": True
+    },
+    "lay sister's scapular top": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.GOTHIC, OutfitType.ETHEREAL, OutfitType.MINIMALIST],
+        "colors": WHITES + BROWNS + GRAYS + ["scapular", "lay sister", "simple"]
+    },
+    "chanting monk's cowl blouse": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.GOTHIC, OutfitType.ETHEREAL, OutfitType.MINIMALIST],
+        "colors": BROWNS + GRAYS + BLACKS + ["cowl", "monastic", "hooded"]
+    },
+    "elven leaf-embroidered tunic": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.FANTASY, OutfitType.ETHEREAL, OutfitType.GOTHIC],
+        "colors": GREENS + EARTH_TONES + WHITES + ["elven", "leaf embroidery", "ethereal"]
+    },
+    "druid's vine-wrapped robe": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.FANTASY, OutfitType.ETHEREAL, OutfitType.GOTHIC],
+        "colors": GREENS + EARTH_TONES + BROWNS + ["druid", "vine-wrapped", "nature"],
+        "fullBody": True
+    },
+    "sorceress's celestial robe": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.FANTASY, OutfitType.ETHEREAL, OutfitType.GOTHIC],
+        "colors": PURPLES + JEWEL_TONES + METALLICS + ["sorceress", "celestial", "mystical"],
+        "fullBody": True
+    },
+    "enchanted rune-embroidered tunic": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.FANTASY, OutfitType.ETHEREAL, OutfitType.GOTHIC],
+        "colors": PURPLES + JEWEL_TONES + BLACKS + ["rune embroidery", "enchanted", "arcane"]
+    },
+    "fae court gossamer gown": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.FANTASY, OutfitType.ETHEREAL, OutfitType.GOTHIC],
+        "colors": PASTELS + JEWEL_TONES + WHITES + ["fae court", "gossamer", "delicate"],
+        "fullBody": True
+    },
+    "celestial star-mage robe": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.FANTASY, OutfitType.ETHEREAL, OutfitType.GOTHIC],
+        "colors": PURPLES + JEWEL_TONES + METALLICS + ["celestial", "star-mage", "cosmic"],
+        "fullBody": True
+    },
+    "forest witch's hooded tunic": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.FANTASY, OutfitType.ETHEREAL, OutfitType.GOTHIC],
+        "colors": GREENS + BLACKS + EARTH_TONES + ["forest witch", "hooded", "mysterious"]
+    },
+    "moon priestess ceremonial gown": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.FANTASY, OutfitType.ETHEREAL, OutfitType.GOTHIC],
+        "colors": WHITES + JEWEL_TONES + METALLICS + ["moon priestess", "ceremonial", "luminous"],
+        "fullBody": True
+    },
+    "arcane sigil-embroidered bodice top": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.FANTASY, OutfitType.ETHEREAL, OutfitType.GOTHIC],
+        "colors": PURPLES + BLACKS + JEWEL_TONES + ["arcane sigils", "embroidered", "mystical"]
+    },
+    "enchanted moss-woven elven gown": {
+        "types": [OutfitType.MEDIEVAL, OutfitType.FANTASY, OutfitType.ETHEREAL, OutfitType.GOTHIC],
+        "colors": GREENS + EARTH_TONES + JEWEL_TONES + ["moss-woven", "elven", "enchanted"],
         "fullBody": True
     }
 }

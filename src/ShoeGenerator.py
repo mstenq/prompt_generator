@@ -3,7 +3,7 @@ from .enums import OutfitType, OUTFIT_TYPE_NAMES, FOOTWEAR_MODE_NAMES
 from .female.shoes import FEMALE_SHOES
 from .male.shoes import MALE_SHOES
 from .ColorGenerator import ColorGenerator
-from .utils import clean_generated_text
+from .utils import clean_generated_text, filter_items
 
 
 class ShoeGenerator:
@@ -57,7 +57,7 @@ class ShoeGenerator:
         }
     
     @staticmethod
-    def generate_shoe(outfit_type_enum, sex="female", footwear_mode="shoes"):
+    def generate_shoe(outfit_type_enum, sex="female", footwear_mode="shoes", shoe_search=""):
         """Generate a single footwear description for the given outfit type and sex"""
         if footwear_mode == "omit":
             return ""
@@ -87,15 +87,12 @@ class ShoeGenerator:
         else:  # male
             SHOES = MALE_SHOES
 
-        # Filter clothing items that match the selected outfit type
-        compatible_shoes = [
-            name for name, data in SHOES.items()
-            if outfit_type_enum in data["types"] and name != "barefoot"
-        ]
-        
-        # Fallback to all items if no matches found (shouldn't happen with proper data)
-        if not compatible_shoes:
-            compatible_shoes = [name for name in SHOES.keys() if name != "barefoot"]
+        compatible_shoes = filter_items(
+            SHOES,
+            outfit_type_enum,
+            shoe_search,
+            exclude_keys={"barefoot"},
+        )
               
         selected_shoes = random.choice(compatible_shoes)
         shoe_color = random.choice(SHOES[selected_shoes]["colors"])
